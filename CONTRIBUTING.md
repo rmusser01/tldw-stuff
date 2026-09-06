@@ -26,6 +26,11 @@ metadata, not a new import manifest. Character cards, character expression packs
 and Persona Buddy packs have different import paths; document each supported
 path separately. Include only verified working payloads, not placeholder cards.
 
+For chatbooks (knowledge packs), describe the subject, included material, source
+attribution, and native export format. Document a verified import path and any
+required external resources. Share curated exports rather than live user
+databases; publish large packs as versioned release assets.
+
 For skills, explain which tools they use, required permissions, network access,
 and any scripts or external dependencies. Keep examples free of credentials,
 private conversations, personal data, and machine-specific paths. Reviewers
@@ -34,10 +39,10 @@ should read scripts and instructions as content, not execute them automatically.
 ## Keep downloads small
 
 Commit editable text, manifests, attribution, and small previews. Avoid duplicate
-copies of assets across packs. Do not commit model weights, datasets, generated
-build directories, user databases, caches, or large media archives.
+copies of assets across packs. Do not commit model weights, raw bulk datasets, generated
+build directories, live user databases, caches, or large media archives.
 
-For optional large media, publish a versioned GitHub Release asset and link it
+For optional large content packs or media, publish a versioned GitHub Release asset and link it
 from the item's README. Include its size, SHA-256 checksum, license, and exact
 installation steps. Use a specific release URL rather than a moving `latest`
 link. Keep the editable source or its documented upstream source available.

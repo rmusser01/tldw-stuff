@@ -7,7 +7,7 @@
 | Field | Value |
 | --- | --- |
 | Content version | <Version of this item> |
-| Type | <Prompt, character pack, Buddy pack, skill, or lorebook> |
+| Type | <Prompt, character pack, Buddy pack, skill, lorebook, or chatbook (knowledge pack)> |
 | Author | <Author or contributor> |
 | Source | <Original source URL, or original contribution> |
 | License | <License identifier and relative link to applicable license text> |
