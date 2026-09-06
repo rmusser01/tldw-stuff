@@ -1,0 +1,240 @@
+{
+  "id": "action-guide-intricate",
+  "title": "Action Guide Intricate",
+  "description": "Catalog scaffold fixture, not final character art or animation: Energetic guide starter with reaction beats and richer state metadata.",
+  "renderer_type": "sprite_frames",
+  "manifest_version": 1,
+  "states_offered": [
+    "error",
+    "idle",
+    "listening",
+    "reaction.anticipation",
+    "reaction.success",
+    "speaking",
+    "thinking"
+  ],
+  "asset_count": 7,
+  "total_bytes": 525,
+  "tags": [
+    "starter",
+    "sprite_frames",
+    "catalog:scaffold",
+    "tier:intricate",
+    "action",
+    "reaction"
+  ],
+  "license_label": "bundled",
+  "complexity_tier": "intricate",
+  "production_status": "scaffold",
+  "neutral_anchor_required": true,
+  "expected_asset_groups": [
+    "identity_brief",
+    "neutral_anchor",
+    "model_sheet",
+    "static_talking_sheet",
+    "static_reaction_sheet",
+    "required_state_loops",
+    "animation_strips",
+    "animation_atlas",
+    "custom_state_variants"
+  ],
+  "animation_coverage_notes": [
+    "Scaffold fixture only: final intricate art should compile reviewed neutral-anchor-derived strips or atlas regions into runtime animations."
+  ],
+  "production_recipe": {
+    "identity_brief": "Energetic guide starter with reaction beats and richer state metadata.",
+    "neutral_anchor": "Author a neutral model sheet or pose set before generating state frames.",
+    "static_sheet": "Create separate static talking and reaction sheets for mouth, face, and small pose changes before compiling timed animation loops.",
+    "animation_outputs": [
+      "required_state_loops",
+      "animation_strips",
+      "animation_atlas",
+      "custom_state_variants"
+    ],
+    "review_checks": [
+      "neutral_identity_consistency",
+      "transparent_background",
+      "one_subject_per_frame",
+      "state_manifest_alignment"
+    ]
+  },
+  "manifest": {
+    "manifest_version": 1,
+    "renderer_type": "sprite_frames",
+    "states": {
+      "idle": {
+        "animation_id": "idle-loop"
+      },
+      "listening": {
+        "animation_id": "listening-loop"
+      },
+      "thinking": {
+        "animation_id": "thinking-loop"
+      },
+      "speaking": {
+        "animation_id": "speaking-loop"
+      },
+      "error": {
+        "animation_id": "error-loop"
+      },
+      "reaction.anticipation": {
+        "animation_id": "reaction-anticipation-loop"
+      },
+      "reaction.success": {
+        "animation_id": "reaction-success-loop"
+      }
+    },
+    "animations": {
+      "idle-loop": {
+        "frames": [
+          {
+            "asset_id": "idle",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "idle"
+      },
+      "listening-loop": {
+        "frames": [
+          {
+            "asset_id": "listening",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "listening"
+      },
+      "thinking-loop": {
+        "frames": [
+          {
+            "asset_id": "thinking",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "thinking"
+      },
+      "speaking-loop": {
+        "frames": [
+          {
+            "asset_id": "speaking",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "speaking"
+      },
+      "error-loop": {
+        "frames": [
+          {
+            "asset_id": "error",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "error"
+      },
+      "reaction-anticipation-loop": {
+        "frames": [
+          {
+            "asset_id": "variant-reaction-anticipation",
+            "duration_ms": 180
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "variant-reaction-anticipation"
+      },
+      "reaction-success-loop": {
+        "frames": [
+          {
+            "asset_id": "variant-reaction-success",
+            "duration_ms": 180
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "variant-reaction-success"
+      }
+    },
+    "state_catalog": {
+      "reaction.anticipation": {
+        "label": "Anticipation",
+        "kind": "reaction",
+        "description": "Short anticipation beat before high-energy responses.",
+        "tags": [
+          "reaction",
+          "motion"
+        ]
+      },
+      "reaction.success": {
+        "label": "Success",
+        "kind": "reaction",
+        "description": "Celebratory response after successful tool completion.",
+        "tags": [
+          "reaction"
+        ]
+      }
+    },
+    "fallbacks": {
+      "reaction.anticipation": [
+        "thinking",
+        "idle"
+      ],
+      "reaction.success": [
+        "speaking",
+        "idle"
+      ]
+    }
+  },
+  "assets": [
+    {
+      "asset_key": "idle",
+      "filename": "action-guide-intricate-idle.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "listening",
+      "filename": "action-guide-intricate-listening.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "thinking",
+      "filename": "action-guide-intricate-thinking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "speaking",
+      "filename": "action-guide-intricate-speaking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "error",
+      "filename": "action-guide-intricate-error.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "variant-reaction-anticipation",
+      "filename": "action-guide-intricate-variant-reaction-anticipation.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "variant-reaction-success",
+      "filename": "action-guide-intricate-variant-reaction-success.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    }
+  ]
+}

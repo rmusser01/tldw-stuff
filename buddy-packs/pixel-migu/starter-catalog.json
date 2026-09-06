@@ -1,0 +1,1270 @@
+{
+  "id": "pixel-migu",
+  "title": "pixel-migu",
+  "description": "Turquoise pixel-art robot companion with twin tails, state loops and expression poses.",
+  "renderer_type": "sprite_frames",
+  "manifest_version": 1,
+  "states_offered": [
+    "approval_needed",
+    "error",
+    "idle",
+    "listening",
+    "mood.angry",
+    "mood.celebrate",
+    "mood.confused",
+    "mood.excited",
+    "mood.happy",
+    "mood.listening",
+    "mood.love",
+    "mood.neutral",
+    "mood.sad",
+    "mood.skeptical",
+    "mood.sleepy",
+    "mood.surprised",
+    "mood.thinking",
+    "mood.thumbs_up",
+    "mood.type",
+    "mood.wave",
+    "offline",
+    "pack_private.alert_idle",
+    "pack_private.confused",
+    "pack_private.original_think",
+    "reaction.greeting",
+    "reaction.happy",
+    "reaction.success",
+    "speaking",
+    "thinking",
+    "tool_running",
+    "wake_armed"
+  ],
+  "asset_count": 64,
+  "total_bytes": 46754,
+  "tags": [
+    "starter",
+    "sprite_frames",
+    "catalog:art-ready",
+    "tier:basic",
+    "pixel-art",
+    "user-art"
+  ],
+  "license_label": "LicenseRef-User-Supplied",
+  "complexity_tier": "basic",
+  "production_status": "art_ready",
+  "neutral_anchor_required": true,
+  "expected_asset_groups": [
+    "identity_brief",
+    "neutral_anchor",
+    "preview_image",
+    "required_state_loops"
+  ],
+  "animation_coverage_notes": [
+    "Reviewed user-supplied art: twelve four-frame sequences and sixteen static poses."
+  ],
+  "production_recipe": {
+    "identity_brief": "Turquoise pixel-art robot with rectangular face, black outlines and long twin tails.",
+    "neutral_anchor": "Use the supplied neutral pose; retain the pixel grid, silhouette and turquoise palette.",
+    "static_sheet": "Sixteen supplied expression poses complement the timed state sequences.",
+    "animation_outputs": [
+      "required_state_loops"
+    ],
+    "review_checks": [
+      "neutral_identity_consistency",
+      "transparent_background",
+      "one_subject_per_frame",
+      "state_manifest_alignment"
+    ]
+  },
+  "manifest": {
+    "renderer_type": "sprite_frames",
+    "manifest_version": 1,
+    "states": {
+      "idle": {
+        "animation_id": "idle"
+      },
+      "wake_armed": {
+        "animation_id": "wake-armed"
+      },
+      "listening": {
+        "animation_id": "pose-listening"
+      },
+      "thinking": {
+        "animation_id": "thinking"
+      },
+      "speaking": {
+        "animation_id": "speaking"
+      },
+      "tool_running": {
+        "animation_id": "type"
+      },
+      "approval_needed": {
+        "animation_id": "pose-skeptical"
+      },
+      "error": {
+        "animation_id": "error"
+      },
+      "offline": {
+        "animation_id": "sleepy"
+      },
+      "reaction.greeting": {
+        "animation_id": "wave"
+      },
+      "reaction.happy": {
+        "animation_id": "happy"
+      },
+      "reaction.success": {
+        "animation_id": "thumbs-up"
+      },
+      "pack_private.original_think": {
+        "animation_id": "think"
+      },
+      "pack_private.confused": {
+        "animation_id": "confused"
+      },
+      "pack_private.alert_idle": {
+        "animation_id": "alert-idle"
+      },
+      "mood.angry": {
+        "animation_id": "pose-angry"
+      },
+      "mood.celebrate": {
+        "animation_id": "pose-celebrate"
+      },
+      "mood.confused": {
+        "animation_id": "pose-confused"
+      },
+      "mood.excited": {
+        "animation_id": "pose-excited"
+      },
+      "mood.happy": {
+        "animation_id": "pose-happy"
+      },
+      "mood.listening": {
+        "animation_id": "pose-listening"
+      },
+      "mood.love": {
+        "animation_id": "pose-love"
+      },
+      "mood.neutral": {
+        "animation_id": "pose-neutral"
+      },
+      "mood.sad": {
+        "animation_id": "pose-sad"
+      },
+      "mood.skeptical": {
+        "animation_id": "pose-skeptical"
+      },
+      "mood.sleepy": {
+        "animation_id": "pose-sleepy"
+      },
+      "mood.surprised": {
+        "animation_id": "pose-surprised"
+      },
+      "mood.thinking": {
+        "animation_id": "pose-thinking"
+      },
+      "mood.thumbs_up": {
+        "animation_id": "pose-thumbs_up"
+      },
+      "mood.type": {
+        "animation_id": "pose-type"
+      },
+      "mood.wave": {
+        "animation_id": "pose-wave"
+      }
+    },
+    "animations": {
+      "idle": {
+        "frames": [
+          {
+            "asset_id": "idle-1",
+            "duration_ms": 1700
+          },
+          {
+            "asset_id": "idle-2",
+            "duration_ms": 140
+          },
+          {
+            "asset_id": "idle-3",
+            "duration_ms": 1500
+          },
+          {
+            "asset_id": "idle-4",
+            "duration_ms": 140
+          }
+        ],
+        "loop": true,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "wave": {
+        "frames": [
+          {
+            "asset_id": "wave-1",
+            "duration_ms": 260
+          },
+          {
+            "asset_id": "wave-2",
+            "duration_ms": 180
+          },
+          {
+            "asset_id": "wave-3",
+            "duration_ms": 460
+          },
+          {
+            "asset_id": "wave-4",
+            "duration_ms": 300
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "think": {
+        "frames": [
+          {
+            "asset_id": "think-1",
+            "duration_ms": 400
+          },
+          {
+            "asset_id": "think-2",
+            "duration_ms": 400
+          },
+          {
+            "asset_id": "think-3",
+            "duration_ms": 400
+          },
+          {
+            "asset_id": "think-4",
+            "duration_ms": 650
+          }
+        ],
+        "loop": true,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "type": {
+        "frames": [
+          {
+            "asset_id": "type-1",
+            "duration_ms": 180
+          },
+          {
+            "asset_id": "type-2",
+            "duration_ms": 180
+          },
+          {
+            "asset_id": "type-3",
+            "duration_ms": 180
+          },
+          {
+            "asset_id": "type-4",
+            "duration_ms": 180
+          }
+        ],
+        "loop": true,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "happy": {
+        "frames": [
+          {
+            "asset_id": "happy-1",
+            "duration_ms": 220
+          },
+          {
+            "asset_id": "happy-2",
+            "duration_ms": 240
+          },
+          {
+            "asset_id": "happy-3",
+            "duration_ms": 440
+          },
+          {
+            "asset_id": "happy-4",
+            "duration_ms": 300
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "confused": {
+        "frames": [
+          {
+            "asset_id": "confused-1",
+            "duration_ms": 400
+          },
+          {
+            "asset_id": "confused-2",
+            "duration_ms": 550
+          },
+          {
+            "asset_id": "confused-3",
+            "duration_ms": 500
+          },
+          {
+            "asset_id": "confused-4",
+            "duration_ms": 550
+          }
+        ],
+        "loop": true,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "sleepy": {
+        "frames": [
+          {
+            "asset_id": "sleepy-1",
+            "duration_ms": 850
+          },
+          {
+            "asset_id": "sleepy-2",
+            "duration_ms": 750
+          },
+          {
+            "asset_id": "sleepy-3",
+            "duration_ms": 850
+          },
+          {
+            "asset_id": "sleepy-4",
+            "duration_ms": 950
+          }
+        ],
+        "loop": true,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "thumbs-up": {
+        "frames": [
+          {
+            "asset_id": "thumbs-up-1",
+            "duration_ms": 180
+          },
+          {
+            "asset_id": "thumbs-up-2",
+            "duration_ms": 260
+          },
+          {
+            "asset_id": "thumbs-up-3",
+            "duration_ms": 850
+          },
+          {
+            "asset_id": "thumbs-up-4",
+            "duration_ms": 260
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "alert-idle": {
+        "frames": [
+          {
+            "asset_id": "alert-idle-1",
+            "duration_ms": 1700
+          },
+          {
+            "asset_id": "alert-idle-2",
+            "duration_ms": 140
+          },
+          {
+            "asset_id": "alert-idle-3",
+            "duration_ms": 800
+          },
+          {
+            "asset_id": "alert-idle-4",
+            "duration_ms": 140
+          }
+        ],
+        "loop": true,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "thinking": {
+        "frames": [
+          {
+            "asset_id": "thinking-1",
+            "duration_ms": 400
+          },
+          {
+            "asset_id": "thinking-2",
+            "duration_ms": 400
+          },
+          {
+            "asset_id": "thinking-3",
+            "duration_ms": 400
+          },
+          {
+            "asset_id": "thinking-4",
+            "duration_ms": 650
+          }
+        ],
+        "loop": true,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "speaking": {
+        "frames": [
+          {
+            "asset_id": "speaking-1",
+            "duration_ms": 240
+          },
+          {
+            "asset_id": "speaking-2",
+            "duration_ms": 160
+          },
+          {
+            "asset_id": "speaking-3",
+            "duration_ms": 240
+          },
+          {
+            "asset_id": "speaking-4",
+            "duration_ms": 160
+          }
+        ],
+        "loop": true,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "error": {
+        "frames": [
+          {
+            "asset_id": "error-1",
+            "duration_ms": 400
+          },
+          {
+            "asset_id": "error-2",
+            "duration_ms": 500
+          },
+          {
+            "asset_id": "error-3",
+            "duration_ms": 900
+          },
+          {
+            "asset_id": "error-4",
+            "duration_ms": 500
+          }
+        ],
+        "loop": true,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "wake-armed": {
+        "frames": [
+          {
+            "asset_id": "alert-idle-3",
+            "duration_ms": 1000
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-angry": {
+        "frames": [
+          {
+            "asset_id": "pose-angry",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-celebrate": {
+        "frames": [
+          {
+            "asset_id": "pose-celebrate",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-confused": {
+        "frames": [
+          {
+            "asset_id": "pose-confused",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-excited": {
+        "frames": [
+          {
+            "asset_id": "pose-excited",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-happy": {
+        "frames": [
+          {
+            "asset_id": "pose-happy",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-listening": {
+        "frames": [
+          {
+            "asset_id": "pose-listening",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-love": {
+        "frames": [
+          {
+            "asset_id": "pose-love",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-neutral": {
+        "frames": [
+          {
+            "asset_id": "pose-neutral",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-sad": {
+        "frames": [
+          {
+            "asset_id": "pose-sad",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-skeptical": {
+        "frames": [
+          {
+            "asset_id": "pose-skeptical",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-sleepy": {
+        "frames": [
+          {
+            "asset_id": "pose-sleepy",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-surprised": {
+        "frames": [
+          {
+            "asset_id": "pose-surprised",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-thinking": {
+        "frames": [
+          {
+            "asset_id": "pose-thinking",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-thumbs_up": {
+        "frames": [
+          {
+            "asset_id": "pose-thumbs_up",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-type": {
+        "frames": [
+          {
+            "asset_id": "pose-type",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      },
+      "pose-wave": {
+        "frames": [
+          {
+            "asset_id": "pose-wave",
+            "duration_ms": 1200
+          }
+        ],
+        "loop": false,
+        "alignment": {
+          "x": 0.5,
+          "y": 1.0
+        },
+        "preview_frame": 0
+      }
+    },
+    "fallbacks": {},
+    "authored_triggers": [],
+    "state_catalog": {
+      "reaction.greeting": {
+        "label": "Greeting",
+        "kind": "reaction"
+      },
+      "reaction.happy": {
+        "label": "Happy",
+        "kind": "reaction"
+      },
+      "reaction.success": {
+        "label": "Success",
+        "kind": "reaction"
+      },
+      "pack_private.original_think": {
+        "label": "Original Think",
+        "kind": "pack_private"
+      },
+      "pack_private.confused": {
+        "label": "Confused",
+        "kind": "pack_private"
+      },
+      "pack_private.alert_idle": {
+        "label": "Alert Idle",
+        "kind": "pack_private"
+      },
+      "mood.angry": {
+        "label": "Angry",
+        "kind": "mood"
+      },
+      "mood.celebrate": {
+        "label": "Celebrate",
+        "kind": "mood"
+      },
+      "mood.confused": {
+        "label": "Confused",
+        "kind": "mood"
+      },
+      "mood.excited": {
+        "label": "Excited",
+        "kind": "mood"
+      },
+      "mood.happy": {
+        "label": "Happy",
+        "kind": "mood"
+      },
+      "mood.listening": {
+        "label": "Listening",
+        "kind": "mood"
+      },
+      "mood.love": {
+        "label": "Love",
+        "kind": "mood"
+      },
+      "mood.neutral": {
+        "label": "Neutral",
+        "kind": "mood"
+      },
+      "mood.sad": {
+        "label": "Sad",
+        "kind": "mood"
+      },
+      "mood.skeptical": {
+        "label": "Skeptical",
+        "kind": "mood"
+      },
+      "mood.sleepy": {
+        "label": "Sleepy",
+        "kind": "mood"
+      },
+      "mood.surprised": {
+        "label": "Surprised",
+        "kind": "mood"
+      },
+      "mood.thinking": {
+        "label": "Thinking",
+        "kind": "mood"
+      },
+      "mood.thumbs_up": {
+        "label": "Thumbs Up",
+        "kind": "mood"
+      },
+      "mood.type": {
+        "label": "Type",
+        "kind": "mood"
+      },
+      "mood.wave": {
+        "label": "Wave",
+        "kind": "mood"
+      }
+    }
+  },
+  "assets": [
+    {
+      "asset_key": "alert-idle-1",
+      "filename": "pixel-migu-alert-idle-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 583
+    },
+    {
+      "asset_key": "alert-idle-2",
+      "filename": "pixel-migu-alert-idle-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 632
+    },
+    {
+      "asset_key": "alert-idle-3",
+      "filename": "pixel-migu-alert-idle-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 724
+    },
+    {
+      "asset_key": "alert-idle-4",
+      "filename": "pixel-migu-alert-idle-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 637
+    },
+    {
+      "asset_key": "confused-1",
+      "filename": "pixel-migu-confused-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 639
+    },
+    {
+      "asset_key": "confused-2",
+      "filename": "pixel-migu-confused-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 657
+    },
+    {
+      "asset_key": "confused-3",
+      "filename": "pixel-migu-confused-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 766
+    },
+    {
+      "asset_key": "confused-4",
+      "filename": "pixel-migu-confused-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 725
+    },
+    {
+      "asset_key": "error-1",
+      "filename": "pixel-migu-error-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 843
+    },
+    {
+      "asset_key": "error-2",
+      "filename": "pixel-migu-error-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 699
+    },
+    {
+      "asset_key": "error-3",
+      "filename": "pixel-migu-error-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 775
+    },
+    {
+      "asset_key": "error-4",
+      "filename": "pixel-migu-error-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 817
+    },
+    {
+      "asset_key": "happy-1",
+      "filename": "pixel-migu-happy-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 584
+    },
+    {
+      "asset_key": "happy-2",
+      "filename": "pixel-migu-happy-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 937
+    },
+    {
+      "asset_key": "happy-3",
+      "filename": "pixel-migu-happy-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 822
+    },
+    {
+      "asset_key": "happy-4",
+      "filename": "pixel-migu-happy-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 905
+    },
+    {
+      "asset_key": "idle-1",
+      "filename": "pixel-migu-idle-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 609
+    },
+    {
+      "asset_key": "idle-2",
+      "filename": "pixel-migu-idle-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 603
+    },
+    {
+      "asset_key": "idle-3",
+      "filename": "pixel-migu-idle-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 590
+    },
+    {
+      "asset_key": "idle-4",
+      "filename": "pixel-migu-idle-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 602
+    },
+    {
+      "asset_key": "pose-angry",
+      "filename": "pixel-migu-pose-angry.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 850
+    },
+    {
+      "asset_key": "pose-celebrate",
+      "filename": "pixel-migu-pose-celebrate.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 961
+    },
+    {
+      "asset_key": "pose-confused",
+      "filename": "pixel-migu-pose-confused.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 742
+    },
+    {
+      "asset_key": "pose-excited",
+      "filename": "pixel-migu-pose-excited.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 972
+    },
+    {
+      "asset_key": "pose-happy",
+      "filename": "pixel-migu-pose-happy.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 987
+    },
+    {
+      "asset_key": "pose-listening",
+      "filename": "pixel-migu-pose-listening.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 739
+    },
+    {
+      "asset_key": "pose-love",
+      "filename": "pixel-migu-pose-love.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 917
+    },
+    {
+      "asset_key": "pose-neutral",
+      "filename": "pixel-migu-pose-neutral.png",
+      "mime_type": "image/png",
+      "asset_role": "preview",
+      "byte_size": 602
+    },
+    {
+      "asset_key": "pose-sad",
+      "filename": "pixel-migu-pose-sad.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 771
+    },
+    {
+      "asset_key": "pose-skeptical",
+      "filename": "pixel-migu-pose-skeptical.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 754
+    },
+    {
+      "asset_key": "pose-sleepy",
+      "filename": "pixel-migu-pose-sleepy.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 759
+    },
+    {
+      "asset_key": "pose-surprised",
+      "filename": "pixel-migu-pose-surprised.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 799
+    },
+    {
+      "asset_key": "pose-thinking",
+      "filename": "pixel-migu-pose-thinking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 810
+    },
+    {
+      "asset_key": "pose-thumbs_up",
+      "filename": "pixel-migu-pose-thumbs_up.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 730
+    },
+    {
+      "asset_key": "pose-type",
+      "filename": "pixel-migu-pose-type.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 786
+    },
+    {
+      "asset_key": "pose-wave",
+      "filename": "pixel-migu-pose-wave.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 792
+    },
+    {
+      "asset_key": "sleepy-1",
+      "filename": "pixel-migu-sleepy-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 593
+    },
+    {
+      "asset_key": "sleepy-2",
+      "filename": "pixel-migu-sleepy-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 743
+    },
+    {
+      "asset_key": "sleepy-3",
+      "filename": "pixel-migu-sleepy-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 766
+    },
+    {
+      "asset_key": "sleepy-4",
+      "filename": "pixel-migu-sleepy-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 658
+    },
+    {
+      "asset_key": "speaking-1",
+      "filename": "pixel-migu-speaking-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 766
+    },
+    {
+      "asset_key": "speaking-2",
+      "filename": "pixel-migu-speaking-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 614
+    },
+    {
+      "asset_key": "speaking-3",
+      "filename": "pixel-migu-speaking-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 742
+    },
+    {
+      "asset_key": "speaking-4",
+      "filename": "pixel-migu-speaking-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 600
+    },
+    {
+      "asset_key": "think-1",
+      "filename": "pixel-migu-think-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 626
+    },
+    {
+      "asset_key": "think-2",
+      "filename": "pixel-migu-think-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 687
+    },
+    {
+      "asset_key": "think-3",
+      "filename": "pixel-migu-think-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 706
+    },
+    {
+      "asset_key": "think-4",
+      "filename": "pixel-migu-think-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 791
+    },
+    {
+      "asset_key": "thinking-1",
+      "filename": "pixel-migu-thinking-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 679
+    },
+    {
+      "asset_key": "thinking-2",
+      "filename": "pixel-migu-thinking-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 742
+    },
+    {
+      "asset_key": "thinking-3",
+      "filename": "pixel-migu-thinking-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 781
+    },
+    {
+      "asset_key": "thinking-4",
+      "filename": "pixel-migu-thinking-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 859
+    },
+    {
+      "asset_key": "thumbs-up-1",
+      "filename": "pixel-migu-thumbs-up-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 619
+    },
+    {
+      "asset_key": "thumbs-up-2",
+      "filename": "pixel-migu-thumbs-up-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 827
+    },
+    {
+      "asset_key": "thumbs-up-3",
+      "filename": "pixel-migu-thumbs-up-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 869
+    },
+    {
+      "asset_key": "thumbs-up-4",
+      "filename": "pixel-migu-thumbs-up-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 584
+    },
+    {
+      "asset_key": "type-1",
+      "filename": "pixel-migu-type-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 595
+    },
+    {
+      "asset_key": "type-2",
+      "filename": "pixel-migu-type-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 716
+    },
+    {
+      "asset_key": "type-3",
+      "filename": "pixel-migu-type-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 610
+    },
+    {
+      "asset_key": "type-4",
+      "filename": "pixel-migu-type-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 700
+    },
+    {
+      "asset_key": "wave-1",
+      "filename": "pixel-migu-wave-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 642
+    },
+    {
+      "asset_key": "wave-2",
+      "filename": "pixel-migu-wave-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 680
+    },
+    {
+      "asset_key": "wave-3",
+      "filename": "pixel-migu-wave-3.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 759
+    },
+    {
+      "asset_key": "wave-4",
+      "filename": "pixel-migu-wave-4.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 680
+    }
+  ]
+}

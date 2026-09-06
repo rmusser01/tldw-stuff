@@ -1,0 +1,251 @@
+{
+  "id": "elaborate-persona-intricate",
+  "title": "Elaborate Persona Intricate",
+  "description": "Catalog scaffold fixture, not final character art or animation: High-detail fantasy/sci-fi starter demonstrating multiple custom-state rows.",
+  "renderer_type": "sprite_frames",
+  "manifest_version": 1,
+  "states_offered": [
+    "error",
+    "idle",
+    "listening",
+    "mood.focused",
+    "speaking",
+    "thinking",
+    "tool.media_import"
+  ],
+  "asset_count": 7,
+  "total_bytes": 525,
+  "tags": [
+    "starter",
+    "sprite_frames",
+    "catalog:scaffold",
+    "tier:intricate",
+    "fantasy",
+    "sci-fi"
+  ],
+  "license_label": "bundled",
+  "complexity_tier": "intricate",
+  "production_status": "scaffold",
+  "neutral_anchor_required": true,
+  "expected_asset_groups": [
+    "identity_brief",
+    "neutral_anchor",
+    "model_sheet",
+    "static_talking_sheet",
+    "static_reaction_sheet",
+    "required_state_loops",
+    "animation_strips",
+    "animation_atlas",
+    "custom_state_variants"
+  ],
+  "animation_coverage_notes": [
+    "Scaffold fixture only: final intricate art should compile reviewed neutral-anchor-derived strips or atlas regions into runtime animations."
+  ],
+  "production_recipe": {
+    "identity_brief": "High-detail fantasy/sci-fi starter demonstrating multiple custom-state rows.",
+    "neutral_anchor": "Author a neutral model sheet or pose set before generating state frames.",
+    "static_sheet": "Create separate static talking and reaction sheets for mouth, face, and small pose changes before compiling timed animation loops.",
+    "animation_outputs": [
+      "required_state_loops",
+      "animation_strips",
+      "animation_atlas",
+      "custom_state_variants"
+    ],
+    "review_checks": [
+      "neutral_identity_consistency",
+      "transparent_background",
+      "one_subject_per_frame",
+      "state_manifest_alignment"
+    ]
+  },
+  "manifest": {
+    "manifest_version": 1,
+    "renderer_type": "sprite_frames",
+    "states": {
+      "idle": {
+        "animation_id": "idle-loop"
+      },
+      "listening": {
+        "animation_id": "listening-loop"
+      },
+      "thinking": {
+        "animation_id": "thinking-loop"
+      },
+      "speaking": {
+        "animation_id": "speaking-loop"
+      },
+      "error": {
+        "animation_id": "error-loop"
+      },
+      "mood.focused": {
+        "animation_id": "mood-focused-loop"
+      },
+      "tool.media_import": {
+        "animation_id": "tool-media_import-loop"
+      }
+    },
+    "animations": {
+      "idle-loop": {
+        "frames": [
+          {
+            "asset_id": "idle",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "idle"
+      },
+      "listening-loop": {
+        "frames": [
+          {
+            "asset_id": "listening",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "listening"
+      },
+      "thinking-loop": {
+        "frames": [
+          {
+            "asset_id": "thinking",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "thinking"
+      },
+      "speaking-loop": {
+        "frames": [
+          {
+            "asset_id": "speaking",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "speaking"
+      },
+      "error-loop": {
+        "frames": [
+          {
+            "asset_id": "error",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "error"
+      },
+      "mood-focused-loop": {
+        "frames": [
+          {
+            "asset_id": "variant-mood-focused",
+            "duration_ms": 180
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "variant-mood-focused"
+      },
+      "tool-media_import-loop": {
+        "frames": [
+          {
+            "asset_id": "variant-tool-media_import",
+            "duration_ms": 180
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "variant-tool-media_import"
+      }
+    },
+    "state_catalog": {
+      "mood.focused": {
+        "label": "Focused mood",
+        "kind": "mood",
+        "description": "A concentrated state for deep work sessions.",
+        "tags": [
+          "mood"
+        ]
+      },
+      "tool.media_import": {
+        "label": "Importing media",
+        "kind": "tool_variant",
+        "description": "Used while media import or ingestion tools are running.",
+        "tags": [
+          "tool",
+          "media"
+        ]
+      }
+    },
+    "authored_triggers": [
+      {
+        "id": "media-import-category",
+        "source": "tool_category",
+        "match": "ingestion",
+        "state": "tool.media_import",
+        "duration_ms": 2400,
+        "priority": 75
+      }
+    ],
+    "fallbacks": {
+      "mood.focused": [
+        "thinking",
+        "idle"
+      ],
+      "tool.media_import": [
+        "tool_running",
+        "thinking",
+        "idle"
+      ]
+    }
+  },
+  "assets": [
+    {
+      "asset_key": "idle",
+      "filename": "elaborate-persona-intricate-idle.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "listening",
+      "filename": "elaborate-persona-intricate-listening.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "thinking",
+      "filename": "elaborate-persona-intricate-thinking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "speaking",
+      "filename": "elaborate-persona-intricate-speaking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "error",
+      "filename": "elaborate-persona-intricate-error.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "variant-mood-focused",
+      "filename": "elaborate-persona-intricate-variant-mood-focused.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "variant-tool-media_import",
+      "filename": "elaborate-persona-intricate-variant-tool-media_import.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    }
+  ]
+}

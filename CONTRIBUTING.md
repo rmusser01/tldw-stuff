@@ -26,6 +26,9 @@ metadata, not a new import manifest. Character cards, character expression packs
 and Persona Buddy packs have different import paths; document each supported
 path separately. Include only verified working payloads, not placeholder cards.
 
+For persona archetypes, preserve the native YAML and document its actual loader
+or setup workflow. An archetype is not a character card or visual Buddy archive.
+
 For chatbooks (knowledge packs), describe the subject, included material, source
 attribution, and native export format. Document a verified import path and any
 required external resources. Share curated exports rather than live user

@@ -10,8 +10,9 @@ so users can choose additional content independently of application installs.
 Use human-browsable category directories and self-contained item directories.
 Keep native import formats; describe compatibility and provenance in each
 item's README. Category READMEs form the catalog, avoiding a second generated
-index or custom manifest schema. The initial repository contains scaffolding
-only. Existing app content and defaults remain unchanged.
+index or custom manifest schema. The initial bootstrap contained scaffolding only; the published default
+collections now include characters, persona archetypes, and Buddy archives.
+Existing app content and defaults remain unchanged.
 
 ## Distribution
 

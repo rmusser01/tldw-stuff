@@ -1,6 +1,6 @@
 # tldw-stuff
 
-Optional prompts, character packs, Buddy packs, skills, lorebooks, and chatbooks
+Optional prompts, characters, personas, Buddy packs, skills, lorebooks, and chatbooks
 (knowledge packs) for
 [tldw_chatbook](https://github.com/rmusser01/tldw_chatbook) and
 [tldw_server](https://github.com/rmusser01/tldw_server).
@@ -15,13 +15,15 @@ and import it into your own installation.
 | --- | --- |
 | [Prompts](prompts/README.md) | Reusable prompts, templates, and prompt collections |
 | [Character packs](character-packs/README.md) | Character cards, expression images, and related assets |
+| [Personas](personas/README.md) | Assistant setup archetypes with prompts and configuration defaults |
 | [Buddy packs](buddy-packs/README.md) | Persona Buddy visuals and animation packs |
 | [Skills](skills/README.md) | Agent skills and their supporting resources |
 | [Lorebooks](lorebooks/README.md) | World information and character context collections |
 | [Chatbooks](chatbooks/README.md) | Shareable knowledge packs and reference collections |
 
-The repository currently contains the contribution structure and templates;
-no content packs have been published here yet.
+The initial content includes three character packs, six persona archetypes, and
+seven finished Buddy packs. Six additional Buddy authoring scaffolds are labelled
+separately. Prompts, lorebooks, skills, and chatbooks are ready for contributions.
 
 ## Use only the content you want
 

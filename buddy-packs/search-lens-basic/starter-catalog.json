@@ -1,0 +1,268 @@
+{
+  "id": "search-lens-basic",
+  "title": "Search Lens Basic",
+  "description": "Bundled art-ready basic Buddy default: friendly magnifying-glass research helper with approved 3x4 source-sheet frames.",
+  "renderer_type": "sprite_frames",
+  "manifest_version": 1,
+  "states_offered": [
+    "error",
+    "idle",
+    "listening",
+    "reaction.success",
+    "speaking",
+    "thinking"
+  ],
+  "asset_count": 13,
+  "total_bytes": 138394,
+  "tags": [
+    "starter",
+    "sprite_frames",
+    "catalog:art-ready",
+    "tier:basic",
+    "search",
+    "research",
+    "object-buddy"
+  ],
+  "license_label": "bundled",
+  "complexity_tier": "basic",
+  "production_status": "art_ready",
+  "neutral_anchor_required": true,
+  "expected_asset_groups": [
+    "identity_brief",
+    "neutral_anchor",
+    "preview_image",
+    "required_state_loops"
+  ],
+  "animation_coverage_notes": [
+    "Reviewed bundled basic default with neutral-anchor-derived required-state loops."
+  ],
+  "production_recipe": {
+    "identity_brief": "Friendly magnifying-glass buddy with a teal-blue lens face, charcoal rim, short handle body, tiny arms, and two short legs.",
+    "neutral_anchor": "Neutral anchor: mostly front-facing round lens, charcoal rim, handle body, dot eyes, smile, arms at sides, and two short legs.",
+    "static_sheet": "Recreate state loops from the neutral lens pose by changing lens tilt, arm gesture, mouth shape, and accents while preserving the same legs.",
+    "animation_outputs": [
+      "required_state_loops"
+    ],
+    "review_checks": [
+      "neutral_identity_consistency",
+      "transparent_background",
+      "one_subject_per_frame",
+      "state_manifest_alignment"
+    ]
+  },
+  "manifest": {
+    "manifest_version": 1,
+    "renderer_type": "sprite_frames",
+    "states": {
+      "idle": {
+        "animation_id": "idle-loop"
+      },
+      "listening": {
+        "animation_id": "listening-loop"
+      },
+      "thinking": {
+        "animation_id": "thinking-loop"
+      },
+      "speaking": {
+        "animation_id": "speaking-loop"
+      },
+      "error": {
+        "animation_id": "error-loop"
+      },
+      "reaction.success": {
+        "animation_id": "reaction-success-loop"
+      }
+    },
+    "animations": {
+      "idle-loop": {
+        "frames": [
+          {
+            "asset_id": "idle-1",
+            "duration_ms": 220
+          },
+          {
+            "asset_id": "idle-2",
+            "duration_ms": 220
+          }
+        ],
+        "frame_rate": 4,
+        "preview_asset_id": "idle-1"
+      },
+      "listening-loop": {
+        "frames": [
+          {
+            "asset_id": "listening-1",
+            "duration_ms": 220
+          },
+          {
+            "asset_id": "listening-2",
+            "duration_ms": 220
+          }
+        ],
+        "frame_rate": 4,
+        "preview_asset_id": "listening-1"
+      },
+      "thinking-loop": {
+        "frames": [
+          {
+            "asset_id": "thinking-1",
+            "duration_ms": 220
+          },
+          {
+            "asset_id": "thinking-2",
+            "duration_ms": 220
+          }
+        ],
+        "frame_rate": 4,
+        "preview_asset_id": "thinking-1"
+      },
+      "speaking-loop": {
+        "frames": [
+          {
+            "asset_id": "speaking-1",
+            "duration_ms": 220
+          },
+          {
+            "asset_id": "speaking-2",
+            "duration_ms": 220
+          }
+        ],
+        "frame_rate": 4,
+        "preview_asset_id": "speaking-1"
+      },
+      "error-loop": {
+        "frames": [
+          {
+            "asset_id": "error-1",
+            "duration_ms": 220
+          },
+          {
+            "asset_id": "error-2",
+            "duration_ms": 220
+          }
+        ],
+        "frame_rate": 4,
+        "preview_asset_id": "error-1"
+      },
+      "reaction-success-loop": {
+        "frames": [
+          {
+            "asset_id": "reaction-success-1",
+            "duration_ms": 700
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "reaction-success-1"
+      }
+    },
+    "state_catalog": {
+      "reaction.success": {
+        "label": "Success reaction",
+        "kind": "reaction",
+        "description": "Single celebratory pose derived from the Search Lens source sheet.",
+        "tags": [
+          "reaction"
+        ]
+      }
+    },
+    "fallbacks": {
+      "reaction.success": [
+        "speaking",
+        "idle"
+      ]
+    }
+  },
+  "assets": [
+    {
+      "asset_key": "neutral-anchor",
+      "filename": "search-lens-basic-neutral-anchor.png",
+      "mime_type": "image/png",
+      "asset_role": "still_pose",
+      "byte_size": 10774
+    },
+    {
+      "asset_key": "preview",
+      "filename": "search-lens-basic-preview.png",
+      "mime_type": "image/png",
+      "asset_role": "preview",
+      "byte_size": 10774
+    },
+    {
+      "asset_key": "idle-1",
+      "filename": "search-lens-basic-idle-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 10807
+    },
+    {
+      "asset_key": "idle-2",
+      "filename": "search-lens-basic-idle-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 10318
+    },
+    {
+      "asset_key": "listening-1",
+      "filename": "search-lens-basic-listening-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 10888
+    },
+    {
+      "asset_key": "listening-2",
+      "filename": "search-lens-basic-listening-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 10801
+    },
+    {
+      "asset_key": "thinking-1",
+      "filename": "search-lens-basic-thinking-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 9788
+    },
+    {
+      "asset_key": "thinking-2",
+      "filename": "search-lens-basic-thinking-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 9693
+    },
+    {
+      "asset_key": "speaking-1",
+      "filename": "search-lens-basic-speaking-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 10235
+    },
+    {
+      "asset_key": "speaking-2",
+      "filename": "search-lens-basic-speaking-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 10329
+    },
+    {
+      "asset_key": "reaction-success-1",
+      "filename": "search-lens-basic-reaction-success-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 11836
+    },
+    {
+      "asset_key": "error-1",
+      "filename": "search-lens-basic-error-1.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 11854
+    },
+    {
+      "asset_key": "error-2",
+      "filename": "search-lens-basic-error-2.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 10297
+    }
+  ]
+}

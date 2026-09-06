@@ -1,0 +1,164 @@
+{
+  "id": "study-desk-intermediate",
+  "title": "Study Desk Intermediate",
+  "description": "Catalog scaffold fixture, not final character art or animation: Calm study companion starter with separate required-state frame assets.",
+  "renderer_type": "sprite_frames",
+  "manifest_version": 1,
+  "states_offered": [
+    "error",
+    "idle",
+    "listening",
+    "speaking",
+    "thinking"
+  ],
+  "asset_count": 5,
+  "total_bytes": 375,
+  "tags": [
+    "starter",
+    "sprite_frames",
+    "catalog:scaffold",
+    "tier:intermediate",
+    "study",
+    "desk"
+  ],
+  "license_label": "bundled",
+  "complexity_tier": "intermediate",
+  "production_status": "scaffold",
+  "neutral_anchor_required": true,
+  "expected_asset_groups": [
+    "identity_brief",
+    "neutral_anchor",
+    "static_talking_sheet",
+    "static_reaction_sheet",
+    "required_state_loops",
+    "custom_state_variants"
+  ],
+  "animation_coverage_notes": [
+    "Scaffold fixture only: final intermediate art should add a neutral model sheet, separate talking and reaction sheets, and short custom-state loops."
+  ],
+  "production_recipe": {
+    "identity_brief": "Calm study companion starter with separate required-state frame assets.",
+    "neutral_anchor": "Author a neutral model sheet or pose set before generating state frames.",
+    "static_sheet": "Create separate static talking and reaction sheets for mouth, face, and small pose changes before compiling timed animation loops.",
+    "animation_outputs": [
+      "required_state_loops",
+      "custom_state_variants"
+    ],
+    "review_checks": [
+      "neutral_identity_consistency",
+      "transparent_background",
+      "one_subject_per_frame",
+      "state_manifest_alignment"
+    ]
+  },
+  "manifest": {
+    "manifest_version": 1,
+    "renderer_type": "sprite_frames",
+    "states": {
+      "idle": {
+        "animation_id": "idle-loop"
+      },
+      "listening": {
+        "animation_id": "listening-loop"
+      },
+      "thinking": {
+        "animation_id": "thinking-loop"
+      },
+      "speaking": {
+        "animation_id": "speaking-loop"
+      },
+      "error": {
+        "animation_id": "error-loop"
+      }
+    },
+    "animations": {
+      "idle-loop": {
+        "frames": [
+          {
+            "asset_id": "idle",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "idle"
+      },
+      "listening-loop": {
+        "frames": [
+          {
+            "asset_id": "listening",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "listening"
+      },
+      "thinking-loop": {
+        "frames": [
+          {
+            "asset_id": "thinking",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "thinking"
+      },
+      "speaking-loop": {
+        "frames": [
+          {
+            "asset_id": "speaking",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "speaking"
+      },
+      "error-loop": {
+        "frames": [
+          {
+            "asset_id": "error",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "error"
+      }
+    }
+  },
+  "assets": [
+    {
+      "asset_key": "idle",
+      "filename": "study-desk-intermediate-idle.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "listening",
+      "filename": "study-desk-intermediate-listening.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "thinking",
+      "filename": "study-desk-intermediate-thinking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "speaking",
+      "filename": "study-desk-intermediate-speaking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "error",
+      "filename": "study-desk-intermediate-error.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    }
+  ]
+}

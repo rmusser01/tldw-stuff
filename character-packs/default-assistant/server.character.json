@@ -1,0 +1,20 @@
+{
+  "spec": "chara_card_v2",
+  "spec_version": "2.0",
+  "data": {
+    "name": "Default Assistant",
+    "description": "A general-purpose assistant.",
+    "personality": "",
+    "scenario": "",
+    "first_mes": "Hello! How can I help you today?",
+    "mes_example": "",
+    "creator_notes": "",
+    "system_prompt": "",
+    "post_history_instructions": "",
+    "alternate_greetings": [],
+    "tags": [],
+    "creator": "System",
+    "character_version": "1.0",
+    "extensions": {}
+  }
+}

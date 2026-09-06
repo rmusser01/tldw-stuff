@@ -1,0 +1,213 @@
+{
+  "id": "tool-helper-intermediate",
+  "title": "Tool Helper Intermediate",
+  "description": "Catalog scaffold fixture, not final character art or animation: Utility-themed starter with a declared exact tool animation variant.",
+  "renderer_type": "sprite_frames",
+  "manifest_version": 1,
+  "states_offered": [
+    "error",
+    "idle",
+    "listening",
+    "speaking",
+    "thinking",
+    "tool.notes_search"
+  ],
+  "asset_count": 6,
+  "total_bytes": 450,
+  "tags": [
+    "starter",
+    "sprite_frames",
+    "catalog:scaffold",
+    "tier:intermediate",
+    "tool",
+    "variant"
+  ],
+  "license_label": "bundled",
+  "complexity_tier": "intermediate",
+  "production_status": "scaffold",
+  "neutral_anchor_required": true,
+  "expected_asset_groups": [
+    "identity_brief",
+    "neutral_anchor",
+    "static_talking_sheet",
+    "static_reaction_sheet",
+    "required_state_loops",
+    "custom_state_variants"
+  ],
+  "animation_coverage_notes": [
+    "Scaffold fixture only: final intermediate art should add a neutral model sheet, separate talking and reaction sheets, and short custom-state loops."
+  ],
+  "production_recipe": {
+    "identity_brief": "Utility-themed starter with a declared exact tool animation variant.",
+    "neutral_anchor": "Author a neutral model sheet or pose set before generating state frames.",
+    "static_sheet": "Create separate static talking and reaction sheets for mouth, face, and small pose changes before compiling timed animation loops.",
+    "animation_outputs": [
+      "required_state_loops",
+      "custom_state_variants"
+    ],
+    "review_checks": [
+      "neutral_identity_consistency",
+      "transparent_background",
+      "one_subject_per_frame",
+      "state_manifest_alignment"
+    ]
+  },
+  "manifest": {
+    "manifest_version": 1,
+    "renderer_type": "sprite_frames",
+    "states": {
+      "idle": {
+        "animation_id": "idle-loop"
+      },
+      "listening": {
+        "animation_id": "listening-loop"
+      },
+      "thinking": {
+        "animation_id": "thinking-loop"
+      },
+      "speaking": {
+        "animation_id": "speaking-loop"
+      },
+      "error": {
+        "animation_id": "error-loop"
+      },
+      "tool.notes_search": {
+        "animation_id": "tool-notes_search-loop"
+      }
+    },
+    "animations": {
+      "idle-loop": {
+        "frames": [
+          {
+            "asset_id": "idle",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "idle"
+      },
+      "listening-loop": {
+        "frames": [
+          {
+            "asset_id": "listening",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "listening"
+      },
+      "thinking-loop": {
+        "frames": [
+          {
+            "asset_id": "thinking",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "thinking"
+      },
+      "speaking-loop": {
+        "frames": [
+          {
+            "asset_id": "speaking",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "speaking"
+      },
+      "error-loop": {
+        "frames": [
+          {
+            "asset_id": "error",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "error"
+      },
+      "tool-notes_search-loop": {
+        "frames": [
+          {
+            "asset_id": "variant-tool-notes_search",
+            "duration_ms": 180
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "variant-tool-notes_search"
+      }
+    },
+    "state_catalog": {
+      "tool.notes_search": {
+        "label": "Searching notes",
+        "kind": "tool_variant",
+        "description": "Used when a notes search tool is running.",
+        "tags": [
+          "tool",
+          "notes"
+        ]
+      }
+    },
+    "authored_triggers": [
+      {
+        "id": "notes-search-tool",
+        "source": "tool_name",
+        "match": "notes.search",
+        "state": "tool.notes_search",
+        "duration_ms": 2400,
+        "priority": 80
+      }
+    ],
+    "fallbacks": {
+      "tool.notes_search": [
+        "tool_running",
+        "thinking",
+        "idle"
+      ]
+    }
+  },
+  "assets": [
+    {
+      "asset_key": "idle",
+      "filename": "tool-helper-intermediate-idle.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "listening",
+      "filename": "tool-helper-intermediate-listening.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "thinking",
+      "filename": "tool-helper-intermediate-thinking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "speaking",
+      "filename": "tool-helper-intermediate-speaking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "error",
+      "filename": "tool-helper-intermediate-error.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "variant-tool-notes_search",
+      "filename": "tool-helper-intermediate-variant-tool-notes_search.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    }
+  ]
+}

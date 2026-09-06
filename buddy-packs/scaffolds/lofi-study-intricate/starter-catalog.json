@@ -1,0 +1,280 @@
+{
+  "id": "lofi-study-intricate",
+  "title": "Lo-fi Study Intricate",
+  "description": "Catalog scaffold fixture, not final character art or animation: Original study companion starter with atlas-backed loops and tool variant metadata.",
+  "renderer_type": "sprite_frames",
+  "manifest_version": 1,
+  "states_offered": [
+    "error",
+    "idle",
+    "listening",
+    "speaking",
+    "thinking",
+    "tool.research"
+  ],
+  "asset_count": 1,
+  "total_bytes": 75,
+  "tags": [
+    "starter",
+    "sprite_frames",
+    "catalog:scaffold",
+    "tier:intricate",
+    "atlas",
+    "lofi",
+    "study"
+  ],
+  "license_label": "bundled",
+  "complexity_tier": "intricate",
+  "production_status": "scaffold",
+  "neutral_anchor_required": true,
+  "expected_asset_groups": [
+    "identity_brief",
+    "neutral_anchor",
+    "model_sheet",
+    "static_talking_sheet",
+    "static_reaction_sheet",
+    "required_state_loops",
+    "animation_strips",
+    "animation_atlas",
+    "custom_state_variants"
+  ],
+  "animation_coverage_notes": [
+    "Scaffold fixture only: final intricate art should compile reviewed neutral-anchor-derived strips or atlas regions into runtime animations."
+  ],
+  "production_recipe": {
+    "identity_brief": "Original study companion starter with atlas-backed loops and tool variant metadata.",
+    "neutral_anchor": "Author a full neutral model sheet before generating atlas-backed loops.",
+    "static_sheet": "Create separate static talking and reaction sheets for expression choices before compiling timed atlas regions.",
+    "animation_outputs": [
+      "required_state_loops",
+      "animation_strips",
+      "animation_atlas",
+      "custom_state_variants"
+    ],
+    "review_checks": [
+      "neutral_identity_consistency",
+      "transparent_background",
+      "one_subject_per_frame",
+      "state_manifest_alignment"
+    ]
+  },
+  "manifest": {
+    "manifest_version": 1,
+    "renderer_type": "sprite_frames",
+    "state_catalog": {
+      "tool.research": {
+        "label": "Researching",
+        "kind": "tool_variant",
+        "description": "Used while research or retrieval tools are running.",
+        "tags": [
+          "tool",
+          "search"
+        ]
+      }
+    },
+    "states": {
+      "idle": {
+        "animation_id": "idle-loop"
+      },
+      "listening": {
+        "animation_id": "listening-loop"
+      },
+      "thinking": {
+        "animation_id": "thinking-loop"
+      },
+      "speaking": {
+        "animation_id": "speaking-loop"
+      },
+      "error": {
+        "animation_id": "error-loop"
+      },
+      "tool.research": {
+        "animation_id": "tool-research-loop"
+      }
+    },
+    "fallbacks": {
+      "tool.research": [
+        "tool_running",
+        "thinking",
+        "idle"
+      ]
+    },
+    "authored_triggers": [
+      {
+        "id": "research-tool-category",
+        "source": "tool_category",
+        "match": "search",
+        "state": "tool.research",
+        "duration_ms": 2400,
+        "priority": 70
+      }
+    ],
+    "animations": {
+      "idle-loop": {
+        "frames": [
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 0,
+              "y": 0,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 160
+          },
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 2,
+              "y": 0,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 160
+          }
+        ],
+        "frame_rate": 8,
+        "preview_frame": 0
+      },
+      "listening-loop": {
+        "frames": [
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 0,
+              "y": 0,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 160
+          },
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 2,
+              "y": 0,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 160
+          }
+        ],
+        "frame_rate": 8,
+        "preview_frame": 0
+      },
+      "thinking-loop": {
+        "frames": [
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 0,
+              "y": 2,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 160
+          },
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 2,
+              "y": 2,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 160
+          }
+        ],
+        "frame_rate": 8,
+        "preview_frame": 0
+      },
+      "speaking-loop": {
+        "frames": [
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 0,
+              "y": 2,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 120
+          },
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 2,
+              "y": 2,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 120
+          }
+        ],
+        "frame_rate": 8,
+        "preview_frame": 0
+      },
+      "error-loop": {
+        "frames": [
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 0,
+              "y": 0,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 300
+          },
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 2,
+              "y": 0,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 300
+          }
+        ],
+        "frame_rate": 8,
+        "preview_frame": 0
+      },
+      "tool-research-loop": {
+        "frames": [
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 0,
+              "y": 2,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 140
+          },
+          {
+            "asset_id": "atlas",
+            "region": {
+              "x": 2,
+              "y": 2,
+              "width": 2,
+              "height": 2
+            },
+            "duration_ms": 140
+          }
+        ],
+        "frame_rate": 8,
+        "preview_frame": 0
+      }
+    }
+  },
+  "assets": [
+    {
+      "asset_key": "atlas",
+      "filename": "lofi-study-intricate-atlas.png",
+      "mime_type": "image/png",
+      "asset_role": "sprite_sheet",
+      "byte_size": 75
+    }
+  ]
+}

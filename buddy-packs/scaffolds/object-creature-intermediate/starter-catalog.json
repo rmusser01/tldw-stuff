@@ -1,0 +1,201 @@
+{
+  "id": "object-creature-intermediate",
+  "title": "Object Creature Intermediate",
+  "description": "Catalog scaffold fixture, not final character art or animation: Non-human expressive object starter to show the format is not humanoid-only.",
+  "renderer_type": "sprite_frames",
+  "manifest_version": 1,
+  "states_offered": [
+    "error",
+    "idle",
+    "listening",
+    "reaction.success",
+    "speaking",
+    "thinking"
+  ],
+  "asset_count": 6,
+  "total_bytes": 450,
+  "tags": [
+    "starter",
+    "sprite_frames",
+    "catalog:scaffold",
+    "tier:intermediate",
+    "object",
+    "creature"
+  ],
+  "license_label": "bundled",
+  "complexity_tier": "intermediate",
+  "production_status": "scaffold",
+  "neutral_anchor_required": true,
+  "expected_asset_groups": [
+    "identity_brief",
+    "neutral_anchor",
+    "static_talking_sheet",
+    "static_reaction_sheet",
+    "required_state_loops",
+    "custom_state_variants"
+  ],
+  "animation_coverage_notes": [
+    "Scaffold fixture only: final intermediate art should add a neutral model sheet, separate talking and reaction sheets, and short custom-state loops."
+  ],
+  "production_recipe": {
+    "identity_brief": "Non-human expressive object starter to show the format is not humanoid-only.",
+    "neutral_anchor": "Author a neutral model sheet or pose set before generating state frames.",
+    "static_sheet": "Create separate static talking and reaction sheets for mouth, face, and small pose changes before compiling timed animation loops.",
+    "animation_outputs": [
+      "required_state_loops",
+      "custom_state_variants"
+    ],
+    "review_checks": [
+      "neutral_identity_consistency",
+      "transparent_background",
+      "one_subject_per_frame",
+      "state_manifest_alignment"
+    ]
+  },
+  "manifest": {
+    "manifest_version": 1,
+    "renderer_type": "sprite_frames",
+    "states": {
+      "idle": {
+        "animation_id": "idle-loop"
+      },
+      "listening": {
+        "animation_id": "listening-loop"
+      },
+      "thinking": {
+        "animation_id": "thinking-loop"
+      },
+      "speaking": {
+        "animation_id": "speaking-loop"
+      },
+      "error": {
+        "animation_id": "error-loop"
+      },
+      "reaction.success": {
+        "animation_id": "reaction-success-loop"
+      }
+    },
+    "animations": {
+      "idle-loop": {
+        "frames": [
+          {
+            "asset_id": "idle",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "idle"
+      },
+      "listening-loop": {
+        "frames": [
+          {
+            "asset_id": "listening",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "listening"
+      },
+      "thinking-loop": {
+        "frames": [
+          {
+            "asset_id": "thinking",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "thinking"
+      },
+      "speaking-loop": {
+        "frames": [
+          {
+            "asset_id": "speaking",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "speaking"
+      },
+      "error-loop": {
+        "frames": [
+          {
+            "asset_id": "error",
+            "duration_ms": 250
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "error"
+      },
+      "reaction-success-loop": {
+        "frames": [
+          {
+            "asset_id": "variant-reaction-success",
+            "duration_ms": 180
+          }
+        ],
+        "frame_rate": 1,
+        "preview_asset_id": "variant-reaction-success"
+      }
+    },
+    "state_catalog": {
+      "reaction.success": {
+        "label": "Success reaction",
+        "kind": "reaction",
+        "description": "Small celebratory reaction for completed work.",
+        "tags": [
+          "reaction"
+        ]
+      }
+    },
+    "fallbacks": {
+      "reaction.success": [
+        "speaking",
+        "idle"
+      ]
+    }
+  },
+  "assets": [
+    {
+      "asset_key": "idle",
+      "filename": "object-creature-intermediate-idle.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "listening",
+      "filename": "object-creature-intermediate-listening.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "thinking",
+      "filename": "object-creature-intermediate-thinking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "speaking",
+      "filename": "object-creature-intermediate-speaking.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "error",
+      "filename": "object-creature-intermediate-error.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    },
+    {
+      "asset_key": "variant-reaction-success",
+      "filename": "object-creature-intermediate-variant-reaction-success.png",
+      "mime_type": "image/png",
+      "asset_role": "frame",
+      "byte_size": 75
+    }
+  ]
+}

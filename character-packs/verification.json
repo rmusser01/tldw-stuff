@@ -1,0 +1,373 @@
+{
+  "source_commit": "56376e1fc188938bf350c62d3a9f95e820b93c40",
+  "source_files": [
+    {
+      "path": "character-packs/samira/assets/characters/samira/ASSET_LICENSE.md",
+      "sha256": "80822dc09a4ff620d771e45553547f69e87507d05e202b6828cfbdf4e519bec8",
+      "bytes": 1543
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/Samira.character.json",
+      "sha256": "e1e4b7d9da14bead600c4a6f7fd211236a7be3f47aeff542ba1fd4e3d6c61273",
+      "bytes": 6433
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/Sammy.png",
+      "sha256": "f4185047f087ad52a7b852076fd9e4bb44765d7238ae5c117457bb53860e368e",
+      "bytes": 1987767
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/admiration.webp",
+      "sha256": "e4e0bd9c4390ab5bfc4528e3917898e980a292a3fd369948fa35e305a656a439",
+      "bytes": 124374
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/amusement.webp",
+      "sha256": "3c8b8396a2bfe922fc9b284c266fa6b69ccffe154f33f216ae263f247209db87",
+      "bytes": 116566
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/anger.webp",
+      "sha256": "ef430345759b483d9a9f902c2fd7672e82f776819fc0e86e080b2b4f4df71863",
+      "bytes": 103190
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/annoyance.webp",
+      "sha256": "df80df074ba564dcf2e7c148eeac820aa88e91d4483af25da272702010c21ddf",
+      "bytes": 99586
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/approval.webp",
+      "sha256": "fa2d37e72019f70ac8d91b6e1aab9b1cc9cde92c4d5c5cf264bc822085092000",
+      "bytes": 110568
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/caring.webp",
+      "sha256": "15321e616d850d8e29fb274fc2b4d0d42cc50f33da9e5d2320481572c7f11fa4",
+      "bytes": 112332
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/confusion.webp",
+      "sha256": "b5b44aa1dcb63f847128af27e08b34353dd83f6f3b5fa80122b735380882139f",
+      "bytes": 94366
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/curiosity.webp",
+      "sha256": "fa2529ed53c6111e8f65b497052331bd9c1ecccd2c3a76c3996f0f9dfb1f1435",
+      "bytes": 108502
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/desire.webp",
+      "sha256": "6289a92eb65ddd89fc79780cfe757cc850e871c30dc2070e506212d7709f429a",
+      "bytes": 108374
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/disappointment.webp",
+      "sha256": "b8cc8dcc02be951a83847896a457ba3d81601d835965f65eb302e3282c8bc35d",
+      "bytes": 103404
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/disapproval.webp",
+      "sha256": "68cec62bce8bd7fa38dc55262ec6f7b3e7cda4985057a6317c4a21c0887300f0",
+      "bytes": 107672
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/disgust.webp",
+      "sha256": "9581ffcfbd80b6ce6663ba4bfd93e7d7b5c23422b1670ba83d8f923333c7e7bc",
+      "bytes": 104458
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/embarrassment.webp",
+      "sha256": "0e14ea0c7aacdcee80038239a2aca414da0c62d7bb6ae279266bc870660f3185",
+      "bytes": 123528
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/error.webp",
+      "sha256": "0671be46cd874c4f0076d8cce637279b60b5320606c97d4853901d45d9ff3b9f",
+      "bytes": 107276
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/excitement.webp",
+      "sha256": "1a39674704d87061cbf5627024eb6a283fb7ebfc90c2390674a40a1748495768",
+      "bytes": 122702
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/fear.webp",
+      "sha256": "a08c9f5790f42e32d3d912f50a017a33cd464bf336aa8dbf872cbaa4b95c793e",
+      "bytes": 89260
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/gratitude.webp",
+      "sha256": "885a8c26586c2ea21a92695bc1dc66e0f6b7f299871fcbc67f496e47a19055b8",
+      "bytes": 96122
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/grief.webp",
+      "sha256": "77f34582ff166094c1df30c9829a054e93d1d350e5060c3cce3914a0ed1d0bd8",
+      "bytes": 96140
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/joy.webp",
+      "sha256": "cee25e3275dbe469d336282db4e1f086954a586cc689ddf475a13786c62c4419",
+      "bytes": 109900
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/love.webp",
+      "sha256": "438c623e093d3a5b23a23c10c515165449cc50ab70257a0b22cd4a852e336328",
+      "bytes": 110070
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/nervousness.webp",
+      "sha256": "20d50c313033aa5e775204e6b0723bdf45b0bb19807285baf660a283492f2779",
+      "bytes": 110252
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/neutral.webp",
+      "sha256": "6d8ba7ecf1f19dd5e7c2a5a11e9337dd2ce26897140aff6fe4e77b91bfdf1463",
+      "bytes": 105884
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/optimism.webp",
+      "sha256": "51c6daf4826ac5bf02df788ab9a9df1b7829bc78638780f51c7aaa433f14de36",
+      "bytes": 99296
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/pride.webp",
+      "sha256": "e3acea2811dde9c245441ca9b0d75df7f61d7534ecf82b3e789d6396f927f5d7",
+      "bytes": 117252
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/realization.webp",
+      "sha256": "4fd28c3b74a1a8d910f37fb5428454e9e2f748aedbfbfe1f05baeac651067d4b",
+      "bytes": 130864
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/relief.webp",
+      "sha256": "e1ec4ec69f28a8284a815c1ab0b90c50117fb3e5adb3bc2cfe997082600250e1",
+      "bytes": 107880
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/remorse.webp",
+      "sha256": "5d47e0353cbc9ac46cfdcef8a25101e356ed0ec4262ce50d2dc9dd1724802cc3",
+      "bytes": 112130
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/sadness.webp",
+      "sha256": "691d89cdd897d2810198de2e5617afcbf28a994bc43e5ff06b4fad0a2452f68c",
+      "bytes": 111878
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/speaking.webp",
+      "sha256": "448d807796618cbaaa7b897b1fcdd2fc67bf81bc5d0f01466b25af735f503c55",
+      "bytes": 100372
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/surprise.webp",
+      "sha256": "30f109dc5bb2becb2963ae21fcf3b712872a1c3e57d12f6c847607a99600cc37",
+      "bytes": 120366
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/expressions/thinking.webp",
+      "sha256": "3a5d990716e14245b1e545bff457b9fcd37eb308a544cd342ae06e8f0e4738a4",
+      "bytes": 101528
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/visual_identity_pack.json",
+      "sha256": "39412e12bb9de183ad2d4aeef5d1e11b1865a4c9334ec65c2afc7efe7b3edf08",
+      "bytes": 27704
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/ASSET_LICENSE.md",
+      "sha256": "7bda42ea89376f46261e96a0ab59dd64c8128050fb323c9ffa70a7ff21250405",
+      "bytes": 1029
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/angry.png",
+      "sha256": "a6ccc3163d24ea9213240a89190e5d50d83bba767f4113fefe4be75e653dab74",
+      "bytes": 850
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/celebrate.png",
+      "sha256": "5f1ac059a7e1e9e9dbee8ebb42f74b6843695e29c5468e444ba56a33ba5997c9",
+      "bytes": 961
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/confused.png",
+      "sha256": "c5ca5356c5fb84905eb09b01bb946d904b268b8cc2d146c6cdc74a8fb5033e5f",
+      "bytes": 742
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/error.png",
+      "sha256": "8ac9307758b27deb703a65e1b337719292f3df73f4df23fccd54d1d73599b01d",
+      "bytes": 775
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/excited.png",
+      "sha256": "9f678b9f94e7524461668e9d5ced2dc056ceb286b7aef4f1ef4e022c1c3abee4",
+      "bytes": 972
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/happy.png",
+      "sha256": "0e352ee0d3f3a2747a968f27ee7110954b06d35031278187f975b48f45ad3f75",
+      "bytes": 987
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/listening.png",
+      "sha256": "47b435150107c07f3a1115bad54d2d87d8011cf8779a561535e498b9197f355f",
+      "bytes": 739
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/love.png",
+      "sha256": "4e7cc1eadf40f286fcb1db9c6e8d3eff690509584730015b91bd1a3b93d3b39c",
+      "bytes": 917
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/neutral.png",
+      "sha256": "39712f2f62b92805a0a0716fa9964b1da1fd37acd4a9cf0e4cd400a28443044d",
+      "bytes": 602
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/sad.png",
+      "sha256": "354b770b0c7f06ef4ae380c5699cd18f90bea186d118ce7a16397bae94fbe85e",
+      "bytes": 771
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/skeptical.png",
+      "sha256": "c47d8032bf9cbf15c50726494b8f656be9be2b9565a5eab07966a56e66efda17",
+      "bytes": 754
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/sleepy.png",
+      "sha256": "51391c70bc16d3769d830f626c9b8f2ffe7f724d1b218b9596c9a5dbe60bad13",
+      "bytes": 759
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/speaking.png",
+      "sha256": "43487434b123b26a76fbb8c7699bf475729f6f7255e1eed329e53641cea88e0b",
+      "bytes": 766
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/surprised.png",
+      "sha256": "4d71976aa8a448688447a95bbc0bd6e447a6858cde91f000be2b260cc2d0eb76",
+      "bytes": 799
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/thinking.png",
+      "sha256": "1014e946024ad0673d2c90760ff49bf4c3b39fbd0ee62e50fd3814f53f188790",
+      "bytes": 810
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/thumbs_up.png",
+      "sha256": "edf47d0b22c732470b7d61294f383d0eba16d1e355835abe413aafd7da629c97",
+      "bytes": 730
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/type.png",
+      "sha256": "c10c750ecf92c1a89bee52459ff647afcc924ceaf7995c6ac3d54358db0f8a31",
+      "bytes": 786
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/expressions/wave.png",
+      "sha256": "82ae93a991cf6d8045df294fb8d3ce9610bdbb1a754563824f18912c0e9d6828",
+      "bytes": 792
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/pixel-migu.character.json",
+      "sha256": "abc78e1a648e3dbb4ec3d02b49ef9aef462b9528cde8a130a8a563191a42019c",
+      "bytes": 1472
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/pixel-migu.character.png",
+      "sha256": "1c1437b01f5bb39c210023e1c2e8c4fdc04c7c9fe21051357cbd753ed6998d67",
+      "bytes": 2680
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/visual_identity_pack.json",
+      "sha256": "add41399060970c001feb8aa46127cb1fb83a9476051c6ad6dd7acfdf48b26ec",
+      "bytes": 8441
+    }
+  ],
+  "imports": [
+    {
+      "path": "character-packs/samira/server.character.json",
+      "name": "Samira “Sammy” Vadem",
+      "has_portrait": false,
+      "created": true
+    },
+    {
+      "path": "character-packs/default-assistant/chatbook.character.json",
+      "name": "Default Assistant",
+      "has_portrait": false,
+      "created": true
+    },
+    {
+      "path": "character-packs/default-assistant/server.character.json",
+      "name": "Default Assistant",
+      "has_portrait": false,
+      "created": true
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/Samira.character.json",
+      "name": "Samira “Sammy” Vadem",
+      "has_portrait": false,
+      "created": true
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/pixel-migu.character.json",
+      "name": "pixel-migu",
+      "has_portrait": false,
+      "created": true
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/pixel-migu.character.png",
+      "name": "pixel-migu",
+      "has_portrait": true,
+      "created": true
+    }
+  ],
+  "expressions": [
+    {
+      "pack": "samira",
+      "validated_images": 31,
+      "manifest_sha256": "5993ec841ca635d99ca83691c3ac284db1b14bff35978c72edad12df04a917c8"
+    },
+    {
+      "pack": "pixel-migu",
+      "validated_images": 18,
+      "manifest_sha256": "f207b3cc495ac4c8d6285d07a5ef4db28009babad164cdbe26df0f8f39e67c20"
+    }
+  ],
+  "verified_on": "2026-09-05",
+  "chatbook_check": "native file import into fresh temporary SQLite after renaming pre-existing default; created-record and persisted authored-field checks; all copied files byte-compared with pinned source; all expression assets validated through native manifest/image validators",
+  "server_commit": "36b846628d7755e91e0d5539740a9f5c9a837966",
+  "server_check": "native async character endpoint functions called directly with uploaded-file objects and temporary SQLite; actual imported text compared with source; no live HTTP/UI/model test",
+  "server_imports": [
+    "character-packs/default-assistant/server.character.json",
+    "character-packs/samira/server.character.json",
+    "character-packs/pixel-migu/assets/characters/pixel_migu/pixel-migu.character.json"
+  ],
+  "adaptations": [
+    {
+      "path": "character-packs/samira/server.character.json",
+      "change": "Remove only data.character_book when null; reserialize JSON. Original authored text and all other data equal upstream. Original JSON retained separately."
+    }
+  ],
+  "live_ui_and_http_tested": false,
+  "generated_cards": [
+    {
+      "path": "character-packs/default-assistant/chatbook.character.json",
+      "sha256": "4854bcbb2839a75ec2ad0f9ea28293efea2a596b230710e423f318536084488d",
+      "bytes": 4174
+    },
+    {
+      "path": "character-packs/default-assistant/server.character.json",
+      "sha256": "258c35679d349e96efb6c913152e011b7917e0a6db9218f6852f7722a0c70b21",
+      "bytes": 487
+    },
+    {
+      "path": "character-packs/samira/server.character.json",
+      "sha256": "d09e2a2b4fc89d4da4edbf2f629d31e5d8757a1e348086a8560b80b3fc42bbcf",
+      "bytes": 6405
+    }
+  ]
+}
