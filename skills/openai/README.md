@@ -6,4 +6,6 @@ Selected from [openai/skills](https://github.com/openai/skills) at
 - [jupyter-notebook](jupyter-notebook/README.md): Build reproducible experiment and tutorial notebooks.
 - [security-threat-model](security-threat-model/README.md): Document repository-specific trust boundaries and abuse paths.
 
+- [gh-address-comments](gh-address-comments/README.md): Inspect PR review feedback and address selected comments.
+
 [Import guide](../IMPORT.md) · [Selection review](../REVIEW.md)

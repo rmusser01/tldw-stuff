@@ -1,7 +1,7 @@
 {
   "verified_on": "2026-09-05",
   "chatbook_commit": "7584478d7a6562a1c3fb094a24e103706f1915f8",
-  "method": "Real LocalSkillsService.import_skill_directory and get_skill against a fresh temporary local store; no trust approval or imported script execution. All stored source and attribution files checked byte-for-byte; owner executable bits checked.",
+  "method": "Real LocalSkillsService.import_skill_directory and get_skill against fresh temporary local stores; no trust approval or automatic script execution. Stored files checked byte-for-byte and owner executable bits checked; skill-creator omitted its empty scripts/__init__.py as recorded below.",
   "scope_limits": [
     "No live UI, server, Codex, Claude, or OpenClaw host import exercised.",
     "No LLM workflow, network API, model download, or skill dependency installation performed.",
@@ -30,6 +30,18 @@
       "upstream_checksums": "passed"
     },
     {
+      "skill": "anthropic/skill-creator",
+      "omitted_files": [
+        "scripts/__init__.py"
+      ],
+      "stored_files_byte_identical": 20,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 10,
+      "local_helper_checks": "Validator accepted valid fixture and rejected missing description; packager preserved two files and excluded cache content. No Claude invocation or viewer launch.",
+      "import": "passed_with_file_omission"
+    },
+    {
       "skill": "anthropic/web-artifacts-builder",
       "import": "passed",
       "stored_files_byte_identical": 10,
@@ -47,6 +59,21 @@
       "stored_files_byte_identical": 9,
       "trust_status": "trust_locked",
       "upstream_checksums": "passed"
+    },
+    {
+      "skill": "openai/gh-address-comments",
+      "omitted_files": [],
+      "stored_files_byte_identical": 9,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 1,
+      "local_helper_checks": "Offline fixtures passed for single-page retrieval and reproduced head-repository fork lookup and duplicate completed connections during mixed pagination. Query inspection confirms nested thread comments are limited to 100. No live GitHub calls.",
+      "known_upstream_limitations": [
+        "Fork PR lookup targets head repository.",
+        "Mixed pagination can duplicate completed connections.",
+        "Inline thread comment lists are capped at 100."
+      ],
+      "import": "passed"
     },
     {
       "skill": "openai/jupyter-notebook",
@@ -85,14 +112,16 @@
     "network_or_llm_calls": false
   },
   "source_preservation": {
-    "upstream_files_checked": 54,
-    "markdown_links_checked": 328,
+    "upstream_files_checked": 78,
+    "markdown_links_checked": 347,
     "all_collection_checksums": "passed",
     "known_upstream_whitespace": [
       "anthropic/internal-comms/examples/3p-updates.md:4",
+      "anthropic/skill-creator/scripts/improve_description.py:140",
+      "anthropic/skill-creator/scripts/quick_validate.py:100",
       "anthropic/webapp-testing/SKILL.md:85",
       "openai/security-threat-model/references/prompt-template.md:136"
     ],
-    "whitespace_policy": "Three trailing-whitespace lines are preserved byte-for-byte from upstream; collection-authored files must pass git diff --check."
+    "whitespace_policy": "Upstream trailing whitespace is preserved byte-for-byte; collection-authored files must pass git diff --check."
   }
 }

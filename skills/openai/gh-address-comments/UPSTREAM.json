@@ -1,0 +1,53 @@
+{
+  "upstream_repository": "https://github.com/openai/skills",
+  "upstream_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "upstream_directory": "skills/.curated/gh-address-comments",
+  "authors": "OpenAI and upstream contributors",
+  "license": "Apache-2.0",
+  "retrieved_on": "2026-09-05",
+  "modifications": "No upstream files changed. Added collection README, attribution metadata, and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "skills/.curated/gh-address-comments/LICENSE.txt",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "bytes": 11357,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/.curated/gh-address-comments/SKILL.md",
+      "sha256": "77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd",
+      "bytes": 1278,
+      "executable": false
+    },
+    {
+      "path": "agents/openai.yaml",
+      "upstream_path": "skills/.curated/gh-address-comments/agents/openai.yaml",
+      "sha256": "12cf845a78254dde85e60eefb45a60e6ce2129d321f3e1d691d4ebca9a140861",
+      "bytes": 303,
+      "executable": false
+    },
+    {
+      "path": "assets/github-small.svg",
+      "upstream_path": "skills/.curated/gh-address-comments/assets/github-small.svg",
+      "sha256": "ee05e92d373d4d84f4612af3c1090ef67698d421bbe30896a4ed5a00cb86a069",
+      "bytes": 853,
+      "executable": false
+    },
+    {
+      "path": "assets/github.png",
+      "upstream_path": "skills/.curated/gh-address-comments/assets/github.png",
+      "sha256": "d55a9baa41798d8b5108e3058df3a5bda09914ea9fd73b49929cc38a8832424f",
+      "bytes": 1838,
+      "executable": false
+    },
+    {
+      "path": "scripts/fetch_comments.py",
+      "upstream_path": "skills/.curated/gh-address-comments/scripts/fetch_comments.py",
+      "sha256": "d7bc64f6b26f7482f9ca9dd7c923a5b8b20e1ef13491ae2d9052cd208a7c1ad1",
+      "bytes": 6537,
+      "executable": false
+    }
+  ]
+}

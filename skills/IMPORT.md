@@ -38,7 +38,10 @@ asyncio.run(main())
 The service import, stored file bytes, and owner executable bits were checked
 against Chatbook commit `7584478d7a6562a1c3fb094a24e103706f1915f8` on 2026-09-05.
 The UI route above was inspected in source, not driven in a live GUI. All skills
-remained untrusted in the verification store. See [verification.json](verification.json).
+remained untrusted in the verification store. The skill-creator import omitted
+its empty `scripts/__init__.py` because the tested path validator rejects leading
+underscores; all other files were preserved. Use the complete repository directory
+for its helper scripts. See [verification.json](verification.json).
 
 ## Host-specific assumptions
 
@@ -62,7 +65,12 @@ workflows, cloud API calls, credential setup, model downloads, or dependency
 installations were performed. This is a reference collection with verified
 Chatbook file import, not a promise of automatic cross-host execution.
 
-Two local helper smoke checks passed: both notebook scaffold templates generated
+Initial local helper smoke checks passed: both notebook scaffold templates generated
 valid notebook JSON, and the video helper extracted a PNG from a synthetic clip.
 Python and shell syntax checks passed. These checks do not evaluate the quality
 of generated writing, diagrams, or threat models.
+
+Additional offline checks exercised skill-creator validation and packaging, and
+GitHub comment retrieval fixtures. The latter reproduced upstream fork lookup
+and pagination limitations documented in its [README](openai/gh-address-comments/README.md).
+Claude evaluation and live GitHub retrieval were not exercised.

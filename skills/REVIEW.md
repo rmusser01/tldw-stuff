@@ -3,15 +3,15 @@
 ## Scope and selection
 
 Reviewed the official catalogs for tasks relevant to Chatbook, tldw_server,
-and this optional content library. Selected nine compact skills with identifiable
+and this optional content library. Selected eleven skills with identifiable
 redistribution terms, complete supporting files, and practical writing,
-research, media, or development uses. The selection totals 305,114 source bytes
+research, media, or development uses. The selection totals 552,272 source bytes
 including license copies; metadata and collection documentation add a little more.
 
 | Official repository | Pinned revision | Selected |
 | --- | --- | --- |
-| [anthropics/skills](https://github.com/anthropics/skills/tree/41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f) | `41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f` | 5 |
-| [openai/skills](https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431) | `49f948faa9258a0c61caceaf225e179651397431` | 2 |
+| [anthropics/skills](https://github.com/anthropics/skills/tree/41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f) | `41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f` | 6 |
+| [openai/skills](https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431) | `49f948faa9258a0c61caceaf225e179651397431` | 3 |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw/tree/047587a542ce205ee78354fbd88ba8ec05c07844) | `047587a542ce205ee78354fbd88ba8ec05c07844` | 2 |
 
 The fetched `openclaw/skills` endpoint returned 404. OpenClaw’s bundled skills
@@ -22,8 +22,8 @@ of every skill in these repositories.
 
 ## Why these skills
 
-- Anthropic: frontend design and internal communications are small reusable workflows; MCP building and browser testing provide supporting developer references and helpers. The requested web-artifacts-builder adds project setup and single-file HTML bundling, with Apache-2.0 skill files and MIT shadcn/ui component notices.
-- OpenAI: notebooks support research artifacts; threat modeling is a focused developer reference.
+- Anthropic: frontend design and internal communications are small reusable workflows; MCP building and browser testing provide supporting developer references and helpers. The requested web-artifacts-builder adds project setup and single-file HTML bundling, with Apache-2.0 skill files and MIT shadcn/ui component notices. The selected skill-creator adds skill drafting, evaluation, and packaging; its automated evaluation is Claude-specific.
+- OpenAI: notebooks support research artifacts; threat modeling is a focused developer reference. The selected gh-address-comments adds PR-feedback handling, with pinned helper limitations documented in its README.
 - OpenClaw: diagrams and video-frame extraction support knowledge and media workflows.
 
 ## Deferred or linked only
@@ -50,6 +50,6 @@ The review identifies dependencies and data-transfer requirements; it is not an
 exhaustive security audit or evaluation of LLM behavior. Upstream model names,
 commands, and documentation references are pinned examples that may age.
 
-Three upstream trailing-whitespace lines are retained to preserve exact source
+Upstream trailing-whitespace lines are retained to preserve exact source
 hashes; they are listed in the verification report. New collection documentation
 and attribution files pass the whitespace check.

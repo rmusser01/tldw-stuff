@@ -10,4 +10,6 @@ Selected from [anthropics/skills](https://github.com/anthropics/skills) at
 
 - [web-artifacts-builder](web-artifacts-builder/README.md): Build React interfaces and bundle them into a single HTML artifact.
 
+- [skill-creator](skill-creator/README.md): Draft, evaluate, refine, and package skills.
+
 [Import guide](../IMPORT.md) · [Selection review](../REVIEW.md)
