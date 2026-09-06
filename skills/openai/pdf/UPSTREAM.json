@@ -1,0 +1,39 @@
+{
+  "upstream_repository": "https://github.com/openai/skills",
+  "upstream_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "upstream_directory": "skills/.curated/pdf",
+  "authors": "OpenAI and upstream contributors",
+  "license": "Apache-2.0",
+  "retrieved_on": "2026-09-05",
+  "modifications": "No upstream file contents changed. Added collection README, attribution manifest, and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "skills/.curated/pdf/LICENSE.txt",
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "bytes": 10776,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/.curated/pdf/SKILL.md",
+      "sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2",
+      "bytes": 2517,
+      "executable": false
+    },
+    {
+      "path": "agents/openai.yaml",
+      "upstream_path": "skills/.curated/pdf/agents/openai.yaml",
+      "sha256": "f8b223e25343559f57e1839ccd849fd1494a9729da33da04bb5074b7f80f4887",
+      "bytes": 219,
+      "executable": false
+    },
+    {
+      "path": "assets/pdf.png",
+      "upstream_path": "skills/.curated/pdf/assets/pdf.png",
+      "sha256": "17da356d195d4e3fa24f9becbee6b8d9e60e13005762b5ab0809c520c76da6ee",
+      "bytes": 1312,
+      "executable": false
+    }
+  ]
+}

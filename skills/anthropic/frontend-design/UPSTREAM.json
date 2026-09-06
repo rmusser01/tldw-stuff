@@ -1,0 +1,25 @@
+{
+  "upstream_repository": "https://github.com/anthropics/skills",
+  "upstream_commit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "upstream_directory": "skills/frontend-design",
+  "authors": "Anthropic, PBC and upstream contributors",
+  "license": "Apache-2.0",
+  "retrieved_on": "2026-09-05",
+  "modifications": "No upstream file contents changed. Added collection README, attribution manifest, and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "skills/frontend-design/LICENSE.txt",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "bytes": 10174,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/frontend-design/SKILL.md",
+      "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+      "bytes": 9390,
+      "executable": false
+    }
+  ]
+}

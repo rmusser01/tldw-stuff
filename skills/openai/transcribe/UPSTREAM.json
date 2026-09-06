@@ -1,0 +1,60 @@
+{
+  "upstream_repository": "https://github.com/openai/skills",
+  "upstream_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "upstream_directory": "skills/.curated/transcribe",
+  "authors": "OpenAI and upstream contributors",
+  "license": "Apache-2.0",
+  "retrieved_on": "2026-09-05",
+  "modifications": "No upstream file contents changed. Added collection README, attribution manifest, and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "skills/.curated/transcribe/LICENSE.txt",
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "bytes": 10776,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/.curated/transcribe/SKILL.md",
+      "sha256": "f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09",
+      "bytes": 2834,
+      "executable": false
+    },
+    {
+      "path": "agents/openai.yaml",
+      "upstream_path": "skills/.curated/transcribe/agents/openai.yaml",
+      "sha256": "fe7a20b9c03ce027e2f3023a4fd363c2d958ceeae1b7daaef77d1f6d055d97a4",
+      "bytes": 414,
+      "executable": false
+    },
+    {
+      "path": "assets/transcribe-small.svg",
+      "upstream_path": "skills/.curated/transcribe/assets/transcribe-small.svg",
+      "sha256": "7d67890abf0f145a77f5fb87752bb6337b394fd4e26f5969c57d82d40e369a14",
+      "bytes": 750,
+      "executable": false
+    },
+    {
+      "path": "assets/transcribe.png",
+      "upstream_path": "skills/.curated/transcribe/assets/transcribe.png",
+      "sha256": "0860df58af6b9e58f4445a81baca7bfd94029a447742ae9b9e896e7c5b748688",
+      "bytes": 1288,
+      "executable": false
+    },
+    {
+      "path": "references/api.md",
+      "upstream_path": "skills/.curated/transcribe/references/api.md",
+      "sha256": "a2bf7e59d69aa127b176255c5c01afbafda4e3029b12b4413e75074233ffb36d",
+      "bytes": 457,
+      "executable": false
+    },
+    {
+      "path": "scripts/transcribe_diarize.py",
+      "upstream_path": "skills/.curated/transcribe/scripts/transcribe_diarize.py",
+      "sha256": "d623b1fed1491b7ca4b7b5b393089165e3581a83d90d5a57868241f1b2a5d951",
+      "bytes": 8684,
+      "executable": false
+    }
+  ]
+}

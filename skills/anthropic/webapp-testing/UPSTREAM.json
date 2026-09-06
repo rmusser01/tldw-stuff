@@ -1,0 +1,53 @@
+{
+  "upstream_repository": "https://github.com/anthropics/skills",
+  "upstream_commit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "upstream_directory": "skills/webapp-testing",
+  "authors": "Anthropic, PBC and upstream contributors",
+  "license": "Apache-2.0",
+  "retrieved_on": "2026-09-05",
+  "modifications": "No upstream file contents changed. Added collection README, attribution manifest, and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "skills/webapp-testing/LICENSE.txt",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "bytes": 11345,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/webapp-testing/SKILL.md",
+      "sha256": "51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
+      "bytes": 3913,
+      "executable": false
+    },
+    {
+      "path": "examples/console_logging.py",
+      "upstream_path": "skills/webapp-testing/examples/console_logging.py",
+      "sha256": "ea46877289acb82da7e7ce59d0bc37c8977cd57e2a006d0c88d7a1c625bf95da",
+      "bytes": 1027,
+      "executable": false
+    },
+    {
+      "path": "examples/element_discovery.py",
+      "upstream_path": "skills/webapp-testing/examples/element_discovery.py",
+      "sha256": "d63c89604a22f8845d724e95dda45db49b1bf57c25ce0a83afbb7b8da3d402f0",
+      "bytes": 1463,
+      "executable": false
+    },
+    {
+      "path": "examples/static_html_automation.py",
+      "upstream_path": "skills/webapp-testing/examples/static_html_automation.py",
+      "sha256": "9d533aafb875ee3ab8b8ebf8f5b9003ac8d999da3d09b285cce252e623140064",
+      "bytes": 953,
+      "executable": false
+    },
+    {
+      "path": "scripts/with_server.py",
+      "upstream_path": "skills/webapp-testing/scripts/with_server.py",
+      "sha256": "b0dcf4918935b795f4eda9821579b9902119235ff4447f687a30286e7d0925fd",
+      "bytes": 3693,
+      "executable": true
+    }
+  ]
+}

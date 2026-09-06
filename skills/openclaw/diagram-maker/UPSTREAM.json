@@ -1,0 +1,39 @@
+{
+  "upstream_repository": "https://github.com/openclaw/openclaw",
+  "upstream_commit": "047587a542ce205ee78354fbd88ba8ec05c07844",
+  "upstream_directory": "skills/diagram-maker",
+  "authors": "OpenClaw Foundation and upstream contributors",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "No upstream file contents changed. Added collection README, attribution manifest, and checksums. Copied the upstream root MIT license into LICENSE.txt.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/diagram-maker/SKILL.md",
+      "sha256": "6195e03fcb04a1a68c4af72165e0c85efcd2719af79380d82e42996ea89ad74a",
+      "bytes": 2357,
+      "executable": false
+    },
+    {
+      "path": "references/excalidraw-patterns.md",
+      "upstream_path": "skills/diagram-maker/references/excalidraw-patterns.md",
+      "sha256": "6fc8799815adc1ef0171f25f59431e7e60bfa072ad570a60c335383bd872bf56",
+      "bytes": 1394,
+      "executable": false
+    },
+    {
+      "path": "references/svg-template.md",
+      "upstream_path": "skills/diagram-maker/references/svg-template.md",
+      "sha256": "3a8b47dbaeb341377a4999ff227f088a3a7fe2bee7b1353929f11a1f30b20c71",
+      "bytes": 1930,
+      "executable": false
+    },
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "73571b25326281d369087f469842c02444fe39faaecebda4d82ed21ff3a1c29d",
+      "bytes": 1170,
+      "executable": false
+    }
+  ]
+}

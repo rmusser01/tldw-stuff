@@ -1,0 +1,95 @@
+{
+  "upstream_repository": "https://github.com/openai/skills",
+  "upstream_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "upstream_directory": "skills/.curated/jupyter-notebook",
+  "authors": "OpenAI and upstream contributors",
+  "license": "Apache-2.0",
+  "retrieved_on": "2026-09-05",
+  "modifications": "No upstream file contents changed. Added collection README, attribution manifest, and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "skills/.curated/jupyter-notebook/LICENSE.txt",
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "bytes": 10776,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/.curated/jupyter-notebook/SKILL.md",
+      "sha256": "62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb",
+      "bytes": 4154,
+      "executable": false
+    },
+    {
+      "path": "agents/openai.yaml",
+      "upstream_path": "skills/.curated/jupyter-notebook/agents/openai.yaml",
+      "sha256": "3a2d6a8f9ed10e18f6caa66aeb26a02305bc61f36fc4b333c904e02f9988fb9c",
+      "bytes": 325,
+      "executable": false
+    },
+    {
+      "path": "assets/experiment-template.ipynb",
+      "upstream_path": "skills/.curated/jupyter-notebook/assets/experiment-template.ipynb",
+      "sha256": "25f85914103cd84244e20ef378f59097479c72481cd18d3a931354d107c3f300",
+      "bytes": 2570,
+      "executable": false
+    },
+    {
+      "path": "assets/jupyter-small.svg",
+      "upstream_path": "skills/.curated/jupyter-notebook/assets/jupyter-small.svg",
+      "sha256": "a36bd27bef3775f111309241754b386db81e7d356f07672190e2fcb24478a250",
+      "bytes": 1043,
+      "executable": false
+    },
+    {
+      "path": "assets/jupyter.png",
+      "upstream_path": "skills/.curated/jupyter-notebook/assets/jupyter.png",
+      "sha256": "852fd5468885bb176d266d547e61684792332e44a88cfbc8cd07323937040ccb",
+      "bytes": 2713,
+      "executable": false
+    },
+    {
+      "path": "assets/tutorial-template.ipynb",
+      "upstream_path": "skills/.curated/jupyter-notebook/assets/tutorial-template.ipynb",
+      "sha256": "704a809c09c7c9e6e5c437860df95524412b50c58571a14204610d73e0744765",
+      "bytes": 2490,
+      "executable": false
+    },
+    {
+      "path": "references/experiment-patterns.md",
+      "upstream_path": "skills/.curated/jupyter-notebook/references/experiment-patterns.md",
+      "sha256": "1ff9c04281c01e8e2209bde9f1fd910b8e4b620dd1f1f040e2101f1d88513a91",
+      "bytes": 699,
+      "executable": false
+    },
+    {
+      "path": "references/notebook-structure.md",
+      "upstream_path": "skills/.curated/jupyter-notebook/references/notebook-structure.md",
+      "sha256": "a85051a2e88fd3424bbed2636e952ec5f858e7efa4e076c28d62a8cc2cc9dc06",
+      "bytes": 751,
+      "executable": false
+    },
+    {
+      "path": "references/quality-checklist.md",
+      "upstream_path": "skills/.curated/jupyter-notebook/references/quality-checklist.md",
+      "sha256": "ed01afe6ff47714d85935d11053b64c414772f02250fdc604e3fca65e5139136",
+      "bytes": 572,
+      "executable": false
+    },
+    {
+      "path": "references/tutorial-patterns.md",
+      "upstream_path": "skills/.curated/jupyter-notebook/references/tutorial-patterns.md",
+      "sha256": "8c194bb640de2fb7747e3db87006ecec5219252d301f53670975dbb5310ff659",
+      "bytes": 685,
+      "executable": false
+    },
+    {
+      "path": "scripts/new_notebook.py",
+      "upstream_path": "skills/.curated/jupyter-notebook/scripts/new_notebook.py",
+      "sha256": "a004e2ea3115edb24313928be0be6d1dc07e571d7ca6c1b24375f0569c616d2f",
+      "bytes": 4086,
+      "executable": false
+    }
+  ]
+}

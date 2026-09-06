@@ -1,0 +1,81 @@
+{
+  "upstream_repository": "https://github.com/anthropics/skills",
+  "upstream_commit": "41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f",
+  "upstream_directory": "skills/mcp-builder",
+  "authors": "Anthropic, PBC and upstream contributors",
+  "license": "Apache-2.0",
+  "retrieved_on": "2026-09-05",
+  "modifications": "No upstream file contents changed. Added collection README, attribution manifest, and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "skills/mcp-builder/LICENSE.txt",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "bytes": 11345,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/mcp-builder/SKILL.md",
+      "sha256": "0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295",
+      "bytes": 9092,
+      "executable": false
+    },
+    {
+      "path": "reference/evaluation.md",
+      "upstream_path": "skills/mcp-builder/reference/evaluation.md",
+      "sha256": "8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
+      "bytes": 21663,
+      "executable": false
+    },
+    {
+      "path": "reference/mcp_best_practices.md",
+      "upstream_path": "skills/mcp-builder/reference/mcp_best_practices.md",
+      "sha256": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
+      "bytes": 7330,
+      "executable": false
+    },
+    {
+      "path": "reference/node_mcp_server.md",
+      "upstream_path": "skills/mcp-builder/reference/node_mcp_server.md",
+      "sha256": "c3ba35a4f599dd53be9c6555ae72c19a7bf412cd5426576c2c08d42755482c66",
+      "bytes": 28550,
+      "executable": false
+    },
+    {
+      "path": "reference/python_mcp_server.md",
+      "upstream_path": "skills/mcp-builder/reference/python_mcp_server.md",
+      "sha256": "2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
+      "bytes": 25099,
+      "executable": false
+    },
+    {
+      "path": "scripts/connections.py",
+      "upstream_path": "skills/mcp-builder/scripts/connections.py",
+      "sha256": "9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
+      "bytes": 4875,
+      "executable": false
+    },
+    {
+      "path": "scripts/evaluation.py",
+      "upstream_path": "skills/mcp-builder/scripts/evaluation.py",
+      "sha256": "49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7",
+      "bytes": 12579,
+      "executable": false
+    },
+    {
+      "path": "scripts/example_evaluation.xml",
+      "upstream_path": "skills/mcp-builder/scripts/example_evaluation.xml",
+      "sha256": "9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
+      "bytes": 1194,
+      "executable": false
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "upstream_path": "skills/mcp-builder/scripts/requirements.txt",
+      "sha256": "d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7",
+      "bytes": 29,
+      "executable": false
+    }
+  ]
+}

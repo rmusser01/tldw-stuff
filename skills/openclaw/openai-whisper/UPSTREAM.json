@@ -1,0 +1,25 @@
+{
+  "upstream_repository": "https://github.com/openclaw/openclaw",
+  "upstream_commit": "047587a542ce205ee78354fbd88ba8ec05c07844",
+  "upstream_directory": "skills/openai-whisper",
+  "authors": "OpenClaw Foundation and upstream contributors",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "No upstream file contents changed. Added collection README, attribution manifest, and checksums. Copied the upstream root MIT license into LICENSE.txt.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/openai-whisper/SKILL.md",
+      "sha256": "802e31d7310316fc25a5ec4fbe29308a0897c039cd2ae897f59fc25128ab4644",
+      "bytes": 914,
+      "executable": false
+    },
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "73571b25326281d369087f469842c02444fe39faaecebda4d82ed21ff3a1c29d",
+      "bytes": 1170,
+      "executable": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "upstream_repository": "https://github.com/openclaw/openclaw",
+  "upstream_commit": "047587a542ce205ee78354fbd88ba8ec05c07844",
+  "upstream_directory": "skills/video-frames",
+  "authors": "OpenClaw Foundation and upstream contributors",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "No upstream file contents changed. Added collection README, attribution manifest, and checksums. Copied the upstream root MIT license into LICENSE.txt.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/video-frames/SKILL.md",
+      "sha256": "bdaaa9964db9584f6598e53fd025fad28d84a1e15859599f95180839fad05478",
+      "bytes": 959,
+      "executable": false
+    },
+    {
+      "path": "scripts/frame.sh",
+      "upstream_path": "skills/video-frames/scripts/frame.sh",
+      "sha256": "b339455e9e618c836ccf2e3732e4fec9897f079730d8814eadb716e2459df453",
+      "bytes": 1347,
+      "executable": true
+    },
+    {
+      "path": "LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "73571b25326281d369087f469842c02444fe39faaecebda4d82ed21ff3a1c29d",
+      "bytes": 1170,
+      "executable": false
+    }
+  ]
+}
