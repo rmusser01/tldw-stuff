@@ -1,6 +1,6 @@
-# Chatbook note adaptations
+# Chatbook skills
 
-These MIT-licensed adaptations derive from Notion Labs skills published in
+The two MIT-licensed note adaptations derive from Notion Labs skills published in
 OpenAI's skills repository. They replace Notion-specific account setup, databases,
 page operations and branding with actual Chatbook local note tools and Markdown.
 They preserve author credit, original license text and source/output hashes.
@@ -15,3 +15,17 @@ Updates require full current content and a reliable version; otherwise the skill
 returns a reviewable draft. The pinned note search/read tools do not expose versions.
 
 [Import guide](../IMPORT.md) · [Verification](../verification.json)
+
+## Original Office skills
+
+These standalone Apache-2.0 workflows use public Python library APIs. They include
+small runnable examples, targeted editing guidance, and explicit content,
+rendering and calculation checks. They require no other skill installation.
+
+- [chatbook-docx](chatbook-docx/README.md): source-based Word reports, document edits and comments.
+- [chatbook-pptx](chatbook-pptx/README.md): presentation narratives, editable slides and speaker notes.
+- [chatbook-xlsx](chatbook-xlsx/README.md): workbook models, formula-preserving edits and data checks.
+
+The existing MIT Hermes Office bundles remain available for their broader helper
+CLIs. The original Chatbook workflows contain no copied Anthropic proprietary
+Office content. Read each item’s requirements and recorded verification limits.

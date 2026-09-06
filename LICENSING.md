@@ -45,3 +45,11 @@ The [Chatbook note adaptations](skills/chatbook/README.md) retain Notion Labs’
 MIT notice and identify their changes and original source revisions. Their skill
 content is MIT; collection READMEs and indexes use the Apache-2.0 default.
 Anthropic theme-factory remains Apache-2.0, and OpenClaw gog remains MIT.
+
+## Original Chatbook Office workflows
+
+The three [Chatbook Office skills](skills/chatbook/README.md#original-office-skills)
+are original Apache-2.0 contributions, with a license copy and provenance in each
+bundle. They reference public library APIs and credit the consulted Nous Research
+Hermes packs; no Hermes helpers or Anthropic proprietary Office content is copied
+into them. The separately imported Hermes helpers keep their MIT notices.

@@ -95,3 +95,17 @@ Hermes DOCX, PowerPoint and XLSX create/read helpers passed isolated file checks
 The Chatbook note tools passed isolated SQLite create/search/expand/update and
 stale-version checks. Office layout rendering and formula recalculation were not
 exercised. These helper checks do not certify end-to-end LLM workflow behavior.
+
+## Original Chatbook Office skills
+
+[chatbook-docx](chatbook/chatbook-docx/README.md),
+[chatbook-pptx](chatbook/chatbook-pptx/README.md), and
+[chatbook-xlsx](chatbook/chatbook-xlsx/README.md) import individually through the
+same directory route. They use available authorized Python/file tools without
+assuming a host-specific tool name, account or another installed skill.
+
+Their examples ran from the imported directories and passed isolated creation,
+read-back, targeted edits and non-overwrite checks. DOCX comments and formatting,
+PPTX title/notes edits, and XLSX formula/chart/validation preservation were checked.
+There was no live LLM evaluation, visual rendering or spreadsheet-engine
+recalculation. See the exact versions and outcomes in [verification.json](verification.json).

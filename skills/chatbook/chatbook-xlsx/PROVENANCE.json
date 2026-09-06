@@ -1,0 +1,29 @@
+{
+  "kind": "original",
+  "authors": "tldw-stuff contributors",
+  "copyright": "2026 Robert Benjamin Jake Musser",
+  "license": "Apache-2.0",
+  "content_version": "1.0.0",
+  "created_on": "2026-09-05",
+  "method": "Independently authored workflows and examples using public library APIs. Hermes MIT skill was read as a capability reference; no source text or helpers copied. Anthropic proprietary Office sources are not adaptation inputs.",
+  "references": [
+    {
+      "url": "https://openpyxl.readthedocs.io/en/stable/tutorial.html",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "url": "https://openpyxl.readthedocs.io/en/stable/simple_formulae.html",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "url": "https://openpyxl.readthedocs.io/en/stable/editing_worksheets.html",
+      "accessed_on": "2026-09-05"
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent/tree/245e48008fa814b3251f50755eb656bd9fb86cb1/skills/productivity/xlsx",
+      "authors": "Nous Research",
+      "license": "MIT",
+      "use": "capability reference; not a runtime dependency or copied implementation"
+    }
+  ]
+}

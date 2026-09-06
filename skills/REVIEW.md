@@ -2,8 +2,9 @@
 
 ## Scope and selection
 
-The collection contains 57 skills: 55 publisher snapshots and two explicitly
-adapted Chatbook note workflows. The distributed source/adaptation payloads total
+The collection contains 60 skills: 55 publisher snapshots, two explicitly
+adapted Chatbook note workflows and three original Chatbook Office skills.
+The distributed publisher/adaptation payloads total
 2,249,933 bytes, including their licenses; collection metadata adds more.
 
 | Repository | Pinned revision | Distributed items |
@@ -70,3 +71,20 @@ Office helper create/read smoke checks and Chatbook note-tool calls used isolate
 fixtures; no user database, live service, scheduler or account was touched.
 Six adapter behavior scenarios are included for future LLM evaluation and have
 not been represented as executed model tests.
+
+## Original Office equivalents
+
+The requested Word, PowerPoint and Excel equivalents are independently authored
+Apache-2.0 Chatbook workflows using public Python library APIs. Each includes a
+small runnable creation example and targeted editing/verification guidance.
+The Nous Research Hermes Office skills were consulted as capability references;
+no helpers are duplicated and no proprietary Anthropic Office text is adapted.
+Original packs record that distinction and their references in PROVENANCE.json.
+
+All three imported with every file preserved. The imported examples passed
+creation, read-back and overwrite-protection checks; targeted edits exercised
+DOCX comments/run formatting, PPTX titles/notes and XLSX formulas/charts/validation.
+Python arithmetic checked workbook expectations without asserting that an Excel
+engine had evaluated the formulas. Rendering, spreadsheet-engine recalculation
+and LLM workflow behavior remain untested. These workflows are practical
+alternatives, not a claim of complete feature parity.

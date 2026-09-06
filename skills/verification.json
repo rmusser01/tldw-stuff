@@ -5,7 +5,7 @@
   "scope_limits": [
     "No live UI, server, Codex, Claude, OpenClaw or Hermes host import exercised.",
     "No LLM workflow, network API, model download, or skill dependency installation performed.",
-    "Host-specific paths and tool names remain unchanged; successful import is not runtime compatibility certification."
+    "Publisher snapshots retain host-specific paths and tool names. Chatbook adaptations/original skills state their own tool assumptions. Successful import is not runtime compatibility certification."
   ],
   "skills": [
     {
@@ -71,6 +71,15 @@
       "upstream_checksums": "passed"
     },
     {
+      "skill": "chatbook/chatbook-docx",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 7,
+      "trust_status": "trust_locked",
+      "distributed_checksums": "passed",
+      "skill_schema_validation": "passed: system skill-creator quick_validate.py"
+    },
+    {
       "skill": "chatbook/chatbook-knowledge-capture",
       "import": "passed",
       "omitted_files": [],
@@ -94,6 +103,24 @@
       "bash_syntax_files": 0,
       "note_tool_checks": "See office_and_notes_smoke_checks.chatbook_note_tools; real isolated SQLite tool calls, not an LLM evaluation.",
       "behavioral_evaluation": "Three review scenarios supplied; no live LLM execution.",
+      "skill_schema_validation": "passed: system skill-creator quick_validate.py"
+    },
+    {
+      "skill": "chatbook/chatbook-pptx",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 7,
+      "trust_status": "trust_locked",
+      "distributed_checksums": "passed",
+      "skill_schema_validation": "passed: system skill-creator quick_validate.py"
+    },
+    {
+      "skill": "chatbook/chatbook-xlsx",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 7,
+      "trust_status": "trust_locked",
+      "distributed_checksums": "passed",
       "skill_schema_validation": "passed: system skill-creator quick_validate.py"
     },
     {
@@ -588,7 +615,7 @@
   },
   "source_preservation": {
     "upstream_files_checked": 296,
-    "markdown_links_checked": 828,
+    "markdown_links_checked": 872,
     "all_collection_checksums": "passed",
     "known_upstream_whitespace": [
       "anthropic/internal-comms/examples/3p-updates.md:4",
@@ -678,12 +705,30 @@
     "additional_adapter_files_checked": 5,
     "tracked_payload_bytes": 2249933,
     "markdown_link_method": "CommonMark token parsing; local link and image targets checked, excluding code examples.",
-    "unresolved_local_links": []
+    "unresolved_local_links": [],
+    "tracked_payload_bytes_scope": "Files in publisher/adaptation UPSTREAM.json manifests; original Office bundle bytes are recorded separately."
   },
   "office_and_notes_smoke_checks": {
     "hermes/docx": "Create/read helpers passed on an isolated DOCX with heading, paragraph and table; independently reopened with python-docx. No layout rendering, tracked changes or comments exercised.",
     "hermes/powerpoint": "Create/read helpers passed for a two-slide deck with bullets and speaker notes; independently reopened with python-pptx. No visual rendering or PDF export exercised.",
     "hermes/xlsx": "Create/read helpers preserved a worksheet, cell values, SUM formula and freeze pane; independently reopened with openpyxl. Formulas were not recalculated; no cached-result claim.",
     "chatbook_note_tools": "Real CreateNoteTool, SearchNotesTool, ExpandDocumentTool and UpdateNoteTool exercised against a temporary SQLite database. Snippet-only search, full expansion, a versioned update, and stale-version rejection verified. The fixture harness read the current version directly from its isolated DB; the skill is explicitly forbidden to use that as a version-discovery workaround in a user session."
+  },
+  "original_office_checks": {
+    "verified_on": "2026-09-05",
+    "python_version": "3.12.11",
+    "library_versions": {
+      "python-docx": "1.2.0",
+      "python-pptx": "1.0.2",
+      "openpyxl": "3.1.5"
+    },
+    "checks": {
+      "docx": "Created/reopened heading and table document; targeted run edit preserved bold; native comment saved and reopened; action table preserved. ZIP integrity and non-overwrite behavior passed.",
+      "pptx": "Created/reopened three slides; targeted title and notes edit preserved title size and other slides. ZIP integrity and non-overwrite behavior passed. No visual rendering.",
+      "xlsx": "Created/reopened two sheets, formulas, validation, chart and freeze pane; input edit retained formulas/chart/validation; literal equals-prefixed text stayed text. Python arithmetic checked expected totals 45 and 69; absent cached result confirmed, no spreadsheet-engine calculation. ZIP integrity and non-overwrite behavior passed."
+    },
+    "scope": "Executed imported example scripts and targeted API edit fixtures in temporary directories. No live LLM evaluation, visual rendering, spreadsheet-engine recalculation or other-host import.",
+    "static_checks": "Ruff lint and format checks passed for the three example scripts.",
+    "bundle_bytes": 74429
   }
 }

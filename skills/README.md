@@ -1,14 +1,15 @@
 # Skills
 
 Optional skills from Anthropic, OpenAI, OpenClaw and Nous Research’s Hermes,
-plus two attributed Chatbook note adaptations. The 57 items have pinned sources,
-licenses and per-item requirements. All were checked with Chatbook’s directory
-importer: 54 preserved every file; three have explicitly documented omissions.
+plus two attributed Chatbook note adaptations and three original Office skills.
+The 60 items have source provenance, licenses and per-item requirements. All were
+checked with Chatbook’s directory importer: 57 preserved every file; three have
+explicitly documented omissions.
 No skill is automatically installed, trusted or executed.
 
 Browse by collection: [Anthropic](anthropic/README.md), [OpenAI](openai/README.md),
 [OpenClaw](openclaw/README.md), [Hermes](hermes/README.md),
-[Chatbook adaptations](chatbook/README.md).
+[Chatbook skills](chatbook/README.md).
 
 | Source | Skill | Use | License |
 | --- | --- | --- | --- |
@@ -19,6 +20,9 @@ Browse by collection: [Anthropic](anthropic/README.md), [OpenAI](openai/README.m
 | anthropic | [theme-factory](anthropic/theme-factory/README.md) | Apply consistent color palettes and typography to artifacts. | Apache-2.0 |
 | anthropic | [web-artifacts-builder](anthropic/web-artifacts-builder/README.md) | Build and bundle interactive HTML artifacts. | Apache-2.0; bundled components MIT |
 | anthropic | [webapp-testing](anthropic/webapp-testing/README.md) | Test local web applications with Python Playwright. | Apache-2.0 |
+| chatbook | [chatbook-docx](chatbook/chatbook-docx/README.md) | Word document creation, targeted editing and review. | Apache-2.0; original |
+| chatbook | [chatbook-pptx](chatbook/chatbook-pptx/README.md) | Editable presentation narratives, slide edits and verification. | Apache-2.0; original |
+| chatbook | [chatbook-xlsx](chatbook/chatbook-xlsx/README.md) | Spreadsheet models, formula-preserving edits and checks. | Apache-2.0; original |
 | chatbook | [chatbook-knowledge-capture](chatbook/chatbook-knowledge-capture/README.md) | Reusable decision, how-to, FAQ and learning notes. | MIT; adapted from Notion Labs |
 | chatbook | [chatbook-meeting-preparation](chatbook/chatbook-meeting-preparation/README.md) | Meeting agendas and pre-reads using Chatbook notes. | MIT; adapted from Notion Labs |
 | hermes | [airtable](hermes/airtable/README.md) | Airtable REST API via curl. Records CRUD, filters, upserts. | MIT |
@@ -73,9 +77,10 @@ Browse by collection: [Anthropic](anthropic/README.md), [OpenAI](openai/README.m
 [Import and compatibility](IMPORT.md) · [Selection review](REVIEW.md) ·
 [Verification results](verification.json)
 
-Each item contains a source manifest, checksums, licensing and attribution.
+Each item contains provenance, checksums, licensing and attribution.
 Publisher snapshots retain original instructions and supporting files. Chatbook
-adaptations identify changes and original source hashes separately. Consult the
+adaptations identify changes and original source hashes separately. Original
+Office skills record authorship and public API references in PROVENANCE.json. Consult the
 linked collection README before execution; host-specific dependencies remain
 external. A publisher directory is not a batch import target.
 
