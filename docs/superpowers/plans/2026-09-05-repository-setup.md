@@ -19,5 +19,12 @@ templates and empty collections rather than copying existing application data.
 
 - [x] Write root documentation, collection indexes, contribution and pack templates.
 - [x] Check local Markdown links, whitespace, file sizes, and license presence.
-- [ ] Initialize main, create the public GitHub repository, and push the scaffold.
-- [ ] Verify the published branch and clean local checkout.
+- [x] Initialize main, create the public GitHub repository, and push the scaffold.
+- [x] Verify the published branch and clean local checkout.
+
+## Verification
+
+Published as a public repository with main as its default branch. All five
+collection indexes and supporting documents are present remotely. Checked 20
+local Markdown links, file sizes, license presence, and Git whitespace; the
+local checkout is clean. No application repositories were modified.
