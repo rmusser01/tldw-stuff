@@ -1,0 +1,32 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/creative/design-md",
+  "authors": "Hermes Agent",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/creative/design-md/SKILL.md",
+      "sha256": "7ed56bba40ffc9573fa51b33b2424f37fb5f774e9ecb7e76e737797afd0b62ae",
+      "bytes": 8477,
+      "executable": false
+    },
+    {
+      "path": "templates/starter.md",
+      "upstream_path": "skills/creative/design-md/templates/starter.md",
+      "sha256": "587571ab914ebe6c228d786aeb3b531d88b5b53dcffd5295333d609275a0b2d4",
+      "bytes": 2566,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

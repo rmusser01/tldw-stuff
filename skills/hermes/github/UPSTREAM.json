@@ -1,0 +1,137 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/software-development/github",
+  "authors": "Ben Barclay (benbarclay), Hermes Agent",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/software-development/github/SKILL.md",
+      "sha256": "9d70e7c842fe7db75b5a50526552a69862f5bcfc1e59aa93785241649a09d5a3",
+      "bytes": 2446,
+      "executable": false
+    },
+    {
+      "path": "references/auth.md",
+      "upstream_path": "skills/software-development/github/references/auth.md",
+      "sha256": "eba9d0edf896036718612bb557ec7a6432532a9395bd66277c3b7417d8960a37",
+      "bytes": 11586,
+      "executable": false
+    },
+    {
+      "path": "references/ci-troubleshooting.md",
+      "upstream_path": "skills/software-development/github/references/ci-troubleshooting.md",
+      "sha256": "c72b2301e9b85c545c4960722dbd4c0d49c5d883e6d86438e932bd47b1d8eee0",
+      "bytes": 4879,
+      "executable": false
+    },
+    {
+      "path": "references/code-review.md",
+      "upstream_path": "skills/software-development/github/references/code-review.md",
+      "sha256": "11ad06e6d49bcfc3433530b40f95b72f568cae0a2d7ca6e2450b22d3e0626d7b",
+      "bytes": 13295,
+      "executable": false
+    },
+    {
+      "path": "references/conventional-commits.md",
+      "upstream_path": "skills/software-development/github/references/conventional-commits.md",
+      "sha256": "2d71a3b701b08c2e5ed5248d17928eb11e27d7b357f9e2dca27caee9cc017aab",
+      "bytes": 2417,
+      "executable": false
+    },
+    {
+      "path": "references/github-api-cheatsheet.md",
+      "upstream_path": "skills/software-development/github/references/github-api-cheatsheet.md",
+      "sha256": "a9081d4a108b67b4edd3c92c73d823fd1730e37e23be6f069d9bd67dd3b32486",
+      "bytes": 6092,
+      "executable": false
+    },
+    {
+      "path": "references/issue-to-pr.md",
+      "upstream_path": "skills/software-development/github/references/issue-to-pr.md",
+      "sha256": "9fc6de82f9b8e65a1611a5e3eee9f6f35cc9118a90a9df3de547cb65f2766dab",
+      "bytes": 5638,
+      "executable": false
+    },
+    {
+      "path": "references/issues.md",
+      "upstream_path": "skills/software-development/github/references/issues.md",
+      "sha256": "86cf4a98232ee6362cd7893e76bed6ed25c21eb660e878432c6df3286c02d6d8",
+      "bytes": 8981,
+      "executable": false
+    },
+    {
+      "path": "references/pr-workflow.md",
+      "upstream_path": "skills/software-development/github/references/pr-workflow.md",
+      "sha256": "0be42677bf500fe292c221468c2f9c48b4c8326dad508b8ef3287c010364adc8",
+      "bytes": 9708,
+      "executable": false
+    },
+    {
+      "path": "references/repo-management.md",
+      "upstream_path": "skills/software-development/github/references/repo-management.md",
+      "sha256": "c74500946263f6bdb4925d4de96aa09dcd49146c9e918bf73863f0b6186e0543",
+      "bytes": 13378,
+      "executable": false
+    },
+    {
+      "path": "references/review-output-template.md",
+      "upstream_path": "skills/software-development/github/references/review-output-template.md",
+      "sha256": "4560662913e8f89d558c7ba4f34daf77a35a88367c2d480ad86de7085cbcaf34",
+      "bytes": 2465,
+      "executable": false
+    },
+    {
+      "path": "scripts/gh-env.sh",
+      "upstream_path": "skills/software-development/github/scripts/gh-env.sh",
+      "sha256": "eb04179d859635b56cdd0da71da59cd5d94d7a69c9a856f9f562d1cd5cb9412f",
+      "bytes": 2556,
+      "executable": true
+    },
+    {
+      "path": "scripts/git-credential-token.py",
+      "upstream_path": "skills/software-development/github/scripts/git-credential-token.py",
+      "sha256": "4c0f3dfdc75df9043fe7b62b0807e7b4392c59ee81082d2fcc8d39b75c593efb",
+      "bytes": 1788,
+      "executable": false
+    },
+    {
+      "path": "templates/bug-report.md",
+      "upstream_path": "skills/software-development/github/templates/bug-report.md",
+      "sha256": "4b3144ccf47a85dcec889c7610d6b739a7ae6f19aa8d4709942112ef09e11a5b",
+      "bytes": 469,
+      "executable": false
+    },
+    {
+      "path": "templates/feature-request.md",
+      "upstream_path": "skills/software-development/github/templates/feature-request.md",
+      "sha256": "43962f5a398b4badeeb94280299ba4511940ad0e32afcfce5f2a6e1afd21c7a8",
+      "bytes": 598,
+      "executable": false
+    },
+    {
+      "path": "templates/pr-body-bugfix.md",
+      "upstream_path": "skills/software-development/github/templates/pr-body-bugfix.md",
+      "sha256": "e8c31915b87dba0454d7520a3aa45ef8650fd0e50e48e277db855ff919e6251a",
+      "bytes": 513,
+      "executable": false
+    },
+    {
+      "path": "templates/pr-body-feature.md",
+      "upstream_path": "skills/software-development/github/templates/pr-body-feature.md",
+      "sha256": "875e815da6e0e3df2763a85c9c2a56a776461da39d4181a1487333c0bf5b9276",
+      "bytes": 580,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

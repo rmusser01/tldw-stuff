@@ -12,4 +12,6 @@ Selected from [anthropics/skills](https://github.com/anthropics/skills) at
 
 - [skill-creator](skill-creator/README.md): Draft, evaluate, refine, and package skills.
 
+- [theme-factory](theme-factory/README.md): Apply consistent color palettes and typography to artifacts.
+
 [Import guide](../IMPORT.md) · [Selection review](../REVIEW.md)

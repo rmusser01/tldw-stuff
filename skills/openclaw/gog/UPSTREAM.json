@@ -1,0 +1,25 @@
+{
+  "upstream_repository": "https://github.com/openclaw/openclaw",
+  "upstream_commit": "047587a542ce205ee78354fbd88ba8ec05c07844",
+  "upstream_directory": "skills/gog",
+  "authors": "OpenClaw Foundation and upstream contributors",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/gog/SKILL.md",
+      "sha256": "96c871162fced367ccd2e2c7767cf8f3fe42665d9a97bd6f5c21ad3167df6fdd",
+      "bytes": 4561,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "73571b25326281d369087f469842c02444fe39faaecebda4d82ed21ff3a1c29d",
+      "bytes": 1170,
+      "executable": false
+    }
+  ]
+}

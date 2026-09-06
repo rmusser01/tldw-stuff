@@ -1,0 +1,32 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/research/rss-feeds",
+  "authors": "Teknium (teknium1), Hermes Agent",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/research/rss-feeds/SKILL.md",
+      "sha256": "bdd3a7c1005cb7f1a5266b31fb464fc50d6c7b3389ad888a1e4341467be82ff8",
+      "bytes": 4557,
+      "executable": false
+    },
+    {
+      "path": "scripts/feed.py",
+      "upstream_path": "skills/research/rss-feeds/scripts/feed.py",
+      "sha256": "1c3567a5db400b5191988f1b77693d13caf0de72a56eabf0da4b52fe5a7e000e",
+      "bytes": 10024,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

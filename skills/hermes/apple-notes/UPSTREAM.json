@@ -1,0 +1,25 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/apple/apple-notes",
+  "authors": "Hermes Agent",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/apple/apple-notes/SKILL.md",
+      "sha256": "1ba042cb17e3aca06a68415526e926ada464bf873c8592c3326125cd72cb397f",
+      "bytes": 2394,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

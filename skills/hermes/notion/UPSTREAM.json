@@ -1,0 +1,32 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/productivity/notion",
+  "authors": "community",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/productivity/notion/SKILL.md",
+      "sha256": "798ad178ead72ad3056f5301e83b447fce3407de07d5ff8b0209b134b4eae866",
+      "bytes": 14629,
+      "executable": false
+    },
+    {
+      "path": "references/block-types.md",
+      "upstream_path": "skills/productivity/notion/references/block-types.md",
+      "sha256": "530379beca84804b53fe71834628f8d80ca14a6763dcbf53ff654a246fe67a78",
+      "bytes": 3021,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

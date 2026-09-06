@@ -1,0 +1,84 @@
+{
+  "upstream_repository": "https://github.com/openai/skills",
+  "upstream_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "upstream_directory": "skills/.curated/notion-knowledge-capture",
+  "authors": "Notion Labs, Inc.; Chatbook adaptation by tldw-stuff contributors",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Replaced Notion/Codex setup, page APIs, databases, properties, mentions and publishing steps with supported Chatbook note operations and Markdown note formats. Adapted meeting templates or condensed knowledge references; added offline behavioral cases and explicit version-aware update fallback. Omitted Notion branding, agent metadata and host-specific examples/evaluations.",
+  "adaptation_sources": [
+    {
+      "upstream_path": "skills/.curated/notion-knowledge-capture/SKILL.md",
+      "sha256": "b49383b229bc766190ea22bb58502cfcf7e08449f5fce55a104eef1e54e27f00"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-knowledge-capture/reference/documentation-database.md",
+      "sha256": "727f6bb7a341e871ba8afe155f9b261fe6f5ecf7f5ca7a43db3ad646fee7244d"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-knowledge-capture/reference/database-best-practices.md",
+      "sha256": "72190afe54894b8ef2566d6f6d60fdcfe39822f5a1db02e75c2186c6952ad83c"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-knowledge-capture/reference/how-to-guide-database.md",
+      "sha256": "a6002d032b0563e0234a4c225226ea6a207b120e69b0c839315c8402813b30e5"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-knowledge-capture/reference/team-wiki-database.md",
+      "sha256": "b08cfd417d2d61cda223c1d44c199b0a588e35c177f75328681c1b820b6450f8"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-knowledge-capture/reference/faq-database.md",
+      "sha256": "2fedbd91f02df20541fa14372661d82d19e04cb96d261a184a74aff5b90089be"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-knowledge-capture/reference/decision-log-database.md",
+      "sha256": "77d23a69b94cecaad520cb84f18b214994fa2c7873b88928f8d13da8b301c773"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-knowledge-capture/reference/learning-database.md",
+      "sha256": "8ceaa72bc7ab944ce1084df6233001c05b65d06ee5913a23caf760f248236e83"
+    }
+  ],
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+      "bytes": 1057,
+      "executable": false,
+      "origin": "upstream",
+      "upstream_path": "skills/.curated/notion-knowledge-capture/LICENSE.txt",
+      "upstream_sha256": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "545e630d919898b606958b1ef2943743437b4653dca474ef02ba7156432fc5d3",
+      "bytes": 2523,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_path": "skills/.curated/notion-knowledge-capture/SKILL.md",
+      "upstream_sha256": "b49383b229bc766190ea22bb58502cfcf7e08449f5fce55a104eef1e54e27f00"
+    },
+    {
+      "path": "reference/chatbook-notes.md",
+      "sha256": "a780473e8f72eeef3e1fa34f0e241c63cba9a83c26e4cbf6ff4ccb8a01d508f8",
+      "bytes": 3452,
+      "executable": false,
+      "origin": "collection"
+    },
+    {
+      "path": "reference/note-formats.md",
+      "sha256": "f42f73a15735b9cea010c804877be84bd8c691c26810b40f0f507bf99b5a1535",
+      "bytes": 2060,
+      "executable": false,
+      "origin": "collection"
+    },
+    {
+      "path": "evaluations/cases.json",
+      "sha256": "089017b9cafc34b5fedce26df9df5933373a02c7ec68a65a3d32f8441080c246",
+      "bytes": 1244,
+      "executable": false,
+      "origin": "collection"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/productivity/google-workspace",
+  "authors": "Nous Research",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/productivity/google-workspace/SKILL.md",
+      "sha256": "5bdca0d898744fbf4d66df611116b5c776b1297b964fbcfd86b3004c20e46fd7",
+      "bytes": 13670,
+      "executable": false
+    },
+    {
+      "path": "references/daily-brief.md",
+      "upstream_path": "skills/productivity/google-workspace/references/daily-brief.md",
+      "sha256": "d4b78bad4121fea470dfe1aa92b2fc0ae2368af6ffbdd0b29ef40c7c8f99067c",
+      "bytes": 3217,
+      "executable": false
+    },
+    {
+      "path": "references/gmail-search-syntax.md",
+      "upstream_path": "skills/productivity/google-workspace/references/gmail-search-syntax.md",
+      "sha256": "340b78000fba67b9c5373978185446eb549a474870decf8c439edb03b3883bc5",
+      "bytes": 2150,
+      "executable": false
+    },
+    {
+      "path": "scripts/_hermes_home.py",
+      "upstream_path": "skills/productivity/google-workspace/scripts/_hermes_home.py",
+      "sha256": "4d0f4393059688353bf8a3cca8118f08548edbae6f3c6ed477ff9f2d1205cff0",
+      "bytes": 1636,
+      "executable": false
+    },
+    {
+      "path": "scripts/google_api.py",
+      "upstream_path": "skills/productivity/google-workspace/scripts/google_api.py",
+      "sha256": "d3822ef5cbdfad1d280fb619b9d85f2bdc0f8d8756398eb0189a126e8a6fbf89",
+      "bytes": 43553,
+      "executable": false
+    },
+    {
+      "path": "scripts/gws_bridge.py",
+      "upstream_path": "skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "sha256": "6bba56ab6d49ddab3cd16c2e189950633cbf1a9f4907cb7db5225ebe28313aee",
+      "bytes": 4368,
+      "executable": true
+    },
+    {
+      "path": "scripts/setup.py",
+      "upstream_path": "skills/productivity/google-workspace/scripts/setup.py",
+      "sha256": "ace45d12de9bbc408f03b88e78b8d5ed2a37f36e992164bcbe9708c5ba49883d",
+      "bytes": 20231,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

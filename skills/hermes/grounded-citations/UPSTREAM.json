@@ -1,0 +1,53 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/research/grounded-citations",
+  "authors": "Hermes Agent + Teknium",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/research/grounded-citations/SKILL.md",
+      "sha256": "ef300e11c138551da201c8e750cb41060f0bdd47c3b3f2028004e841750a6f54",
+      "bytes": 12434,
+      "executable": false
+    },
+    {
+      "path": "references/citation-formats.md",
+      "upstream_path": "skills/research/grounded-citations/references/citation-formats.md",
+      "sha256": "209312a46dd9516e44e78f617589f789e07d54660e347b6b3882e8ac60097d04",
+      "bytes": 2418,
+      "executable": false
+    },
+    {
+      "path": "references/grounding-rationale.md",
+      "upstream_path": "skills/research/grounded-citations/references/grounding-rationale.md",
+      "sha256": "2835754857ea05a1c801e88a50d4c2b4cc6ebd52cc4cc1f5741dba05f5af73c1",
+      "bytes": 3127,
+      "executable": false
+    },
+    {
+      "path": "scripts/_hermes_home.py",
+      "upstream_path": "skills/research/grounded-citations/scripts/_hermes_home.py",
+      "sha256": "4bfa31ce48ffaca3ae3fdd2ba5f093a2bedc34b057eec22a38f46e2d68b333d4",
+      "bytes": 836,
+      "executable": false
+    },
+    {
+      "path": "scripts/sources.py",
+      "upstream_path": "skills/research/grounded-citations/scripts/sources.py",
+      "sha256": "a867ae6ba99166b4114bfef1c15b57036e286fe22c48534caec28cc8335bde0c",
+      "bytes": 25808,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

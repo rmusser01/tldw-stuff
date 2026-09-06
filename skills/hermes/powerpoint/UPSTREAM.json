@@ -1,0 +1,74 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/productivity/powerpoint",
+  "authors": "Nous Research",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstream_path": "skills/productivity/powerpoint/LICENSE",
+      "sha256": "8aa3c7717d57a68490c31eef4b57b6887e892f0566ff866078ebd76113d357e2",
+      "bytes": 1070,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/productivity/powerpoint/SKILL.md",
+      "sha256": "b71d29d9809c4464d7f8d10afabf4f22f6a26c647cf7aacb6f9faf196ebe82f2",
+      "bytes": 10781,
+      "executable": false
+    },
+    {
+      "path": "scripts/pptx_create.py",
+      "upstream_path": "skills/productivity/powerpoint/scripts/pptx_create.py",
+      "sha256": "90e60c1fad8c5e7c209acf6ecdebee43c26609bbcf9a7dc063207ad8a3091485",
+      "bytes": 8579,
+      "executable": false
+    },
+    {
+      "path": "scripts/pptx_edit.py",
+      "upstream_path": "skills/productivity/powerpoint/scripts/pptx_edit.py",
+      "sha256": "feb5b09546f9f7fb5dfb4c9b2596b3acbaff9c021faf1985c42f618be0476f3f",
+      "bytes": 17224,
+      "executable": false
+    },
+    {
+      "path": "scripts/pptx_from_template.py",
+      "upstream_path": "skills/productivity/powerpoint/scripts/pptx_from_template.py",
+      "sha256": "8537205a777ba541c826082a4395066881dfa63c3033151127b82a8fd82fdb8f",
+      "bytes": 3431,
+      "executable": false
+    },
+    {
+      "path": "scripts/pptx_read.py",
+      "upstream_path": "skills/productivity/powerpoint/scripts/pptx_read.py",
+      "sha256": "b2a6e246e40a6728e5e0e8bf2c4cbe4f788ab8c40bdb1b89e339571a34fdbc71",
+      "bytes": 4761,
+      "executable": false
+    },
+    {
+      "path": "scripts/pptx_render.py",
+      "upstream_path": "skills/productivity/powerpoint/scripts/pptx_render.py",
+      "sha256": "49ebe77fa453b5fb21e0a39c0601187399c26f60a399726744277ee098f06dd7",
+      "bytes": 3536,
+      "executable": false
+    },
+    {
+      "path": "tests/test_powerpoint_skill.py",
+      "upstream_path": "skills/productivity/powerpoint/tests/test_powerpoint_skill.py",
+      "sha256": "da3262b8daa31ba2425845a8ce74adc033c89b8d2cf7b99f95a107f7e96b27f1",
+      "bytes": 19524,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

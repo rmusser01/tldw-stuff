@@ -1,0 +1,137 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/creative/p5js",
+  "authors": "SHL0MS, Hermes Agent",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "README.md",
+      "upstream_path": "skills/creative/p5js/README.md",
+      "sha256": "8251be0e41fbe1bd0a903ac93b38beb2b64375696fd0cd23bb73dd2ef8f8054f",
+      "bytes": 3316,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/creative/p5js/SKILL.md",
+      "sha256": "3b39b75303e082af69b3f4e2deab7a55b27d60293eff6a561fb627188194a33e",
+      "bytes": 27534,
+      "executable": false
+    },
+    {
+      "path": "references/animation.md",
+      "upstream_path": "skills/creative/p5js/references/animation.md",
+      "sha256": "7b71c1fd7c7778bfe3e348e49ae8b4cae59c5eb730a42d9b603acce7801bbe57",
+      "bytes": 10456,
+      "executable": false
+    },
+    {
+      "path": "references/color-systems.md",
+      "upstream_path": "skills/creative/p5js/references/color-systems.md",
+      "sha256": "4c210028c4d6e8cf72df7eb0c730b6faea6ac60d627d333991040c42e7f5d699",
+      "bytes": 8647,
+      "executable": false
+    },
+    {
+      "path": "references/core-api.md",
+      "upstream_path": "skills/creative/p5js/references/core-api.md",
+      "sha256": "8b1278b31bd4e003cb093da1858e4d0753eb304540c8f4e8e567c682222753e7",
+      "bytes": 9841,
+      "executable": false
+    },
+    {
+      "path": "references/export-pipeline.md",
+      "upstream_path": "skills/creative/p5js/references/export-pipeline.md",
+      "sha256": "b88e7236c5a674c2541d664c1c1f7cdf2eea0ef7da43c047ac2d45e3fd239667",
+      "bytes": 15611,
+      "executable": false
+    },
+    {
+      "path": "references/interaction.md",
+      "upstream_path": "skills/creative/p5js/references/interaction.md",
+      "sha256": "2951d6e9df71c467fe9ac8401c771a0b93b7c648dd4723108743f339d3c82aa3",
+      "bytes": 8345,
+      "executable": false
+    },
+    {
+      "path": "references/shapes-and-geometry.md",
+      "upstream_path": "skills/creative/p5js/references/shapes-and-geometry.md",
+      "sha256": "0a468a75d22322552abffec0cb1305d94ee531c850dd8b590584fd1078d48ed2",
+      "bytes": 7213,
+      "executable": false
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "upstream_path": "skills/creative/p5js/references/troubleshooting.md",
+      "sha256": "89812ad4fa9f08bde59ee1050107c723bd1b9046a81f8dd0aad94d4a9d8b215f",
+      "bytes": 13041,
+      "executable": false
+    },
+    {
+      "path": "references/typography.md",
+      "upstream_path": "skills/creative/p5js/references/typography.md",
+      "sha256": "d26c532a850750c6d6e64ddaa0465a499bfd44023465a6a19d8909637266654c",
+      "bytes": 6779,
+      "executable": false
+    },
+    {
+      "path": "references/visual-effects.md",
+      "upstream_path": "skills/creative/p5js/references/visual-effects.md",
+      "sha256": "644cbaf5f91b44dfa54ec125ccdff44c445f454781ff98edd316d30df258db56",
+      "bytes": 23456,
+      "executable": false
+    },
+    {
+      "path": "references/webgl-and-3d.md",
+      "upstream_path": "skills/creative/p5js/references/webgl-and-3d.md",
+      "sha256": "86ce498bccba5ce24ab9ba6d104723ea2739db6da27c2aec4284848ba306860d",
+      "bytes": 8893,
+      "executable": false
+    },
+    {
+      "path": "scripts/export-frames.js",
+      "upstream_path": "skills/creative/p5js/scripts/export-frames.js",
+      "sha256": "b1de46c977c9edfcc71fc045422f78722f12744c4f8b3d80e0fa6b2681a1dd05",
+      "bytes": 5398,
+      "executable": true
+    },
+    {
+      "path": "scripts/render.sh",
+      "upstream_path": "skills/creative/p5js/scripts/render.sh",
+      "sha256": "10a5e45d1a9d3dc867fbd7cea3b744f8d335ec03bf85a77d3a1852f315adf9e2",
+      "bytes": 2911,
+      "executable": true
+    },
+    {
+      "path": "scripts/serve.sh",
+      "upstream_path": "skills/creative/p5js/scripts/serve.sh",
+      "sha256": "65c28a2bff1dbf74f86fe027ead37eaa02da02a146c33cef4af36bc0b51c9917",
+      "bytes": 833,
+      "executable": true
+    },
+    {
+      "path": "scripts/setup.sh",
+      "upstream_path": "skills/creative/p5js/scripts/setup.sh",
+      "sha256": "27750af377cec00485ffa26fcc7bd2452167bdf73f15d4997bda49a8f4b780c3",
+      "bytes": 2475,
+      "executable": true
+    },
+    {
+      "path": "templates/viewer.html",
+      "upstream_path": "skills/creative/p5js/templates/viewer.html",
+      "sha256": "6a0f3f42fbc6a52cc82cd5990a856474cdbf43d2f157d2183a09b9cec91a331a",
+      "bytes": 10858,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

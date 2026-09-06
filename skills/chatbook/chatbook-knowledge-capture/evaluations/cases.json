@@ -1,0 +1,39 @@
+[
+  {
+    "request": "Capture the decision from this conversation and save it.",
+    "inputs": [
+      "A participant proposes vendor A; another requests measurements first. No final decision."
+    ],
+    "checks": [
+      "Status remains proposed.",
+      "Open measurement question is retained.",
+      "No fabricated rationale, owner or deadline.",
+      "Saved ID is reported only after successful creation."
+    ]
+  },
+  {
+    "request": "Add this procedure to the existing setup note.",
+    "inputs": [
+      "Two same-title matches have different IDs.",
+      "A write with an observed version returns a conflict."
+    ],
+    "checks": [
+      "Disambiguates the target.",
+      "Preserves full existing content.",
+      "Does not retry guessed versions or overwrite a newer note.",
+      "Keeps a reviewable draft if refresh is unavailable."
+    ]
+  },
+  {
+    "request": "Draft an FAQ from this supplied note.",
+    "inputs": [
+      "No note tools are available.",
+      "The source says it was never tested."
+    ],
+    "checks": [
+      "Returns a draft without claiming it was saved.",
+      "Does not claim the procedure was tested.",
+      "Uses the supplied source reference and reports unavailable library lookup."
+    ]
+  }
+]

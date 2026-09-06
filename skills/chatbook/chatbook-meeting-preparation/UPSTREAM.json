@@ -1,0 +1,140 @@
+{
+  "upstream_repository": "https://github.com/openai/skills",
+  "upstream_commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "upstream_directory": "skills/.curated/notion-meeting-intelligence",
+  "authors": "Notion Labs, Inc.; Chatbook adaptation by tldw-stuff contributors",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Replaced Notion/Codex setup, page APIs, databases, properties, mentions and publishing steps with supported Chatbook note operations and Markdown note formats. Adapted meeting templates or condensed knowledge references; added offline behavioral cases and explicit version-aware update fallback. Omitted Notion branding, agent metadata and host-specific examples/evaluations.",
+  "adaptation_sources": [
+    {
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/SKILL.md",
+      "sha256": "bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/brainstorming-template.md",
+      "sha256": "4f118f04c8e5eef18f55faf12ecbdb7f8243cd189a4773c98c0d61b822706b14"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/template-selection-guide.md",
+      "sha256": "a29b16db340c153a3a32579b7031809b398ed319210fbea2d29ec424c68d147e"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/sprint-planning-template.md",
+      "sha256": "1eed8455dc48c330eaecd0f79cbd18150973d47b93329826c7ae611a10dece66"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/retrospective-template.md",
+      "sha256": "b1e18f96323ce83405f25fa24833b3d3e97fbab86e20c99e6ccfb9a826bd354c"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/one-on-one-template.md",
+      "sha256": "1c7f328738b5d6139b22e977608b5ef47f3fa45d95211991168efc632a73c7ae"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/decision-meeting-template.md",
+      "sha256": "f0b46b0f71a2886bd72af7f9b219ece1d68742b5fba6e2a7fe78f9c65f140d98"
+    },
+    {
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/status-update-template.md",
+      "sha256": "c5f53adde43d8a9333555ce0e4634b85f4f6a44faa560f3a250c6104eebe4f17"
+    }
+  ],
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8",
+      "bytes": 1057,
+      "executable": false,
+      "origin": "upstream",
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/LICENSE.txt",
+      "upstream_sha256": "0f377d9b2a1db642e4b0531ffa126e96d9bc6c085f8d9441f220fb25f723c6f8"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "7b57f9b71818b76f6e39838b777ae4ac65b8a08cb557c72694a4430100ea61c1",
+      "bytes": 2238,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/SKILL.md",
+      "upstream_sha256": "bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332"
+    },
+    {
+      "path": "reference/chatbook-notes.md",
+      "sha256": "a780473e8f72eeef3e1fa34f0e241c63cba9a83c26e4cbf6ff4ccb8a01d508f8",
+      "bytes": 3452,
+      "executable": false,
+      "origin": "collection"
+    },
+    {
+      "path": "reference/brainstorming-template.md",
+      "sha256": "09529fd078421a45a026c52d0e64b54deb464c5a83b3b5c4ed0fc4f8ceb90bec",
+      "bytes": 1515,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/brainstorming-template.md",
+      "upstream_sha256": "4f118f04c8e5eef18f55faf12ecbdb7f8243cd189a4773c98c0d61b822706b14"
+    },
+    {
+      "path": "reference/decision-meeting-template.md",
+      "sha256": "daab6c155e260d257ffc1804b7b4eb631fbc299f7ecc60a03eed710d6b1d38e1",
+      "bytes": 1860,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/decision-meeting-template.md",
+      "upstream_sha256": "f0b46b0f71a2886bd72af7f9b219ece1d68742b5fba6e2a7fe78f9c65f140d98"
+    },
+    {
+      "path": "reference/one-on-one-template.md",
+      "sha256": "d5ec71da9ad03b40dbe11255aef978ee19a2c2546e090008f7f09a13da29142f",
+      "bytes": 979,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/one-on-one-template.md",
+      "upstream_sha256": "1c7f328738b5d6139b22e977608b5ef47f3fa45d95211991168efc632a73c7ae"
+    },
+    {
+      "path": "reference/retrospective-template.md",
+      "sha256": "54b79713d872d1a9bd9b722d6e52fa7b154369fb3f5f5a7c8c752c58c8ecd20c",
+      "bytes": 999,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/retrospective-template.md",
+      "upstream_sha256": "b1e18f96323ce83405f25fa24833b3d3e97fbab86e20c99e6ccfb9a826bd354c"
+    },
+    {
+      "path": "reference/sprint-planning-template.md",
+      "sha256": "190361f39b7dbf8499ebdf5dec6901ff8b4b6507a884bcb8c5ea06626cacd9b6",
+      "bytes": 1322,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/sprint-planning-template.md",
+      "upstream_sha256": "1eed8455dc48c330eaecd0f79cbd18150973d47b93329826c7ae611a10dece66"
+    },
+    {
+      "path": "reference/status-update-template.md",
+      "sha256": "65f8e30b469b5c5116cecf738cf3d0651cfea29e673a94fa41ffdabd14fd8be3",
+      "bytes": 1403,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/status-update-template.md",
+      "upstream_sha256": "c5f53adde43d8a9333555ce0e4634b85f4f6a44faa560f3a250c6104eebe4f17"
+    },
+    {
+      "path": "reference/template-selection-guide.md",
+      "sha256": "5c4a2f8d563476117064fe707f600596ef93e755522d8f3e52c346e02c11a573",
+      "bytes": 2068,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_path": "skills/.curated/notion-meeting-intelligence/reference/template-selection-guide.md",
+      "upstream_sha256": "a29b16db340c153a3a32579b7031809b398ed319210fbea2d29ec424c68d147e"
+    },
+    {
+      "path": "evaluations/cases.json",
+      "sha256": "809025df6b198f60570bf33bd7ed63d2dc4b1e9722679957fa7b19571071e1d6",
+      "bytes": 1307,
+      "executable": false,
+      "origin": "collection"
+    }
+  ]
+}

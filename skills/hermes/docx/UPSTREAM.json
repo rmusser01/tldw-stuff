@@ -1,0 +1,102 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/productivity/docx",
+  "authors": "Nous Research",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstream_path": "skills/productivity/docx/LICENSE",
+      "sha256": "8aa3c7717d57a68490c31eef4b57b6887e892f0566ff866078ebd76113d357e2",
+      "bytes": 1070,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/productivity/docx/SKILL.md",
+      "sha256": "9678b14d5e7841d588b969f6a4696cd46bcc46c3e4ac1479edc7656a051aa5ff",
+      "bytes": 10395,
+      "executable": false
+    },
+    {
+      "path": "references/revisions-and-comments.md",
+      "upstream_path": "skills/productivity/docx/references/revisions-and-comments.md",
+      "sha256": "cd861f6e9ea77767b1a5e2ec3f48dd620b0664811d8f204c59c61571b408e9ba",
+      "bytes": 3997,
+      "executable": false
+    },
+    {
+      "path": "scripts/docx_comments.py",
+      "upstream_path": "skills/productivity/docx/scripts/docx_comments.py",
+      "sha256": "6687c2f8b8e4cdd2ea9d70da668417e8c26f30dead2b1a4b7bda07e34fbf67cf",
+      "bytes": 10655,
+      "executable": false
+    },
+    {
+      "path": "scripts/docx_common.py",
+      "upstream_path": "skills/productivity/docx/scripts/docx_common.py",
+      "sha256": "5f915ce8138d19344f80b218b3e81aac8332dc6b560774a6f2a9757f4fc2eaea",
+      "bytes": 3364,
+      "executable": false
+    },
+    {
+      "path": "scripts/docx_create.py",
+      "upstream_path": "skills/productivity/docx/scripts/docx_create.py",
+      "sha256": "8391869c97ab804374dddadff4fbebc060120c0b973d06133f84487cc2c442d5",
+      "bytes": 6387,
+      "executable": false
+    },
+    {
+      "path": "scripts/docx_edit.py",
+      "upstream_path": "skills/productivity/docx/scripts/docx_edit.py",
+      "sha256": "00feef0a58a318406077020a017dd0b2673daaef93e0bda81fa9437b237180ff",
+      "bytes": 8619,
+      "executable": false
+    },
+    {
+      "path": "scripts/docx_read.py",
+      "upstream_path": "skills/productivity/docx/scripts/docx_read.py",
+      "sha256": "4760617eea1b17d648f7a46f6718c22ec4a76a359e8f0ee9f6ffe921df9129de",
+      "bytes": 5405,
+      "executable": false
+    },
+    {
+      "path": "scripts/docx_revisions.py",
+      "upstream_path": "skills/productivity/docx/scripts/docx_revisions.py",
+      "sha256": "0b835b76b86a1a7bf607c7724a09a71af788cacec48058ae99b04dba6950b938",
+      "bytes": 4571,
+      "executable": false
+    },
+    {
+      "path": "scripts/docx_template.py",
+      "upstream_path": "skills/productivity/docx/scripts/docx_template.py",
+      "sha256": "aed1b1db212b72995bd47a28e6c9928a4d02d7596615f1dadf12cd43a4f34219",
+      "bytes": 2482,
+      "executable": false
+    },
+    {
+      "path": "scripts/docx_validate.py",
+      "upstream_path": "skills/productivity/docx/scripts/docx_validate.py",
+      "sha256": "64d4197ac4aa555384efaefa1cc392a863e2d05489acc04776c33ab1a591d024",
+      "bytes": 6200,
+      "executable": false
+    },
+    {
+      "path": "tests/test_docx_skill.py",
+      "upstream_path": "skills/productivity/docx/tests/test_docx_skill.py",
+      "sha256": "a6e5ef3595d2168b15a655c366dcebbcc3e2ced73a0e2e5f741c626148c8566d",
+      "bytes": 21267,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

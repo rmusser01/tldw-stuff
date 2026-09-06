@@ -36,3 +36,12 @@ Upstream scope maps are historical copies describing their source repositories;
 they do not change this repository's Apache default. Keep item READMEs and their
 referenced license/provenance files with downloaded content. Existing upstream
 copyright and attribution notices are preserved.
+
+## Hermes and note-workflow additions
+
+The [Hermes collection](skills/hermes/README.md) retains Nous Research’s MIT
+license and any per-skill notices, including Siqi Chen’s humanizer copyright.
+The [Chatbook note adaptations](skills/chatbook/README.md) retain Notion Labs’
+MIT notice and identify their changes and original source revisions. Their skill
+content is MIT; collection READMEs and indexes use the Apache-2.0 default.
+Anthropic theme-factory remains Apache-2.0, and OpenClaw gog remains MIT.

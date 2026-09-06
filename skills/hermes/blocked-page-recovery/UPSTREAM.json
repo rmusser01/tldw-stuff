@@ -1,0 +1,32 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/web/blocked-page-recovery",
+  "authors": "Hermes Agent",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/web/blocked-page-recovery/SKILL.md",
+      "sha256": "7f7d321f177399ca928e11ab38942cfa76d6e931a82d887671c50661fb411d51",
+      "bytes": 5156,
+      "executable": false
+    },
+    {
+      "path": "scripts/recover_page.py",
+      "upstream_path": "skills/web/blocked-page-recovery/scripts/recover_page.py",
+      "sha256": "22b996996ae2bf252b31cfd2636231f08936729a381dce7ba8bfa4afb8ffe8c6",
+      "bytes": 8481,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}

@@ -23,8 +23,9 @@ and import it into your own installation.
 
 The initial content includes three character packs, six persona archetypes, and
 seven finished Buddy packs. Six additional Buddy authoring scaffolds are labelled
-separately. Nine attributed skills from Anthropic, OpenAI, and OpenClaw are
-also available. Prompts, chatdictionaries, and chatbooks are ready for contributions.
+separately. 57 attributed skills and adaptations from Anthropic, OpenAI, OpenClaw,
+Hermes and Chatbook contributors are also available. Prompts, chatdictionaries,
+and chatbooks are ready for contributions.
 
 ## Use only the content you want
 

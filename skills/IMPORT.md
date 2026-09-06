@@ -38,15 +38,18 @@ asyncio.run(main())
 The service import, stored file bytes, and owner executable bits were checked
 against Chatbook commit `7584478d7a6562a1c3fb094a24e103706f1915f8` on 2026-09-05.
 The UI route above was inspected in source, not driven in a live GUI. All skills
-remained untrusted in the verification store. The skill-creator import omitted
-its empty `scripts/__init__.py` because the tested path validator rejects leading
-underscores; all other files were preserved. Use the complete repository directory
-for its helper scripts. See [verification.json](verification.json).
+remained untrusted in the verification store. The tested path validator rejects
+leading underscores. It omitted skill-creator’s
+empty `scripts/__init__.py`, and the nonempty `scripts/_hermes_home.py` dependency
+from Hermes google-workspace and grounded-citations. The latter two imported
+bundles are incomplete for helper execution; use their complete repository
+directories. Other files were preserved. See [verification.json](verification.json).
 
 ## Host-specific assumptions
 
-The upstream files are unchanged, so importing them does not translate their
-runtime assumptions:
+Publisher snapshots are unchanged, so importing them does not translate their
+runtime assumptions. The two separately labeled Chatbook note adaptations do
+replace the original Notion workflow and tool mapping. Publisher-specific examples:
 
 - OpenAI notebook instructions refer to `$CODEX_HOME/skills/...`. On another host, resolve the script within the imported skill’s actual directory; importing into Chatbook does not create that Codex path.
 - OpenClaw video examples use `{baseDir}`. It denotes the skill directory in OpenClaw; use the actual skill path when running the helper manually elsewhere. OpenClaw `metadata.requires` and `metadata.install` describe dependencies and do not install them through Chatbook.
@@ -60,7 +63,7 @@ the published copy remains traceable to its upstream revision.
 
 ## Other hosts and runtime verification
 
-Server, Codex, Claude, and OpenClaw host imports were not exercised. No live LLM
+Server, Codex, Claude, OpenClaw and Hermes host imports were not exercised. No live LLM
 workflows, cloud API calls, credential setup, model downloads, or dependency
 installations were performed. This is a reference collection with verified
 Chatbook file import, not a promise of automatic cross-host execution.
@@ -74,3 +77,21 @@ Additional offline checks exercised skill-creator validation and packaging, and
 GitHub comment retrieval fixtures. The latter reproduced upstream fork lookup
 and pagination limitations documented in its [README](openai/gh-address-comments/README.md).
 Claude evaluation and live GitHub retrieval were not exercised.
+
+## Hermes and Chatbook note adaptations
+
+Hermes source paths such as `${HERMES_HOME}/skills/productivity/...` refer to
+Hermes's installation. This collection groups entries under `skills/hermes/`;
+resolve scripts from the actual complete bundle and review dependencies before
+running. Import does not install Hermes, OAuth flows, cron, browser tools or agent
+workers. Original examples may reference sibling skills outside this selection.
+
+The [Chatbook note adaptations](chatbook/README.md) use the actual local note
+schemas. They preserve source evidence, expose unavailable-tool and conflict
+outcomes, and do not claim that note text creates native tags, relations or tasks.
+Their reference files explain the limitations of snippet reads and versioned updates.
+
+Hermes DOCX, PowerPoint and XLSX create/read helpers passed isolated file checks.
+The Chatbook note tools passed isolated SQLite create/search/expand/update and
+stale-version checks. Office layout rendering and formula recalculation were not
+exercised. These helper checks do not certify end-to-end LLM workflow behavior.

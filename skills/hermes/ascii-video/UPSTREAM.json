@@ -1,0 +1,88 @@
+{
+  "upstream_repository": "https://github.com/NousResearch/hermes-agent",
+  "upstream_commit": "245e48008fa814b3251f50755eb656bd9fb86cb1",
+  "upstream_directory": "skills/creative/ascii-video",
+  "authors": "SHL0MS, Hermes Agent",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "files": [
+    {
+      "path": "README.md",
+      "upstream_path": "skills/creative/ascii-video/README.md",
+      "sha256": "a182ea6fd86e9a1a3e1d8e3281e0274b7cd33ef7b15c10bd12064ad4d75fbfae",
+      "bytes": 16440,
+      "executable": false
+    },
+    {
+      "path": "SKILL.md",
+      "upstream_path": "skills/creative/ascii-video/SKILL.md",
+      "sha256": "3bd3f39985a52954e2693866608bd8105f4dc0efbca5b6baa3045c2b641bda26",
+      "bytes": 15011,
+      "executable": false
+    },
+    {
+      "path": "references/architecture.md",
+      "upstream_path": "skills/creative/ascii-video/references/architecture.md",
+      "sha256": "d537a3f6e6263cdd87a9cc71938706e50e8d7cc454aab36231923c319abd4aeb",
+      "bytes": 33004,
+      "executable": false
+    },
+    {
+      "path": "references/composition.md",
+      "upstream_path": "skills/creative/ascii-video/references/composition.md",
+      "sha256": "3bdcb525921a3143b9f5e453fe6c4473f2992ac3404faa061d1883b8693da66c",
+      "bytes": 34942,
+      "executable": false
+    },
+    {
+      "path": "references/effects.md",
+      "upstream_path": "skills/creative/ascii-video/references/effects.md",
+      "sha256": "842f5720af3bf5a2d0ef7f0c9c832b8cc357caf93a9c534030f0f2b156c39f67",
+      "bytes": 72928,
+      "executable": false
+    },
+    {
+      "path": "references/inputs.md",
+      "upstream_path": "skills/creative/ascii-video/references/inputs.md",
+      "sha256": "d9b723aa68f4239e7d306ed9ecd1e45b506e1197fb0c87194fbbe5a96f3d9402",
+      "bytes": 24575,
+      "executable": false
+    },
+    {
+      "path": "references/optimization.md",
+      "upstream_path": "skills/creative/ascii-video/references/optimization.md",
+      "sha256": "a9e78b131bf7fd6d575759c7eaf121a93e26bd56e2e0f6af67fd9fa766811713",
+      "bytes": 24265,
+      "executable": false
+    },
+    {
+      "path": "references/scenes.md",
+      "upstream_path": "skills/creative/ascii-video/references/scenes.md",
+      "sha256": "6c9a0293a5be961269f5d02e5b6dc83d4960a10511dfd777bc1033d416ecf093",
+      "bytes": 37487,
+      "executable": false
+    },
+    {
+      "path": "references/shaders.md",
+      "upstream_path": "skills/creative/ascii-video/references/shaders.md",
+      "sha256": "29cac0af0b4614b3782fbd19c2f2857d8e95fec70c0ea68be86f5c5d0702c669",
+      "bytes": 50435,
+      "executable": false
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "upstream_path": "skills/creative/ascii-video/references/troubleshooting.md",
+      "sha256": "eb992b11d051ba1ec8bb47d62cb28c329b69fc8ebc5ba38d4f501a9893ae9ebd",
+      "bytes": 13246,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
+      "executable": false
+    }
+  ]
+}
