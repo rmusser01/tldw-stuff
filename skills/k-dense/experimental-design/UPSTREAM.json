@@ -1,0 +1,67 @@
+{
+  "upstream_repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "upstream_commit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "upstream_directory": "skills/experimental-design",
+  "authors": "K-Dense Inc.",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "None to upstream skill files. Added a copy of the root license, collection documentation, provenance manifest and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "bytes": 1068,
+      "executable": false,
+      "upstream_path": "LICENSE.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "8d1e072e96c40dea985deac2d67d2cb800bb8db1cb18b31db0e623ca66e66741",
+      "bytes": 14002,
+      "executable": false,
+      "upstream_path": "skills/experimental-design/SKILL.md"
+    },
+    {
+      "path": "references/design_types.md",
+      "sha256": "8c00ac63142f91db9e010082d491b0af25019aba0f161c72497a5df2c6ff8c55",
+      "bytes": 7323,
+      "executable": false,
+      "upstream_path": "skills/experimental-design/references/design_types.md"
+    },
+    {
+      "path": "references/factorial_and_doe.md",
+      "sha256": "2db506065a0fd36b699ad70063ce6a099055b9e676efc36790e098ed43319e0e",
+      "bytes": 7073,
+      "executable": false,
+      "upstream_path": "skills/experimental-design/references/factorial_and_doe.md"
+    },
+    {
+      "path": "references/randomization_and_blocking.md",
+      "sha256": "b4298ef74a5c744fa986507e158fa48044f0c762c3b404c0a0b063a0dbac3dca",
+      "bytes": 6360,
+      "executable": false,
+      "upstream_path": "skills/experimental-design/references/randomization_and_blocking.md"
+    },
+    {
+      "path": "references/sequential_and_adaptive.md",
+      "sha256": "bfffc806da8d84116535c4fd2f3b50f94e16e7addd38cca0b502c19df368b475",
+      "bytes": 5488,
+      "executable": false,
+      "upstream_path": "skills/experimental-design/references/sequential_and_adaptive.md"
+    },
+    {
+      "path": "scripts/doe_designs.py",
+      "sha256": "50d9078c06c3609713ec48546f39685716757ab30a84fefe35b20883f7bf49c6",
+      "bytes": 7812,
+      "executable": false,
+      "upstream_path": "skills/experimental-design/scripts/doe_designs.py"
+    },
+    {
+      "path": "scripts/randomization.py",
+      "sha256": "f0cf8bf7ba27a3381366b9cf03e30506d34a70670537d046e851c340187060f8",
+      "bytes": 7046,
+      "executable": false,
+      "upstream_path": "skills/experimental-design/scripts/randomization.py"
+    }
+  ]
+}

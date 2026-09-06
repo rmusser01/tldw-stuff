@@ -1,15 +1,17 @@
 # Skills
 
-Optional skills from Anthropic, OpenAI, OpenClaw and Nous Research’s Hermes,
-plus two attributed Chatbook note adaptations and three original Office skills.
-The 60 items have source provenance, licenses and per-item requirements. All were
-checked with Chatbook’s directory importer: 57 preserved every file; three have
-explicitly documented omissions.
-No skill is automatically installed, trusted or executed.
+Optional skills from Anthropic, OpenAI, OpenClaw, Nous Research’s Hermes,
+Trail of Bits, Corey Haines, Matt Pocock and K-Dense, plus Chatbook adaptations
+and original Office workflows. The 69 items have provenance, licenses and per-item
+requirements. All were checked with Chatbook’s directory importer: 66 preserved
+every file; three have explicitly documented omissions. No skill is automatically
+installed, trusted or executed.
 
 Browse by collection: [Anthropic](anthropic/README.md), [OpenAI](openai/README.md),
 [OpenClaw](openclaw/README.md), [Hermes](hermes/README.md),
-[Chatbook skills](chatbook/README.md).
+[Chatbook](chatbook/README.md), [Trail of Bits](trailofbits/README.md),
+[Corey Haines](corey-haines/README.md), [Matt Pocock](matt-pocock/README.md),
+[K-Dense](k-dense/README.md).
 
 | Source | Skill | Use | License |
 | --- | --- | --- | --- |
@@ -74,11 +76,22 @@ Browse by collection: [Anthropic](anthropic/README.md), [OpenAI](openai/README.m
 | openclaw | [gog](openclaw/gog/README.md) | Google Workspace operations through the gog CLI. | MIT |
 | openclaw | [video-frames](openclaw/video-frames/README.md) | Extract video frames with ffmpeg. | MIT |
 
+| corey-haines | [content-strategy](corey-haines/content-strategy/README.md) | Plan content pillars, prioritized topics and distribution around audience needs. | MIT |
+| corey-haines | [copy-editing](corey-haines/copy-editing/README.md) | Edit marketing copy for clarity, specificity, voice and persuasive structure. | MIT |
+| corey-haines | [customer-research](corey-haines/customer-research/README.md) | Synthesize customer evidence, plan interviews and develop evidence-based personas. | MIT |
+| k-dense | [experimental-design](k-dense/experimental-design/README.md) | Plan study designs and generate seeded allocation schedules and DOE matrices. | MIT |
+| k-dense | [scientific-critical-thinking](k-dense/scientific-critical-thinking/README.md) | Evaluate scientific claims, methodology, biases and evidence quality. | MIT |
+| k-dense | [statistical-analysis](k-dense/statistical-analysis/README.md) | Choose statistical methods, check assumptions and report effects and uncertainty. | MIT |
+| matt-pocock | [grilling](matt-pocock/grilling/README.md) | Stress-test a plan through rounds of dependent decisions and questions. | MIT |
+| matt-pocock | [teach](matt-pocock/teach/README.md) | Create a source-grounded learning workspace with lessons and learning records. | MIT |
+| trailofbits | [property-based-testing](trailofbits/property-based-testing/COLLECTION.md) | Write, review and debug property-based tests across input domains. | CC-BY-SA-4.0 |
+
 [Import and compatibility](IMPORT.md) · [Selection review](REVIEW.md) ·
 [Verification results](verification.json)
 
 Each item contains provenance, checksums, licensing and attribution.
-Publisher snapshots retain original instructions and supporting files. Chatbook
+Publisher snapshots retain original instructions and supporting files. The two
+marketing reference-link relocations are documented in their manifests. Chatbook
 adaptations identify changes and original source hashes separately. Original
 Office skills record authorship and public API references in PROVENANCE.json. Consult the
 linked collection README before execution; host-specific dependencies remain

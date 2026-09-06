@@ -1,0 +1,74 @@
+{
+  "upstream_repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "upstream_commit": "1e5eeffbdad3749125afe7ab48a39694e27f181c",
+  "upstream_directory": "skills/scientific-critical-thinking",
+  "authors": "K-Dense Inc.",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "None to upstream skill files. Added a copy of the root license, collection documentation, provenance manifest and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+      "bytes": 1068,
+      "executable": false,
+      "upstream_path": "LICENSE.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "20880f5c2c2a03b6b40f15161c4f92c1ecfc7219252c44e9af3958cebb23c683",
+      "bytes": 10116,
+      "executable": false,
+      "upstream_path": "skills/scientific-critical-thinking/SKILL.md"
+    },
+    {
+      "path": "references/common_biases.md",
+      "sha256": "99f608c86075f1a1ab115a1cf4ecd54fe482266cb5e47761172894f21829f6cf",
+      "bytes": 11093,
+      "executable": false,
+      "upstream_path": "skills/scientific-critical-thinking/references/common_biases.md"
+    },
+    {
+      "path": "references/core_capabilities.md",
+      "sha256": "ed5e62032737893ef7eda9f60f6b3355f9081daa91bbfddb9340194bc8253351",
+      "bytes": 15984,
+      "executable": false,
+      "upstream_path": "skills/scientific-critical-thinking/references/core_capabilities.md"
+    },
+    {
+      "path": "references/evidence_hierarchy.md",
+      "sha256": "e58b6fbbd080938719c1c1ed08acb3b4c056e12e8ed9ef2ff250b8e9ebf9b74c",
+      "bytes": 13648,
+      "executable": false,
+      "upstream_path": "skills/scientific-critical-thinking/references/evidence_hierarchy.md"
+    },
+    {
+      "path": "references/experimental_design.md",
+      "sha256": "99023cfb10e455349f5e57fff75d34f80f3bba8842c48f5385ad7d0586f01b11",
+      "bytes": 16107,
+      "executable": false,
+      "upstream_path": "skills/scientific-critical-thinking/references/experimental_design.md"
+    },
+    {
+      "path": "references/logical_fallacies.md",
+      "sha256": "7911abe82bc05c8f513591e9b00572f21e5a631783cc00cd9dbf644b5eae28ce",
+      "bytes": 18014,
+      "executable": false,
+      "upstream_path": "skills/scientific-critical-thinking/references/logical_fallacies.md"
+    },
+    {
+      "path": "references/scientific_method.md",
+      "sha256": "09e709bdc7919a2b21825175aff5e0f9c26117a02ec654bfdb347fc8fa7ad0b7",
+      "bytes": 6100,
+      "executable": false,
+      "upstream_path": "skills/scientific-critical-thinking/references/scientific_method.md"
+    },
+    {
+      "path": "references/statistical_pitfalls.md",
+      "sha256": "c525ed590c36eef9dfca95c9c8bc2ab3e228e9247aa476a2c2ddcf07ffc62172",
+      "bytes": 15726,
+      "executable": false,
+      "upstream_path": "skills/scientific-critical-thinking/references/statistical_pitfalls.md"
+    }
+  ]
+}

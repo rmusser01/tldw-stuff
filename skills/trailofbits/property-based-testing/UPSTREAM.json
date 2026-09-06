@@ -1,0 +1,81 @@
+{
+  "upstream_repository": "https://github.com/trailofbits/skills",
+  "upstream_commit": "d3323cefbcf645678b8dc481de204b02ad3d02dc",
+  "upstream_directory": "plugins/property-based-testing/skills/property-based-testing",
+  "authors": "Trail of Bits",
+  "license": "CC-BY-SA-4.0",
+  "retrieved_on": "2026-09-05",
+  "modifications": "None to upstream skill files. Added a copy of the root license, collection documentation, provenance manifest and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+      "bytes": 20131,
+      "executable": false,
+      "upstream_path": "LICENSE"
+    },
+    {
+      "path": "README.md",
+      "sha256": "ffbe30eec09cc64fb1eae836b07ca1d82939bda3f1e6f0dceadcdd78793a3112",
+      "bytes": 15332,
+      "executable": false,
+      "upstream_path": "plugins/property-based-testing/skills/property-based-testing/README.md"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "9448cacb65c6237a7c22dc59602667177ecae405524079ae9ff92240590b995a",
+      "bytes": 4306,
+      "executable": false,
+      "upstream_path": "plugins/property-based-testing/skills/property-based-testing/SKILL.md"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "11a851b1841f3e828e7609045d91e0632cac07dfc008b2740f487cee83a5efd1",
+      "bytes": 128,
+      "executable": false,
+      "upstream_path": "plugins/property-based-testing/skills/property-based-testing/agents/openai.yaml"
+    },
+    {
+      "path": "assets/trail-of-bits-mark.svg",
+      "sha256": "4bf74c789b38dcf6ad762c136b6832363d27ae19fbaa9a18ec18d66ecce6ca05",
+      "bytes": 3084,
+      "executable": false,
+      "upstream_path": "plugins/property-based-testing/skills/property-based-testing/assets/trail-of-bits-mark.svg"
+    },
+    {
+      "path": "references/generating.md",
+      "sha256": "c0e72dfc89babe3c32de718b81b94044362c85e776d7475e950dfeaab78bb58e",
+      "bytes": 2634,
+      "executable": false,
+      "upstream_path": "plugins/property-based-testing/skills/property-based-testing/references/generating.md"
+    },
+    {
+      "path": "references/interpreting-failures.md",
+      "sha256": "dbae7db8773712ba03268a3d56ea5aa6720af0650a5189580bfd88aa2edc3f9a",
+      "bytes": 3426,
+      "executable": false,
+      "upstream_path": "plugins/property-based-testing/skills/property-based-testing/references/interpreting-failures.md"
+    },
+    {
+      "path": "references/libraries.md",
+      "sha256": "f7218acf8e668130ef3048983472579d04e12030c5401926f666363e5f69c686",
+      "bytes": 2952,
+      "executable": false,
+      "upstream_path": "plugins/property-based-testing/skills/property-based-testing/references/libraries.md"
+    },
+    {
+      "path": "references/refactoring.md",
+      "sha256": "6eb5c206f575704791f089608bb06e41d6eed91b9d3c7fb27912f969aed07a18",
+      "bytes": 4854,
+      "executable": false,
+      "upstream_path": "plugins/property-based-testing/skills/property-based-testing/references/refactoring.md"
+    },
+    {
+      "path": "references/reviewing.md",
+      "sha256": "110b08118a1e7b1a2566def6e9d2a0bf43fc2deefce857d2ce3b4382b07bc774",
+      "bytes": 2859,
+      "executable": false,
+      "upstream_path": "plugins/property-based-testing/skills/property-based-testing/references/reviewing.md"
+    }
+  ]
+}

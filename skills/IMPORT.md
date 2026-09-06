@@ -47,8 +47,8 @@ directories. Other files were preserved. See [verification.json](verification.js
 
 ## Host-specific assumptions
 
-Publisher snapshots are unchanged, so importing them does not translate their
-runtime assumptions. The two separately labeled Chatbook note adaptations do
+Publisher instructions retain their source behavior; the marketing reference-link
+relocations do not translate runtime assumptions. The two separately labeled Chatbook note adaptations do
 replace the original Notion workflow and tool mapping. Publisher-specific examples:
 
 - OpenAI notebook instructions refer to `$CODEX_HOME/skills/...`. On another host, resolve the script within the imported skill’s actual directory; importing into Chatbook does not create that Codex path.
@@ -109,3 +109,24 @@ read-back, targeted edits and non-overwrite checks. DOCX comments and formatting
 PPTX title/notes edits, and XLSX formula/chart/validation preservation were checked.
 There was no live LLM evaluation, visual rendering or spreadsheet-engine
 recalculation. See the exact versions and outcomes in [verification.json](verification.json).
+
+## Selected community collections
+
+The nine skills under [Trail of Bits](trailofbits/README.md),
+[Corey Haines](corey-haines/README.md), [Matt Pocock](matt-pocock/README.md), and
+[K-Dense](k-dense/README.md) passed native directory import with every file intact.
+Two marketing bundles include linked integration guides and relocated relative
+links so the guides remain available after import.
+
+Teach uses a local file/HTML learning workspace, not native Chatbook notes.
+Grilling explicitly assumes subagent delegation for environmental fact-finding.
+Marketing research/CMS workflows require the relevant authorized browsing,
+accounts and publishing tools; import grants none of those capabilities.
+K-Dense’s optional scientific-schematics integration is a separate skill and can
+send prompts to OpenRouter. It is not needed for core critical analysis.
+
+Three scientific Python helpers passed syntax parsing. The imported randomization
+helper also passed synthetic seed-replay and allocation-count checks. DOE and
+statistical-analysis runtime checks were not run because their dependencies were
+unavailable. No dependencies were installed and no live LLM evaluation or external
+service action was performed. Upstream example/API claims are not locally certified.

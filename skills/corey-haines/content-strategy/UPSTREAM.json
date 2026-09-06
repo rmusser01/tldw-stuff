@@ -1,0 +1,72 @@
+{
+  "upstream_repository": "https://github.com/coreyhaines31/marketingskills",
+  "upstream_commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+  "upstream_directory": "skills/content-strategy",
+  "authors": "Corey Haines",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Rebased integration-guide links in references/headless-cms.md to bundled references/integrations/. Included the linked upstream guides unchanged. All other upstream files unchanged; added collection documentation, copied root license, manifest and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "bytes": 1069,
+      "executable": false,
+      "upstream_path": "LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "0ad572d607884c561668810f77cd21bbe3e0508c64090f2997661a728360f946",
+      "bytes": 18711,
+      "executable": false,
+      "upstream_path": "skills/content-strategy/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sha256": "10167e7125ee77cbabe4f03953750dd99ea147f7461027fdbb0cf8e089e5506d",
+      "bytes": 10190,
+      "executable": false,
+      "upstream_path": "skills/content-strategy/evals/evals.json"
+    },
+    {
+      "path": "references/content-distribution.md",
+      "sha256": "1861a1aab0627ab29c279000879a9889242da1ba85e677acdc759c66a6241778",
+      "bytes": 5576,
+      "executable": false,
+      "upstream_path": "skills/content-strategy/references/content-distribution.md"
+    },
+    {
+      "path": "references/headless-cms.md",
+      "sha256": "f0ca93a53f7428a69c483c9a7e5ce9e90e231a560d9955823abcb48269cb3adc",
+      "bytes": 8388,
+      "executable": false,
+      "upstream_path": "skills/content-strategy/references/headless-cms.md",
+      "origin": "adapted",
+      "upstream_sha256": "c0a7b87f47c8f7af907ce73facf1ed4721ade811e53f86ddf22f4bc0d7ca324e"
+    },
+    {
+      "path": "references/integrations/contentful.md",
+      "sha256": "17526825260159bc60b3c8ba6e644acd30a7126397da1dc2b633f214037a1686",
+      "bytes": 4828,
+      "executable": false,
+      "origin": "upstream",
+      "upstream_path": "tools/integrations/contentful.md"
+    },
+    {
+      "path": "references/integrations/sanity.md",
+      "sha256": "f084bbd1d7d38f142c67c7877e4d57fc46f0452c145741eeee293b90fd34467a",
+      "bytes": 3690,
+      "executable": false,
+      "origin": "upstream",
+      "upstream_path": "tools/integrations/sanity.md"
+    },
+    {
+      "path": "references/integrations/strapi.md",
+      "sha256": "e78e9898f0aa05c8ef1d435a28c0c87467c8e00bfbfb9b9d7be11ff796bd654b",
+      "bytes": 4124,
+      "executable": false,
+      "origin": "upstream",
+      "upstream_path": "tools/integrations/strapi.md"
+    }
+  ]
+}

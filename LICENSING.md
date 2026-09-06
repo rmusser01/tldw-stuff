@@ -53,3 +53,17 @@ are original Apache-2.0 contributions, with a license copy and provenance in eac
 bundle. They reference public library APIs and credit the consulted Nous Research
 Hermes packs; no Hermes helpers or Anthropic proprietary Office content is copied
 into them. The separately imported Hermes helpers keep their MIT notices.
+
+## Community collection additions
+
+[Trail of Bits property-based-testing](skills/trailofbits/property-based-testing/COLLECTION.md)
+retains **CC BY-SA 4.0**, with the complete license, original README, mark and source
+attribution. The Apache default does not replace its attribution/share-alike terms.
+
+The selected [Corey Haines](skills/corey-haines/README.md),
+[Matt Pocock](skills/matt-pocock/README.md), and [K-Dense](skills/k-dense/README.md)
+skills retain **MIT** and their original copyright notices. Two marketing
+reference files have only relative-link relocations; the included integration
+guides are unchanged and retain Corey Haines’s MIT terms. Collection READMEs and
+indexes remain original Apache-2.0 documentation. Source/output hashes identify
+these changes separately.

@@ -1,0 +1,56 @@
+{
+  "upstream_repository": "https://github.com/coreyhaines31/marketingskills",
+  "upstream_commit": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+  "upstream_directory": "skills/customer-research",
+  "authors": "Corey Haines",
+  "license": "MIT",
+  "retrieved_on": "2026-09-05",
+  "modifications": "Rebased integration-guide links in references/source-guides.md to bundled references/integrations/. Included the linked upstream guides unchanged. All other upstream files unchanged; added collection documentation, copied root license, manifest and checksums.",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "bytes": 1069,
+      "executable": false,
+      "upstream_path": "LICENSE"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "ae4769147f63dd5aea1308a0fddd85473601164893f58111dce738738226317e",
+      "bytes": 14878,
+      "executable": false,
+      "upstream_path": "skills/customer-research/SKILL.md"
+    },
+    {
+      "path": "evals/evals.json",
+      "sha256": "fc8a15d12e582b55fa52ad27925594ab796ebd6a8ea13fed13722f97e4c51f01",
+      "bytes": 12547,
+      "executable": false,
+      "upstream_path": "skills/customer-research/evals/evals.json"
+    },
+    {
+      "path": "references/integrations/sparktoro.md",
+      "sha256": "00961feb89821d20b61ecc0a7bef196669190eac8bb2bbe8029fd596c5fd6118",
+      "bytes": 4719,
+      "executable": false,
+      "origin": "upstream",
+      "upstream_path": "tools/integrations/sparktoro.md"
+    },
+    {
+      "path": "references/interviews-and-surveys.md",
+      "sha256": "56adecdc40af1242464937100349fc1a161627394909551720494bc5ee537076",
+      "bytes": 8640,
+      "executable": false,
+      "upstream_path": "skills/customer-research/references/interviews-and-surveys.md"
+    },
+    {
+      "path": "references/source-guides.md",
+      "sha256": "cff91ffe0ac77972cd63e15c744dd2d359a1e5a05d7770fc507c1fec2f890a40",
+      "bytes": 16175,
+      "executable": false,
+      "upstream_path": "skills/customer-research/references/source-guides.md",
+      "origin": "adapted",
+      "upstream_sha256": "56682ea98d781060396fd4009739d071671b3489a0d4c81f0a0ef3078cb5c9ee"
+    }
+  ]
+}

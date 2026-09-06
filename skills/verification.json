@@ -124,6 +124,36 @@
       "skill_schema_validation": "passed: system skill-creator quick_validate.py"
     },
     {
+      "skill": "corey-haines/content-strategy",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 11,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 0,
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+    },
+    {
+      "skill": "corey-haines/copy-editing",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 9,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 0,
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+    },
+    {
+      "skill": "corey-haines/customer-research",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 9,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 0,
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+    },
+    {
       "skill": "hermes/airtable",
       "import": "passed",
       "omitted_files": [],
@@ -553,6 +583,58 @@
       "bash_syntax_files": 0
     },
     {
+      "skill": "k-dense/experimental-design",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 11,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 2,
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
+      "helper_checks": "Imported randomization helper passed deterministic seed replay, unique unit IDs, per-block allocation counts and per-stratum counts on synthetic complete blocks. DOE helper not executed: pyDOE3 unavailable. This does not validate every design or input boundary."
+    },
+    {
+      "skill": "k-dense/scientific-critical-thinking",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 12,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 0,
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+    },
+    {
+      "skill": "k-dense/statistical-analysis",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 11,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 1,
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
+      "helper_checks": "Python syntax checked only. Helper not executed: matplotlib and seaborn unavailable; extended examples also require additional packages. No dependency installation or statistical-method validation performed."
+    },
+    {
+      "skill": "matt-pocock/grilling",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 6,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 0,
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+    },
+    {
+      "skill": "matt-pocock/teach",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 10,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 0,
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+    },
+    {
       "skill": "openai/gh-address-comments",
       "omitted_files": [],
       "stored_files_byte_identical": 9,
@@ -604,6 +686,16 @@
       "stored_files_byte_identical": 6,
       "trust_status": "trust_locked",
       "upstream_checksums": "passed"
+    },
+    {
+      "skill": "trailofbits/property-based-testing",
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 13,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "python_syntax_files": 0,
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
     }
   ],
   "local_helper_smoke_checks": {
@@ -614,8 +706,8 @@
     "network_or_llm_calls": false
   },
   "source_preservation": {
-    "upstream_files_checked": 296,
-    "markdown_links_checked": 872,
+    "upstream_files_checked": 359,
+    "markdown_links_checked": 1010,
     "all_collection_checksums": "passed",
     "known_upstream_whitespace": [
       "anthropic/internal-comms/examples/3p-updates.md:4",
@@ -701,9 +793,9 @@
       "openai/security-threat-model/references/prompt-template.md:136"
     ],
     "whitespace_policy": "Upstream trailing whitespace is preserved byte-for-byte; collection-authored files must pass git diff --check.",
-    "adapted_files_checked": 9,
+    "adapted_files_checked": 11,
     "additional_adapter_files_checked": 5,
-    "tracked_payload_bytes": 2249933,
+    "tracked_payload_bytes": 2765384,
     "markdown_link_method": "CommonMark token parsing; local link and image targets checked, excluding code examples.",
     "unresolved_local_links": [],
     "tracked_payload_bytes_scope": "Files in publisher/adaptation UPSTREAM.json manifests; original Office bundle bytes are recorded separately."
@@ -730,5 +822,16 @@
     "scope": "Executed imported example scripts and targeted API edit fixtures in temporary directories. No live LLM evaluation, visual rendering, spreadsheet-engine recalculation or other-host import.",
     "static_checks": "Ruff lint and format checks passed for the three example scripts.",
     "bundle_bytes": 74429
+  },
+  "community_selection_checks": {
+    "verified_on": "2026-09-05",
+    "skill_count": 9,
+    "local_links_checked": 91,
+    "unresolved_local_links": [],
+    "source_link_relocations": [
+      "corey-haines/customer-research/references/source-guides.md",
+      "corey-haines/content-strategy/references/headless-cms.md"
+    ],
+    "helper_scope": "Synthetic imported randomization helper checks and three Python syntax parses. DOE/statistical-analysis dependencies unavailable; no installation, live LLM, live UI or external service actions. Bundled evaluations remain unexecuted upstream fixtures."
   }
 }
