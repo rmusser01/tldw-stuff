@@ -47,6 +47,7 @@ runtime assumptions:
 
 - OpenAI notebook instructions refer to `$CODEX_HOME/skills/...`. On another host, resolve the script within the imported skill’s actual directory; importing into Chatbook does not create that Codex path.
 - OpenClaw video examples use `{baseDir}`. It denotes the skill directory in OpenClaw; use the actual skill path when running the helper manually elsewhere. OpenClaw `metadata.requires` and `metadata.install` describe dependencies and do not install them through Chatbook.
+- Anthropic’s web-artifacts-builder downloads frontend packages, can install pnpm globally, and rebuilds output in its working directory. Its Claude display step does not automatically register an artifact with Chatbook. See its item README before running the scripts.
 - Anthropic examples may refer to Claude tooling such as WebFetch, browser helpers, or MCP clients. Configure equivalent authorized tools before using the workflow.
 
 Do not assume a skill’s example tool names grant permissions or that its

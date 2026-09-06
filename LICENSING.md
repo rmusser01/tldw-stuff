@@ -18,7 +18,7 @@ images, cards, or imported persona YAMLs. More specific notices take precedence.
 
 | Content | Applicable terms |
 | --- | --- |
-| [Selected Anthropic and OpenAI skills](skills/README.md) | Apache-2.0 under each skill’s unchanged upstream LICENSE.txt; per-item source and contributor attribution retained |
+| [Selected Anthropic and OpenAI skills](skills/README.md) | Apache-2.0 under each skill’s unchanged upstream LICENSE.txt; per-item source and contributor attribution retained. Artifact builder’s bundled shadcn/ui components retain [MIT](skills/anthropic/web-artifacts-builder/SHADCN_LICENSE.txt) with [third-party notices](skills/anthropic/web-artifacts-builder/THIRD_PARTY_NOTICES.md) |
 | [Selected OpenClaw skills](skills/openclaw/README.md) | MIT; upstream root license and OpenClaw Foundation copyright copied into each skill’s LICENSE.txt |
 | [Samira](character-packs/samira/README.md): original and adapted cards, portrait, expressions, and manifest | AGPL-3.0-or-later; [original asset notice](character-packs/samira/assets/characters/samira/ASSET_LICENSE.md) and [full text](LICENSES/AGPL-3.0-or-later.txt) |
 | [Default Assistant](character-packs/default-assistant/README.md): Chatbook JSON | [AGPL-3.0-or-later](LICENSES/AGPL-3.0-or-later.txt) |

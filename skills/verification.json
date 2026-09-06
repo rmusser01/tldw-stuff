@@ -30,6 +30,18 @@
       "upstream_checksums": "passed"
     },
     {
+      "skill": "anthropic/web-artifacts-builder",
+      "import": "passed",
+      "stored_files_byte_identical": 10,
+      "trust_status": "trust_locked",
+      "upstream_checksums": "passed",
+      "bash_syntax_files": 2,
+      "archive_members": 49,
+      "archive_uncompressed_bytes": 115785,
+      "archive_validation": "Only regular files/directories, no absolute or parent traversal paths, no symlinks.",
+      "runtime_build": "Not run; package installers and full artifact rendering were not exercised."
+    },
+    {
       "skill": "anthropic/webapp-testing",
       "import": "passed",
       "stored_files_byte_identical": 9,
@@ -73,8 +85,8 @@
     "network_or_llm_calls": false
   },
   "source_preservation": {
-    "upstream_files_checked": 48,
-    "markdown_links_checked": 311,
+    "upstream_files_checked": 54,
+    "markdown_links_checked": 328,
     "all_collection_checksums": "passed",
     "known_upstream_whitespace": [
       "anthropic/internal-comms/examples/3p-updates.md:4",

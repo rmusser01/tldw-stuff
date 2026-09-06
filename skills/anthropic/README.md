@@ -8,4 +8,6 @@ Selected from [anthropics/skills](https://github.com/anthropics/skills) at
 - [mcp-builder](mcp-builder/README.md): Design and evaluate MCP servers and tools.
 - [webapp-testing](webapp-testing/README.md): Test local web applications with Python Playwright.
 
+- [web-artifacts-builder](web-artifacts-builder/README.md): Build React interfaces and bundle them into a single HTML artifact.
+
 [Import guide](../IMPORT.md) · [Selection review](../REVIEW.md)

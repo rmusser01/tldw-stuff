@@ -3,14 +3,14 @@
 ## Scope and selection
 
 Reviewed the official catalogs for tasks relevant to Chatbook, tldw_server,
-and this optional content library. Selected eight compact skills with identifiable
+and this optional content library. Selected nine compact skills with identifiable
 redistribution terms, complete supporting files, and practical writing,
-research, media, or development uses. The selection totals 258,211 source bytes
+research, media, or development uses. The selection totals 305,114 source bytes
 including license copies; metadata and collection documentation add a little more.
 
 | Official repository | Pinned revision | Selected |
 | --- | --- | --- |
-| [anthropics/skills](https://github.com/anthropics/skills/tree/41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f) | `41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f` | 4 |
+| [anthropics/skills](https://github.com/anthropics/skills/tree/41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f) | `41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f` | 5 |
 | [openai/skills](https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431) | `49f948faa9258a0c61caceaf225e179651397431` | 2 |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw/tree/047587a542ce205ee78354fbd88ba8ec05c07844) | `047587a542ce205ee78354fbd88ba8ec05c07844` | 2 |
 
@@ -22,7 +22,7 @@ of every skill in these repositories.
 
 ## Why these skills
 
-- Anthropic: frontend design and internal communications are small reusable workflows; MCP building and browser testing provide supporting developer references and helpers.
+- Anthropic: frontend design and internal communications are small reusable workflows; MCP building and browser testing provide supporting developer references and helpers. The requested web-artifacts-builder adds project setup and single-file HTML bundling, with Apache-2.0 skill files and MIT shadcn/ui component notices.
 - OpenAI: notebooks support research artifacts; threat modeling is a focused developer reference.
 - OpenClaw: diagrams and video-frame extraction support knowledge and media workflows.
 
