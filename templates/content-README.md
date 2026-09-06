@@ -7,7 +7,7 @@
 | Field | Value |
 | --- | --- |
 | Content version | <Version of this item> |
-| Type | <Prompt, character pack, Buddy pack, persona archetype, skill, lorebook, or chatbook (knowledge pack)> |
+| Type | <Prompt, character pack, Buddy pack, persona archetype, skill, chat dictionary, or chatbook (knowledge pack)> |
 | Author | <Author or contributor> |
 | Source | <Original source URL, or original contribution> |
 | License | <Apache-2.0 for original contributions unless stated otherwise; identify and link any retained upstream or asset license> |

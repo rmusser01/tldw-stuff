@@ -44,13 +44,6 @@
       "upstream_checksums": "passed"
     },
     {
-      "skill": "openai/pdf",
-      "import": "passed",
-      "stored_files_byte_identical": 7,
-      "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
-    },
-    {
       "skill": "openai/security-threat-model",
       "import": "passed",
       "stored_files_byte_identical": 8,
@@ -58,30 +51,9 @@
       "upstream_checksums": "passed"
     },
     {
-      "skill": "openai/transcribe",
-      "import": "passed",
-      "stored_files_byte_identical": 10,
-      "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
-    },
-    {
       "skill": "openclaw/diagram-maker",
       "import": "passed",
       "stored_files_byte_identical": 7,
-      "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
-    },
-    {
-      "skill": "openclaw/openai-whisper",
-      "import": "passed",
-      "stored_files_byte_identical": 5,
-      "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
-    },
-    {
-      "skill": "openclaw/summarize",
-      "import": "passed",
-      "stored_files_byte_identical": 5,
       "trust_status": "trust_locked",
       "upstream_checksums": "passed"
     },
@@ -96,13 +68,13 @@
   "local_helper_smoke_checks": {
     "notebook_helper": "Both experiment and tutorial scaffolds generated and parsed as nbformat 4 with requested title. Notebook cells not executed.",
     "video_frame_helper": "Extracted a PNG from a synthetic 32x32, one-second video using the shipped script and local ffmpeg.",
-    "python_syntax_files": 8,
+    "python_syntax_files": 7,
     "shell_syntax": "passed",
     "network_or_llm_calls": false
   },
   "source_preservation": {
-    "upstream_files_checked": 63,
-    "markdown_links_checked": 347,
+    "upstream_files_checked": 48,
+    "markdown_links_checked": 311,
     "all_collection_checksums": "passed",
     "known_upstream_whitespace": [
       "anthropic/internal-comms/examples/3p-updates.md:4",

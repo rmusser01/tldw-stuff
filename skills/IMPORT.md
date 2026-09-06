@@ -45,10 +45,9 @@ remained untrusted in the verification store. See [verification.json](verificati
 The upstream files are unchanged, so importing them does not translate their
 runtime assumptions:
 
-- OpenAI notebook/transcription instructions refer to `$CODEX_HOME/skills/...`. On another host, resolve the script within the imported skill’s actual directory; importing into Chatbook does not create that Codex path.
+- OpenAI notebook instructions refer to `$CODEX_HOME/skills/...`. On another host, resolve the script within the imported skill’s actual directory; importing into Chatbook does not create that Codex path.
 - OpenClaw video examples use `{baseDir}`. It denotes the skill directory in OpenClaw; use the actual skill path when running the helper manually elsewhere. OpenClaw `metadata.requires` and `metadata.install` describe dependencies and do not install them through Chatbook.
 - Anthropic examples may refer to Claude tooling such as WebFetch, browser helpers, or MCP clients. Configure equivalent authorized tools before using the workflow.
-- The `summarize` skill uses the external summarize.sh CLI, not the tldw_server summarization endpoint. `transcribe` uses OpenAI’s API; `openai-whisper` uses a local Whisper installation and model weights.
 
 Do not assume a skill’s example tool names grant permissions or that its
 upstream installer metadata has been executed. Dependency and network needs
@@ -65,4 +64,4 @@ Chatbook file import, not a promise of automatic cross-host execution.
 Two local helper smoke checks passed: both notebook scaffold templates generated
 valid notebook JSON, and the video helper extracted a PNG from a synthetic clip.
 Python and shell syntax checks passed. These checks do not evaluate the quality
-of generated writing, diagrams, PDFs, threat models, or transcriptions.
+of generated writing, diagrams, or threat models.

@@ -8,7 +8,7 @@ Repository-authored documentation and original contributions are licensed under
 [Apache License 2.0](LICENSE), unless a file or pack states different terms.
 This includes collection indexes, import guides, contribution instructions,
 templates, and the newly authored item READMEs. The default applies to original
-contributions in prompts, skills, lorebooks, chatbooks, and other collections;
+contributions in prompts, skills, chatdictionaries, chatbooks, and other collections;
 imported material keeps its own terms.
 
 ## Retained content licenses

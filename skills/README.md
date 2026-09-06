@@ -1,7 +1,7 @@
 # Skills
 
 A small selection from the official Anthropic, OpenAI, and OpenClaw repositories,
-with complete attribution and pinned source snapshots. All 12 passed Chatbook’s
+with complete attribution and pinned source snapshots. All eight passed Chatbook’s
 native directory import and file-preservation check. The collection remains
 optional: no skill is automatically installed, trusted, or executed.
 
@@ -11,14 +11,10 @@ optional: no skill is automatically installed, trusted, or executed.
 | anthropic | [internal-comms](anthropic/internal-comms/README.md) | Status updates, incident reports, newsletters, and FAQs. | Apache-2.0 |
 | anthropic | [mcp-builder](anthropic/mcp-builder/README.md) | Design and evaluate MCP servers and tools. | Apache-2.0 |
 | anthropic | [webapp-testing](anthropic/webapp-testing/README.md) | Test local web applications with Python Playwright. | Apache-2.0 |
-| openai | [pdf](openai/pdf/README.md) | Create and inspect PDFs with a render-and-review workflow. | Apache-2.0 |
 | openai | [jupyter-notebook](openai/jupyter-notebook/README.md) | Build reproducible experiment and tutorial notebooks. | Apache-2.0 |
 | openai | [security-threat-model](openai/security-threat-model/README.md) | Document repository-specific trust boundaries and abuse paths. | Apache-2.0 |
-| openai | [transcribe](openai/transcribe/README.md) | Cloud audio transcription with optional speaker labels. | Apache-2.0 |
 | openclaw | [diagram-maker](openclaw/diagram-maker/README.md) | Create standalone SVG/HTML or editable Excalidraw diagrams. | MIT |
-| openclaw | [openai-whisper](openclaw/openai-whisper/README.md) | Transcribe audio locally with the Whisper CLI. | MIT |
 | openclaw | [video-frames](openclaw/video-frames/README.md) | Extract video frames with ffmpeg. | MIT |
-| openclaw | [summarize](openclaw/summarize/README.md) | Summarize articles, files, videos, and podcasts through summarize.sh. | MIT |
 
 [Import and compatibility](IMPORT.md) · [Selection review](REVIEW.md) ·
 [Verification results](verification.json)

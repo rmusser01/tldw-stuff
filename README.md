@@ -1,6 +1,6 @@
 # tldw-stuff
 
-Optional prompts, characters, personas, Buddy packs, skills, lorebooks, and chatbooks
+Optional prompts, characters, personas, Buddy packs, skills, chatdictionaries, and chatbooks
 (knowledge packs) for
 [tldw_chatbook](https://github.com/rmusser01/tldw_chatbook) and
 [tldw_server](https://github.com/rmusser01/tldw_server).
@@ -18,13 +18,13 @@ and import it into your own installation.
 | [Personas](personas/README.md) | Assistant setup archetypes with prompts and configuration defaults |
 | [Buddy packs](buddy-packs/README.md) | Persona Buddy visuals and animation packs |
 | [Skills](skills/README.md) | Agent skills and their supporting resources |
-| [Lorebooks](lorebooks/README.md) | World information and character context collections |
+| [Chat dictionaries](chatdictionaries/README.md) | Reusable chat dictionary entries and collections |
 | [Chatbooks](chatbooks/README.md) | Shareable knowledge packs and reference collections |
 
 The initial content includes three character packs, six persona archetypes, and
 seven finished Buddy packs. Six additional Buddy authoring scaffolds are labelled
-separately. Twelve attributed skills from Anthropic, OpenAI, and OpenClaw are
-also available. Prompts, lorebooks, and chatbooks are ready for contributions.
+separately. Eight attributed skills from Anthropic, OpenAI, and OpenClaw are
+also available. Prompts, chatdictionaries, and chatbooks are ready for contributions.
 
 ## Use only the content you want
 
