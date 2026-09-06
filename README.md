@@ -65,7 +65,11 @@ built-in content is not moved or removed by creating this collection.
 ## Licensing
 
 Repository-authored documentation and original contributions use
-**AGPL-3.0-or-later**, unless a file or pack states different terms. See
+**Apache-2.0**, unless a file or pack states different terms. See
 [LICENSE](LICENSE). Every content item must identify its license and source;
 third-party material retains its own license and attribution. Consult the
 item's README and included license files before reusing its assets.
+
+Default Buddy packs and character images are excluded from the Apache default.
+Existing AGPL, GPL, and supplied-art notices remain in effect. See the
+[license scope map](LICENSING.md) for the specific terms and full license texts.

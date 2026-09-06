@@ -39,6 +39,6 @@ separate, explicitly adapted file. The original card retains its creator metadat
 
 The card, portrait, and expressions carry the explicit
 [AGPL-3.0-or-later notice](assets/characters/samira/ASSET_LICENSE.md), with the
-[full license](../../LICENSE) at the repository root. The original notice records
+[full license](../../LICENSES/AGPL-3.0-or-later.txt) preserved in this repository. The original notice records
 which reactions were independently generated and identifies the source portrait.
 Server verification used commit `36b846628d7755e91e0d5539740a9f5c9a837966`.

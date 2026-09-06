@@ -4,7 +4,7 @@ The built-in general-purpose character, preserved as separate application defaul
 
 | File | Source and behavior | License |
 | --- | --- | --- |
-| [chatbook.character.json](chatbook.character.json) | Chatbook's enriched example card, including personality, system prompt, detailed greeting, and alternate greetings | [AGPL-3.0-or-later](../../LICENSE) |
+| [chatbook.character.json](chatbook.character.json) | Chatbook's enriched example card, including personality, system prompt, detailed greeting, and alternate greetings | [AGPL-3.0-or-later](../../LICENSES/AGPL-3.0-or-later.txt) |
 | [server.character.json](server.character.json) | Server's minimal general-purpose card and greeting, with no added system prompt | [GPL-3.0-only](SERVER_LICENSE.txt) |
 
 Content version: **1.0.0**, exported from fresh temporary databases on 2026-09-05.

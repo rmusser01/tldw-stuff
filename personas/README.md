@@ -26,7 +26,7 @@ uploads were not tested. Follow each README for the verified use path and limits
 
 The native YAMLs retain [GPL-3.0-only](LICENSE) from the
 [upstream license scope](https://github.com/rmusser01/tldw_server/blob/36b846628d7755e91e0d5539740a9f5c9a837966/LICENSE); this index and the new item READMEs follow
-this repository's [AGPL-3.0-or-later default](../LICENSE). Attribution:
+this repository's [Apache-2.0 default](../LICENSE). Attribution:
 Copyright (c) 2026 Robert Benjamin Jake Musser.
 
 The unchanged upstream scope notice is also preserved locally in

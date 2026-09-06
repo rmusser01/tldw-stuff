@@ -52,11 +52,12 @@ link. Keep the editable source or its documented upstream source available.
 
 ## Licensing and provenance
 
-Original contributions follow the repository's AGPL-3.0-or-later default unless
+Original contributions follow the repository's Apache-2.0 default unless
 explicitly marked otherwise. For imported or adapted work, preserve the source's
 license and attribution, identify modifications, and include the applicable
 license text. Record provenance and terms for text, artwork, and scripts
-separately if they differ. Do not submit material without permission to
+separately if they differ. Default Buddy packs and character images retain
+their specific terms; see [LICENSING.md](LICENSING.md). Do not submit material without permission to
 redistribute it; link to its upstream source instead when appropriate.
 
 ## Before submitting

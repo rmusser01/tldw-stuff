@@ -10,7 +10,7 @@
 | Type | <Prompt, character pack, Buddy pack, persona archetype, skill, lorebook, or chatbook (knowledge pack)> |
 | Author | <Author or contributor> |
 | Source | <Original source URL, or original contribution> |
-| License | <License identifier and relative link to applicable license text> |
+| License | <Apache-2.0 for original contributions unless stated otherwise; identify and link any retained upstream or asset license> |
 | Target | <Supported application or manual use> |
 | Tested with | <Application version or commit; explicitly mark other targets untested> |
 | Verified on | <YYYY-MM-DD> |

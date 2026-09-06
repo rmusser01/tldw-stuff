@@ -37,4 +37,4 @@ Tested with that commit and server `36b846628d7755e91e0d5539740a9f5c9a837966`.
 The maintainer supplied the original artwork and requested this collection copy.
 The artist is unspecified. The original `LicenseRef-User-Supplied` notice is
 preserved; no broader artwork license or copyright assignment is asserted, and
-the repository's default AGPL terms do not override that specific notice.
+the repository's default Apache-2.0 terms do not override that specific notice.

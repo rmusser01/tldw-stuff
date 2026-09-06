@@ -11,7 +11,7 @@ assistant setup seed containing a prompt and configuration defaults.
 | Type | Persona archetype YAML |
 | Author | Robert Benjamin Jake Musser / tldw_server contributors |
 | Source | [Pinned upstream YAML](https://github.com/rmusser01/tldw_server/blob/36b846628d7755e91e0d5539740a9f5c9a837966/tldw_Server_API/Config_Files/persona_archetypes/project_manager.yaml) |
-| License | YAML: [GPL-3.0-only](../LICENSE); README: [AGPL-3.0-or-later](../../LICENSE) |
+| License | YAML: [GPL-3.0-only](../LICENSE); README: [Apache-2.0](../../LICENSE) |
 | Target | tldw_server archetype loader and startup catalog |
 | Tested with | tldw_server commit `36b846628d7755e91e0d5539740a9f5c9a837966` |
 | Verified on | 2026-09-05 |
