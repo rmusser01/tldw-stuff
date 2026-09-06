@@ -13,12 +13,12 @@ Ground answers and documents in cited, verifiable sources.
 Collection documentation and attribution metadata are additions under the
 repository’s [Apache-2.0 default](../../../LICENSE). No upstream endorsement is implied.
 
-## Chatbook import limitation
+## Chatbook compatibility
 
-The tested Chatbook path validator rejects leading underscores and omits
-`scripts/_hermes_home.py`. This is a required, nonempty helper dependency.
-Use the complete repository directory for the helpers; the imported copy is
-incomplete for script execution. All other bundle files were preserved.
+The helper is distributed as `scripts/hermes_home.py` with its import statements
+adjusted, allowing the whole bundle through Chatbook’s directory and ZIP importer.
+Its implementation is unchanged. The manifest retains original paths and source
+hashes and identifies each adapted import statement; MIT notices are preserved.
 
 ## Requirements and use
 
@@ -37,8 +37,8 @@ work. The content itself grants none of those permissions.
 
 ## Verification and updates
 
-Content version: **1.0.0**. See [verification results](../../verification.json)
-for the pinned Chatbook import outcome, omissions, and any helper smoke checks.
+Content version: **1.0.1**. See [verification results](../../verification.json)
+for the pinned Chatbook import outcome and any helper smoke checks.
 File import is not runtime compatibility certification. Live service calls,
 authentication setup, workflow quality, and other-host imports were not tested.
 

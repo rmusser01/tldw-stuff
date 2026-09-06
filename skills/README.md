@@ -3,9 +3,10 @@
 Optional skills from Anthropic, OpenAI, OpenClaw, Nous Research’s Hermes,
 Trail of Bits, Corey Haines, Matt Pocock and K-Dense, plus Chatbook adaptations
 and original Office workflows. The 69 items have provenance, licenses and per-item
-requirements. All were checked with Chatbook’s directory importer: 66 preserved
-every file; three have explicitly documented omissions. No skill is automatically
-installed, trusted or executed.
+requirements. All 69 passed Chatbook directory and URL-to-ZIP installation with
+every distributed file preserved. No skill is automatically installed, trusted
+or executed. [Ask an agent to install one](../INSTALL.md) or use the
+[machine-readable catalog](catalog.json).
 
 Browse by collection: [Anthropic](anthropic/README.md), [OpenAI](openai/README.md),
 [OpenClaw](openclaw/README.md), [Hermes](hermes/README.md),
@@ -90,8 +91,9 @@ Browse by collection: [Anthropic](anthropic/README.md), [OpenAI](openai/README.m
 [Verification results](verification.json)
 
 Each item contains provenance, checksums, licensing and attribution.
-Publisher snapshots retain original instructions and supporting files. The two
-marketing reference-link relocations are documented in their manifests. Chatbook
+Publisher snapshots retain original instructions and supporting files. Five packs document minimal compatibility changes: two marketing reference-link
+relocations, two Hermes helper-module renames/import edits, and one omitted empty
+Anthropic Python package marker. Chatbook
 adaptations identify changes and original source hashes separately. Original
 Office skills record authorship and public API references in PROVENANCE.json. Consult the
 linked collection README before execution; host-specific dependencies remain

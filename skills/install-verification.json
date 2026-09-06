@@ -1,0 +1,75 @@
+{
+  "verified_on": "2026-09-05",
+  "chatbook_commit": "7584478d7a6562a1c3fb094a24e103706f1915f8",
+  "method": "Real directory import and full install_skill_from_url against a fixture GitHub ZIP transport using exact working-tree skill files. Fresh isolated stores, trust_approved=False; all distributed bytes and owner executable bits compared. UI confirmation and network fetch were not exercised by this fixture.",
+  "compatibility_checks": [
+    "skill-creator module packaging passed from the ZIP-imported namespace package; fixture SKILL.md preserved in output archive.",
+    "Both renamed Hermes helper modules imported from ZIP-installed bundles and resolved an isolated HERMES_HOME; no Google API or citation database execution."
+  ],
+  "skill_count": 69,
+  "all_distributed_files_preserved": true,
+  "external_cli": [
+    {
+      "agent": "claude-code",
+      "cli": "skills@1.5.23",
+      "scope": "isolated temporary project; --copy; local collection source",
+      "skills": 69,
+      "files_byte_identical": 594,
+      "activation": "not exercised in an agent session"
+    },
+    {
+      "agent": "codex",
+      "cli": "skills@1.5.23",
+      "scope": "isolated temporary project; --copy; local collection source",
+      "skills": 69,
+      "files_byte_identical": 594,
+      "activation": "not exercised in an agent session"
+    },
+    {
+      "agent": "openclaw",
+      "cli": "skills@1.5.23",
+      "scope": "isolated temporary project; --copy; local collection source",
+      "skills": 69,
+      "files_byte_identical": 594,
+      "activation": "not exercised in an agent session"
+    }
+  ],
+  "live_github_install": {
+    "source": "https://github.com/rmusser01/tldw-stuff/tree/f21ba5c653b9c27aa27a434aaac0570a3c16814f/skills/matt-pocock/teach",
+    "result": "passed",
+    "files_byte_identical": 10,
+    "trust_status": "trust_locked",
+    "scope": "Live GitHub fetch through install_skill_from_url into a temporary local store; no UI confirmation or skill execution."
+  },
+  "clawhub": {
+    "cli": "clawhub@0.23.3",
+    "node_version": "26.0.0",
+    "checks": [
+      "Published CLI help and install --help verified.",
+      "Live explore --limit 5 --sort downloads --json returned public registry entries.",
+      "Bare github inspect returned multiple owners and refused an ambiguous selection.",
+      "Owner-qualified inspect @steipete/github --json resolved the publisher and version 1.0.0."
+    ],
+    "scope": "Public registry inspection and version-pinned installation into a disposable workspace; no user profile changes, skill execution, login or publishing.",
+    "install_smoke": {
+      "cli": "clawhub@0.23.3",
+      "identity": "@steipete/github",
+      "version": "1.0.0",
+      "result": "passed",
+      "scope": "Version-pinned public registry download into a disposable workspace; SKILL.md matched inspected content and lock metadata was created. No skill execution, user profile installation, login or publishing.",
+      "installed_relative_path": "skills/@steipete/github",
+      "files": [
+        "_meta.json",
+        "SKILL.md",
+        "skill-card.md",
+        ".clawhub/origin.json"
+      ]
+    }
+  },
+  "limits": [
+    "No live LLM skill execution or automatic trust approval.",
+    "External CLI checks exercised local-source file placement in temporary projects; agent-session activation was not tested.",
+    "Chatbook full URL flow used fixture transport for all 69; one unchanged teach bundle additionally used a live GitHub download.",
+    "ClawHub query download URLs are not accepted directly by the current Chatbook URL classifier. The guide documents a verified-GitHub-source or authorized local-import route."
+  ]
+}

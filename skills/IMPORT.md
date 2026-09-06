@@ -1,5 +1,8 @@
 # Import and compatibility
 
+For a named-skill request handled by an agent, start with [INSTALL.md](../INSTALL.md)
+and [catalog.json](catalog.json).
+
 ## Chatbook local library
 
 1. Download the complete skill directory, preserving its relative paths and license files. For example, choose `skills/openai/jupyter-notebook`.
@@ -38,17 +41,17 @@ asyncio.run(main())
 The service import, stored file bytes, and owner executable bits were checked
 against Chatbook commit `7584478d7a6562a1c3fb094a24e103706f1915f8` on 2026-09-05.
 The UI route above was inspected in source, not driven in a live GUI. All skills
-remained untrusted in the verification store. The tested path validator rejects
-leading underscores. It omitted skill-creator’s
-empty `scripts/__init__.py`, and the nonempty `scripts/_hermes_home.py` dependency
-from Hermes google-workspace and grounded-citations. The latter two imported
-bundles are incomplete for helper execution; use their complete repository
-directories. Other files were preserved. See [verification.json](verification.json).
+remained untrusted in the verification store. All distributed files are now preserved by both directory and remote ZIP import.
+The two Hermes home helpers use import-compatible filenames, and Anthropic
+skill-creator omits an empty package marker while retaining Python namespace
+module execution. Exact source changes and original hashes are recorded in each
+pack’s manifest. See [verification.json](verification.json) and
+[installation checks](install-verification.json).
 
 ## Host-specific assumptions
 
-Publisher instructions retain their source behavior; the marketing reference-link
-relocations do not translate runtime assumptions. The two separately labeled Chatbook note adaptations do
+Publisher instructions retain their source behavior; the documented reference-link
+and Python module packaging fixes do not translate runtime assumptions. The two separately labeled Chatbook note adaptations do
 replace the original Notion workflow and tool mapping. Publisher-specific examples:
 
 - OpenAI notebook instructions refer to `$CODEX_HOME/skills/...`. On another host, resolve the script within the imported skill’s actual directory; importing into Chatbook does not create that Codex path.
@@ -63,10 +66,12 @@ the published copy remains traceable to its upstream revision.
 
 ## Other hosts and runtime verification
 
-Server, Codex, Claude, OpenClaw and Hermes host imports were not exercised. No live LLM
-workflows, cloud API calls, credential setup, model downloads, or dependency
-installations were performed. This is a reference collection with verified
-Chatbook file import, not a promise of automatic cross-host execution.
+Server imports and live agent-session activation were not exercised. The skills
+CLI installed all 69 bundles into disposable Codex, Claude Code and OpenClaw
+project directories with every file intact. Chatbook also passed one live GitHub
+URL download into an isolated store. CLI setup is distinct from skill-runtime
+dependencies: no skill account connections, LLM workflows or model downloads ran.
+See [install-verification.json](install-verification.json) for exact scopes.
 
 Initial local helper smoke checks passed: both notebook scaffold templates generated
 valid notebook JSON, and the video helper extracted a PNG from a synthetic clip.

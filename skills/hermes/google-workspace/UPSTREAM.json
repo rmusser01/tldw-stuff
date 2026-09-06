@@ -5,13 +5,20 @@
   "authors": "Nous Research",
   "license": "MIT",
   "retrieved_on": "2026-09-05",
-  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "modifications": "Renamed scripts/_hermes_home.py to scripts/hermes_home.py and adjusted Python imports so the complete bundle passes Chatbook directory and remote ZIP path validation. Helper implementation and all other upstream content unchanged. Added collection documentation, licenses, manifest and checksums.",
   "files": [
     {
       "path": "SKILL.md",
       "upstream_path": "skills/productivity/google-workspace/SKILL.md",
       "sha256": "5bdca0d898744fbf4d66df611116b5c776b1297b964fbcfd86b3004c20e46fd7",
       "bytes": 13670,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
       "executable": false
     },
     {
@@ -29,39 +36,39 @@
       "executable": false
     },
     {
-      "path": "scripts/_hermes_home.py",
+      "path": "scripts/google_api.py",
+      "upstream_path": "skills/productivity/google-workspace/scripts/google_api.py",
+      "sha256": "00a0dede70365093f9ccff5fe410620258f263e10ffe79c08a3b1aa49244c787",
+      "bytes": 43552,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_sha256": "d3822ef5cbdfad1d280fb619b9d85f2bdc0f8d8756398eb0189a126e8a6fbf89"
+    },
+    {
+      "path": "scripts/gws_bridge.py",
+      "upstream_path": "skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "sha256": "075d4da86998bb0d4eaf25119c0826058b98a3f76ce2c3a17ccb1cc91a8adfca",
+      "bytes": 4367,
+      "executable": true,
+      "origin": "adapted",
+      "upstream_sha256": "6bba56ab6d49ddab3cd16c2e189950633cbf1a9f4907cb7db5225ebe28313aee"
+    },
+    {
+      "path": "scripts/hermes_home.py",
       "upstream_path": "skills/productivity/google-workspace/scripts/_hermes_home.py",
       "sha256": "4d0f4393059688353bf8a3cca8118f08548edbae6f3c6ed477ff9f2d1205cff0",
       "bytes": 1636,
       "executable": false
     },
     {
-      "path": "scripts/google_api.py",
-      "upstream_path": "skills/productivity/google-workspace/scripts/google_api.py",
-      "sha256": "d3822ef5cbdfad1d280fb619b9d85f2bdc0f8d8756398eb0189a126e8a6fbf89",
-      "bytes": 43553,
-      "executable": false
-    },
-    {
-      "path": "scripts/gws_bridge.py",
-      "upstream_path": "skills/productivity/google-workspace/scripts/gws_bridge.py",
-      "sha256": "6bba56ab6d49ddab3cd16c2e189950633cbf1a9f4907cb7db5225ebe28313aee",
-      "bytes": 4368,
-      "executable": true
-    },
-    {
       "path": "scripts/setup.py",
       "upstream_path": "skills/productivity/google-workspace/scripts/setup.py",
-      "sha256": "ace45d12de9bbc408f03b88e78b8d5ed2a37f36e992164bcbe9708c5ba49883d",
-      "bytes": 20231,
-      "executable": false
-    },
-    {
-      "path": "UPSTREAM_ROOT_LICENSE.txt",
-      "upstream_path": "LICENSE",
-      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
-      "bytes": 1070,
-      "executable": false
+      "sha256": "eb71ece1f466b1dfb69ccd6f79befae929bcca2d60ab135db5d68b37c043d3a6",
+      "bytes": 20230,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_sha256": "ace45d12de9bbc408f03b88e78b8d5ed2a37f36e992164bcbe9708c5ba49883d"
     }
-  ]
+  ],
+  "collection_version": "1.0.1"
 }

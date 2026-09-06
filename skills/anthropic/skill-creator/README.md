@@ -10,8 +10,8 @@ with evaluation agents, benchmark helpers, an HTML review viewer, and a packager
 - Revision: `41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f`; retrieved 2026-09-05.
 - [Upstream history and contributors](https://github.com/anthropics/skills/commits/41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f/skills/skill-creator).
 - License: [Apache-2.0](LICENSE.txt); original notices preserved.
-- [SKILL.md](SKILL.md) and all upstream supporting files retain native paths and bytes.
-- [UPSTREAM.json](UPSTREAM.json) lists every source file, checksum, and executable flag; [SHA256SUMS](SHA256SUMS) verifies the snapshot.
+- [SKILL.md](SKILL.md) and included upstream supporting files retain native paths and bytes; only the empty scripts/__init__.py marker is omitted for import compatibility.
+- [UPSTREAM.json](UPSTREAM.json) lists included source files, checksums and executable flags, and records the omitted empty marker; [SHA256SUMS](SHA256SUMS) verifies the snapshot.
 
 This collection adds documentation, attribution metadata, and checksums. No
 upstream endorsement is implied. Collection documentation follows the
@@ -41,18 +41,17 @@ Package only the intended skill directory and put output outside that directory.
 ## Import and use
 
 Follow the [Chatbook directory import guide](../../IMPORT.md), selecting this
-exact directory or its SKILL.md. The tested Chatbook importer rejects path
-segments beginning with an underscore, so it omits the empty
-`scripts/__init__.py` package marker. The other 20 files are preserved byte for
-byte and the skill remains untrusted. The complete 21-file bundle is available
-here; run the helpers from this checkout for the exact upstream package layout.
+exact directory or its SKILL.md. The empty `scripts/__init__.py` marker is omitted
+so the complete distributed bundle passes directory and ZIP import. Python 3
+namespace-package execution (`python -m scripts.package_skill`) is verified.
+All included files are preserved and the skill remains pending trust review.
 Import does not install dependencies or grant execution permissions.
 
 Example request: “Help me improve a draft skill, create representative test prompts, and package the reviewed version.”
 
 ## Verification and updates
 
-Content version: **1.0.0**. See [verification.json](../../verification.json) for
+Content version: **1.0.1**. See [verification.json](../../verification.json) for
 the tested Chatbook revision and results. Validator accepted a valid fixture and rejected missing-description frontmatter; the packager preserved fixture file bytes and omitted cache files. Python syntax and native Chatbook directory import were checked. Claude evaluations, browser rendering, and viewer server mode were not run.
 Other-host imports were not tested.
 

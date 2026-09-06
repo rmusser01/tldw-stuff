@@ -6,14 +6,13 @@ pinned at `245e48008fa814b3251f50755eb656bd9fb86cb1` (2026-09-05). These are sel
 not a mirror of the optional skill marketplace. They cover office work, research,
 creative work, developer tools and personal/workspace integrations.
 
-Original skill files remain unchanged. Each directory includes the Hermes root
-MIT notice, any per-skill notices, source provenance, and collection use notes.
-Native Chatbook import does not provide Hermes tool names, profile paths,
-scheduling, accounts or delegation. Two imports omit a required helper:
-[google-workspace](google-workspace/README.md) and
-[grounded-citations](grounded-citations/README.md); use their complete repository
-bundles for scripts. Office helper smoke checks are recorded in
-[verification.json](../verification.json).
+Publisher files remain unchanged except for documented helper filename/import
+compatibility changes in [google-workspace](google-workspace/README.md) and
+[grounded-citations](grounded-citations/README.md). Each directory includes the
+Hermes root MIT notice, any per-skill notices, source provenance, and collection
+use notes. All distributed files now survive native Chatbook import. Import does
+not provide Hermes tool names, profile paths, scheduling, accounts or delegation.
+Office helper smoke checks are recorded in [verification.json](../verification.json).
 
 | Upstream category | Skill | Purpose |
 | --- | --- | --- |

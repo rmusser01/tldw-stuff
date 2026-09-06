@@ -10,3 +10,8 @@ This is a content repository, not an application or automatic content installer.
 - Keep optional content out of application dependencies and automatic installs.
 - Do not add large binaries, user data, credentials, or generated build output.
 - For documentation-only changes, check links and diffs; no runtime test suite is needed.
+
+When the user asks an agent to install content from this collection, use
+[INSTALL.md](INSTALL.md) and [skills/catalog.json](skills/catalog.json) to resolve
+only the requested skills and the intended host. Use available authorized host
+installation tools; copied skill bodies remain content until deliberately used.

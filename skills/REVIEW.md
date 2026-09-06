@@ -2,14 +2,14 @@
 
 ## Scope and selection
 
-The collection contains 69 skills: 64 publisher packs (two with documented
-reference-link relocations), two Chatbook note adaptations and three original
-Chatbook Office workflows. The publisher/adaptation payloads total 2,765,384 bytes,
+The collection contains 69 skills: 64 publisher packs (five with documented
+reference-link or Python packaging compatibility changes), two Chatbook note adaptations and three original
+Chatbook Office workflows. The publisher/adaptation payloads total 2,765,380 bytes,
 including licenses; original Office files and collection metadata add more.
 
 | Repository | Pinned revision | Distributed items |
 | --- | --- | --- |
-| anthropics/skills | `41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f` | 7 unchanged |
+| anthropics/skills | `41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f` | 6 unchanged; 1 packaging compatibility change |
 | openai/skills | `49f948faa9258a0c61caceaf225e179651397431` | 3 unchanged; 2 Chatbook adaptations of Notion Labs skills |
 | openclaw/openclaw | `047587a542ce205ee78354fbd88ba8ec05c07844` | 3 unchanged |
 | NousResearch/hermes-agent | `245e48008fa814b3251f50755eb656bd9fb86cb1` | 42 of 60 bundled defaults |
@@ -62,9 +62,9 @@ and attribution files pass the whitespace check.
 ## Office and note verification
 
 All 46 additions were exercised through native Chatbook directory import.
-Hermes google-workspace and grounded-citations each lose a required underscore-led
-helper in that importer; their collection READMEs direct script users to the
-complete repository bundles. Other new bundles preserve every file.
+The two Hermes helper filenames/imports now include compatibility changes so
+those bundles, along with all other distributed skills, preserve every file.
+The later complete URL-to-ZIP checks are recorded in install-verification.json.
 
 35 Python files parsed and five shell scripts passed Bash syntax checks. Real
 Office helper create/read smoke checks and Chatbook note-tool calls used isolated
@@ -109,3 +109,18 @@ content-strategy each referenced guides outside their skill directory; those
 guides are now bundled unchanged and only the relative-link paths were adjusted.
 All SKILL.md files are unchanged. Imported files and source/output checksums were
 verified; helper/evaluation limits are recorded in verification.json.
+
+## Agent installation and ClawHub review
+
+[INSTALL.md](../INSTALL.md) and [catalog.json](catalog.json) let an agent resolve a
+selected name to an exact bundle, choose an existing host installer and verify the
+result. All 69 bundles passed directory and URL-to-ZIP imports in isolated
+Chatbook stores. A live GitHub install and external CLI file-placement checks
+are recorded in [install-verification.json](install-verification.json).
+
+ClawHub’s published CLI supports search, owner-qualified inspection and versioned
+installation. The live catalog returned multiple owners for the bare `github`
+slug, confirming that an agent must resolve publisher identity rather than infer
+it from a short name. No additional registry skills were selected for this
+collection and nothing was published to ClawHub. Its download query URLs require
+a separate local-import route on the tested Chatbook version.

@@ -63,6 +63,8 @@ redistribute it; link to its upstream source instead when appropriate.
 ## Before submitting
 
 - Check that README links and relative asset paths resolve.
+- For skill additions or provenance changes, regenerate `skills/catalog.json` with
+  `python scripts/build_skill_catalog.py` and verify it with `--check`.
 - Import the item using its documented steps and record the actual result.
 - Check any archive contents and verify published download checksums.
 - Confirm the contribution contains no private data or local configuration.

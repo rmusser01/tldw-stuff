@@ -5,13 +5,20 @@
   "authors": "Hermes Agent + Teknium",
   "license": "MIT",
   "retrieved_on": "2026-09-05",
-  "modifications": "Upstream files copied unchanged. Added collection documentation, source manifest, checksums and, where applicable, the upstream root license.",
+  "modifications": "Renamed scripts/_hermes_home.py to scripts/hermes_home.py and adjusted Python imports so the complete bundle passes Chatbook directory and remote ZIP path validation. Helper implementation and all other upstream content unchanged. Added collection documentation, licenses, manifest and checksums.",
   "files": [
     {
       "path": "SKILL.md",
       "upstream_path": "skills/research/grounded-citations/SKILL.md",
       "sha256": "ef300e11c138551da201c8e750cb41060f0bdd47c3b3f2028004e841750a6f54",
       "bytes": 12434,
+      "executable": false
+    },
+    {
+      "path": "UPSTREAM_ROOT_LICENSE.txt",
+      "upstream_path": "LICENSE",
+      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
+      "bytes": 1070,
       "executable": false
     },
     {
@@ -29,7 +36,7 @@
       "executable": false
     },
     {
-      "path": "scripts/_hermes_home.py",
+      "path": "scripts/hermes_home.py",
       "upstream_path": "skills/research/grounded-citations/scripts/_hermes_home.py",
       "sha256": "4bfa31ce48ffaca3ae3fdd2ba5f093a2bedc34b057eec22a38f46e2d68b333d4",
       "bytes": 836,
@@ -38,16 +45,12 @@
     {
       "path": "scripts/sources.py",
       "upstream_path": "skills/research/grounded-citations/scripts/sources.py",
-      "sha256": "a867ae6ba99166b4114bfef1c15b57036e286fe22c48534caec28cc8335bde0c",
-      "bytes": 25808,
-      "executable": false
-    },
-    {
-      "path": "UPSTREAM_ROOT_LICENSE.txt",
-      "upstream_path": "LICENSE",
-      "sha256": "821556e6336796450ab852d375117b48a4887e71d255794fd6318d99982a5ab6",
-      "bytes": 1070,
-      "executable": false
+      "sha256": "520206da73f794bb438e79495b7c69eb096b9ff73ef3dae0b1819ea93de0859c",
+      "bytes": 25807,
+      "executable": false,
+      "origin": "adapted",
+      "upstream_sha256": "a867ae6ba99166b4114bfef1c15b57036e286fe22c48534caec28cc8335bde0c"
     }
-  ]
+  ],
+  "collection_version": "1.0.1"
 }

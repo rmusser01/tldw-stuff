@@ -5,7 +5,7 @@
   "authors": "Anthropic, PBC and upstream contributors",
   "license": "Apache-2.0",
   "retrieved_on": "2026-09-05",
-  "modifications": "No upstream files changed. Added collection README, attribution metadata, and checksums.",
+  "modifications": "Omitted only the empty scripts/__init__.py marker for Chatbook ZIP path compatibility. Python 3 namespace-package module execution retained. Other upstream skill files unchanged; added collection documentation, manifest and checksums.",
   "files": [
     {
       "path": "LICENSE.txt",
@@ -71,13 +71,6 @@
       "executable": false
     },
     {
-      "path": "scripts/__init__.py",
-      "upstream_path": "skills/skill-creator/scripts/__init__.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0,
-      "executable": false
-    },
-    {
       "path": "scripts/aggregate_benchmark.py",
       "upstream_path": "skills/skill-creator/scripts/aggregate_benchmark.py",
       "sha256": "123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
@@ -133,5 +126,16 @@
       "bytes": 1661,
       "executable": false
     }
-  ]
+  ],
+  "omitted_upstream_files": [
+    {
+      "path": "scripts/__init__.py",
+      "upstream_path": "skills/skill-creator/scripts/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "executable": false,
+      "reason": "Empty package marker omitted for Chatbook ZIP path compatibility; Python 3 namespace-package module execution is verified."
+    }
+  ],
+  "collection_version": "1.0.1"
 }

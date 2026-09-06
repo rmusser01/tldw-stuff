@@ -28,6 +28,16 @@ Hermes, Trail of Bits, Corey Haines, Matt Pocock, K-Dense and Chatbook contribut
 are also available. Prompts, chatdictionaries,
 and chatbooks are ready for contributions.
 
+## Ask an agent to install a skill
+
+“Install `teach` from `rmusser01/tldw-stuff` into Chatbook.”
+
+Give the agent [INSTALL.md](INSTALL.md). It maps names through the
+[skill catalog](skills/catalog.json) and uses Chatbook’s built-in installer or
+existing Codex, Claude Code, OpenClaw and ClawHub tools. It installs only the
+requested bundles and verifies the result. Chatbook retains its own installation
+confirmation and trust-review flow.
+
 ## Use only the content you want
 
 Open an item's README for its files, requirements, tested app versions, and
@@ -61,7 +71,8 @@ the contribution guide explains how to keep the source tree small.
 ## Relationship to the applications
 
 This repository is an optional content reference. It has no application runtime,
-package dependency, automatic downloader, or installer. Application behavior and
+package dependency or automatic content installation. Requested installations use
+the existing host tools described in [INSTALL.md](INSTALL.md). Application behavior and
 bundled defaults remain controlled by the application repositories. Existing
 built-in content is not moved or removed by creating this collection.
 

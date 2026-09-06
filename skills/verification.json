@@ -1,11 +1,11 @@
 {
   "verified_on": "2026-09-05",
   "chatbook_commit": "7584478d7a6562a1c3fb094a24e103706f1915f8",
-  "method": "Native LocalSkillsService.import_skill_directory and get_skill against fresh temporary stores at the pinned Chatbook commit. No trust approval or automatic script execution. Stored bytes and owner executable bits checked; three bundles have the explicit filename omissions recorded below. Additional offline helper checks are listed separately.",
+  "method": "Real directory import and full install_skill_from_url against a fixture GitHub ZIP transport using exact working-tree skill files. Fresh isolated stores, trust_approved=False; all distributed bytes and owner executable bits compared. UI confirmation and network fetch were not exercised by this fixture. See install-verification.json for CLI and live download checks.",
   "scope_limits": [
-    "No live UI, server, Codex, Claude, OpenClaw or Hermes host import exercised.",
-    "No LLM workflow, network API, model download, or skill dependency installation performed.",
-    "Publisher snapshots retain host-specific paths and tool names. Chatbook adaptations/original skills state their own tool assumptions. Successful import is not runtime compatibility certification."
+    "No live UI, server, Claude, Codex, OpenClaw or Hermes agent-session activation exercised.",
+    "No LLM skill workflow, skill account integration or skill-runtime dependency installation performed. Installer CLI and network checks are in install-verification.json.",
+    "Successful file installation is not workflow execution or automatic trust approval."
   ],
   "skills": [
     {
@@ -13,33 +13,38 @@
       "import": "passed",
       "stored_files_byte_identical": 5,
       "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
+      "upstream_checksums": "passed",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport",
+      "omitted_files": []
     },
     {
       "skill": "anthropic/internal-comms",
       "import": "passed",
       "stored_files_byte_identical": 9,
       "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
+      "upstream_checksums": "passed",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport",
+      "omitted_files": []
     },
     {
       "skill": "anthropic/mcp-builder",
       "import": "passed",
       "stored_files_byte_identical": 13,
       "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
+      "upstream_checksums": "passed",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport",
+      "omitted_files": []
     },
     {
       "skill": "anthropic/skill-creator",
-      "omitted_files": [
-        "scripts/__init__.py"
-      ],
+      "omitted_files": [],
       "stored_files_byte_identical": 20,
       "trust_status": "trust_locked",
       "upstream_checksums": "passed",
       "python_syntax_files": 10,
       "local_helper_checks": "Validator accepted valid fixture and rejected missing description; packager preserved two files and excluded cache content. No Claude invocation or viewer launch.",
-      "import": "passed_with_file_omission"
+      "import": "passed",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "anthropic/theme-factory",
@@ -49,7 +54,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "anthropic/web-artifacts-builder",
@@ -61,14 +67,18 @@
       "archive_members": 49,
       "archive_uncompressed_bytes": 115785,
       "archive_validation": "Only regular files/directories, no absolute or parent traversal paths, no symlinks.",
-      "runtime_build": "Not run; package installers and full artifact rendering were not exercised."
+      "runtime_build": "Not run; package installers and full artifact rendering were not exercised.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport",
+      "omitted_files": []
     },
     {
       "skill": "anthropic/webapp-testing",
       "import": "passed",
       "stored_files_byte_identical": 9,
       "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
+      "upstream_checksums": "passed",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport",
+      "omitted_files": []
     },
     {
       "skill": "chatbook/chatbook-docx",
@@ -77,7 +87,8 @@
       "stored_files_byte_identical": 7,
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
-      "skill_schema_validation": "passed: system skill-creator quick_validate.py"
+      "skill_schema_validation": "passed: system skill-creator quick_validate.py",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "chatbook/chatbook-knowledge-capture",
@@ -90,7 +101,8 @@
       "bash_syntax_files": 0,
       "note_tool_checks": "See office_and_notes_smoke_checks.chatbook_note_tools; real isolated SQLite tool calls, not an LLM evaluation.",
       "behavioral_evaluation": "Three review scenarios supplied; no live LLM execution.",
-      "skill_schema_validation": "passed: system skill-creator quick_validate.py"
+      "skill_schema_validation": "passed: system skill-creator quick_validate.py",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "chatbook/chatbook-meeting-preparation",
@@ -103,7 +115,8 @@
       "bash_syntax_files": 0,
       "note_tool_checks": "See office_and_notes_smoke_checks.chatbook_note_tools; real isolated SQLite tool calls, not an LLM evaluation.",
       "behavioral_evaluation": "Three review scenarios supplied; no live LLM execution.",
-      "skill_schema_validation": "passed: system skill-creator quick_validate.py"
+      "skill_schema_validation": "passed: system skill-creator quick_validate.py",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "chatbook/chatbook-pptx",
@@ -112,7 +125,8 @@
       "stored_files_byte_identical": 7,
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
-      "skill_schema_validation": "passed: system skill-creator quick_validate.py"
+      "skill_schema_validation": "passed: system skill-creator quick_validate.py",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "chatbook/chatbook-xlsx",
@@ -121,7 +135,8 @@
       "stored_files_byte_identical": 7,
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
-      "skill_schema_validation": "passed: system skill-creator quick_validate.py"
+      "skill_schema_validation": "passed: system skill-creator quick_validate.py",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "corey-haines/content-strategy",
@@ -131,7 +146,8 @@
       "trust_status": "trust_locked",
       "upstream_checksums": "passed",
       "python_syntax_files": 0,
-      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "corey-haines/copy-editing",
@@ -141,7 +157,8 @@
       "trust_status": "trust_locked",
       "upstream_checksums": "passed",
       "python_syntax_files": 0,
-      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "corey-haines/customer-research",
@@ -151,7 +168,8 @@
       "trust_status": "trust_locked",
       "upstream_checksums": "passed",
       "python_syntax_files": 0,
-      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/airtable",
@@ -161,7 +179,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/apple-notes",
@@ -171,7 +190,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/apple-reminders",
@@ -181,7 +201,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/arxiv",
@@ -191,7 +212,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 1,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/ascii-video",
@@ -201,7 +223,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/blocked-page-recovery",
@@ -211,7 +234,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 1,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/box",
@@ -221,7 +245,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/codebase-inspection",
@@ -231,7 +256,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/competitor-news-monitor",
@@ -241,7 +267,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/design-md",
@@ -251,7 +278,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/document-to-action-items",
@@ -261,7 +289,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/docx",
@@ -272,7 +301,8 @@
       "distributed_checksums": "passed",
       "python_syntax_files": 9,
       "bash_syntax_files": 0,
-      "local_helper_checks": "Create/read helpers passed on an isolated DOCX with heading, paragraph and table; independently reopened with python-docx. No layout rendering, tracked changes or comments exercised."
+      "local_helper_checks": "Create/read helpers passed on an isolated DOCX with heading, paragraph and table; independently reopened with python-docx. No layout rendering, tracked changes or comments exercised.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/dogfood",
@@ -282,7 +312,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/email-inbox-triage",
@@ -292,7 +323,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/findmy",
@@ -302,7 +334,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/gif-search",
@@ -312,7 +345,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/github",
@@ -322,33 +356,30 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 1,
-      "bash_syntax_files": 1
+      "bash_syntax_files": 1,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/google-workspace",
-      "import": "passed_with_file_omission",
-      "omitted_files": [
-        "scripts/_hermes_home.py"
-      ],
-      "stored_files_byte_identical": 10,
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 11,
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 4,
       "bash_syntax_files": 0,
-      "runtime_limitation": "Imported copy lacks a nonempty helper dependency. Use the complete repository bundle; do not execute the incomplete imported helpers."
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/grounded-citations",
-      "import": "passed_with_file_omission",
-      "omitted_files": [
-        "scripts/_hermes_home.py"
-      ],
-      "stored_files_byte_identical": 8,
+      "import": "passed",
+      "omitted_files": [],
+      "stored_files_byte_identical": 9,
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 2,
       "bash_syntax_files": 0,
-      "runtime_limitation": "Imported copy lacks a nonempty helper dependency. Use the complete repository bundle; do not execute the incomplete imported helpers."
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/himalaya",
@@ -358,7 +389,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/humanizer",
@@ -368,7 +400,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/imessage",
@@ -378,7 +411,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/llm-wiki",
@@ -388,7 +422,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/manim-video",
@@ -398,7 +433,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 1
+      "bash_syntax_files": 1,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/maps",
@@ -408,7 +444,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 1,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/meeting-action-items",
@@ -418,7 +455,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/node-inspect-debugger",
@@ -428,7 +466,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/notion",
@@ -438,7 +477,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/obsidian",
@@ -448,7 +488,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/p5js",
@@ -458,7 +499,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 3
+      "bash_syntax_files": 3,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/powerpoint",
@@ -469,7 +511,8 @@
       "distributed_checksums": "passed",
       "python_syntax_files": 6,
       "bash_syntax_files": 0,
-      "local_helper_checks": "Create/read helpers passed for a two-slide deck with bullets and speaker notes; independently reopened with python-pptx. No visual rendering or PDF export exercised."
+      "local_helper_checks": "Create/read helpers passed for a two-slide deck with bullets and speaker notes; independently reopened with python-pptx. No visual rendering or PDF export exercised.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/product-price-monitor",
@@ -479,7 +522,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/python-debugpy",
@@ -489,7 +533,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/reddit-reading",
@@ -499,7 +544,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 1,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/rss-feeds",
@@ -509,7 +555,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 1,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/simplify-code",
@@ -519,7 +566,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/songsee",
@@ -529,7 +577,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/songwriting-and-ai-music",
@@ -539,7 +588,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/teams-meeting-pipeline",
@@ -549,7 +599,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/weekly-review-planning",
@@ -559,7 +610,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/xlsx",
@@ -570,7 +622,8 @@
       "distributed_checksums": "passed",
       "python_syntax_files": 8,
       "bash_syntax_files": 0,
-      "local_helper_checks": "Create/read helpers preserved a worksheet, cell values, SUM formula and freeze pane; independently reopened with openpyxl. Formulas were not recalculated; no cached-result claim."
+      "local_helper_checks": "Create/read helpers preserved a worksheet, cell values, SUM formula and freeze pane; independently reopened with openpyxl. Formulas were not recalculated; no cached-result claim.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "hermes/xurl",
@@ -580,7 +633,8 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "k-dense/experimental-design",
@@ -591,7 +645,8 @@
       "upstream_checksums": "passed",
       "python_syntax_files": 2,
       "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
-      "helper_checks": "Imported randomization helper passed deterministic seed replay, unique unit IDs, per-block allocation counts and per-stratum counts on synthetic complete blocks. DOE helper not executed: pyDOE3 unavailable. This does not validate every design or input boundary."
+      "helper_checks": "Imported randomization helper passed deterministic seed replay, unique unit IDs, per-block allocation counts and per-stratum counts on synthetic complete blocks. DOE helper not executed: pyDOE3 unavailable. This does not validate every design or input boundary.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "k-dense/scientific-critical-thinking",
@@ -601,7 +656,8 @@
       "trust_status": "trust_locked",
       "upstream_checksums": "passed",
       "python_syntax_files": 0,
-      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "k-dense/statistical-analysis",
@@ -612,7 +668,8 @@
       "upstream_checksums": "passed",
       "python_syntax_files": 1,
       "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
-      "helper_checks": "Python syntax checked only. Helper not executed: matplotlib and seaborn unavailable; extended examples also require additional packages. No dependency installation or statistical-method validation performed."
+      "helper_checks": "Python syntax checked only. Helper not executed: matplotlib and seaborn unavailable; extended examples also require additional packages. No dependency installation or statistical-method validation performed.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "matt-pocock/grilling",
@@ -622,7 +679,8 @@
       "trust_status": "trust_locked",
       "upstream_checksums": "passed",
       "python_syntax_files": 0,
-      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "matt-pocock/teach",
@@ -632,7 +690,8 @@
       "trust_status": "trust_locked",
       "upstream_checksums": "passed",
       "python_syntax_files": 0,
-      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "openai/gh-address-comments",
@@ -647,28 +706,35 @@
         "Mixed pagination can duplicate completed connections.",
         "Inline thread comment lists are capped at 100."
       ],
-      "import": "passed"
+      "import": "passed",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "openai/jupyter-notebook",
       "import": "passed",
       "stored_files_byte_identical": 15,
       "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
+      "upstream_checksums": "passed",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport",
+      "omitted_files": []
     },
     {
       "skill": "openai/security-threat-model",
       "import": "passed",
       "stored_files_byte_identical": 8,
       "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
+      "upstream_checksums": "passed",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport",
+      "omitted_files": []
     },
     {
       "skill": "openclaw/diagram-maker",
       "import": "passed",
       "stored_files_byte_identical": 7,
       "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
+      "upstream_checksums": "passed",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport",
+      "omitted_files": []
     },
     {
       "skill": "openclaw/gog",
@@ -678,14 +744,17 @@
       "trust_status": "trust_locked",
       "distributed_checksums": "passed",
       "python_syntax_files": 0,
-      "bash_syntax_files": 0
+      "bash_syntax_files": 0,
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     },
     {
       "skill": "openclaw/video-frames",
       "import": "passed",
       "stored_files_byte_identical": 6,
       "trust_status": "trust_locked",
-      "upstream_checksums": "passed"
+      "upstream_checksums": "passed",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport",
+      "omitted_files": []
     },
     {
       "skill": "trailofbits/property-based-testing",
@@ -695,7 +764,8 @@
       "trust_status": "trust_locked",
       "upstream_checksums": "passed",
       "python_syntax_files": 0,
-      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures."
+      "behavioral_evaluation": "Not run; any bundled evaluations are unexecuted upstream fixtures.",
+      "remote_install": "passed: full install_skill_from_url with fixture GitHub transport"
     }
   ],
   "local_helper_smoke_checks": {
@@ -706,8 +776,8 @@
     "network_or_llm_calls": false
   },
   "source_preservation": {
-    "upstream_files_checked": 359,
-    "markdown_links_checked": 1010,
+    "upstream_files_checked": 354,
+    "markdown_links_checked": 1027,
     "all_collection_checksums": "passed",
     "known_upstream_whitespace": [
       "anthropic/internal-comms/examples/3p-updates.md:4",
@@ -793,9 +863,9 @@
       "openai/security-threat-model/references/prompt-template.md:136"
     ],
     "whitespace_policy": "Upstream trailing whitespace is preserved byte-for-byte; collection-authored files must pass git diff --check.",
-    "adapted_files_checked": 11,
+    "adapted_files_checked": 15,
     "additional_adapter_files_checked": 5,
-    "tracked_payload_bytes": 2765384,
+    "tracked_payload_bytes": 2765380,
     "markdown_link_method": "CommonMark token parsing; local link and image targets checked, excluding code examples.",
     "unresolved_local_links": [],
     "tracked_payload_bytes_scope": "Files in publisher/adaptation UPSTREAM.json manifests; original Office bundle bytes are recorded separately."
@@ -833,5 +903,6 @@
       "corey-haines/content-strategy/references/headless-cms.md"
     ],
     "helper_scope": "Synthetic imported randomization helper checks and three Python syntax parses. DOE/statistical-analysis dependencies unavailable; no installation, live LLM, live UI or external service actions. Bundled evaluations remain unexecuted upstream fixtures."
-  }
+  },
+  "installation_verification": "install-verification.json"
 }
