@@ -18,6 +18,26 @@ voice settings, starter commands, and optional Buddy metadata. They are not
 character cards or Persona Buddy visual packs. The pinned server already includes
 them; downloading this repository does not change application defaults.
 
+## Buddy companions
+
+The [finished Buddy packs](../buddy-packs/README.md#finished-packs) are published
+separately and can be attached to a saved Persona through the
+[Buddy import workflow](../buddy-packs/IMPORT.md). The archetype YAMLs do not name
+visual-pack IDs or contain artwork. Their original Buddy seed metadata is:
+
+| Persona | Species | Palette | Silhouette |
+| --- | --- | --- | --- |
+| Blank Canvas | None | None | None |
+| Project Manager | beaver | earth | standing |
+| Research Assistant | owl | warm | round |
+| Roleplayer | fox | twilight | playful |
+| Study Buddy | dog | cheerful | round |
+| Writing Coach | cat | cool | sitting |
+
+These seeds are setup suggestions. The collection does not include matching
+animal-art packs or define a one-to-one pairing with the finished visual packs.
+Choose a published visual pack independently when configuring the Persona.
+
 All six passed the real tldw_server archetype loader and schema at commit
 [`36b846628d77`](https://github.com/rmusser01/tldw_server/blob/36b846628d7755e91e0d5539740a9f5c9a837966/tldw_Server_API/app/core/Persona/archetype_loader.py)
 on 2026-09-05. Verification covered individual-directory loading and in-memory

@@ -19,6 +19,14 @@ The historical `research-buddy-starter` ID resolves to **Search Lens Basic**;
 it is an alias, not an additional pack. Pixel-migu's native manifest values
 and all 64 PNGs match the Chatbook built-in, so a single archive serves both.
 
+## Default personas
+
+The [six default persona archetypes](../personas/README.md) are also published.
+Their Buddy species/palette/silhouette fields are setup seed metadata, not
+references to these visual archives. Follow the
+[Persona and Buddy relationship](../personas/README.md#buddy-companions) and
+[import steps](IMPORT.md) to choose a visual pack for a saved Persona.
+
 ## Authoring references
 
 [Six shipped scaffolds](scaffolds/) preserve the intermediate/intricate catalog
