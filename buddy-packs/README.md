@@ -7,6 +7,16 @@ use native `.tldw-persona-vpack` archives, verified with both server and Chatboo
 
 ## Finished packs
 
+Preview the actual artwork before downloading. Select an image or name for
+the archive, import steps and licensing. These are the packs’ original preview
+PNGs, displayed enlarged; animation states are included in each download.
+
+| Buddy | Buddy | Buddy |
+| --- | --- | --- |
+| [**Search Lens Basic**](search-lens-basic/)<br><a href="search-lens-basic/"><img src="search-lens-basic/preview.png" alt="Search Lens Basic Buddy preview" width="192" height="192"></a> | [**Index Card Basic**](index-card-basic/)<br><a href="index-card-basic/"><img src="index-card-basic/preview.png" alt="Index Card Basic Buddy preview" width="192" height="192"></a> | [**Archive Cube Basic**](archive-cube-basic/)<br><a href="archive-cube-basic/"><img src="archive-cube-basic/preview.png" alt="Archive Cube Basic Buddy preview" width="192" height="192"></a> |
+| [**Paperclip Basic**](paperclip-basic/)<br><a href="paperclip-basic/"><img src="paperclip-basic/preview.png" alt="Paperclip Basic Buddy preview" width="192" height="192"></a> | [**Terminal Tile Basic**](terminal-tile-basic/)<br><a href="terminal-tile-basic/"><img src="terminal-tile-basic/preview.png" alt="Terminal Tile Basic Buddy preview" width="192" height="192"></a> | [**Migu Marker Basic**](migu-marker-basic/)<br><a href="migu-marker-basic/"><img src="migu-marker-basic/preview.png" alt="Migu Marker Basic Buddy preview" width="192" height="192"></a> |
+| [**pixel-migu**](pixel-migu/)<br><a href="pixel-migu/"><img src="pixel-migu/preview.png" alt="pixel-migu Buddy preview" width="192" height="192"></a> |  |  |
+
 - [Search Lens Basic](search-lens-basic/) — Bundled art-ready basic Buddy default: friendly magnifying-glass research helper with approved 3x4 source-sheet frames.
 - [Index Card Basic](index-card-basic/) — Bundled art-ready basic Buddy default: animated tabbed index-card research helper with approved 3x4 source-sheet frames.
 - [Archive Cube Basic](archive-cube-basic/) — Bundled art-ready basic Buddy default: compact archive cube helper with approved 3x4 source-sheet frames.

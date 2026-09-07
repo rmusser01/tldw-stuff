@@ -2,6 +2,14 @@
 
 Bundled art-ready basic Buddy default: compact archive cube helper with approved 3x4 source-sheet frames.
 
+## Preview
+
+<img src="preview.png" alt="Archive Cube Basic Buddy preview" width="192" height="192">
+
+Exact preview PNG from the downloadable pack, displayed enlarged. This shows
+the supplied artwork; it is not an application screenshot. The preview retains
+the pack's artwork terms and provenance described below.
+
 ## Details
 
 | Field | Value |

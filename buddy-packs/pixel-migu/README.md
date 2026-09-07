@@ -2,6 +2,14 @@
 
 Turquoise pixel-art robot companion with twin tails, state loops and expression poses.
 
+## Preview
+
+<img src="preview.png" alt="pixel-migu Buddy preview" width="192" height="192">
+
+Exact preview PNG from the downloadable pack, displayed enlarged. This shows
+the supplied artwork; it is not an application screenshot. The preview retains
+the pack's artwork terms and provenance described below.
+
 ## Details
 
 | Field | Value |
