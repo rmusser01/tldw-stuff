@@ -1,0 +1,19 @@
+Use case: stylized-concept.
+Asset type: one production 4-by-4 animation sprite sheet for a small desktop Buddy named Teto, matching the simple hand-drawn Migu Marker Basic companion.
+
+Input images:
+1. The small Teto meme drawing: CHARACTER IDENTITY reference only. Use the red-haired character on its right.
+2. The large smiling Teto drawing: PRIMARY CHARACTER DESIGN and marker-art reference.
+3. Migu Marker Basic: SIMPLICITY, line weight, tiny-body/large-head proportions, and friendly desktop-companion style reference only. Do not reuse Migu's turquoise color or hair silhouette.
+
+Draw the SAME Teto consistently in all sixteen cells: red-orange twin tails with a few white curved separators suggesting the drills, a curled red ahoge, red bangs, one white wing-shaped hair clip with gray outline above the viewer-right tail, large simple round WHITE face, dark dot eyes and a small friendly mouth, a tiny light-gray wrap-style trapezoid dress with diagonal black seams, red trim at the cuffs and lower hem, a modest gray wavy band near the hem, small black mitten hands, and exactly TWO simple black stick legs. Preserve the doodle's innocent simplified anatomy. The face is an opaque white shape, not a transparent hole. Warm playful marker drawing, bold slightly irregular black outline and flat solid colors. Crisp clean raster edges. No realistic rendering, 3D, glossy shading, anime detailing, or pixel-art blocks.
+
+Composition: exactly 4 equal columns and 4 equal rows, sixteen whole-body isolated sprites. No grid, labels, watermark or captions; do not copy any writing or the other stick figure from the references. Keep every sprite centered within its cell and facing the viewer. Use exactly the SAME scale, head size, torso position, two-foot stance, planted baseline, and camera framing across all poses. Change only eyes, mouth and arm gesture. Do not jump, bob, lean, shift sideways, zoom, stretch, or change leg length. All appendages and effects must fit within the central 75 percent of each cell with clear margins and no overlaps between cells. Exactly two arms and two legs in every cell; moved hands replace their resting arms, never add extra arms.
+
+Pose order from left to right, top to bottom:
+Row 1: relaxed neutral with arms down; almost identical relaxed neutral; closed-eye blink with the same body; relaxed neutral.
+Row 2: thinking with one mitten at chin; same thinking gesture with subtly changed eyes; speaking with a small open mouth and one arm presenting; speaking with a wider mouth and the same presenting arm slightly changed.
+Row 3: listening with one hand cupped beside head; sleepy with closed eyes and hand near mouth; worried/error with downturned eyebrows and hands near cheeks; confused with one hand at chin and a raised eyebrow.
+Row 4: welcoming wave with one raised mitten; happy closed-eye smile with hands clasped; celebration with two arms raised and big happy open mouth, BOTH FEET STILL PLANTED; love with both mittens holding a tiny red heart at chest.
+
+Background: genuine transparent alpha; preserve opaque white face and clip. If output cannot supply alpha, use perfectly uniform pure #00FF00 green for easy local extraction, with absolutely no green inside the character. No floor, shadow, white page, colored matte, checkerboard, scenery or extra props. Deliver the sprite sheet itself, filling the output with the equal 4x4 layout.

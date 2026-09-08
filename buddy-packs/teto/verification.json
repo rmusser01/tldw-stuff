@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "reference_creator": "anonymous",
+  "verified_on": "2026-09-08",
+  "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+  "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
+  "packs": [
+    {
+      "id": "teto",
+      "title": "Teto",
+      "bytes": 252591,
+      "sha256": "bddde593e5ea2b02684572deb5b9e17976d40023dcc49c5e9aa2138638e2efd8",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "a573292101e4b77bd39abb92ffbfaf29e8639f9b2bad10ed236bbc6683034af9"
+    }
+  ],
+  "chatbook": [
+    {
+      "id": "teto",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "id": "teto",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    }
+  ]
+}

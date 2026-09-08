@@ -1,0 +1,30 @@
+{
+  "kind": "adapted",
+  "creator": "tldw-project",
+  "copyright": "2026 tldw-project (new contributions)",
+  "license": "Apache-2.0",
+  "license_scope": "Project-created sprite artwork, manifests and pack materials; does not relicense reference images or underlying character rights. See NOTICE.txt.",
+  "content_version": "1.0.0",
+  "method": "OpenAI built-in image generation using both displayed Teto references and the Migu Marker Basic style reference; user-authorized local background processing, proportional scaling, frame extraction and registration.",
+  "generated_input_sha256": "bc3ab634e9d78b55ef32c92862712d75e1cfd45e21a049d2b1ae1fbf901799f6",
+  "source_sha256": "a573292101e4b77bd39abb92ffbfaf29e8639f9b2bad10ed236bbc6683034af9",
+  "reference": {
+    "creator": "anonymous",
+    "credit_basis": "Artist not identified in the supplied references; anonymous credit follows the collection convention requested by the user.",
+    "url": "https://i.4cdn.org/g/1788844177063862.png",
+    "additional_urls": [
+      "https://i.4cdn.org/g/1788893235735517.png"
+    ],
+    "license_status": "No published reference-image license supplied or verified.",
+    "use": "Character-design and marker-art references only; original images not bundled."
+  },
+  "style_reference": {
+    "name": "Migu Marker Basic",
+    "url": "https://github.com/rmusser01/tldw-stuff/tree/4de4a5cb34e2e478d04b88b65c1636492fe7e7b3/buddy-packs/migu-marker-basic",
+    "use": "Visual style reference only; no existing Buddy image pixels included.",
+    "preview_sha256": "c8675059bb3826912541fdbae4c7ba5f28f4d977a17e1a77434a3c1953342cdf"
+  },
+  "prompt": "PROMPT.txt",
+  "source": "source.png",
+  "notice": "NOTICE.txt"
+}
