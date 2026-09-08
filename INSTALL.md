@@ -59,7 +59,7 @@ before use. The agent must not mark it trusted or claim it ran. This confirmatio
 comes from Chatbook’s installer, not an extra approval step imposed by this guide.
 The tool installs into Chatbook’s local library; it does not install server skills.
 
-All 69 distributed bundles passed both directory import and the complete
+The original 69 bundles passed both directory import and the complete
 URL-to-ZIP installation path with a fixture transport at the Chatbook revision
 recorded in [install verification](skills/install-verification.json). Three small
 packaging fixes preserve the usable Python modules while satisfying the existing

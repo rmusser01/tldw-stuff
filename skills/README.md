@@ -2,9 +2,10 @@
 
 Optional skills from Anthropic, OpenAI, OpenClaw, Nous Research’s Hermes,
 Trail of Bits, Corey Haines, Matt Pocock and K-Dense, plus Chatbook adaptations
-and original Office workflows. The 69 items have provenance, licenses and per-item
-requirements. All 69 passed Chatbook directory and URL-to-ZIP installation with
-every distributed file preserved. No skill is automatically installed, trusted
+and original Chatbook workflows. The 70 items have provenance, licenses and per-item
+requirements. The original 69 passed Chatbook directory and URL-to-ZIP installation
+with every distributed file preserved. The Petdex addition has separate
+[verification](../docs/petdex-install-verification.md). No skill is automatically installed, trusted
 or executed. [Ask an agent to install one](../INSTALL.md) or use the
 [machine-readable catalog](catalog.json).
 
@@ -23,6 +24,7 @@ Browse by collection: [Anthropic](anthropic/README.md), [OpenAI](openai/README.m
 | anthropic | [theme-factory](anthropic/theme-factory/README.md) | Apply consistent color palettes and typography to artifacts. | Apache-2.0 |
 | anthropic | [web-artifacts-builder](anthropic/web-artifacts-builder/README.md) | Build and bundle interactive HTML artifacts. | Apache-2.0; bundled components MIT |
 | anthropic | [webapp-testing](anthropic/webapp-testing/README.md) | Test local web applications with Python Playwright. | Apache-2.0 |
+| chatbook | [petdex-install](chatbook/petdex-install/README.md) | Requested Petdex companion preparation and verified app installation. | Apache-2.0; original |
 | chatbook | [chatbook-docx](chatbook/chatbook-docx/README.md) | Word document creation, targeted editing and review. | Apache-2.0; original |
 | chatbook | [chatbook-pptx](chatbook/chatbook-pptx/README.md) | Editable presentation narratives, slide edits and verification. | Apache-2.0; original |
 | chatbook | [chatbook-xlsx](chatbook/chatbook-xlsx/README.md) | Spreadsheet models, formula-preserving edits and checks. | Apache-2.0; original |
