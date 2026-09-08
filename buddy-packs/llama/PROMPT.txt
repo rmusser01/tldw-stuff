@@ -1,0 +1,16 @@
+Use case: stylized-concept.
+Create a finished 4-column by 4-row sprite sheet, sixteen consistent full-body poses, for a small desktop Buddy named Llama.
+
+Style: the collection uses charming FLAT 2D cartoon mascots with clean dark-charcoal hand-inked outlines, simple oval eyes, readable facial expressions, warm flat colors and only restrained shading. Crisp illustration, not pixel art, not 3D, not faceted or low-poly.
+
+Character: a friendly cream-colored LLAMA with a long upright neck, tall curved banana-shaped ears with warm tan interiors, a soft woolly forelock, tan muzzle, rounded fluffy body and four slender brown-hoofed legs. Gentle three-quarter view, head and both eyes turned toward the user. Recognizably a llama, not an alpaca or sheep. No clothing or accessories. Keep EXACTLY FOUR LEGS and no arms or human hands. If a forehoof lifts, it replaces that leg's grounded pose.
+
+Layout: one square sheet, equal four columns and four rows, absolutely no labels or grid lines. Each complete sprite and its small effects fits inside the central 75 percent of its cell. Same camera, same scale, same body/neck silhouette, same planted hind-hoof positions and horizontal baseline in every cell. No jumping, bobbing, body sliding or per-pose zoom. Full ears and feet visible, generous clear margins.
+
+Exact row-major poses:
+Row 1: neutral friendly idle; neutral with a tiny ear twitch; brief both-eyes-closed blink with otherwise identical idle body; neutral idle.
+Row 2: thoughtful sideways glance and one ear angled outward; thoughtful upward glance with opposite ear angle; speaking with a small open muzzle; speaking with a slightly wider smiling muzzle.
+Row 3: attentive listening with both ears pricked forward; drowsy eyes and lowered ears while still standing; mildly worried error expression with a tiny blue sweat drop; puzzled expression with a small floating question mark.
+Row 4: friendly greeting with ONE front hoof slightly lifted and the other three legs in place; happy closed-eye smile; delighted expression and perked ears with a few small golden sparkles, all feet planted; affectionate closed-eye smile with one small red heart above the shoulder.
+
+Use ears, eyes and muzzle for expressions, not extra limbs. The body and grounded support remain steady. Genuine transparent background with alpha. No white backdrop, checkerboard, ground, shadows, scenery, text or watermark. All sixteen sprites must remain the same character.
