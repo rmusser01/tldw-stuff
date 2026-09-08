@@ -30,7 +30,7 @@ file. Adapt its content or write a task-specific script for real work.
 
 ## Authorship and license
 
-Original workflows, guidance and example code by **tldw-stuff contributors**,
+Original workflows, guidance and example code by **tldw-project**,
 licensed [Apache-2.0](LICENSE.txt). These are independently authored Office
 workflows; no Anthropic proprietary Office skill text or code is distributed.
 No claim of complete feature parity or endorsement is made.

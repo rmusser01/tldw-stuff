@@ -3,7 +3,7 @@ name: chatbook-docx
 description: Create, edit and review Word .docx documents from supplied material or Chatbook notes, preserving document structure and checking the delivered file.
 license: Apache-2.0
 metadata:
-  author: tldw-stuff contributors
+  author: tldw-project
   version: "1.0.0"
 ---
 

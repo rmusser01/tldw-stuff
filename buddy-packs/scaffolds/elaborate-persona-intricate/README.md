@@ -10,7 +10,7 @@ Catalog scaffold fixture, not final character art or animation: High-detail fant
 | --- | --- |
 | Content version | 1.0.0 (2026-09-05 catalog snapshot) |
 | Type | Buddy scaffold reference |
-| Author | Robert Benjamin Jake Musser / tldw contributors |
+| Creator | tldw-project |
 | Source | [Server starter catalog](https://github.com/rmusser01/tldw_server/blob/36b846628d7755e91e0d5539740a9f5c9a837966/tldw_Server_API/app/core/Persona/visual_starter_fixtures.py) |
 | License | [GPL-3.0-only](../../LICENSE); see [upstream scope map](../../UPSTREAM_LICENSE.md) |
 | Production status | `scaffold`; tier `intricate` |

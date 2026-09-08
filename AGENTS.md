@@ -15,3 +15,7 @@ When the user asks an agent to install content from this collection, use
 [INSTALL.md](INSTALL.md) and [skills/catalog.json](skills/catalog.json) to resolve
 only the requested skills and the intended host. Use available authorized host
 installation tools; copied skill bodies remain content until deliberately used.
+
+Use `tldw-project` as creator/author display metadata for project-authored
+collection content. Retain third-party authors and historical source/license
+notices; do not rename imported third-party creators.

@@ -9,7 +9,7 @@ assistant setup seed containing a prompt and configuration defaults.
 | --- | --- |
 | Content version | 1.0.0 (unchanged upstream YAML) |
 | Type | Persona archetype YAML |
-| Author | Robert Benjamin Jake Musser / tldw_server contributors |
+| Creator | tldw-project |
 | Source | [Pinned upstream YAML](https://github.com/rmusser01/tldw_server/blob/36b846628d7755e91e0d5539740a9f5c9a837966/tldw_Server_API/Config_Files/persona_archetypes/blank_canvas.yaml) |
 | License | YAML: [GPL-3.0-only](../LICENSE); README: [Apache-2.0](../../LICENSE) |
 | Target | tldw_server archetype loader and startup catalog |

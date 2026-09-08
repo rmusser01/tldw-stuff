@@ -8,8 +8,10 @@
     },
     {
       "path": "character-packs/samira/assets/characters/samira/Samira.character.json",
-      "sha256": "e1e4b7d9da14bead600c4a6f7fd211236a7be3f47aeff542ba1fd4e3d6c61273",
-      "bytes": 6433
+      "sha256": "a54a9958f251a312ffb35e764cfb61aab0e92c0636e04d92ee45178c08856cd8",
+      "bytes": 6432,
+      "previous_snapshot_sha256": "e1e4b7d9da14bead600c4a6f7fd211236a7be3f47aeff542ba1fd4e3d6c61273",
+      "collection_modification": "Creator metadata set to tldw-project on 2026-09-07; see creator-metadata.json."
     },
     {
       "path": "character-packs/samira/assets/characters/samira/Sammy.png",
@@ -273,13 +275,17 @@
     },
     {
       "path": "character-packs/pixel-migu/assets/characters/pixel_migu/pixel-migu.character.json",
-      "sha256": "abc78e1a648e3dbb4ec3d02b49ef9aef462b9528cde8a130a8a563191a42019c",
-      "bytes": 1472
+      "sha256": "41f5020735c8bc4d140ace29d6f782a3f9476dabd1695938e6645fa079591732",
+      "bytes": 1449,
+      "previous_snapshot_sha256": "abc78e1a648e3dbb4ec3d02b49ef9aef462b9528cde8a130a8a563191a42019c",
+      "collection_modification": "Creator metadata set to tldw-project on 2026-09-07; see creator-metadata.json."
     },
     {
       "path": "character-packs/pixel-migu/assets/characters/pixel_migu/pixel-migu.character.png",
-      "sha256": "1c1437b01f5bb39c210023e1c2e8c4fdc04c7c9fe21051357cbd753ed6998d67",
-      "bytes": 2680
+      "sha256": "daff75a0af240126e1f12dc34b1a127a7cdc26d99845caef382d701a58f90b5e",
+      "bytes": 2492,
+      "previous_snapshot_sha256": "1c1437b01f5bb39c210023e1c2e8c4fdc04c7c9fe21051357cbd753ed6998d67",
+      "collection_modification": "Creator metadata set to tldw-project on 2026-09-07; see creator-metadata.json."
     },
     {
       "path": "character-packs/pixel-migu/assets/characters/pixel_migu/visual_identity_pack.json",
@@ -349,25 +355,36 @@
   "adaptations": [
     {
       "path": "character-packs/samira/server.character.json",
-      "change": "Remove only data.character_book when null; reserialize JSON. Original authored text and all other data equal upstream. Original JSON retained separately."
+      "change": "Remove null data.character_book for server compatibility; collection creator is tldw-project. Other authored fields unchanged."
     }
   ],
   "live_ui_and_http_tested": false,
   "generated_cards": [
     {
       "path": "character-packs/default-assistant/chatbook.character.json",
-      "sha256": "4854bcbb2839a75ec2ad0f9ea28293efea2a596b230710e423f318536084488d",
-      "bytes": 4174
+      "sha256": "10e073495e490c27d0cc978a7cf59ca1c12f43da0fd4f21dec780bbf3510ef6f",
+      "bytes": 4180,
+      "previous_snapshot_sha256": "4854bcbb2839a75ec2ad0f9ea28293efea2a596b230710e423f318536084488d",
+      "collection_modification": "Creator metadata set to tldw-project on 2026-09-07; see creator-metadata.json."
     },
     {
       "path": "character-packs/default-assistant/server.character.json",
-      "sha256": "258c35679d349e96efb6c913152e011b7917e0a6db9218f6852f7722a0c70b21",
-      "bytes": 487
+      "sha256": "2b2eb57b2208501da59e796d56ec3c63bd6e44b92da557b5e2b8c2c8bb3eb440",
+      "bytes": 493,
+      "previous_snapshot_sha256": "258c35679d349e96efb6c913152e011b7917e0a6db9218f6852f7722a0c70b21",
+      "collection_modification": "Creator metadata set to tldw-project on 2026-09-07; see creator-metadata.json."
     },
     {
       "path": "character-packs/samira/server.character.json",
-      "sha256": "d09e2a2b4fc89d4da4edbf2f629d31e5d8757a1e348086a8560b80b3fc42bbcf",
-      "bytes": 6405
+      "sha256": "ce205d64601d0079e6974ef51a316a2373e8ecfaa08766db71b6db87e719f81e",
+      "bytes": 6404,
+      "previous_snapshot_sha256": "d09e2a2b4fc89d4da4edbf2f629d31e5d8757a1e348086a8560b80b3fc42bbcf",
+      "collection_modification": "Creator metadata set to tldw-project on 2026-09-07; see creator-metadata.json."
     }
-  ]
+  ],
+  "creator_metadata_update": {
+    "verified_on": "2026-09-07",
+    "record": "creator-metadata.json",
+    "method": "JSON semantic comparison allowed only data.creator; embedded PNG card text checked likewise with all other PNG chunks byte-identical. Import results above remain historical, not rerun claims."
+  }
 }

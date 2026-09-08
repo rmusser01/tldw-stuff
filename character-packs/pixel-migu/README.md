@@ -14,7 +14,7 @@ The turquoise pixel character, with 18 expression images and both native card fo
 
 ## Use and verification
 
-Content version: **1.0.0** (2026-09-05 snapshot). Follow the
+Content version: **1.0.1** (2026-09-05 snapshot). Follow the
 [character import guide](../IMPORT.md). Chatbook's native file importer created
 characters from both JSON and PNG; the PNG retained the portrait. The server's
 actual JSON import endpoint function created a character and preserved its text.
@@ -31,10 +31,18 @@ animated runtime states and its own verified import path.
 
 ## Provenance and license
 
-Copied unchanged from [Chatbook's bundled pixel-migu](https://github.com/rmusser01/tldw_chatbook/tree/56376e1fc188938bf350c62d3a9f95e820b93c40/tldw_chatbook/assets/characters/pixel_migu).
+Based on [Chatbook's bundled pixel-migu](https://github.com/rmusser01/tldw_chatbook/tree/56376e1fc188938bf350c62d3a9f95e820b93c40/tldw_chatbook/assets/characters/pixel_migu).
 Tested with that commit and server `36b846628d7755e91e0d5539740a9f5c9a837966`.
 
 The maintainer supplied the original artwork and requested this collection copy.
 The artist is unspecified. The original `LicenseRef-User-Supplied` notice is
 preserved; no broader artwork license or copyright assignment is asserted, and
 the repository's default Apache-2.0 terms do not override that specific notice.
+
+## Collection creator
+
+Creator: **tldw-project**. The 2026-09-07 update changes creator metadata only;
+prompts, reactions, artwork pixels and source-license notices retain their prior
+content. [Metadata changes and checksums](../creator-metadata.json) record the
+previous source hashes and updated distributed hashes. Earlier import results
+describe the original snapshot; this update was checked for metadata-only changes.

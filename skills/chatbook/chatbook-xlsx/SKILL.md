@@ -3,7 +3,7 @@ name: chatbook-xlsx
 description: Create, edit and analyze Excel .xlsx workbooks from supplied tables or Chatbook material, preserving formulas and distinguishing calculated results from cached values.
 license: Apache-2.0
 metadata:
-  author: tldw-stuff contributors
+  author: tldw-project
   version: "1.0.0"
 ---
 

@@ -3,7 +3,7 @@ name: chatbook-pptx
 description: Build and revise editable PowerPoint .pptx presentations from a brief or Chatbook sources, with an audience-focused narrative and content and visual checks.
 license: Apache-2.0
 metadata:
-  author: tldw-stuff contributors
+  author: tldw-project
   version: "1.0.0"
 ---
 

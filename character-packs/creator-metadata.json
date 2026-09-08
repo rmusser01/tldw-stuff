@@ -1,0 +1,43 @@
+{
+  "updated_on": "2026-09-07",
+  "creator": "tldw-project",
+  "scope": "Collection creator display metadata. Historical source/license attribution retained.",
+  "files": [
+    {
+      "path": "character-packs/samira/server.character.json",
+      "change": "Creator display changed from 'tldw_chatbook' to tldw-project; other card fields unchanged.",
+      "previous_sha256": "d09e2a2b4fc89d4da4edbf2f629d31e5d8757a1e348086a8560b80b3fc42bbcf",
+      "sha256": "ce205d64601d0079e6974ef51a316a2373e8ecfaa08766db71b6db87e719f81e"
+    },
+    {
+      "path": "character-packs/samira/assets/characters/samira/Samira.character.json",
+      "change": "Creator display changed from 'tldw_chatbook' to tldw-project; other card fields unchanged.",
+      "previous_sha256": "e1e4b7d9da14bead600c4a6f7fd211236a7be3f47aeff542ba1fd4e3d6c61273",
+      "sha256": "a54a9958f251a312ffb35e764cfb61aab0e92c0636e04d92ee45178c08856cd8"
+    },
+    {
+      "path": "character-packs/default-assistant/chatbook.character.json",
+      "change": "Creator display changed from 'System' to tldw-project; other card fields unchanged.",
+      "previous_sha256": "4854bcbb2839a75ec2ad0f9ea28293efea2a596b230710e423f318536084488d",
+      "sha256": "10e073495e490c27d0cc978a7cf59ca1c12f43da0fd4f21dec780bbf3510ef6f"
+    },
+    {
+      "path": "character-packs/default-assistant/server.character.json",
+      "change": "Creator display changed from 'System' to tldw-project; other card fields unchanged.",
+      "previous_sha256": "258c35679d349e96efb6c913152e011b7917e0a6db9218f6852f7722a0c70b21",
+      "sha256": "2b2eb57b2208501da59e796d56ec3c63bd6e44b92da557b5e2b8c2c8bb3eb440"
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/pixel-migu.character.json",
+      "change": "Creator display changed from 'User-directed pixel-migu adaptation' to tldw-project; other card fields unchanged.",
+      "previous_sha256": "abc78e1a648e3dbb4ec3d02b49ef9aef462b9528cde8a130a8a563191a42019c",
+      "sha256": "41f5020735c8bc4d140ace29d6f782a3f9476dabd1695938e6645fa079591732"
+    },
+    {
+      "path": "character-packs/pixel-migu/assets/characters/pixel_migu/pixel-migu.character.png",
+      "change": "Embedded card creator set to tldw-project; PNG image chunks unchanged.",
+      "previous_sha256": "1c1437b01f5bb39c210023e1c2e8c4fdc04c7c9fe21051357cbd753ed6998d67",
+      "sha256": "daff75a0af240126e1f12dc34b1a127a7cdc26d99845caef382d701a58f90b5e"
+    }
+  ]
+}
