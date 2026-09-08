@@ -34,6 +34,16 @@ download. Creator: **tldw-project** · **Apache-2.0**.
 
 [Download and import](llama/) · [Verified archive and checksums](llama/verification.json).
 
+## Align Waifu
+
+A blonde, red-eyed chibi companion with a black dress and knife prop, adapted
+from the supplied poster. Sixteen anchored poses, eighteen state mappings and
+animated expressions. Pack creator: **tldw-project**; reference credit: **anonymous**.
+
+[<img src="align-waifu/preview.gif" alt="Align Waifu animated Buddy preview" width="192" height="192">](align-waifu/)
+
+[Download and import](align-waifu/) · [Attribution notice](align-waifu/NOTICE.txt) · [Verification](align-waifu/verification.json).
+
 ## Teto
 
 [<img src="teto/preview.gif" alt="Red-haired marker-drawn Teto, animated expression preview" width="160" height="160">](teto/)

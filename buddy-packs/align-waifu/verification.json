@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "verified_on": "2026-09-08",
+  "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+  "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
+  "packs": [
+    {
+      "id": "align-waifu",
+      "title": "Align Waifu",
+      "bytes": 246899,
+      "sha256": "47a6dd42a22a9b71c21ccea5938fe8856516770071bc76ec382fd22aab0001de",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "7926f6f3936891cd2ad056fe8b7d52e14c32a5e6344a60ac42d01c26ca130d79"
+    }
+  ],
+  "chatbook": [
+    {
+      "id": "align-waifu",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "id": "align-waifu",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    }
+  ]
+}

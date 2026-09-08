@@ -1,0 +1,371 @@
+{
+  "id": "align-waifu",
+  "title": "Align Waifu",
+  "description": "A blonde twin-tailed cartoon companion with red eyes, a black dress and choker, and a silver knife prop, adapted from the supplied poster.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "style": "Flat 2D cartoon, matched to the existing collection with clean dark outlines and restrained shading.",
+  "orientation": "Face and both eyes directed toward the user; feet planted on a shared support baseline.",
+  "registration": {
+    "method": "One uniform scale for the entire sheet, then integer translation of complete frames to a fixed support anchor.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.33226837060702874,
+    "resized_cell_sizes": [
+      [
+        95,
+        102
+      ],
+      [
+        96,
+        102
+      ],
+      [
+        96,
+        102
+      ],
+      [
+        95,
+        102
+      ],
+      [
+        96,
+        102
+      ],
+      [
+        98,
+        105
+      ],
+      [
+        97,
+        102
+      ],
+      [
+        96,
+        102
+      ],
+      [
+        96,
+        101
+      ],
+      [
+        95,
+        107
+      ],
+      [
+        97,
+        101
+      ],
+      [
+        96,
+        108
+      ],
+      [
+        101,
+        101
+      ],
+      [
+        95,
+        101
+      ],
+      [
+        98,
+        109
+      ],
+      [
+        95,
+        107
+      ]
+    ],
+    "extraction": "Separated sixteen complete character components and assigned detached reaction marks to the nearest character, preserving marks crossing nominal grid boundaries. Cropped each group with eight raw pixels of padding.",
+    "raw_crop_bounds": [
+      [
+        38,
+        17,
+        324,
+        325
+      ],
+      [
+        333,
+        17,
+        621,
+        325
+      ],
+      [
+        646,
+        17,
+        935,
+        325
+      ],
+      [
+        950,
+        18,
+        1237,
+        326
+      ],
+      [
+        36,
+        324,
+        324,
+        630
+      ],
+      [
+        334,
+        314,
+        628,
+        630
+      ],
+      [
+        643,
+        324,
+        936,
+        631
+      ],
+      [
+        948,
+        323,
+        1237,
+        630
+      ],
+      [
+        36,
+        629,
+        324,
+        934
+      ],
+      [
+        334,
+        612,
+        621,
+        934
+      ],
+      [
+        643,
+        630,
+        936,
+        934
+      ],
+      [
+        948,
+        609,
+        1237,
+        934
+      ],
+      [
+        19,
+        938,
+        323,
+        1242
+      ],
+      [
+        337,
+        937,
+        622,
+        1242
+      ],
+      [
+        643,
+        913,
+        937,
+        1242
+      ],
+      [
+        951,
+        921,
+        1238,
+        1242
+      ]
+    ],
+    "raw_component_groups": [
+      [
+        3
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        4
+      ],
+      [
+        6
+      ],
+      [
+        7,
+        5,
+        10
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ],
+      [
+        15
+      ],
+      [
+        13,
+        12,
+        16
+      ],
+      [
+        14
+      ],
+      [
+        11
+      ],
+      [
+        23,
+        25,
+        26
+      ],
+      [
+        22
+      ],
+      [
+        24,
+        17,
+        18,
+        20,
+        21
+      ],
+      [
+        19
+      ]
+    ],
+    "anchor": {
+      "x": 64,
+      "baseline_y": 118,
+      "alpha_threshold": 128,
+      "support_band_height": 8
+    },
+    "frame_translations": [
+      [
+        4,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "background_processing": {
+    "method": "Removed exterior-connected gray checkerboard and the sixteen reviewed enclosed checkerboard gaps beside the knife arms. Preserved solid thought-bubble white, gray blades and other enclosed artwork. Unmatted neutral antialiased outline edges."
+  },
+  "loop_stabilization": {
+    "input_atlas_sha256": "18223b2762d32d31722c174a69cf8a3b47136cbd602c37db3179eb255850a7eb",
+    "operations": [
+      {
+        "frame": 2,
+        "base_frame": 0,
+        "expression_frame": 2,
+        "expression_box": [
+          44,
+          44,
+          85,
+          67
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_box_identical_to_base": true
+      },
+      {
+        "frame": 7,
+        "base_frame": 6,
+        "expression_frame": 7,
+        "expression_box": [
+          52,
+          57,
+          74,
+          67
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_box_identical_to_base": true
+      },
+      {
+        "frame": 13,
+        "base_frame": 0,
+        "expression_frame": 13,
+        "expression_box": [
+          44,
+          44,
+          85,
+          67
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_box_identical_to_base": true
+      },
+      {
+        "frame": 5,
+        "base_frame": 4,
+        "effects_frame": 5,
+        "method": "Only detached thought-bubble components overlay the unchanged thinking frame."
+      }
+    ]
+  },
+  "anatomy_correction": "Happy frame uses the idle two-armed body and its knife prop, with the generated happy face. The extra generated arm is excluded."
+}

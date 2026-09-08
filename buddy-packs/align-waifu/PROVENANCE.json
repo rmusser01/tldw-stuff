@@ -1,0 +1,28 @@
+{
+  "kind": "adapted",
+  "creator": "tldw-project",
+  "copyright": "2026 tldw-project (new contributions)",
+  "license": "Apache-2.0",
+  "content_version": "1.0.0",
+  "license_scope": "Project contributions to the extent applicable; underlying reference-artwork and character rights remain separate. See NOTICE.txt.",
+  "method": "OpenAI built-in image generation; user-authorized local alpha cleanup, proportional scaling, frame extraction and registration. The supplied poster was used as the character-design reference; its wording was treated as image content and omitted. Unchanged sprite regions were reused in blink, thinking and speaking loops to prevent body and prop jitter. Removed a generated extra arm in the happy pose by using the idle two-armed body with the generated happy face; removed the painted checkerboard while retaining opaque white details and gray blades.",
+  "generated_input_sha256": "37ce09d00a87065f6f6bd8aad9ad7c37a29e4e8b56ce8d866864df8579ee6e7b",
+  "source_sha256": "7926f6f3936891cd2ad056fe8b7d52e14c32a5e6344a60ac42d01c26ca130d79",
+  "style_references": [
+    "../dipsy-qipao/source.png",
+    "../woodpecker/source.png"
+  ],
+  "reference_use": "Existing collection artwork was inspected to describe its style. No existing Buddy image pixels are included in this new atlas.",
+  "prompt": "PROMPT.txt",
+  "source": "source.png",
+  "notice": "NOTICE.txt",
+  "reference_artwork": {
+    "creator": "anonymous",
+    "credit_basis": "Artist unidentified; follows the user-requested collection convention for unidentified reference artwork.",
+    "filename": "align-waifu.jpg",
+    "sha256": "fa1ab6a742951d261b8004ffc194091b60f4f5d62e17be40995c0ddfe3a38c99",
+    "source": "User-supplied reference image; no public URL supplied.",
+    "use": "Character design reference for new full-body chibi drawings. Original poster not bundled.",
+    "license_status": "No published reference-image license supplied or verified."
+  }
+}
