@@ -1,0 +1,193 @@
+{
+  "id": "llama",
+  "title": "Llama",
+  "description": "A cream-colored llama with expressive ears, a woolly coat and four hoofed legs.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "style": "Flat 2D cartoon, matched to the existing collection with clean dark outlines and restrained shading.",
+  "orientation": "Gentle three-quarter body view, with face and both eyes directed toward the user.",
+  "registration": {
+    "method": "One uniform scale for the entire sheet, then integer translation of complete frames to a fixed support anchor.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.33548387096774196,
+    "resized_cell_sizes": [
+      [
+        105,
+        104
+      ],
+      [
+        105,
+        104
+      ],
+      [
+        105,
+        104
+      ],
+      [
+        105,
+        104
+      ],
+      [
+        105,
+        106
+      ],
+      [
+        105,
+        106
+      ],
+      [
+        105,
+        106
+      ],
+      [
+        105,
+        106
+      ],
+      [
+        105,
+        105
+      ],
+      [
+        105,
+        105
+      ],
+      [
+        105,
+        105
+      ],
+      [
+        105,
+        105
+      ],
+      [
+        105,
+        106
+      ],
+      [
+        105,
+        106
+      ],
+      [
+        105,
+        106
+      ],
+      [
+        105,
+        106
+      ]
+    ],
+    "raw_column_bounds": [
+      0,
+      314,
+      627,
+      940,
+      1254
+    ],
+    "raw_row_bounds": [
+      0,
+      310,
+      625,
+      938,
+      1254
+    ],
+    "anchor": {
+      "x": 64,
+      "baseline_y": 118,
+      "alpha_threshold": 128,
+      "support_band_height": 8
+    },
+    "frame_translations": [
+      [
+        -8,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        -8,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        -8,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        18,
+        4
+      ],
+      [
+        -8,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        17,
+        3
+      ]
+    ]
+  },
+  "background_processing": {
+    "method": "Preserved generated alpha; removed alpha<=8 noise and tiny disconnected specks outside a three-pixel neighborhood of opaque components with at least sixteen raw pixels.",
+    "raw_pixels_removed_per_frame": [
+      8055,
+      8715,
+      9793,
+      5794,
+      8678,
+      7897,
+      8372,
+      7143,
+      10655,
+      9587,
+      10052,
+      7879,
+      9538,
+      10289,
+      11923,
+      7888
+    ]
+  }
+}

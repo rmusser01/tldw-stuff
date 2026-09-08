@@ -14,6 +14,16 @@ transparent atlas and native download. Creator: **tldw-project** · **Apache-2.0
 
 [Download and import](pelican-bicycle/) · [Verified archive and checksums](pelican-bicycle/verification.json).
 
+## Llama
+
+A cream-colored llama with expressive ears, sixteen anchored poses and eighteen
+state mappings. Includes animated reactions, a transparent atlas and a native
+download. Creator: **tldw-project** · **Apache-2.0**.
+
+[<img src="llama/preview.gif" alt="Llama animated Buddy preview" width="192" height="192">](llama/)
+
+[Download and import](llama/) · [Verified archive and checksums](llama/verification.json).
+
 ## Dipsy, Kimi and Cappy
 
 Three new packs adapted from the supplied illustration, whose creator is credited

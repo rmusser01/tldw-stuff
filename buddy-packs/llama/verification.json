@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "verified_on": "2026-09-08",
+  "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+  "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
+  "packs": [
+    {
+      "id": "llama",
+      "title": "Llama",
+      "bytes": 185530,
+      "sha256": "e343203a3a3c011059cd09b1919f84832ea6dd28c0c1abe486c84d84c7b5be12",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "030fd902c87f82d89d1a92a2b0e9c3a7234bef2309af3f0f4e3a96a06a87f4da"
+    }
+  ],
+  "chatbook": [
+    {
+      "id": "llama",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "id": "llama",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    }
+  ]
+}
