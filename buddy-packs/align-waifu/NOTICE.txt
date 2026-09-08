@@ -1,0 +1,26 @@
+Align Waifu Buddy — reference attribution and project contributions
+
+Pack creator: tldw-project
+Copyright 2026 tldw-project (new contributions)
+
+Reference artwork creator credit: anonymous (artist unidentified)
+Reference: user-supplied align-waifu.jpg poster, identified by SHA-256:
+fa1ab6a742951d261b8004ffc194091b60f4f5d62e17be40995c0ddfe3a38c99
+
+No public source URL or published reference-image license was supplied or
+verified. Anonymous is an attribution label for an unidentified artist, not a
+claim of public-domain status. The original poster is not bundled or relicensed.
+Underlying reference-artwork and character rights remain with their respective
+rights holders. The working name Align Waifu describes this collection entry;
+it is not a verified canonical character name.
+
+New contributions: AI-assisted chibi cartoon sprite artwork adapting the
+reference design, the native Buddy pack, state mappings, animation previews,
+documentation and preparation metadata. Apache-2.0 covers the project's new
+contributions to the extent applicable; see LICENSE.txt. It does not grant
+rights in the supplied reference image or its underlying character.
+
+The existing tldw-stuff companions supplied a visual style reference only.
+No existing Buddy image pixels are included in this atlas.
+
+Please retain this attribution, LICENSE.txt and PROVENANCE.json with copies.
