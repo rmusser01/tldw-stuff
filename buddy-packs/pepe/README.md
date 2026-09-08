@@ -1,13 +1,14 @@
 # Pepe
 
-A mellow Pepe the Frog companion with a blue shirt, brown trousers, heavy
-eyelids and expressive reactions, drawn to match the collection's 2D cartoons.
+A short, broad Pepe the Frog companion with a round blue-shirted belly, stubby
+brown trouser legs, heavy eyelids and expressive reactions, drawn to match the
+collection's 2D cartoons.
 
 ## Preview and download
 
 <img src="preview.png" alt="Pepe still preview" width="192" height="192"> <img src="preview.gif" alt="Pepe animated expression preview" width="192" height="192">
 
-[**Download Pepe**](pepe.tldw-persona-vpack) · 180,080 bytes · [SHA-256 checksums](SHA256SUMS)
+[**Download Pepe**](pepe.tldw-persona-vpack) · 193,544 bytes · [SHA-256 checksums](SHA256SUMS)
 
 The still is the exact idle frame. The GIF cycles through actual pack frames on
 a dark background; the downloadable PNG artwork is transparent. These are
@@ -17,7 +18,7 @@ artwork previews, not application screenshots.
 
 | Field | Value |
 | --- | --- |
-| Content version | 1.0.0 |
+| Content version | 1.0.1 |
 | Pack creator | tldw-project |
 | Attribution | Character creator: Matt Furie — Pepe the Frog from Boy's Club |
 | License | [Apache-2.0](LICENSE.txt) for project contributions to the extent applicable; reference and character rights remain separate in [NOTICE.txt](NOTICE.txt) |
@@ -58,9 +59,11 @@ eighteen operational, reaction and mood mappings; some intentionally share artwo
 | 3 | Listening | Sleepy | Worried/error | Confused |
 | 4 | Wave | Happy | Celebrate | Love |
 
-The built-in OpenAI image tool generated new drawings from a textual
-description of Pepe and the viewed collection style. Authorized local processing
-preserved transparency, removed faint alpha noise, separated complete poses,
+The built-in OpenAI image tool revised the earlier atlas with a shorter, wider
+silhouette, rounder belly and stubby legs. At the same 128-pixel frame size, the
+idle silhouette is 75 pixels wide and 76 pixels tall, compared with 58 × 90 in
+the first version. Authorized local processing removed the painted checkerboard,
+retained opaque eye whites and thought bubbles, separated complete poses,
 applied one scale, and aligned the feet to x=64 and y=118 in every cell. Blink,
 thinking and speaking loops reuse unchanged body regions to reduce jitter.
 [PROMPT.txt](PROMPT.txt) and [recipe.json](recipe.json) record generation and preparation.

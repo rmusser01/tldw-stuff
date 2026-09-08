@@ -6,8 +6,8 @@ scaffolds are labelled separately from the finished downloads.
 
 ## Pepe
 
-A green Pepe companion with a blue shirt, sixteen anchored poses and eighteen
-state mappings. Includes a transparent atlas, animated expressions and a native
+A squat, round-bellied Pepe companion with a blue shirt, sixteen anchored poses
+and eighteen state mappings. Includes a transparent atlas, animated expressions and a native
 download. Pack creator: **tldw-project**; character creator: **Matt Furie**.
 
 [<img src="pepe/preview.gif" alt="Pepe animated Buddy preview" width="192" height="192">](pepe/)
