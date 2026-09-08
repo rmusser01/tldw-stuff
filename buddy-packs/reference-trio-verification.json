@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "creator": "tldw-project",
   "reference_creator": "anonymous",
   "verified_on": "2026-09-08",
@@ -9,12 +9,13 @@
     {
       "id": "dipsy-qipao",
       "title": "Dipsy (Qipao)",
-      "bytes": 204592,
-      "sha256": "fb1ec1b0ea3fd0994b29ce55d1cd26e0c2c6f29664217d6a0c5e3868be881f91",
+      "bytes": 204423,
+      "sha256": "1ee6924490a876ac3e606b47bb1a1de5f8930a194c577a74bbc686794c477810",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "df9f5bce759e5a6b25a098ab4a29a16df6ecf26c2947275ff93afd6134548a9c"
+      "source_sha256": "ce0b26fd9f5eeedef8865c9c2a1fabfbec48b0db47e1d2d82556332c0d6ff5ca",
+      "content_version": "1.0.1"
     },
     {
       "id": "kimi",
@@ -24,7 +25,8 @@
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "4dff6c10314b0da0e776d03e14c636bbf583ce45a2540591580be18cfb41cea1"
+      "source_sha256": "4dff6c10314b0da0e776d03e14c636bbf583ce45a2540591580be18cfb41cea1",
+      "content_version": "1.0.0"
     },
     {
       "id": "cappy",
@@ -34,7 +36,8 @@
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "417f9f7c9dd5efafbad32e0a805513f3ef90f142fa597351404243ca2f3a6920"
+      "source_sha256": "417f9f7c9dd5efafbad32e0a805513f3ef90f142fa597351404243ca2f3a6920",
+      "content_version": "1.0.0"
     }
   ],
   "chatbook": [

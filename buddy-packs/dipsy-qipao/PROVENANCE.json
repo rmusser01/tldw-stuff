@@ -4,10 +4,10 @@
   "copyright": "2026 tldw-project (new contributions)",
   "license": "Apache-2.0",
   "license_scope": "Project-created sprite artwork, manifests and pack materials; does not relicense the reference. See NOTICE.txt.",
-  "content_version": "1.0.0",
-  "method": "OpenAI built-in image generation using the displayed reference, followed by a viewer-facing orientation edit; user-authorized local background removal, proportional scaling, frame extraction and registration.",
-  "generated_input_sha256": "4d11652251942d622b2f62ec9d80508fc72aed3cf143e7442d74235b0285f4ea",
-  "source_sha256": "df9f5bce759e5a6b25a098ab4a29a16df6ecf26c2947275ff93afd6134548a9c",
+  "content_version": "1.0.1",
+  "method": "OpenAI built-in image generation using the displayed reference, followed by a viewer-facing orientation edit; user-authorized local background removal, proportional scaling, frame extraction and registration. A later built-in image edit lowered the qipao waist crease; only the corrected blue-dress waist pixels were composited into the existing registered atlas.",
+  "generated_input_sha256": "6c32c796e53870986c45482de553aba97797f5803c97ba9ee0f9a0015ca7f0d0",
+  "source_sha256": "ce0b26fd9f5eeedef8865c9c2a1fabfbec48b0db47e1d2d82556332c0d6ff5ca",
   "reference": {
     "creator": "anonymous",
     "credit_basis": "User-requested credit for the 4chan meme reference; artist identity not independently verified.",
@@ -27,6 +27,13 @@
       "stage": "viewer-facing orientation edit",
       "input_atlas_sha256": "8185dc79304e051c75ed8951390dcf544885e89c6da72e76aa32b8724dcddce1",
       "generated_sheet_sha256": "4d11652251942d622b2f62ec9d80508fc72aed3cf143e7442d74235b0285f4ea"
+    },
+    {
+      "stage": "lower qipao waist crease",
+      "input_generated_sheet_sha256": "4d11652251942d622b2f62ec9d80508fc72aed3cf143e7442d74235b0285f4ea",
+      "input_atlas_sha256": "df9f5bce759e5a6b25a098ab4a29a16df6ecf26c2947275ff93afd6134548a9c",
+      "generated_sheet_sha256": "6c32c796e53870986c45482de553aba97797f5803c97ba9ee0f9a0015ca7f0d0",
+      "scope": "Only the blue-dress waist region was composited into the existing atlas."
     }
   ]
 }
