@@ -1,4 +1,4 @@
-# Align Waifu
+# un-aligned waifu
 
 A blonde, red-eyed companion with twin ponytails, a black dress and lace choker,
 and a silver knife prop. The supplied poster's design becomes a full-body chibi
@@ -6,9 +6,9 @@ Buddy with a mischievous grin and reactions that face the user.
 
 ## Preview and download
 
-<img src="preview.png" alt="Align Waifu still preview" width="192" height="192"> <img src="preview.gif" alt="Align Waifu animated expression preview" width="192" height="192">
+<img src="preview.png" alt="un-aligned waifu still preview" width="192" height="192"> <img src="preview.gif" alt="un-aligned waifu animated expression preview" width="192" height="192">
 
-[**Download Align Waifu**](align-waifu.tldw-persona-vpack) · 246,899 bytes · [SHA-256 checksums](SHA256SUMS)
+[**Download un-aligned waifu**](un-aligned-waifu.tldw-persona-vpack) · 246,881 bytes · [SHA-256 checksums](SHA256SUMS)
 
 The still is the exact idle frame. The GIF cycles through actual pack frames on
 a dark background; the downloadable PNG artwork is transparent. These are
@@ -87,9 +87,9 @@ previews, archive integrity and file hashes.
 With the [documented application environments](../../docs/buddy-collection-verification.md#reproduce-and-rebuild), run from this repository:
 
 ```sh
-python scripts/build_buddy_collection.py buddy-packs/align-waifu
-python tests/check_buddy_collection.py --host chatbook --pack align-waifu
-python tests/check_buddy_collection.py --host server --pack align-waifu
+python scripts/build_buddy_collection.py buddy-packs/un-aligned-waifu
+python tests/check_buddy_collection.py --host chatbook --pack un-aligned-waifu
+python tests/check_buddy_collection.py --host server --pack un-aligned-waifu
 ```
 
 The builder consumes the reviewed atlas without image generation or changes to
@@ -102,8 +102,7 @@ The reference is the user-supplied `align-waifu.jpg` poster, credited to
 **anonymous** because its artist is unidentified. Its SHA-256 identifies the
 reference in [PROVENANCE.json](PROVENANCE.json); no public source URL or published
 license was supplied or verified. The original poster is not bundled and its
-lettering is omitted from the sprites. Align Waifu is this pack's working name,
-not a verified canonical character name. Reference-artwork and character rights
+lettering is omitted from the sprites. un-aligned waifu is the user-selected name for this pack. Reference-artwork and character rights
 remain separate from the project contributions.
 
 Project contributions use Apache-2.0 to the extent applicable. Keep
