@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "verified_on": "2026-09-08",
+  "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+  "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
+  "packs": [
+    {
+      "id": "pelican-bicycle",
+      "title": "Pelican on a Bicycle",
+      "bytes": 169949,
+      "sha256": "8378ad1a583e5cff5cc26b2354d664a747466641bfb68bc4acd1734790728ab6",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "6f841ae4131b9d87af921e8f9de1513ebff37b79c57bf135e436f48e6091f053"
+    }
+  ],
+  "chatbook": [
+    {
+      "id": "pelican-bicycle",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "id": "pelican-bicycle",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    }
+  ]
+}
