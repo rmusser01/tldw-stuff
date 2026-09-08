@@ -2,10 +2,81 @@
   "id": "trenchcoat",
   "title": "Trenchcoat",
   "description": "A friendly mysterious figure in a tan trenchcoat and dark fedora.",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "creator": "tldw-project",
   "frame_size": 128,
   "columns": 4,
   "rows": 4,
-  "style": "2D cartoon, matched to existing Buddy art"
+  "style": "2D cartoon, matched to existing Buddy art",
+  "registration": {
+    "method": "integer translation of complete frames; no rescaling",
+    "anchor": "opaque support baseline y=118 and lower-eight-pixel support midpoint x=64",
+    "previous_source_sha256": "f55214193564717276d82d67d7fa3eb8796a01521b052b97ca2bd1839ee0bee6",
+    "frame_translations": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        -2,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  }
 }

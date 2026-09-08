@@ -2,10 +2,81 @@
   "id": "rubber-duck",
   "title": "Rubber Duck",
   "description": "A classic yellow rubber bath duck with an orange beak and tiny wings.",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "creator": "tldw-project",
   "frame_size": 128,
   "columns": 4,
   "rows": 4,
-  "style": "2D cartoon, matched to existing Buddy art"
+  "style": "2D cartoon, matched to existing Buddy art",
+  "registration": {
+    "method": "integer translation of complete frames; no rescaling",
+    "anchor": "opaque support baseline y=118 and lower-eight-pixel support midpoint x=64",
+    "previous_source_sha256": "011fa4b5666703cf485c7bd773fdd876172d58e905323c8378155e44b1bbfcd6",
+    "frame_translations": [
+      [
+        -4,
+        2
+      ],
+      [
+        -6,
+        6
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        -6,
+        9
+      ],
+      [
+        -4,
+        9
+      ],
+      [
+        -3,
+        9
+      ],
+      [
+        -2,
+        9
+      ],
+      [
+        -4,
+        13
+      ],
+      [
+        -4,
+        13
+      ],
+      [
+        -2,
+        13
+      ],
+      [
+        -2,
+        13
+      ],
+      [
+        -10,
+        18
+      ],
+      [
+        -5,
+        17
+      ],
+      [
+        -3,
+        18
+      ],
+      [
+        -2,
+        17
+      ]
+    ]
+  }
 }

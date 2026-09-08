@@ -3,10 +3,10 @@
   "creator": "tldw-project",
   "copyright": "2026 tldw-project",
   "license": "Apache-2.0",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "method": "OpenAI built-in image generation; user-authorized local background removal, frame extraction, downsampling and animation preview assembly.",
   "generated_input_sha256": "c4ad677309fae037831fa67cdd3b08231cce54a7e85fca2a733765423b3383f7",
-  "source_sha256": "f55214193564717276d82d67d7fa3eb8796a01521b052b97ca2bd1839ee0bee6",
+  "source_sha256": "f07ed59b329c137bc4eb29e7fd9f4bf1dbab83c911e2ee16d7ac1a28f27b5e63",
   "style_references": [
     "../paperclip-basic/preview.png",
     "../search-lens-basic/preview.png",
@@ -14,5 +14,6 @@
   ],
   "reference_use": "Style references only. Existing Buddy assets are not redistributed in this new pack.",
   "prompt": "PROMPT.txt",
-  "source": "source.png"
+  "source": "source.png",
+  "modifications": "v1.0.1: registered complete poses to a shared body anchor using integer translations recorded in recipe.json; removed the bob from the idle sequence. Original artwork pixels retained."
 }

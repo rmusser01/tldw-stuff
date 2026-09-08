@@ -6,7 +6,8 @@ join the seven shipped defaults. All use native `.tldw-persona-vpack` archives.
 
 ## New companion collection
 
-Twelve original 2D companions, matching the existing Buddy artwork. Each
+Twelve original 2D companions, matching the existing Buddy artwork. Version 1.0.1
+corrects Shiba paw anatomy and keeps animated poses anchored. Each
 includes a native download, transparent source art, still preview, animated
 preview, and reactions. Select a name or image for files and import steps.
 

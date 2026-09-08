@@ -6,7 +6,7 @@ An orange and cream Shiba-inu with a curled tail and red collar.
 
 <img src="preview.png" alt="Shiba-inu still preview" width="192" height="192"> <img src="preview.gif" alt="Shiba-inu animation and reaction preview" width="192" height="192">
 
-[**Download Shiba-inu**](shiba-inu.tldw-persona-vpack) · 256,603 bytes · [SHA-256 checksums](SHA256SUMS)
+[**Download Shiba-inu**](shiba-inu.tldw-persona-vpack) · 280,625 bytes · [SHA-256 checksums](SHA256SUMS)
 
 The still is the exact idle frame. The animated preview cycles through actual
 pack frames on a dark background; the downloadable artwork has transparency.
@@ -16,7 +16,7 @@ These are artwork previews, not application screenshots.
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Creator | tldw-project |
 | License | [Apache-2.0](LICENSE.txt), including this new artwork |
 | Artwork | Original AI-assisted 2D cartoon, referenced to the existing Buddy collection |
@@ -55,7 +55,7 @@ confused, and love. Some reactions intentionally share the same artwork.
 
 | Row | Column 1 | Column 2 | Column 3 | Column 4 |
 | --- | --- | --- | --- | --- |
-| 1 | Idle | Bob | Blink | Idle alternate |
+| 1 | Idle | Tail-wag alternate (unused) | Blink | Idle alternate |
 | 2 | Thinking | Thinking alternate | Speaking | Speaking alternate |
 | 3 | Listening | Sleepy | Error | Confused |
 | 4 | Wave | Happy | Celebrate | Love |
@@ -73,6 +73,9 @@ Keep this [license](LICENSE.txt) and [provenance](PROVENANCE.json) when sharing
 copies. The archive embeds the creator and full license notice; Chatbook preserves
 that carrier. Server tests cover the imported visuals, not notice retention through
 a later server export, so retain the accompanying files.
+
+Version 1.0.1 corrects the seated anatomy so raised forepaws replace resting
+forelimbs, aligns the poses to a shared body anchor, and removes the idle bob.
 
 To update a customized Buddy, import into a new Persona/draft and compare before
 switching. Downloaded copies are independent and never update automatically.

@@ -2,10 +2,81 @@
   "id": "dipsy",
   "title": "Dipsy",
   "description": "A cheerful blue whale with a curled tail and a celebratory water spout.",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "creator": "tldw-project",
   "frame_size": 128,
   "columns": 4,
   "rows": 4,
-  "style": "2D cartoon, matched to existing Buddy art"
+  "style": "2D cartoon, matched to existing Buddy art",
+  "registration": {
+    "method": "integer translation of complete frames; no rescaling",
+    "anchor": "cream belly baseline y=114 and reviewed head center x=58",
+    "previous_source_sha256": "8bbca2752b45e4e743029cfebef724566231cba7eb5ee6acb261e88f3f7f8a8e",
+    "frame_translations": [
+      [
+        4,
+        4
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        -2,
+        20
+      ],
+      [
+        2,
+        17
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        8,
+        18
+      ],
+      [
+        -2,
+        22
+      ],
+      [
+        3,
+        23
+      ],
+      [
+        -2,
+        18
+      ],
+      [
+        7,
+        19
+      ]
+    ]
+  }
 }

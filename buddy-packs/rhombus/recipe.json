@@ -2,10 +2,81 @@
   "id": "rhombus",
   "title": "Rhombus",
   "description": "A lavender diamond-shaped companion with expressive eyes and hands.",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "creator": "tldw-project",
   "frame_size": 128,
   "columns": 4,
   "rows": 4,
-  "style": "2D cartoon, matched to existing Buddy art"
+  "style": "2D cartoon, matched to existing Buddy art",
+  "registration": {
+    "method": "integer translation of complete frames; no rescaling",
+    "anchor": "opaque support baseline y=118 and lower-eight-pixel support midpoint x=64",
+    "previous_source_sha256": "cd4e026372db697bf33e2f10fb9dc9885b353858d9c5fa52ae8a5b79e3542f4f",
+    "frame_translations": [
+      [
+        -2,
+        7
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        -4,
+        10
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        -2,
+        15
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        2,
+        14
+      ]
+    ]
+  }
 }

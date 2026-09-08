@@ -2,10 +2,81 @@
   "id": "square",
   "title": "Square",
   "description": "A mint square with a simple face, little hands, and short legs.",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "creator": "tldw-project",
   "frame_size": 128,
   "columns": 4,
   "rows": 4,
-  "style": "2D cartoon, matched to existing Buddy art"
+  "style": "2D cartoon, matched to existing Buddy art",
+  "registration": {
+    "method": "integer translation of complete frames; no rescaling",
+    "anchor": "opaque support baseline y=118 and lower-eight-pixel support midpoint x=64",
+    "previous_source_sha256": "4a8a7e0b2f53b3226b9f8893367101300cb1398069dce87aea4a32ab145c4eca",
+    "frame_translations": [
+      [
+        -8,
+        -2
+      ],
+      [
+        -4,
+        1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        10,
+        -2
+      ],
+      [
+        -8,
+        3
+      ],
+      [
+        -4,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        -12,
+        14
+      ],
+      [
+        -4,
+        14
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        -15,
+        25
+      ],
+      [
+        -4,
+        25
+      ],
+      [
+        3,
+        24
+      ],
+      [
+        6,
+        24
+      ]
+    ]
+  }
 }
