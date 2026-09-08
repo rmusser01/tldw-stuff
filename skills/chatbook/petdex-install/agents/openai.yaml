@@ -1,0 +1,4 @@
+interface:
+  display_name: "Install a Petdex companion"
+  short_description: "Prepare and install Petdex companions in Chatbook"
+  default_prompt: "Use $petdex-install to install my requested Petdex companion into Chatbook."

@@ -29,3 +29,9 @@ rendering and calculation checks. They require no other skill installation.
 The existing MIT Hermes Office bundles remain available for their broader helper
 CLIs. The original Chatbook workflows contain no copied Anthropic proprietary
 Office content. Read each item’s requirements and recorded verification limits.
+
+## Companion installation
+
+- [petdex-install](petdex-install/README.md): prepare a requested Petdex companion
+  with Chatbook's validated importer, then use available app controls to review,
+  save and verify it. Preserves credits and distinguishes prepared from installed.
