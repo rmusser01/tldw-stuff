@@ -24,6 +24,7 @@ images, cards, or imported persona YAMLs. More specific notices take precedence.
 | [Default Assistant](character-packs/default-assistant/README.md): Chatbook JSON | [AGPL-3.0-or-later](LICENSES/AGPL-3.0-or-later.txt) |
 | Default Assistant: server JSON | [GPL-3.0-only](character-packs/default-assistant/SERVER_LICENSE.txt) |
 | [Persona archetypes](personas/README.md): native YAMLs | [GPL-3.0-only](personas/LICENSE), with [upstream attribution](personas/UPSTREAM_LICENSE.md) |
+| [Pepe](buddy-packs/pepe/README.md) | Apache-2.0 for project contributions to the extent applicable; Pepe character attribution retained for Matt Furie; underlying character rights remain separate in [NOTICE.txt](buddy-packs/pepe/NOTICE.txt) |
 | [Dipsy (Qipao), Kimi and Cappy](buddy-packs/README.md#dipsy-kimi-and-cappy) | Apache-2.0 for project-created sprites and pack materials; reference creator anonymous, reference license not published/verified; see each pack’s NOTICE.txt |
 | [Teto](buddy-packs/teto/README.md) | Apache-2.0 for project contributions; supplied reference artwork credited to anonymous, with no published reference license verified; reference and character rights remain separate in [NOTICE.txt](buddy-packs/teto/NOTICE.txt) |
 | [Twelve original companion packs](buddy-packs/README.md#new-companion-collection) | Apache-2.0 for original AI-assisted artwork, manifests and metadata; creator tldw-project; full license and provenance supplied in each pack |

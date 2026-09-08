@@ -1,0 +1,24 @@
+Pepe Buddy — character attribution and project contributions
+
+Pack creator: tldw-project
+Copyright 2026 tldw-project (new contributions)
+
+Pepe the Frog was created by Matt Furie for Boy's Club.
+Character attribution source: Matt Furie's publisher, Fantagraphics:
+https://www.fantagraphics.com/collections/matt-furie
+
+This is an unofficial, newly drawn Buddy adaptation. No published comic panels,
+source illustrations or other existing Pepe image pixels are bundled. Matt Furie
+is credited for the underlying character, not as the creator or endorser of this
+pack. Underlying character rights remain with their rights holder.
+
+New contributions: AI-assisted cartoon sprite artwork, the native Buddy pack,
+state mappings, animation previews, documentation and preparation metadata.
+Apache-2.0 covers the project's new contributions to the extent applicable;
+see LICENSE.txt. It does not grant a license to the underlying Pepe character
+or to Matt Furie's artwork.
+
+The existing tldw-stuff companions supplied a visual style reference only.
+No existing Buddy image pixels are included in this atlas.
+
+Please retain this attribution, LICENSE.txt and PROVENANCE.json with copies.

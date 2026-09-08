@@ -1,0 +1,364 @@
+{
+  "id": "pepe",
+  "title": "Pepe",
+  "description": "Pepe the Frog in a blue shirt and brown trousers, with a broad green face and expressive heavy eyelids.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "style": "Flat 2D cartoon, matched to the existing collection with clean dark outlines and restrained shading.",
+  "orientation": "Face and both eyes directed toward the user; feet planted on a shared support baseline.",
+  "registration": {
+    "method": "One uniform scale for the entire sheet, then integer translation of complete frames to a fixed support anchor.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.3432343234323432,
+    "resized_cell_sizes": [
+      [
+        64,
+        96
+      ],
+      [
+        64,
+        96
+      ],
+      [
+        64,
+        96
+      ],
+      [
+        63,
+        96
+      ],
+      [
+        65,
+        96
+      ],
+      [
+        81,
+        107
+      ],
+      [
+        81,
+        96
+      ],
+      [
+        81,
+        96
+      ],
+      [
+        73,
+        96
+      ],
+      [
+        73,
+        106
+      ],
+      [
+        66,
+        95
+      ],
+      [
+        73,
+        105
+      ],
+      [
+        82,
+        96
+      ],
+      [
+        65,
+        97
+      ],
+      [
+        91,
+        109
+      ],
+      [
+        78,
+        103
+      ]
+    ],
+    "extraction": "Separated sixteen complete character components and assigned detached reaction marks to the nearest character, preserving marks crossing nominal grid boundaries. Cropped each group with eight raw pixels of padding.",
+    "raw_crop_bounds": [
+      [
+        83,
+        24,
+        270,
+        303
+      ],
+      [
+        376,
+        24,
+        563,
+        303
+      ],
+      [
+        688,
+        24,
+        874,
+        303
+      ],
+      [
+        1001,
+        24,
+        1185,
+        303
+      ],
+      [
+        75,
+        334,
+        265,
+        615
+      ],
+      [
+        367,
+        303,
+        602,
+        615
+      ],
+      [
+        681,
+        336,
+        918,
+        616
+      ],
+      [
+        995,
+        335,
+        1231,
+        616
+      ],
+      [
+        55,
+        649,
+        267,
+        930
+      ],
+      [
+        369,
+        620,
+        582,
+        930
+      ],
+      [
+        686,
+        652,
+        878,
+        930
+      ],
+      [
+        1000,
+        623,
+        1212,
+        930
+      ],
+      [
+        24,
+        959,
+        264,
+        1240
+      ],
+      [
+        373,
+        959,
+        562,
+        1241
+      ],
+      [
+        654,
+        921,
+        920,
+        1240
+      ],
+      [
+        999,
+        940,
+        1227,
+        1241
+      ]
+    ],
+    "raw_component_groups": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        6
+      ],
+      [
+        8,
+        5,
+        10,
+        11
+      ],
+      [
+        9
+      ],
+      [
+        7
+      ],
+      [
+        15
+      ],
+      [
+        18,
+        12,
+        14,
+        19
+      ],
+      [
+        17
+      ],
+      [
+        16,
+        13,
+        20
+      ],
+      [
+        27,
+        32,
+        33
+      ],
+      [
+        28
+      ],
+      [
+        29,
+        21,
+        22,
+        23,
+        25,
+        26
+      ],
+      [
+        30,
+        24,
+        31
+      ]
+    ],
+    "anchor": {
+      "x": 64,
+      "baseline_y": 118,
+      "alpha_threshold": 128,
+      "support_band_height": 8
+    },
+    "frame_translations": [
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        -2,
+        9
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        -9,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        7,
+        6
+      ]
+    ]
+  },
+  "background_processing": {
+    "method": "Preserved generated alpha and removed alpha<=8 noise and tiny disconnected specks."
+  },
+  "loop_stabilization": {
+    "input_atlas_sha256": "4a31f9162edc3f749ae742e1b770b091a73f9b7cdeaf0baac8a4a8cb6eb1543f",
+    "operations": [
+      {
+        "frame": 2,
+        "base_frame": 0,
+        "expression_frame": 2,
+        "expression_box": [
+          50,
+          36,
+          97,
+          57
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_box_identical_to_base": true
+      },
+      {
+        "frame": 7,
+        "base_frame": 6,
+        "expression_frame": 7,
+        "expression_box": [
+          42,
+          54,
+          92,
+          74
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_box_identical_to_base": true
+      },
+      {
+        "frame": 5,
+        "base_frame": 4,
+        "effects_frame": 5,
+        "method": "Only detached thought-bubble components overlay the unchanged thinking frame."
+      }
+    ]
+  }
+}

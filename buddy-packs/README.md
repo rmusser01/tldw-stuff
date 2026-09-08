@@ -4,6 +4,16 @@ Optional Persona Buddy visuals, states and animations. Finished packs use native
 `.tldw-persona-vpack` archives and include artwork previews. Six authoring
 scaffolds are labelled separately from the finished downloads.
 
+## Pepe
+
+A green Pepe companion with a blue shirt, sixteen anchored poses and eighteen
+state mappings. Includes a transparent atlas, animated expressions and a native
+download. Pack creator: **tldw-project**; character creator: **Matt Furie**.
+
+[<img src="pepe/preview.gif" alt="Pepe animated Buddy preview" width="192" height="192">](pepe/)
+
+[Download and import](pepe/) · [Attribution notice](pepe/NOTICE.txt) · [Verification](pepe/verification.json).
+
 ## Pelican on a Bicycle
 
 A pelican riding a teal bicycle, with sixteen poses and eighteen state mappings.
