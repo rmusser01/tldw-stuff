@@ -1,0 +1,26 @@
+Teto Buddy — reference attribution and project contributions
+
+Pack creator: tldw-project
+Copyright 2026 tldw-project (new contributions)
+
+Reference artwork creator credit: anonymous (artist unidentified)
+Reference images supplied by the user:
+https://i.4cdn.org/g/1788844177063862.png
+https://i.4cdn.org/g/1788893235735517.png
+
+The reference images have no published license supplied or verified here.
+Anonymous is an attribution label for an unidentified artist, not a claim of
+public-domain status. The original images are linked, not bundled or relicensed.
+Underlying character rights remain with their respective rights holders.
+
+New contributions: AI-assisted marker-style sprite artwork, the native Buddy
+pack, state mappings, animation previews, documentation and preparation metadata.
+These project contributions are offered under Apache-2.0; see LICENSE.txt.
+This does not grant rights in the supplied reference images or their characters.
+
+Style reference: Migu Marker Basic from the existing tldw-stuff collection:
+https://github.com/rmusser01/tldw-stuff/tree/4de4a5cb34e2e478d04b88b65c1636492fe7e7b3/buddy-packs/migu-marker-basic
+Its own source notices and license remain applicable to that existing pack.
+No existing Migu or other Buddy image pixels are included in the new Teto atlas.
+
+Please retain this attribution, LICENSE.txt and PROVENANCE.json with copies.

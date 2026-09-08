@@ -24,6 +24,16 @@ download. Creator: **tldw-project** · **Apache-2.0**.
 
 [Download and import](llama/) · [Verified archive and checksums](llama/verification.json).
 
+## Teto
+
+[<img src="teto/preview.gif" alt="Red-haired marker-drawn Teto, animated expression preview" width="160" height="160">](teto/)
+
+[**Teto — preview and download**](teto/README.md) pairs with Migu Marker Basic:
+red twin tails, a white face and a gray dress with red trim. Sixteen poses share
+a fixed support anchor, with eighteen state mappings and animated reactions.
+Pack creator: **tldw-project**; supplied reference artwork credit: **anonymous**.
+[Reference notices](teto/NOTICE.txt) · [Verification](teto/verification.json).
+
 ## Dipsy, Kimi and Cappy
 
 Three new packs adapted from the supplied illustration, whose creator is credited
