@@ -6,10 +6,10 @@
   "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
   "packs": [
     {
-      "id": "align-waifu",
-      "title": "Align Waifu",
-      "bytes": 246899,
-      "sha256": "47a6dd42a22a9b71c21ccea5938fe8856516770071bc76ec382fd22aab0001de",
+      "id": "un-aligned-waifu",
+      "title": "un-aligned waifu",
+      "bytes": 246881,
+      "sha256": "fb4b920101cc4acee4a2590f4d384a2e8764a7fb22d2937afbda03cdb33b5dde",
       "assets": 1,
       "poses": 16,
       "states": 18,
@@ -18,7 +18,7 @@
   ],
   "chatbook": [
     {
-      "id": "align-waifu",
+      "id": "un-aligned-waifu",
       "host": "chatbook",
       "result": "passed",
       "checks": [
@@ -35,7 +35,7 @@
   ],
   "server": [
     {
-      "id": "align-waifu",
+      "id": "un-aligned-waifu",
       "host": "server",
       "result": "passed",
       "checks": [
