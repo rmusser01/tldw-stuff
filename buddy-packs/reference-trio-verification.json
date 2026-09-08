@@ -9,12 +9,12 @@
     {
       "id": "dipsy-qipao",
       "title": "Dipsy (Qipao)",
-      "bytes": 204423,
-      "sha256": "1ee6924490a876ac3e606b47bb1a1de5f8930a194c577a74bbc686794c477810",
+      "bytes": 204327,
+      "sha256": "463d25f532e3d6720cc5434341fafe4b0a94bd51599b2dd563d2c96e44c24989",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "ce0b26fd9f5eeedef8865c9c2a1fabfbec48b0db47e1d2d82556332c0d6ff5ca",
+      "source_sha256": "a37a792412efa9d1ca67fa639852c90441592e634096bb25586cb9b20f838af0",
       "content_version": "1.0.1"
     },
     {

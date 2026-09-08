@@ -9,7 +9,7 @@ This is Dipsy from the reference illustration. The separate
 
 <img src="preview.png" alt="Dipsy (Qipao) still preview" width="192" height="192"> <img src="preview.gif" alt="Dipsy (Qipao) animation and reaction preview" width="192" height="192">
 
-[**Download Dipsy (Qipao)**](dipsy-qipao.tldw-persona-vpack) · 204,423 bytes · [SHA-256 checksums](SHA256SUMS)
+[**Download Dipsy (Qipao)**](dipsy-qipao.tldw-persona-vpack) · 204,327 bytes · [SHA-256 checksums](SHA256SUMS)
 
 The still is the exact idle frame. The animated preview cycles through actual
 pack frames on a dark background; the downloadable artwork has transparency.
@@ -73,9 +73,10 @@ confused, and love. Some reactions intentionally share the same artwork.
 
 ## Verification and updates
 
-Version 1.0.1 lowers the dress crease toward the natural waist across all sixteen
-poses. Only the blue-dress waist area was updated; original pixels outside it,
-including the face, expressions and foot positioning, are preserved exactly.
+Version 1.0.1 smooths the dress front into a gently lower waist contour across all
+sixteen poses, removing the transverse crease. Only the blue-dress waist area was
+updated; original pixels outside it, including the face, expressions and foot
+positioning, are preserved exactly.
 
 This archive passed native Chatbook import, save, reload, export/re-import,
 motion/static selection, and independent animated-character publication checks.

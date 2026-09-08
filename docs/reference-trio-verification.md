@@ -34,7 +34,8 @@ scale, output sizes and translations. This preserves gesture changes without
 introducing per-pose zoom or position drift. All 48 final poses were visually
 reviewed for consistent identity, correct limb counts and unclipped margins.
 
-Dipsy 1.0.1 includes a targeted dress correction from the built-in image tool.
+Dipsy 1.0.1 includes a targeted dress correction from the built-in image tool:
+a smooth dress front and gently lower waist contour, without a transverse crease.
 The selected blue-dress waist area was composited onto the existing registered
 frames, with hands, arms, heart and gold details protected. Pixel comparison
 confirmed that every pixel outside the waist band remains identical to 1.0.0.
@@ -47,7 +48,7 @@ provenance, generation prompt, Apache license, reference notice and SHA-256 list
 GIFs use a dark matte; source and native PNGs retain full alpha. Previews show
 actual distributed frames, not application screenshots.
 
-The three native downloads total 702,849 bytes.
+The three native downloads total 702,753 bytes.
 [Per-pack sizes, digests and host results](../buddy-packs/reference-trio-verification.json)
 record the tested files.
 
