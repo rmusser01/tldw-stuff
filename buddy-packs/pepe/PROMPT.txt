@@ -1,0 +1,18 @@
+Use case: stylized-concept
+Asset type: production sprite atlas for a small animated desktop Buddy called Pepe.
+
+Create exactly sixteen full-body poses of Pepe the Frog in a perfectly regular 4-column by 4-row square sprite sheet. Recognizable green frog with a broad rounded head, heavy half-lidded eyes, thick soft brownish lips, blue long-sleeved shirt, plain brown trousers, two green frog feet and exactly two arms. Warm, mellow and expressive. His face and both eyes look toward the user, with only a slight three-quarter turn. All cells show the same individual, clothing, proportions and camera.
+
+Style: the collection uses clean flat 2D cartoon art: bold dark outlines, simple readable silhouettes, restrained two-tone shading, expressive faces, no texture. Match this small companion aesthetic. Neither pixel art nor low-poly/3D. Rounded cartoon proportions, with the head about half the total body height. Keep the familiar Pepe face rather than turning him into a generic cute frog.
+
+Background: genuinely transparent RGBA, including all empty gutters. No checkerboard, colored matte, floor, shadow, captions, lettering, labels, watermarks or grid lines. Each character and any reaction marks must fit completely inside its own equal-size cell with ample transparent margins on every side.
+
+Registration: identical body scale, head size, forward-facing orientation and planted foot positions in every cell. All feet rest on the same baseline relative to their cell. No bouncing, jumping, walking, leaning body, zooming or camera movement. The neutral body below the chest stays as consistent as possible. Changes are face, eyelids, mouth and arm gestures, with small reaction marks. Keep every full head, hand and foot visible, even in the celebration pose.
+
+Sixteen cells, left to right, top to bottom:
+Row 1: (1) relaxed idle, closed mouth and hands down; (2) same neutral idle; (3) exact idle pose with both eyes closed for a blink; (4) same neutral idle.
+Row 2: (5) thoughtful, one hand at chin; (6) same thinking pose with a small thought bubble above; (7) speaking, mouth open and one palm turned upward; (8) identical speaking body and hand pose with mouth almost closed.
+Row 3: (9) listening, one hand cupped beside the head; (10) sleepy, eyelids closed and small sleep marks above, still standing in place; (11) sad/worried Pepe face with a tear, shoulders and feet still level; (12) confused face, one hand at chin and a small question mark above.
+Row 4: (13) greeting wave using one hand, other hand down; (14) pleased closed-eye smile, hands held loosely in front; (15) celebration with both arms raised and a big happy face, feet still planted; (16) affectionate smile holding one small red heart with the same two hands.
+
+Anatomy constraints: exactly one head, two eyes, two arms with two hands, and two legs with two feet per frog. A gesturing arm replaces the resting arm; do not leave a second duplicate arm beside the torso. All sixteen characters must be separate, evenly spaced, uncut and aligned.
