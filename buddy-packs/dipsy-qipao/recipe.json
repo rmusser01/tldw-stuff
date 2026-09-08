@@ -1,0 +1,158 @@
+{
+  "id": "dipsy-qipao",
+  "title": "Dipsy (Qipao)",
+  "description": "Dipsy with round glasses, twin buns and a blue floral qipao.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "style": "2D cartoon; character design adapted from the user-provided reference",
+  "registration": {
+    "method": "one uniform scale for the entire character, then integer translation to a fixed support anchor",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.3895131086142322,
+    "resized_cell_sizes": [
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ],
+      [
+        122,
+        122
+      ]
+    ],
+    "anchor": {
+      "x": 64,
+      "baseline_y": 118,
+      "alpha_threshold": 128,
+      "support_band_height": 8
+    },
+    "frame_translations": [
+      [
+        0,
+        -1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        -1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ]
+    ]
+  },
+  "orientation": "Face, torso and stance turned toward the viewer; ordinary expressions make eye contact."
+}

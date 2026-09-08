@@ -1,4 +1,4 @@
-"""Verify the twelve optional companions using actual application importers.
+"""Verify optional companions using actual application importers.
 
 Run with --host chatbook or --host server in that application's Python environment.
 Only temporary profiles, configuration and SQLite databases are used.
@@ -72,6 +72,13 @@ def artifact_checks(folder: Path) -> None:
     provenance = json.loads((folder / "PROVENANCE.json").read_text())
     assert provenance["creator"] == "tldw-project"
     assert provenance["license"] == "Apache-2.0"
+    assert (
+        provenance["source_sha256"]
+        == hashlib.sha256((folder / "source.png").read_bytes()).hexdigest()
+    )
+    if reference := provenance.get("reference"):
+        notice = (folder / "NOTICE.txt").read_text()
+        assert reference["creator"] in notice and reference["url"] in notice
 
 
 def chatbook_checks(folder: Path, root: Path) -> dict:
@@ -107,6 +114,8 @@ def chatbook_checks(folder: Path, root: Path) -> dict:
     staging.mkdir(mode=0o700)
     archive = folder / (folder.name + ".tldw-persona-vpack")
     original = read_buddy_archive(archive)
+    if (folder / "NOTICE.txt").is_file():
+        assert (folder / "NOTICE.txt").read_text() in original.artwork["notices"]
     db = CharactersRAGDB(root / "characters.db", client_id="collection-verification")
     try:
         repository = PersonaVisualRepository(db)

@@ -1,8 +1,25 @@
 # Buddy packs
 
-Optional Persona Buddy visuals, states and animations: **19 finished packs** and
-six separately labelled authoring scaffolds. The twelve new companions below
-join the seven shipped defaults. All use native `.tldw-persona-vpack` archives.
+Optional Persona Buddy visuals, states and animations: **22 finished packs** and
+six separately labelled authoring scaffolds. Three reference characters join the
+twelve original companions and seven shipped defaults. All use native
+`.tldw-persona-vpack` archives.
+
+## Dipsy, Kimi and Cappy
+
+Three new packs adapted from the supplied illustration, whose creator is credited
+to **anonymous**. Each includes sixteen anchored poses, eighteen state mappings,
+a native download and static/animated previews. Dipsy (Qipao) is a separate pack
+from the blue-whale Dipsy below.
+
+| Dipsy (Qipao) | Kimi | Cappy |
+| --- | --- | --- |
+| [<img src="dipsy-qipao/preview.gif" alt="Dipsy in a blue qipao" width="160" height="160">](dipsy-qipao/) | [<img src="kimi/preview.gif" alt="Kimi with silver hair and a black dress" width="160" height="160">](kimi/) | [<img src="cappy/preview.gif" alt="Cappy the capybara in a red jacket" width="160" height="160">](cappy/) |
+
+Pack creator: **tldw-project**. Reference credit and its unpublished license status
+are retained in each pack's NOTICE.txt and native archive.
+[Verification](../docs/reference-trio-verification.md) ·
+[Archive sizes and checksums](reference-trio-verification.json).
 
 ## New companion collection
 
