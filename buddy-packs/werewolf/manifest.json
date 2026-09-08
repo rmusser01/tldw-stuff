@@ -1,0 +1,432 @@
+{
+  "renderer_type": "sprite_frames",
+  "manifest_version": 1,
+  "states": {
+    "idle": {
+      "animation_id": "idle"
+    },
+    "wake_armed": {
+      "animation_id": "listening"
+    },
+    "listening": {
+      "animation_id": "listening"
+    },
+    "thinking": {
+      "animation_id": "thinking"
+    },
+    "speaking": {
+      "animation_id": "speaking"
+    },
+    "tool_running": {
+      "animation_id": "thinking"
+    },
+    "approval_needed": {
+      "animation_id": "confused"
+    },
+    "error": {
+      "animation_id": "error"
+    },
+    "offline": {
+      "animation_id": "sleepy"
+    },
+    "reaction.greeting": {
+      "animation_id": "wave"
+    },
+    "reaction.happy": {
+      "animation_id": "happy"
+    },
+    "reaction.success": {
+      "animation_id": "celebrate"
+    },
+    "mood.neutral": {
+      "animation_id": "idle"
+    },
+    "mood.thinking": {
+      "animation_id": "thinking"
+    },
+    "mood.sleepy": {
+      "animation_id": "sleepy"
+    },
+    "mood.confused": {
+      "animation_id": "confused"
+    },
+    "mood.happy": {
+      "animation_id": "happy"
+    },
+    "mood.love": {
+      "animation_id": "love"
+    }
+  },
+  "animations": {
+    "idle": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 1500,
+          "region": {
+            "x": 0,
+            "y": 0,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 220,
+          "region": {
+            "x": 128,
+            "y": 0,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 1300,
+          "region": {
+            "x": 0,
+            "y": 0,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 140,
+          "region": {
+            "x": 256,
+            "y": 0,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 1000,
+          "region": {
+            "x": 0,
+            "y": 0,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": true,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "thinking": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 1100,
+          "region": {
+            "x": 0,
+            "y": 128,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 900,
+          "region": {
+            "x": 128,
+            "y": 128,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": true,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "speaking": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 180,
+          "region": {
+            "x": 256,
+            "y": 128,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 220,
+          "region": {
+            "x": 384,
+            "y": 128,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": true,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "listening": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 1000,
+          "region": {
+            "x": 0,
+            "y": 256,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": false,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "sleepy": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 1000,
+          "region": {
+            "x": 128,
+            "y": 256,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": false,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "error": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 1000,
+          "region": {
+            "x": 256,
+            "y": 256,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": false,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "confused": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 1000,
+          "region": {
+            "x": 384,
+            "y": 256,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": false,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "wave": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 250,
+          "region": {
+            "x": 0,
+            "y": 384,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 180,
+          "region": {
+            "x": 0,
+            "y": 0,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 250,
+          "region": {
+            "x": 0,
+            "y": 384,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 800,
+          "region": {
+            "x": 0,
+            "y": 0,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": false,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "happy": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 1000,
+          "region": {
+            "x": 128,
+            "y": 384,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": false,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "celebrate": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 400,
+          "region": {
+            "x": 256,
+            "y": 384,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 300,
+          "region": {
+            "x": 128,
+            "y": 384,
+            "width": 128,
+            "height": 128
+          }
+        },
+        {
+          "asset_id": "atlas",
+          "duration_ms": 800,
+          "region": {
+            "x": 256,
+            "y": 384,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": false,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    "love": {
+      "frames": [
+        {
+          "asset_id": "atlas",
+          "duration_ms": 1000,
+          "region": {
+            "x": 384,
+            "y": 384,
+            "width": 128,
+            "height": 128
+          }
+        }
+      ],
+      "loop": false,
+      "preview_frame": 0,
+      "alignment": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    }
+  },
+  "fallbacks": {},
+  "state_catalog": {
+    "reaction.greeting": {
+      "kind": "reaction",
+      "label": "Greeting"
+    },
+    "reaction.happy": {
+      "kind": "reaction",
+      "label": "Happy"
+    },
+    "reaction.success": {
+      "kind": "reaction",
+      "label": "Success"
+    },
+    "mood.neutral": {
+      "kind": "mood",
+      "label": "Neutral"
+    },
+    "mood.thinking": {
+      "kind": "mood",
+      "label": "Thinking"
+    },
+    "mood.sleepy": {
+      "kind": "mood",
+      "label": "Sleepy"
+    },
+    "mood.confused": {
+      "kind": "mood",
+      "label": "Confused"
+    },
+    "mood.happy": {
+      "kind": "mood",
+      "label": "Happy"
+    },
+    "mood.love": {
+      "kind": "mood",
+      "label": "Love"
+    }
+  },
+  "authored_triggers": []
+}

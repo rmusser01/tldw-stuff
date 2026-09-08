@@ -1,11 +1,28 @@
 # Buddy packs
 
-Optional Persona Buddy visuals, states and animations. These are the complete
-13-entry shipped server starter catalog at commit `36b846628d` (2026-09-05):
-seven finished packs and six separately labelled scaffold references. They
-use native `.tldw-persona-vpack` archives, verified with both server and Chatbook.
+Optional Persona Buddy visuals, states and animations: **19 finished packs** and
+six separately labelled authoring scaffolds. The twelve new companions below
+join the seven shipped defaults. All use native `.tldw-persona-vpack` archives.
 
-## Finished packs
+## New companion collection
+
+Twelve original 2D companions, matching the existing Buddy artwork. Each
+includes a native download, transparent source art, still preview, animated
+preview, and reactions. Select a name or image for files and import steps.
+
+| Buddy | Buddy | Buddy |
+| --- | --- | --- |
+| [**Woodpecker**](woodpecker/)<br><a href="woodpecker/"><img src="woodpecker/preview.gif" alt="Woodpecker animated preview" width="160" height="160"></a> | [**Rubber Duck**](rubber-duck/)<br><a href="rubber-duck/"><img src="rubber-duck/preview.gif" alt="Rubber Duck animated preview" width="160" height="160"></a> | [**Werewolf**](werewolf/)<br><a href="werewolf/"><img src="werewolf/preview.gif" alt="Werewolf animated preview" width="160" height="160"></a> |
+| [**Circle**](circle/)<br><a href="circle/"><img src="circle/preview.gif" alt="Circle animated preview" width="160" height="160"></a> | [**Square**](square/)<br><a href="square/"><img src="square/preview.gif" alt="Square animated preview" width="160" height="160"></a> | [**Rhombus**](rhombus/)<br><a href="rhombus/"><img src="rhombus/preview.gif" alt="Rhombus animated preview" width="160" height="160"></a> |
+| [**Octagon**](octagon/)<br><a href="octagon/"><img src="octagon/preview.gif" alt="Octagon animated preview" width="160" height="160"></a> | [**Triangle**](triangle/)<br><a href="triangle/"><img src="triangle/preview.gif" alt="Triangle animated preview" width="160" height="160"></a> | [**Trenchcoat**](trenchcoat/)<br><a href="trenchcoat/"><img src="trenchcoat/preview.gif" alt="Trenchcoat animated preview" width="160" height="160"></a> |
+| [**Shiba-inu**](shiba-inu/)<br><a href="shiba-inu/"><img src="shiba-inu/preview.gif" alt="Shiba-inu animated preview" width="160" height="160"></a> | [**Dipsy**](dipsy/)<br><a href="dipsy/"><img src="dipsy/preview.gif" alt="Dipsy animated preview" width="160" height="160"></a> | [**Ghosty**](ghosty/)<br><a href="ghosty/"><img src="ghosty/preview.gif" alt="Ghosty animated preview" width="160" height="160"></a> |
+
+All twelve are credited to **tldw-project** and use Apache-2.0 for their
+new artwork and metadata. The defaults below retain their existing terms.
+[Verification](../docs/buddy-collection-verification.md) ·
+[Archive inventory and checksums](companions-verification.json).
+
+## Shipped defaults
 
 Preview the actual artwork before downloading. Select an image or name for
 the archive, import steps and licensing. These are the packs’ original preview

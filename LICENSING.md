@@ -24,6 +24,7 @@ images, cards, or imported persona YAMLs. More specific notices take precedence.
 | [Default Assistant](character-packs/default-assistant/README.md): Chatbook JSON | [AGPL-3.0-or-later](LICENSES/AGPL-3.0-or-later.txt) |
 | Default Assistant: server JSON | [GPL-3.0-only](character-packs/default-assistant/SERVER_LICENSE.txt) |
 | [Persona archetypes](personas/README.md): native YAMLs | [GPL-3.0-only](personas/LICENSE), with [upstream attribution](personas/UPSTREAM_LICENSE.md) |
+| [Twelve original companion packs](buddy-packs/README.md#new-companion-collection) | Apache-2.0 for original AI-assisted artwork, manifests and metadata; creator tldw-project; full license and provenance supplied in each pack |
 | [Default Buddy packs and scaffolds](buddy-packs/README.md): server exports and catalog metadata | [GPL-3.0-only](buddy-packs/LICENSE), subject to more specific artwork notices; [upstream scope](buddy-packs/UPSTREAM_LICENSE.md) |
 | pixel-migu character artwork and Buddy artwork | Retained `LicenseRef-User-Supplied` notices: [character assets](character-packs/pixel-migu/assets/characters/pixel_migu/ASSET_LICENSE.md), [Buddy server provenance](buddy-packs/pixel-migu/PROVENANCE-server.md), and [Buddy Chatbook provenance](buddy-packs/pixel-migu/PROVENANCE-chatbook.md) |
 
