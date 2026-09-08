@@ -1,8 +1,8 @@
 {
   "id": "pepe",
   "title": "Pepe",
-  "description": "Pepe the Frog in a blue shirt and brown trousers, with a broad green face and expressive heavy eyelids.",
-  "content_version": "1.0.0",
+  "description": "A short, broad Pepe the Frog with heavy eyelids, a round blue-shirted belly and stubby brown trouser legs.",
+  "content_version": "1.0.1",
   "creator": "tldw-project",
   "frame_size": 128,
   "columns": 4,
@@ -15,179 +15,175 @@
       1254,
       1254
     ],
-    "uniform_scale": 0.3432343234323432,
+    "uniform_scale": 0.37438423645320196,
     "resized_cell_sizes": [
       [
-        64,
-        96
-      ],
-      [
-        64,
-        96
-      ],
-      [
-        64,
-        96
-      ],
-      [
-        63,
-        96
-      ],
-      [
-        65,
-        96
+        81,
+        82
       ],
       [
         81,
-        107
-      ],
-      [
-        81,
-        96
-      ],
-      [
-        81,
-        96
-      ],
-      [
-        73,
-        96
-      ],
-      [
-        73,
-        106
-      ],
-      [
-        66,
-        95
-      ],
-      [
-        73,
-        105
+        82
       ],
       [
         82,
-        96
+        82
       ],
       [
-        65,
-        97
+        81,
+        83
       ],
       [
-        91,
-        109
+        83,
+        82
       ],
       [
-        78,
-        103
+        97,
+        99
+      ],
+      [
+        98,
+        82
+      ],
+      [
+        98,
+        83
+      ],
+      [
+        88,
+        83
+      ],
+      [
+        88,
+        100
+      ],
+      [
+        82,
+        82
+      ],
+      [
+        86,
+        98
+      ],
+      [
+        95,
+        82
+      ],
+      [
+        79,
+        82
+      ],
+      [
+        105,
+        102
+      ],
+      [
+        95,
+        95
       ]
     ],
+    "idle_standing_height_limit": 76,
+    "raw_idle_height": 203,
     "extraction": "Separated sixteen complete character components and assigned detached reaction marks to the nearest character, preserving marks crossing nominal grid boundaries. Cropped each group with eight raw pixels of padding.",
     "raw_crop_bounds": [
       [
-        83,
-        24,
-        270,
-        303
-      ],
-      [
-        376,
-        24,
-        563,
-        303
-      ],
-      [
-        688,
-        24,
-        874,
-        303
-      ],
-      [
-        1001,
-        24,
-        1185,
-        303
-      ],
-      [
-        75,
-        334,
-        265,
-        615
+        53,
+        101,
+        269,
+        320
       ],
       [
         367,
-        303,
-        602,
-        615
+        101,
+        583,
+        320
       ],
       [
+        672,
+        100,
+        890,
+        320
+      ],
+      [
+        987,
+        99,
+        1203,
+        320
+      ],
+      [
+        52,
+        388,
+        274,
+        608
+      ],
+      [
+        364,
+        344,
+        624,
+        608
+      ],
+      [
+        668,
+        389,
+        930,
+        608
+      ],
+      [
+        980,
+        388,
+        1242,
+        609
+      ],
+      [
+        41,
         681,
-        336,
-        918,
-        616
+        275,
+        903
       ],
       [
-        995,
-        335,
-        1231,
-        616
+        366,
+        637,
+        600,
+        905
       ],
       [
-        55,
+        671,
+        684,
+        889,
+        904
+      ],
+      [
+        986,
+        642,
+        1215,
+        905
+      ],
+      [
+        19,
+        989,
+        273,
+        1209
+      ],
+      [
+        362,
+        990,
+        573,
+        1209
+      ],
+      [
         649,
-        267,
-        930
+        938,
+        930,
+        1210
       ],
       [
-        369,
-        620,
-        582,
-        930
-      ],
-      [
-        686,
-        652,
-        878,
-        930
-      ],
-      [
-        1000,
-        623,
-        1212,
-        930
-      ],
-      [
-        24,
-        959,
-        264,
-        1240
-      ],
-      [
-        373,
-        959,
-        562,
-        1241
-      ],
-      [
-        654,
-        921,
-        920,
-        1240
-      ],
-      [
-        999,
-        940,
-        1227,
-        1241
+        989,
+        957,
+        1243,
+        1210
       ]
     ],
     "raw_component_groups": [
-      [
-        1
-      ],
-      [
-        2
-      ],
       [
         3
       ],
@@ -195,44 +191,48 @@
         4
       ],
       [
-        6
+        2
       ],
       [
-        8,
-        5,
-        10,
-        11
-      ],
-      [
-        9
+        1
       ],
       [
         7
       ],
       [
-        15
+        6,
+        5,
+        10
       ],
       [
-        18,
-        12,
-        14,
-        19
+        9
+      ],
+      [
+        8
+      ],
+      [
+        16
+      ],
+      [
+        19,
+        11,
+        13,
+        15
       ],
       [
         17
       ],
       [
-        16,
-        13,
-        20
+        18,
+        12
       ],
       [
-        27,
+        28,
         32,
         33
       ],
       [
-        28
+        31
       ],
       [
         29,
@@ -245,7 +245,7 @@
       [
         30,
         24,
-        31
+        27
       ]
     ],
     "anchor": {
@@ -256,86 +256,86 @@
     },
     "frame_translations": [
       [
-        2,
-        9
-      ],
-      [
-        2,
-        9
-      ],
-      [
-        2,
-        9
-      ],
-      [
-        2,
-        9
-      ],
-      [
-        1,
-        9
-      ],
-      [
-        8,
-        4
-      ],
-      [
-        8,
-        9
-      ],
-      [
-        9,
-        9
-      ],
-      [
-        -2,
-        9
-      ],
-      [
-        5,
-        4
-      ],
-      [
-        2,
-        10
-      ],
-      [
-        6,
-        5
-      ],
-      [
-        -9,
-        9
-      ],
-      [
-        2,
-        9
+        0,
+        16
       ],
       [
         0,
-        3
+        16
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        0,
+        16
       ],
       [
         7,
+        8
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        -2,
+        16
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        -6,
+        16
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        2,
         6
+      ],
+      [
+        8,
+        10
       ]
     ]
   },
   "background_processing": {
-    "method": "Preserved generated alpha and removed alpha<=8 noise and tiny disconnected specks."
+    "method": "Removed the exterior-connected painted gray checkerboard. Preserved opaque eye whites, thought bubbles and enclosed artwork; unmatted neutral antialiased outline edges."
   },
   "loop_stabilization": {
-    "input_atlas_sha256": "4a31f9162edc3f749ae742e1b770b091a73f9b7cdeaf0baac8a4a8cb6eb1543f",
+    "input_atlas_sha256": "474409750f2696eb3f1efff9cfbfed50a034d8ae2a701fc758e698c20d24c3c2",
     "operations": [
       {
         "frame": 2,
         "base_frame": 0,
         "expression_frame": 2,
         "expression_box": [
-          50,
-          36,
-          97,
-          57
+          44,
+          49,
+          101,
+          72
         ],
         "edge_blend_pixels": 1,
         "outside_expression_box_identical_to_base": true
@@ -345,10 +345,10 @@
         "base_frame": 6,
         "expression_frame": 7,
         "expression_box": [
-          42,
-          54,
-          92,
-          74
+          40,
+          71,
+          101,
+          88
         ],
         "edge_blend_pixels": 1,
         "outside_expression_box_identical_to_base": true
@@ -360,5 +360,30 @@
         "method": "Only detached thought-bubble components overlay the unchanged thinking frame."
       }
     ]
+  },
+  "proportion_review": {
+    "method": "Opaque idle bounds at the same 128px frame size and alpha>=128.",
+    "before": {
+      "label": "Before",
+      "width": 58,
+      "height": 90,
+      "bbox": [
+        37,
+        28,
+        95,
+        118
+      ]
+    },
+    "after": {
+      "label": "Squatter Pepe",
+      "width": 75,
+      "height": 76,
+      "bbox": [
+        26,
+        42,
+        101,
+        118
+      ]
+    }
   }
 }

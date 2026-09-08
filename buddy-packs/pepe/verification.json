@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "creator": "tldw-project",
   "verified_on": "2026-09-08",
   "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
@@ -8,12 +8,12 @@
     {
       "id": "pepe",
       "title": "Pepe",
-      "bytes": 180080,
-      "sha256": "0302fcb7166ec02b0e765fa01ac81276615f792259640393e8e4806ce17f003e",
+      "bytes": 193544,
+      "sha256": "12ef6b194821d57f3eda651864a5e1947f92e8324b2db5ceab3755a30236c1ca",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "08739fcb886f121aa0432b8f63495dd2fc60d2b38abea1b945a6c0b3a7adaf24"
+      "source_sha256": "27c4c2b1e4d6c1ff5902158106c6e5c5edb850062edfcf6a9ec4199a6bb471f8"
     }
   ],
   "chatbook": [

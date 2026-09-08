@@ -3,24 +3,29 @@
   "creator": "tldw-project",
   "copyright": "2026 tldw-project (new contributions)",
   "license": "Apache-2.0",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "license_scope": "Project contributions to the extent applicable; underlying reference-artwork and character rights remain separate. See NOTICE.txt.",
-  "method": "OpenAI built-in image generation; user-authorized local alpha cleanup, proportional scaling, frame extraction and registration. Unchanged sprite regions were reused in blink, thinking and speaking loops to prevent body and prop jitter.",
-  "generated_input_sha256": "d7216d100ac8df2fd760b06dcdb2aa134c92b33b2110522052c0bfe2c26a0828",
-  "source_sha256": "08739fcb886f121aa0432b8f63495dd2fc60d2b38abea1b945a6c0b3a7adaf24",
+  "method": "OpenAI built-in image editing of the previous Pepe atlas to create a shorter, broader silhouette, round belly and stubby legs; user-authorized local alpha cleanup, proportional scaling, frame extraction and registration. Unchanged sprite regions were reused in blink, thinking and speaking loops to prevent body and prop jitter.",
+  "generated_input_sha256": "02da5795487cd5261d933dde957583add05572454506d4799817d549a1a2af31",
+  "source_sha256": "27c4c2b1e4d6c1ff5902158106c6e5c5edb850062edfcf6a9ec4199a6bb471f8",
   "style_references": [
     "../dipsy-qipao/source.png",
     "../woodpecker/source.png"
   ],
-  "reference_use": "Existing collection artwork was inspected to describe its style. No existing Buddy image pixels are included in this new atlas.",
+  "reference_use": "Existing collection artwork informed the original style. This revision uses the previously generated Pepe atlas as a proportion-edit reference; no other Buddy artwork is included.",
   "prompt": "PROMPT.txt",
   "source": "source.png",
   "notice": "NOTICE.txt",
+  "revision_reference": {
+    "url": "https://github.com/rmusser01/tldw-stuff/blob/de30bab41a3d4503b36e37fc20ef08908420b766/buddy-packs/pepe/source.png",
+    "sha256": "08739fcb886f121aa0432b8f63495dd2fc60d2b38abea1b945a6c0b3a7adaf24",
+    "change": "User requested a shorter, fatter, squatter Pepe."
+  },
   "reference": {
     "creator": "Matt Furie",
     "work": "Pepe the Frog from Boy's Club",
     "url": "https://www.fantagraphics.com/collections/matt-furie",
-    "use": "Character attribution verified against the publisher. No existing Pepe artwork was downloaded or bundled; new sprite drawings generated from a textual character description.",
+    "use": "Character attribution verified against the publisher. New project-generated sprites adapted from the earlier project atlas; no Matt Furie illustrations were downloaded or bundled.",
     "license_status": "Underlying character rights retained; this pack does not grant a license to Matt Furie artwork or characters."
   }
 }
