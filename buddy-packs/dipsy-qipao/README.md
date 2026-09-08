@@ -9,7 +9,7 @@ This is Dipsy from the reference illustration. The separate
 
 <img src="preview.png" alt="Dipsy (Qipao) still preview" width="192" height="192"> <img src="preview.gif" alt="Dipsy (Qipao) animation and reaction preview" width="192" height="192">
 
-[**Download Dipsy (Qipao)**](dipsy-qipao.tldw-persona-vpack) · 204,592 bytes · [SHA-256 checksums](SHA256SUMS)
+[**Download Dipsy (Qipao)**](dipsy-qipao.tldw-persona-vpack) · 204,327 bytes · [SHA-256 checksums](SHA256SUMS)
 
 The still is the exact idle frame. The animated preview cycles through actual
 pack frames on a dark background; the downloadable artwork has transparency.
@@ -26,7 +26,7 @@ license was supplied or verified. The original image is not bundled or relicense
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Creator | tldw-project |
 | License | [Apache-2.0](LICENSE.txt) for project contributions; reference rights remain separate in [NOTICE.txt](NOTICE.txt) |
 | Artwork | Viewer-facing 2D sprites adapted from the supplied reference |
@@ -73,6 +73,11 @@ confused, and love. Some reactions intentionally share the same artwork.
 
 ## Verification and updates
 
+Version 1.0.1 smooths the dress front into a gently lower waist contour across all
+sixteen poses, removing the transverse crease. Only the blue-dress waist area was
+updated; original pixels outside it, including the face, expressions and foot
+positioning, are preserved exactly.
+
 This archive passed native Chatbook import, save, reload, export/re-import,
 motion/static selection, and independent animated-character publication checks.
 The same bytes passed server preview, committed inactive-draft import, checksum
@@ -87,5 +92,5 @@ a later server export, so retain the accompanying files.
 
 To update a customized Buddy, import into a new Persona/draft and compare before
 switching. Downloaded copies are independent and never update automatically.
-[PROMPT.txt](PROMPT.txt) records the built-in generation and viewer-facing edit prompts;
+[PROMPT.txt](PROMPT.txt) records the built-in generation, viewer-facing and dress-correction prompts;
 [recipe.json](recipe.json) describes the prepared atlas.

@@ -1,6 +1,6 @@
 # Dipsy, Kimi and Cappy verification
 
-Date: 2026-09-08 · Content version: 1.0.0 · Pack creator: tldw-project
+Date: 2026-09-08 · Collection revision: 1.0.1 · Pack creator: tldw-project
 
 [The three packs](../buddy-packs/README.md#dipsy-kimi-and-cappy) adapt the characters
 in the user-supplied illustration. Reference-image credit is **anonymous**, as
@@ -10,7 +10,8 @@ reference credit from the project's new contributions and is embedded in the
 native archive's artwork notices.
 
 Dipsy (Qipao), stored as `dipsy-qipao`, is separate from the existing blue whale.
-No existing pack or application default was replaced.
+Dipsy is now version 1.0.1; Kimi and Cappy remain at 1.0.0. The whale and
+application defaults are unchanged.
 
 ADR required: no. These content additions use existing native pack and character
 contracts. The builder now includes an optional local NOTICE.txt in the existing
@@ -20,7 +21,7 @@ artwork-notice field and file checksums; it adds no runtime interface.
 
 The built-in OpenAI image tool generated and edited one sixteen-pose sheet per
 character. Faces, shoulders and stance turn toward the viewer, with ordinary
-expressions making eye contact. Each pack records both exact prompts and the
+expressions making eye contact. Each pack records its exact prompts and the
 generation history in its provenance.
 The requested identities are retained: Dipsy's twin buns, round glasses and blue
 qipao; Kimi's silver hair, black dress and K pendant; Cappy's capybara snout and
@@ -33,17 +34,28 @@ scale, output sizes and translations. This preserves gesture changes without
 introducing per-pose zoom or position drift. All 48 final poses were visually
 reviewed for consistent identity, correct limb counts and unclipped margins.
 
+Dipsy 1.0.1 includes a targeted dress correction from the built-in image tool:
+a smooth dress front and gently lower waist contour, without a transverse crease.
+The selected blue-dress waist area was composited onto the existing registered
+frames, with hands, arms, heart and gold details protected. Pixel comparison
+confirmed that every pixel outside the waist band remains identical to 1.0.0.
+The original frame scale, translations, support anchors and animation timings
+were retained. The recipe records the changed bounds and comparison digest.
+
 Each pack supplies a 512 × 512 RGBA atlas, sixteen poses, eighteen state mappings,
 a native `.tldw-persona-vpack`, a still PNG, an animated GIF, recipe, manifest,
 provenance, generation prompt, Apache license, reference notice and SHA-256 list.
 GIFs use a dark matte; source and native PNGs retain full alpha. Previews show
 actual distributed frames, not application screenshots.
 
-The three native downloads total 703,018 bytes.
+The three native downloads total 702,753 bytes.
 [Per-pack sizes, digests and host results](../buddy-packs/reference-trio-verification.json)
 record the tested files.
 
 ## Executed checks
+
+For revision 1.0.1, Dipsy passed the checks below again using the updated archive.
+The byte-identical Kimi and Cappy packs retain their previous verification results.
 
 Chatbook commit: `b4e460f75142b37ff3df277fd712bdb1812007f9`.
 
@@ -66,7 +78,7 @@ Artifact checks verified file digests, transparency, nonempty frame cells, clear
 margins, fixed support anchors, exact still previews, animated GIFs and reference
 notices. A disposable Circle rebuild was byte-identical without NOTICE.txt; adding
 a notice to a second disposable copy included it in the native metadata and
-checksums. Existing published packs were not rebuilt or modified.
+checksums. Only Dipsy was rebuilt for revision 1.0.1; the other published packs were unchanged.
 
 Tests used private temporary profiles/configuration and real SQLite databases.
 No live UI or server HTTP-worker testing is claimed. No real user profile,
