@@ -1,0 +1,16 @@
+Use case: stylized-concept.
+Create a finished 4-column by 4-row sprite sheet, sixteen consistent full-body poses, for a small desktop Buddy named Pelican on a Bicycle.
+
+Style: charming FLAT 2D cartoon, clean dark-charcoal hand-inked outlines, simple oval eyes, clear friendly expressions, flat colors with minimal restrained shading. Match a classic cartoon animal mascot collection. Crisp at small sizes, not pixel art, not 3D or low-poly.
+
+Character: a friendly WHITE PELICAN with a pale-gray wing accent, a large long orange bill and distinct soft yellow-orange throat pouch, little head tuft, expressive eyes, and exactly TWO wings and TWO orange webbed feet. He is always seated on and riding ONE small TEAL BICYCLE with black tires, two equal round wheels, a simple diamond frame, saddle, crank, pedals and handlebars. The bicycle is in a consistent side view pointing right, while the bird's head turns gently toward the user for eye contact. The pelican is the rider: body on saddle, feet on pedals, wings used as arms on handlebars. No human hands, extra wings, extra feet, additional wheels, baskets, helmets or accessories.
+
+Layout: one square sheet with exactly four equal columns and four equal rows, no labels or grid. Keep the complete bird AND bicycle inside the central 75 percent of every cell with generous margins. All wheel centers, wheel diameters, frame geometry, saddle, handlebars, body center and scale must remain IDENTICAL in all sixteen cells. The bicycle must never shift, rotate, stretch, bounce or change design. Both tire bottoms rest on the same horizontal baseline. The bicycle points the same direction in every cell. Expressions and small wing gestures change; do not move the bike through space.
+
+Exact row-major poses:
+Row 1: cheerful neutral rider, both wings at handlebars, feet on pedals; same rider with an attentive glance; both-eyes-closed blink with otherwise identical geometry; neutral rider.
+Row 2: thoughtful glance up while holding handlebars; thoughtful sideways glance with one brow raised, both wings at handlebars; speaking with a slightly open bill; speaking with a wider open bill.
+Row 3: attentive eyes and head tuft, listening; sleepy half-closed eyes, still upright on saddle; mildly worried error face and a tiny blue sweat drop; puzzled brow with a small floating question mark.
+Row 4: friendly greeting, ONE wing lifted in a small wave and the other remaining on the handlebar; happy closed-eye smile with both wings back at handlebars; delighted smile and small gold sparkles, one wing raised while the other stays on the handlebar; affectionate smile with a small red heart beside the head, both wings on handlebars.
+
+Make the bicycle mechanically coherent and stable. Make the bird unmistakably a pelican with a long bill and pouch, not a duck. Exactly two wings and two feet in every pose; a raised wing replaces that wing's handlebar pose. Genuine transparent background with alpha. No white backdrop, checkerboard, scenery, ground, shadows, text or watermark.

@@ -1,0 +1,17 @@
+{
+  "kind": "original",
+  "creator": "tldw-project",
+  "copyright": "2026 tldw-project",
+  "license": "Apache-2.0",
+  "content_version": "1.0.0",
+  "method": "OpenAI built-in image generation from the user-requested animal concept and a textual description of the viewed collection style; user-authorized local alpha cleanup, proportional scaling, frame extraction and registration. The prepared idle bicycle base and lower body were reused across all sixteen poses to remove wheel and pedal drift.",
+  "generated_input_sha256": "6c87c2f80983417f50e036a160e6e2f9e0b945f3c0bcb6744cfbb38deaf53850",
+  "source_sha256": "6f841ae4131b9d87af921e8f9de1513ebff37b79c57bf135e436f48e6091f053",
+  "style_references": [
+    "../rubber-duck/source.png",
+    "../woodpecker/source.png"
+  ],
+  "reference_use": "Existing collection artwork was inspected to describe its style. No existing Buddy image pixels are included in this new atlas.",
+  "prompt": "PROMPT.txt",
+  "source": "source.png"
+}

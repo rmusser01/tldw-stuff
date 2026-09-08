@@ -1,9 +1,18 @@
 # Buddy packs
 
-Optional Persona Buddy visuals, states and animations: **22 finished packs** and
-six separately labelled authoring scaffolds. Three reference characters join the
-twelve original companions and seven shipped defaults. All use native
-`.tldw-persona-vpack` archives.
+Optional Persona Buddy visuals, states and animations. Finished packs use native
+`.tldw-persona-vpack` archives and include artwork previews. Six authoring
+scaffolds are labelled separately from the finished downloads.
+
+## Pelican on a Bicycle
+
+A pelican riding a teal bicycle, with sixteen poses and eighteen state mappings.
+Animated faces, bill and wing gestures use a fixed bicycle base. Includes a
+transparent atlas and native download. Creator: **tldw-project** · **Apache-2.0**.
+
+[<img src="pelican-bicycle/preview.gif" alt="Pelican riding a bicycle animated Buddy preview" width="192" height="192">](pelican-bicycle/)
+
+[Download and import](pelican-bicycle/) · [Verified archive and checksums](pelican-bicycle/verification.json).
 
 ## Dipsy, Kimi and Cappy
 

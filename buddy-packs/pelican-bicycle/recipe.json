@@ -1,0 +1,209 @@
+{
+  "id": "pelican-bicycle",
+  "title": "Pelican on a Bicycle",
+  "description": "A white pelican with a long orange bill, perched on a teal bicycle.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "style": "Flat 2D cartoon, matched to the existing collection with clean dark outlines and restrained shading.",
+  "orientation": "Bicycle in side view pointing right; pelican head turned toward the user.",
+  "registration": {
+    "method": "One uniform scale for the entire sheet, then integer translation of complete frames to a fixed support anchor.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.3432343234323432,
+    "resized_cell_sizes": [
+      [
+        108,
+        108
+      ],
+      [
+        107,
+        108
+      ],
+      [
+        107,
+        108
+      ],
+      [
+        108,
+        108
+      ],
+      [
+        108,
+        107
+      ],
+      [
+        107,
+        107
+      ],
+      [
+        107,
+        107
+      ],
+      [
+        108,
+        107
+      ],
+      [
+        108,
+        107
+      ],
+      [
+        107,
+        107
+      ],
+      [
+        107,
+        107
+      ],
+      [
+        108,
+        107
+      ],
+      [
+        108,
+        108
+      ],
+      [
+        107,
+        108
+      ],
+      [
+        107,
+        108
+      ],
+      [
+        108,
+        108
+      ]
+    ],
+    "raw_column_bounds": [
+      0,
+      314,
+      627,
+      940,
+      1254
+    ],
+    "raw_row_bounds": [
+      0,
+      314,
+      627,
+      940,
+      1254
+    ],
+    "anchor": {
+      "x": 64,
+      "baseline_y": 118,
+      "alpha_threshold": 128,
+      "support_band_height": 8
+    },
+    "frame_translations": [
+      [
+        -4,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        -4,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        5,
+        3
+      ]
+    ]
+  },
+  "background_processing": {
+    "method": "Preserved generated alpha; removed alpha<=8 noise and tiny disconnected specks outside a three-pixel neighborhood of opaque components with at least sixteen raw pixels.",
+    "raw_pixels_removed_per_frame": [
+      7619,
+      8973,
+      8219,
+      8696,
+      8962,
+      9705,
+      9734,
+      9036,
+      8461,
+      7884,
+      9467,
+      9603,
+      9711,
+      8981,
+      12357,
+      8470
+    ]
+  },
+  "bicycle_stabilization": {
+    "method": "Reused the idle-frame bicycle base and lower body from row 76 down in all poses, with a two-pixel join and the exposed head tube copied above it. Faces and wing gestures retain their generated poses.",
+    "input_atlas_sha256": "489b6ee074bfad7554994848af34013db0f6ec2a2c75e5a87caa6f737ea7ee31",
+    "source_frame": 0,
+    "identical_region": [
+      0,
+      76,
+      128,
+      128
+    ],
+    "join_rows": [
+      74,
+      76
+    ],
+    "identical_region_rgba_sha256": "b78a557397bfadb826eadcc4e8da3e796a2cba8f87ba25f41fa0b396ae885a0d"
+  }
+}
