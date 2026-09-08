@@ -14,9 +14,35 @@ from io import BytesIO
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from PIL import Image
+from PIL import Image, ImageChops
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def registration_checks(frame: Image.Image, name: str, index: int) -> None:
+    """Reject displaced cells before running application import checks."""
+    opaque = frame.getchannel("A").point(lambda value: 255 if value >= 128 else 0)
+    if name == "dipsy":
+        # Flippers and the asymmetrical tail move. The cream belly is the
+        # reviewed vertical landmark, independent of those appendages.
+        belly = opaque
+        for channel, threshold in (("R", 150), ("G", 190), ("B", 190)):
+            selected = frame.getchannel(channel).point(
+                lambda value, threshold=threshold: 255 if value > threshold else 0
+            )
+            belly = ImageChops.darker(belly, selected)
+        box = belly.getbbox()
+        assert box and box[3] == 114, (name, index, "belly baseline", box)
+        return
+    box = opaque.getbbox()
+    assert box and box[3] == 118, (name, index, "baseline", box)
+    support = opaque.crop((0, 110, 128, 118)).getbbox()
+    assert support and abs((support[0] + support[2]) / 2 - 64) <= 0.5, (
+        name,
+        index,
+        "horizontal anchor",
+        support,
+    )
 
 
 def artifact_checks(folder: Path) -> None:
@@ -30,6 +56,7 @@ def artifact_checks(folder: Path) -> None:
         frame = sheet.crop(
             ((i % 4) * 128, (i // 4) * 128, (i % 4 + 1) * 128, (i // 4 + 1) * 128)
         )
+        registration_checks(frame, folder.name, i)
         box = frame.getbbox()
         assert box and min(box[0], box[1], 128 - box[2], 128 - box[3]) >= 2, (
             folder.name,

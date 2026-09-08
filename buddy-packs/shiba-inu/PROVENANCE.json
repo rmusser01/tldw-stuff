@@ -3,10 +3,10 @@
   "creator": "tldw-project",
   "copyright": "2026 tldw-project",
   "license": "Apache-2.0",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "method": "OpenAI built-in image generation; user-authorized local background removal, frame extraction, downsampling and animation preview assembly.",
-  "generated_input_sha256": "2841a239ca42a85249ceb4d1288039293df35fbfcd721c7f519c52c7586e1b8f",
-  "source_sha256": "477810d2954c584daec236b9a0d8a89a7cadc068b10d6d3d0082491b086b66ee",
+  "generated_input_sha256": "9574fcd885b4689e128068a3289f544aa45148ed470fc50939aa5026e93e86f2",
+  "source_sha256": "5443bf61403ed76be4c49c3e6f843181658cc1bd78d965a85f10b7d2db96aa64",
   "style_references": [
     "../paperclip-basic/preview.png",
     "../search-lens-basic/preview.png",
@@ -14,5 +14,7 @@
   ],
   "reference_use": "Style references only. Existing Buddy assets are not redistributed in this new pack.",
   "prompt": "PROMPT.txt",
-  "source": "source.png"
+  "source": "source.png",
+  "modifications": "v1.0.1: regenerated Shiba with a smooth seated belly, two hind paws and exactly two moving forepaws, using a face-only reference; prepared transparent frames and registered their body anchors; removed the idle bob.",
+  "face_reference_sha256": "557217ce1a5238e1e26dd5ed5c209b13c25f837b495e69ef9bf829c7a992f3b5"
 }

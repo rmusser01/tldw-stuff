@@ -2,10 +2,81 @@
   "id": "triangle",
   "title": "Triangle",
   "description": "A golden triangular companion with a simple face and tiny hands.",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "creator": "tldw-project",
   "frame_size": 128,
   "columns": 4,
   "rows": 4,
-  "style": "2D cartoon, matched to existing Buddy art"
+  "style": "2D cartoon, matched to existing Buddy art",
+  "registration": {
+    "method": "integer translation of complete frames; no rescaling",
+    "anchor": "opaque support baseline y=118 and lower-eight-pixel support midpoint x=64",
+    "previous_source_sha256": "18e53c5ffb507e80c989343303a180b68f224bbd5aa8b14c0ab0b65374040a33",
+    "frame_translations": [
+      [
+        -6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        -6,
+        6
+      ],
+      [
+        -1,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        -6,
+        10
+      ],
+      [
+        -1,
+        10
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        -7,
+        14
+      ],
+      [
+        -1,
+        14
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        7,
+        14
+      ]
+    ]
+  }
 }

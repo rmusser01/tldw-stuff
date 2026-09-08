@@ -2,10 +2,81 @@
   "id": "circle",
   "title": "Circle",
   "description": "A coral circle with a simple face, little hands, and short legs.",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "creator": "tldw-project",
   "frame_size": 128,
   "columns": 4,
   "rows": 4,
-  "style": "2D cartoon, matched to existing Buddy art"
+  "style": "2D cartoon, matched to existing Buddy art",
+  "registration": {
+    "method": "integer translation of complete frames; no rescaling",
+    "anchor": "opaque support baseline y=118 and lower-eight-pixel support midpoint x=64",
+    "previous_source_sha256": "50b8982092b1f7e2fee885511de9acfdf29e204125f96e9bd50458933140bcb2",
+    "frame_translations": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        -1,
+        5
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        5
+      ]
+    ]
+  }
 }

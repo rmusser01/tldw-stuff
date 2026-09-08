@@ -1,6 +1,6 @@
 # Original Buddy collection verification
 
-Date: 2026-09-08 · Creator: tldw-project · Content version: 1.0.0
+Date: 2026-09-08 · Creator: tldw-project · Content version: 1.0.1
 
 The [twelve companion packs](../buddy-packs/README.md#new-companion-collection)
 contain finished 2D cartoon artwork, native archives and previews. Their visual
@@ -31,7 +31,7 @@ Trenchcoat, Shiba-inu, Dipsy and Ghosty each contain:
 The GIF previews intentionally use a dark matte because GIF has only one-bit
 transparency. Native PNGs retain full alpha. Previews are rendered from the
 distributed atlas; they are not screenshots of a running application.
-The native archives total 2,525,950 bytes. Exact per-pack sizes and digests are
+The native archives total 2,544,950 bytes. Exact per-pack sizes and digests are
 recorded in [companions-verification.json](../buddy-packs/companions-verification.json).
 
 ## Executed application checks
@@ -79,6 +79,29 @@ The first Chatbook test failed because the temporary root retained macOS's `/var
 symlink alias; resolving that test path satisfied the native no-follow file
 boundary. No importer change was made. The full collection check then caught
 low-alpha resampling specks at three cell edges; the source cleanup removed them.
+
+## Version 1.0.1 artwork corrections
+
+User review of the published previews caught two issues that the initial import
+checks and pose-sheet review missed: duplicate resting forelegs beneath Shiba's
+raised paws, and row/column offsets that made animations drift. Square's opaque
+baseline spanned 27 pixels within its 128-pixel cells.
+
+Shiba's replacement sheet was generated with an explicit four-limb constraint
+and reviewed for each raised-paw pose. The other eleven designs retain their
+original artwork pixels. All source atlases were registered using integer
+translations, with no per-frame scaling; the translations and prior source
+digests are recorded in each recipe. Most use a common support baseline and
+horizontal midpoint. Dipsy uses its cream belly and reviewed head center so that
+moving flippers and its asymmetric tail do not pull its body around. The idle
+sequence now uses neutral and blink poses, omitting the authored bob.
+
+The registration regression check rejects the original published Square and
+passes the corrected source cells. Baselines and support midpoints are checked
+for eleven packs; Dipsy's belly baseline is checked automatically and its head
+alignment is visually reviewed. Rebuilt native archives and gallery GIFs use
+these same registered source pixels. Both application checks were rerun for all
+twelve replacement archives, including Chatbook character conversion.
 
 ## Reproduce and rebuild
 

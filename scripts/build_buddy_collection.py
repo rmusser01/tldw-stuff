@@ -17,7 +17,7 @@ from tempfile import TemporaryDirectory
 from PIL import Image
 
 LOOPS = {
-    "idle": ([0, 1, 0, 2, 0], [1500, 220, 1300, 140, 1000], True),
+    "idle": ([0, 2, 0], [2500, 140, 1500], True),
     "thinking": ([4, 5], [1100, 900], True),
     "speaking": ([6, 7], [180, 220], True),
     "listening": ([8], [1000], False),

@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "creator": "tldw-project",
   "verified_on": "2026-09-08",
   "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
@@ -8,122 +8,122 @@
     {
       "id": "woodpecker",
       "title": "Woodpecker",
-      "bytes": 223125,
-      "sha256": "4ffcc349523779b57f34e03dd5508ad0ae0e035ffe34622bf093ce07c8c8b1ac",
+      "bytes": 222786,
+      "sha256": "fe4eecd0cc4b95754efd9702756e4f4139cb781628793bff7816a0ef1ebc0cff",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "a2ef6a674493d1a726a0c129fc5469a17350a6a0abf67c38f00e9285227f87bd"
+      "source_sha256": "8c276243de8ee8d65268a8d09b771136be334fd7c244ee0771f2c4126e9b7a7e"
     },
     {
       "id": "rubber-duck",
       "title": "Rubber Duck",
-      "bytes": 200325,
-      "sha256": "f39d063beaa178ecfa5c1660891b6141469b907b2759caf70034867d4473be80",
+      "bytes": 200022,
+      "sha256": "a6c9f20e0fce4931da93c84eb21d9f002e0ea7e798b818343b1718f939b7ee5a",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "011fa4b5666703cf485c7bd773fdd876172d58e905323c8378155e44b1bbfcd6"
+      "source_sha256": "62f150b61a01e16e60ebba6961b156e5ad5b5aececd33b7345be27ffcb2f7b66"
     },
     {
       "id": "werewolf",
       "title": "Werewolf",
-      "bytes": 289233,
-      "sha256": "b5a79e5bc2b4a0a2993d8ea35f7ca1197a0832ac217898ff3e85fac76df39030",
+      "bytes": 288693,
+      "sha256": "0f67bcdccee6078506fbf5b2bc186cd7de4d53c52e07e63dbed62c63774c0102",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "ab00bb9d9d27464fda6f54e72f4bcc9e7d3e77fc9e79feb790f7347b1e77285a"
+      "source_sha256": "af3cf1ce487e20e9a9f44b9659e7609017329b9ccc877b80c3c579f81515106c"
     },
     {
       "id": "circle",
       "title": "Circle",
-      "bytes": 212188,
-      "sha256": "d9b8f9bfadbe64f0f9c326e250e843dc6d314e5fb049dab87230ef0937f8ef74",
+      "bytes": 211841,
+      "sha256": "c990011a319205411d53b3fbf36006578f45b4e934f477297f5b7f0ee2f82ced",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "50b8982092b1f7e2fee885511de9acfdf29e204125f96e9bd50458933140bcb2"
+      "source_sha256": "d9d04a94ba980f0e56f9954f1cb1bc9b17a7ce69784514dda6bccd8895c2b05a"
     },
     {
       "id": "square",
       "title": "Square",
-      "bytes": 173379,
-      "sha256": "cc7bb86b00168a32d1b2c6b2ba89a5308cba6147811601d68f47475dd83fa57c",
+      "bytes": 172915,
+      "sha256": "7736f32f67c1d06ed2530394f192fe27ce93b2224c3f7fb1a1fb0c39f7d892ef",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "4a8a7e0b2f53b3226b9f8893367101300cb1398069dce87aea4a32ab145c4eca"
+      "source_sha256": "67d74f35c41265afe01f2d357d8f8b1d02adcd33304154df9c3a717dcc9edc20"
     },
     {
       "id": "rhombus",
       "title": "Rhombus",
-      "bytes": 176888,
-      "sha256": "fc338cbdacbd2fc1f0aa3194b714c80c1efe9c6467df8b5151b5b373e0386ec4",
+      "bytes": 176593,
+      "sha256": "805546f20d045906bdc890152633d5bc18b8849d5153b251c25106bf75a7c5f5",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "cd4e026372db697bf33e2f10fb9dc9885b353858d9c5fa52ae8a5b79e3542f4f"
+      "source_sha256": "b8d3881d9a2e8c5a35234d516699f6d9130cb8c83a5a746f2f712866eeea103d"
     },
     {
       "id": "octagon",
       "title": "Octagon",
-      "bytes": 170393,
-      "sha256": "988edb73b9c8c6e451f9747be9ce14226e3e060b679302b2ae5256649629fa0e",
+      "bytes": 170081,
+      "sha256": "beedd805348c20107259ac42f5d4606898bff212b314796f09484f2402267bf8",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "c6699a74c225407fbd08b5a43b96431bcdc962933df4eee383ea2584360ad3c5"
+      "source_sha256": "a3f7db458382c017cc97af09a7a93b6309359375e5f345bc8f0ad0deb4ad35b4"
     },
     {
       "id": "triangle",
       "title": "Triangle",
-      "bytes": 166552,
-      "sha256": "3e05cf1fd36d6058368e27f8c12aa139d41194a572c098b033311bcd0bf50ab2",
+      "bytes": 166300,
+      "sha256": "2be1652331a2cc4404c188327628bf2aca924ed39ee9e10d8f4c368616fdbe47",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "18e53c5ffb507e80c989343303a180b68f224bbd5aa8b14c0ab0b65374040a33"
+      "source_sha256": "bf5d160ed62f3be4043ee58d5ee6e510dbbc5fc028c8351ef5319468c8c25c6b"
     },
     {
       "id": "trenchcoat",
       "title": "Trenchcoat",
-      "bytes": 218188,
-      "sha256": "8731f91c18bfa7643eb6baef512f8cb9c1f4a4df705ffda2aadcb3cdfbe72c31",
+      "bytes": 217491,
+      "sha256": "620f06958112d9be1dce0d6592842f47ada9c8c4d9f359c0ed92d878af4ab80f",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "f55214193564717276d82d67d7fa3eb8796a01521b052b97ca2bd1839ee0bee6"
+      "source_sha256": "f07ed59b329c137bc4eb29e7fd9f4bf1dbab83c911e2ee16d7ac1a28f27b5e63"
     },
     {
       "id": "shiba-inu",
       "title": "Shiba-inu",
-      "bytes": 256603,
-      "sha256": "ff9711d63a2f935894027605efebe96df61a091190e68cbea4f9312fceb6500a",
+      "bytes": 280625,
+      "sha256": "68827f9219e72c206f3bd0514e63f6f9ff762911a2918544f584d57ba00e30c8",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "477810d2954c584daec236b9a0d8a89a7cadc068b10d6d3d0082491b086b66ee"
+      "source_sha256": "5443bf61403ed76be4c49c3e6f843181658cc1bd78d965a85f10b7d2db96aa64"
     },
     {
       "id": "dipsy",
       "title": "Dipsy",
-      "bytes": 228376,
-      "sha256": "4947546015e1e67097694adefc02ced0a4658298b635d9e51f8c016ad5221770",
+      "bytes": 227499,
+      "sha256": "15218145832d58431c2d7206aa6814ca287ec2b08c070b02f8904c6c8741eee7",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "8bbca2752b45e4e743029cfebef724566231cba7eb5ee6acb261e88f3f7f8a8e"
+      "source_sha256": "7ab63911185ddaa9392fba4909d5e9b84361be9693dbf4f68444cfff41b9cc7c"
     },
     {
       "id": "ghosty",
       "title": "Ghosty",
-      "bytes": 210700,
-      "sha256": "b8e73c54ff72167ccadfdea0e7affeb218f743809272144e76c5b64e1440a748",
+      "bytes": 210104,
+      "sha256": "f1f9c708f543dca8076e5d0e106dfa607df3cf8eeb34328aeaab24a657b35ebc",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "70f834135d5ad8e6d4ddf80ac40f244e1728f80308e42fff07a03427d76818e1"
+      "source_sha256": "b27888dc04bff532e81336ec70efe024f9b0f1606b36518a4db03f5bf0e16d74"
     }
   ],
   "chatbook": [
@@ -441,5 +441,6 @@
         "activatable manifest"
       ]
     }
-  ]
+  ],
+  "artwork_revision": "Registered source poses on both axes, removed the idle bob, and corrected Shiba foreleg anatomy."
 }

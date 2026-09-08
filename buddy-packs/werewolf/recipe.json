@@ -2,10 +2,81 @@
   "id": "werewolf",
   "title": "Werewolf",
   "description": "A friendly gray werewolf with tiny fangs, a fluffy tail, and purple shorts.",
-  "content_version": "1.0.0",
+  "content_version": "1.0.1",
   "creator": "tldw-project",
   "frame_size": 128,
   "columns": 4,
   "rows": 4,
-  "style": "2D cartoon, matched to existing Buddy art"
+  "style": "2D cartoon, matched to existing Buddy art",
+  "registration": {
+    "method": "integer translation of complete frames; no rescaling",
+    "anchor": "opaque support baseline y=118 and lower-eight-pixel support midpoint x=64",
+    "previous_source_sha256": "ab00bb9d9d27464fda6f54e72f4bcc9e7d3e77fc9e79feb790f7347b1e77285a",
+    "frame_translations": [
+      [
+        0,
+        -5
+      ],
+      [
+        -6,
+        -1
+      ],
+      [
+        0,
+        -5
+      ],
+      [
+        0,
+        -5
+      ],
+      [
+        3,
+        -5
+      ],
+      [
+        -4,
+        -5
+      ],
+      [
+        1,
+        -5
+      ],
+      [
+        2,
+        -5
+      ],
+      [
+        2,
+        -5
+      ],
+      [
+        0,
+        -5
+      ],
+      [
+        0,
+        -5
+      ],
+      [
+        -3,
+        -5
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        0,
+        -2
+      ],
+      [
+        -1,
+        -2
+      ]
+    ]
+  }
 }
