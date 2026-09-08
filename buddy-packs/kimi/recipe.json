@@ -1,0 +1,158 @@
+{
+  "id": "kimi",
+  "title": "Kimi",
+  "description": "Silver-haired Kimi in a black dress with her K pendant.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "style": "2D cartoon; character design adapted from the user-provided reference",
+  "registration": {
+    "method": "one uniform scale for the entire character, then integer translation to a fixed support anchor",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.3795620437956204,
+    "resized_cell_sizes": [
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ],
+      [
+        119,
+        119
+      ]
+    ],
+    "anchor": {
+      "x": 64,
+      "baseline_y": 118,
+      "alpha_threshold": 128,
+      "support_band_height": 8
+    },
+    "frame_translations": [
+      [
+        -2,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ]
+    ]
+  },
+  "orientation": "Face, torso and stance turned toward the viewer; ordinary expressions make eye contact."
+}

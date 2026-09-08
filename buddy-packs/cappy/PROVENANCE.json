@@ -1,0 +1,32 @@
+{
+  "kind": "adapted",
+  "creator": "tldw-project",
+  "copyright": "2026 tldw-project (new contributions)",
+  "license": "Apache-2.0",
+  "license_scope": "Project-created sprite artwork, manifests and pack materials; does not relicense the reference. See NOTICE.txt.",
+  "content_version": "1.0.0",
+  "method": "OpenAI built-in image generation using the displayed reference, followed by a viewer-facing orientation edit; user-authorized local background removal, proportional scaling, frame extraction and registration.",
+  "generated_input_sha256": "973d4325b87329185ef1c915fe162b91aa93aa01f6e7c4503268ae4730d4930f",
+  "source_sha256": "417f9f7c9dd5efafbad32e0a805513f3ef90f142fa597351404243ca2f3a6920",
+  "reference": {
+    "creator": "anonymous",
+    "credit_basis": "User-requested credit for the 4chan meme reference; artist identity not independently verified.",
+    "url": "https://i.4cdn.org/g/1788855416369834.png",
+    "license_status": "No published license supplied or verified.",
+    "use": "Character-design reference only; original image not bundled."
+  },
+  "prompt": "PROMPT.txt",
+  "source": "source.png",
+  "notice": "NOTICE.txt",
+  "generation_history": [
+    {
+      "stage": "initial reference adaptation",
+      "generated_sheet_sha256": "8c55f4479186154af06307fc2a123b4b5260df65395cd92f44ea0fd6fdd4778d"
+    },
+    {
+      "stage": "viewer-facing orientation edit",
+      "input_atlas_sha256": "17f734a46ceda370bcd43682ccf5ce5d388b4cdbb15d6a948e2ae5f2891104f0",
+      "generated_sheet_sha256": "973d4325b87329185ef1c915fe162b91aa93aa01f6e7c4503268ae4730d4930f"
+    }
+  ]
+}

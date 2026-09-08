@@ -133,6 +133,9 @@ def build(folder: Path) -> dict:
             + (folder / "LICENSE.txt").read_text()
         ),
     }
+    notice_file = folder / "NOTICE.txt"
+    if notice_file.is_file():
+        artwork["notices"] += "\n\n" + notice_file.read_text()
     document = manifest()
     snapshot = BuddySnapshot(
         recipe["title"],
@@ -185,6 +188,8 @@ def build(folder: Path) -> dict:
         "PROMPT.txt",
         "LICENSE.txt",
     ]
+    if notice_file.is_file():
+        files.append("NOTICE.txt")
     (folder / "SHA256SUMS").write_text(
         "".join(
             f"{hashlib.sha256((folder / name).read_bytes()).hexdigest()}  {name}\n"

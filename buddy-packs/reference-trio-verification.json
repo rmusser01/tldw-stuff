@@ -1,0 +1,122 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "reference_creator": "anonymous",
+  "verified_on": "2026-09-08",
+  "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+  "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
+  "packs": [
+    {
+      "id": "dipsy-qipao",
+      "title": "Dipsy (Qipao)",
+      "bytes": 204592,
+      "sha256": "fb1ec1b0ea3fd0994b29ce55d1cd26e0c2c6f29664217d6a0c5e3868be881f91",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "df9f5bce759e5a6b25a098ab4a29a16df6ecf26c2947275ff93afd6134548a9c"
+    },
+    {
+      "id": "kimi",
+      "title": "Kimi",
+      "bytes": 232094,
+      "sha256": "58c0d2d189a7637d3233096e833305c42cf06989e0599bb19f75bcc95b025f7c",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "4dff6c10314b0da0e776d03e14c636bbf583ce45a2540591580be18cfb41cea1"
+    },
+    {
+      "id": "cappy",
+      "title": "Cappy",
+      "bytes": 266332,
+      "sha256": "7880f282fb242f9336054272fe99bf3f2c803d9cdc77cbb047c9e6d6dcd71a85",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "417f9f7c9dd5efafbad32e0a805513f3ef90f142fa597351404243ca2f3a6920"
+    }
+  ],
+  "chatbook": [
+    {
+      "id": "dipsy-qipao",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "kimi",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "cappy",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "id": "dipsy-qipao",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "kimi",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "cappy",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    }
+  ]
+}

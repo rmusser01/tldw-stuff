@@ -2,7 +2,7 @@
 
 Keep the item README and its referenced license/provenance notices with your
 download. The shipped default archives do not embed those repository notices inside
-the archive. The twelve original companion archives include creator and full
+the archive. The original companion and reference-trio archives include creator and full
 Apache-2.0 notice metadata; keep their accompanying files for hosts that do not
 preserve that metadata on export.
 
@@ -73,3 +73,7 @@ The [twelve new companions](README.md#new-companion-collection) have a separate
 [2026-09-08 verification record](../docs/buddy-collection-verification.md), including
 native import in both applications and independent animated-character conversion
 in Chatbook.
+
+[Dipsy (Qipao), Kimi and Cappy](README.md#dipsy-kimi-and-cappy) have their own
+[verification record](../docs/reference-trio-verification.md). Their archives also
+embed the anonymous reference credit; keep each pack's NOTICE.txt with copies.
