@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "packs": [
+    "woodpecker", "rubber-duck", "werewolf", "circle", "square", "rhombus",
+    "octagon", "triangle", "trenchcoat", "shiba-inu", "dipsy", "ghosty"
+  ]
+}

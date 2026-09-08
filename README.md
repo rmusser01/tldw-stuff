@@ -22,7 +22,7 @@ and import it into your own installation.
 | [Chatbooks](chatbooks/README.md) | Shareable knowledge packs and reference collections |
 
 The initial content includes three character packs, six persona archetypes, and
-seven finished Buddy packs. Six additional Buddy authoring scaffolds are labelled
+19 finished Buddy packs, including the [twelve new companions](buddy-packs/README.md#new-companion-collection). Six additional Buddy authoring scaffolds are labelled
 separately. 70 original and attributed skills and adaptations from Anthropic, OpenAI, OpenClaw,
 Hermes, Trail of Bits, Corey Haines, Matt Pocock, K-Dense and Chatbook contributors
 are also available. Prompts, chatdictionaries,

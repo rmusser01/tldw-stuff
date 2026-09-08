@@ -1,0 +1,445 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "verified_on": "2026-09-08",
+  "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+  "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
+  "packs": [
+    {
+      "id": "woodpecker",
+      "title": "Woodpecker",
+      "bytes": 223125,
+      "sha256": "4ffcc349523779b57f34e03dd5508ad0ae0e035ffe34622bf093ce07c8c8b1ac",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "a2ef6a674493d1a726a0c129fc5469a17350a6a0abf67c38f00e9285227f87bd"
+    },
+    {
+      "id": "rubber-duck",
+      "title": "Rubber Duck",
+      "bytes": 200325,
+      "sha256": "f39d063beaa178ecfa5c1660891b6141469b907b2759caf70034867d4473be80",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "011fa4b5666703cf485c7bd773fdd876172d58e905323c8378155e44b1bbfcd6"
+    },
+    {
+      "id": "werewolf",
+      "title": "Werewolf",
+      "bytes": 289233,
+      "sha256": "b5a79e5bc2b4a0a2993d8ea35f7ca1197a0832ac217898ff3e85fac76df39030",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "ab00bb9d9d27464fda6f54e72f4bcc9e7d3e77fc9e79feb790f7347b1e77285a"
+    },
+    {
+      "id": "circle",
+      "title": "Circle",
+      "bytes": 212188,
+      "sha256": "d9b8f9bfadbe64f0f9c326e250e843dc6d314e5fb049dab87230ef0937f8ef74",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "50b8982092b1f7e2fee885511de9acfdf29e204125f96e9bd50458933140bcb2"
+    },
+    {
+      "id": "square",
+      "title": "Square",
+      "bytes": 173379,
+      "sha256": "cc7bb86b00168a32d1b2c6b2ba89a5308cba6147811601d68f47475dd83fa57c",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "4a8a7e0b2f53b3226b9f8893367101300cb1398069dce87aea4a32ab145c4eca"
+    },
+    {
+      "id": "rhombus",
+      "title": "Rhombus",
+      "bytes": 176888,
+      "sha256": "fc338cbdacbd2fc1f0aa3194b714c80c1efe9c6467df8b5151b5b373e0386ec4",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "cd4e026372db697bf33e2f10fb9dc9885b353858d9c5fa52ae8a5b79e3542f4f"
+    },
+    {
+      "id": "octagon",
+      "title": "Octagon",
+      "bytes": 170393,
+      "sha256": "988edb73b9c8c6e451f9747be9ce14226e3e060b679302b2ae5256649629fa0e",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "c6699a74c225407fbd08b5a43b96431bcdc962933df4eee383ea2584360ad3c5"
+    },
+    {
+      "id": "triangle",
+      "title": "Triangle",
+      "bytes": 166552,
+      "sha256": "3e05cf1fd36d6058368e27f8c12aa139d41194a572c098b033311bcd0bf50ab2",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "18e53c5ffb507e80c989343303a180b68f224bbd5aa8b14c0ab0b65374040a33"
+    },
+    {
+      "id": "trenchcoat",
+      "title": "Trenchcoat",
+      "bytes": 218188,
+      "sha256": "8731f91c18bfa7643eb6baef512f8cb9c1f4a4df705ffda2aadcb3cdfbe72c31",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "f55214193564717276d82d67d7fa3eb8796a01521b052b97ca2bd1839ee0bee6"
+    },
+    {
+      "id": "shiba-inu",
+      "title": "Shiba-inu",
+      "bytes": 256603,
+      "sha256": "ff9711d63a2f935894027605efebe96df61a091190e68cbea4f9312fceb6500a",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "477810d2954c584daec236b9a0d8a89a7cadc068b10d6d3d0082491b086b66ee"
+    },
+    {
+      "id": "dipsy",
+      "title": "Dipsy",
+      "bytes": 228376,
+      "sha256": "4947546015e1e67097694adefc02ced0a4658298b635d9e51f8c016ad5221770",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "8bbca2752b45e4e743029cfebef724566231cba7eb5ee6acb261e88f3f7f8a8e"
+    },
+    {
+      "id": "ghosty",
+      "title": "Ghosty",
+      "bytes": 210700,
+      "sha256": "b8e73c54ff72167ccadfdea0e7affeb218f743809272144e76c5b64e1440a748",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "70f834135d5ad8e6d4ddf80ac40f244e1728f80308e42fff07a03427d76818e1"
+    }
+  ],
+  "chatbook": [
+    {
+      "id": "woodpecker",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "rubber-duck",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "werewolf",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "circle",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "square",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "rhombus",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "octagon",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "triangle",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "trenchcoat",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "shiba-inu",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "dipsy",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    },
+    {
+      "id": "ghosty",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "id": "woodpecker",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "rubber-duck",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "werewolf",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "circle",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "square",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "rhombus",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "octagon",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "triangle",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "trenchcoat",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "shiba-inu",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "dipsy",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    },
+    {
+      "id": "ghosty",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "original",
+  "creator": "tldw-project",
+  "copyright": "2026 tldw-project",
+  "license": "Apache-2.0",
+  "content_version": "1.0.0",
+  "method": "OpenAI built-in image generation; user-authorized local background removal, frame extraction, downsampling and animation preview assembly.",
+  "generated_input_sha256": "d66e1aa28450565ccc3ac1385e3e36f556a99d62ad67405195d369b09131eb44",
+  "source_sha256": "011fa4b5666703cf485c7bd773fdd876172d58e905323c8378155e44b1bbfcd6",
+  "style_references": [
+    "../paperclip-basic/preview.png",
+    "../search-lens-basic/preview.png",
+    "../index-card-basic/preview.png"
+  ],
+  "reference_use": "Style references only. Existing Buddy assets are not redistributed in this new pack.",
+  "prompt": "PROMPT.txt",
+  "source": "source.png"
+}

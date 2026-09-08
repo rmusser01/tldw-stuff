@@ -1,8 +1,10 @@
 # Import a Buddy pack
 
 Keep the item README and its referenced license/provenance notices with your
-download. The native exporter does not embed those repository notices inside
-the archive.
+download. The shipped default archives do not embed those repository notices inside
+the archive. The twelve original companion archives include creator and full
+Apache-2.0 notice metadata; keep their accompanying files for hosts that do not
+preserve that metadata on export.
 
 Download the `.tldw-persona-vpack` file from an item's directory (on GitHub use
 **Download raw file**). Keep its extension. It is the native ZIP-based
@@ -10,7 +12,7 @@ Download the `.tldw-persona-vpack` file from an item's directory (on GitHub use
 `metadata/pack.json`, asset declarations in `metadata/assets.json`, all PNG bytes
 under `assets/persona_visuals/`, and `checksums/sha256.json`.
 
-`starter-catalog.json` is the original server catalog detail and production recipe
+For shipped defaults, `starter-catalog.json` is the original server catalog detail and production recipe
 for reference. It is **not** the file to import. Its fixture asset keys precede
 the exporter's native ID remapping. The archive is self-contained.
 
@@ -46,7 +48,8 @@ configured prefix if different.
 
 ## Verification scope
 
-On 2026-09-05 every published archive was produced through the server's
+The seven shipped defaults and six scaffolds were verified on 2026-09-05.
+Those archives were produced through the server's
 `PersonaVisualStarterCatalogService.copy_starter_pack_to_persona` and
 `PersonaVisualPackExporter.export_pack(strict=True)` using a disposable SQLite
 database and private temporary assets. Every archive then passed
@@ -65,3 +68,8 @@ profile, database, credentials or configuration was exported or modified.
 
 See [verification.json](verification.json) for each file's size, SHA-256 and
 observed counts. An import passing validation does not complete scaffold art.
+
+The [twelve new companions](README.md#new-companion-collection) have a separate
+[2026-09-08 verification record](../docs/buddy-collection-verification.md), including
+native import in both applications and independent animated-character conversion
+in Chatbook.
