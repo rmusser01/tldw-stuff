@@ -59,84 +59,89 @@ previews, import steps and credits.
       <a href="cappy/">Details</a> · <a href="cappy/cappy.tldw-persona-vpack?raw=1">Download</a>
     </td>
     <td width="384" align="center" valign="top">
+      <a name="cat"></a>
+      <a href="cat/"><strong>Cat</strong><br><img src="cat/preview.png" alt="Cat Buddy" width="128" height="128"></a><br>
+      A gray tabby with whiskers and a curled tail.<br>
+      <a href="cat/">Details</a> · <a href="cat/cat.tldw-persona-vpack?raw=1">Download</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="384" align="center" valign="top">
       <a href="dipsy/"><strong>Dipsy (Blue Whale)</strong><br><img src="dipsy/preview.png" alt="Dipsy the blue whale" width="128" height="128"></a><br>
       A friendly blue whale.<br>
       <a href="dipsy/">Details</a> · <a href="dipsy/dipsy.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a href="ghosty/"><strong>Ghosty</strong><br><img src="ghosty/preview.png" alt="Ghosty the white sheet ghost" width="128" height="128"></a><br>
       A little white sheet ghost.<br>
       <a href="ghosty/">Details</a> · <a href="ghosty/ghosty.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a name="horse"></a>
       <a href="horse/"><strong>Horse</strong><br><img src="horse/preview.png" alt="Horse Buddy" width="128" height="128"></a><br>
       Chestnut coat, white blaze and an expressive tail.<br>
       <a href="horse/">Details</a> · <a href="horse/horse.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a name="llama"></a>
       <a href="llama/"><strong>Llama</strong><br><img src="llama/preview.png" alt="Cream-colored Llama Buddy" width="128" height="128"></a><br>
       Cream-colored wool and expressive ears.<br>
       <a href="llama/">Details</a> · <a href="llama/llama.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a name="pelican-on-a-bicycle"></a>
       <a href="pelican-bicycle/"><strong>Pelican on a Bicycle</strong><br><img src="pelican-bicycle/preview.png" alt="Pelican riding a teal bicycle" width="128" height="128"></a><br>
       A pelican pedaling a teal bicycle.<br>
       <a href="pelican-bicycle/">Details</a> · <a href="pelican-bicycle/pelican-bicycle.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a name="pepe"></a>
       <a href="pepe/"><strong>Pepe</strong><br><img src="pepe/preview.png" alt="Short, round Pepe in a blue shirt" width="128" height="128"></a><br>
       A squat, round-bellied frog in a blue shirt.<br>
       <a href="pepe/">Details</a> · <a href="pepe/pepe.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a name="poodle"></a>
       <a href="poodle/"><strong>Poodle</strong><br><img src="poodle/preview.png" alt="Poodle Buddy" width="128" height="128"></a><br>
       Cream curls, floppy ears and a pom-pom tail.<br>
       <a href="poodle/">Details</a> · <a href="poodle/poodle.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a href="rubber-duck/"><strong>Rubber Duck</strong><br><img src="rubber-duck/preview.png" alt="Rubber Duck Buddy" width="128" height="128"></a><br>
       A cheerful rubber-duck companion.<br>
       <a href="rubber-duck/">Details</a> · <a href="rubber-duck/rubber-duck.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a href="shiba-inu/"><strong>Shiba-inu</strong><br><img src="shiba-inu/preview.png" alt="Shiba-inu dog Buddy" width="128" height="128"></a><br>
       A Shiba-inu with expressive paws and ears.<br>
       <a href="shiba-inu/">Details</a> · <a href="shiba-inu/shiba-inu.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a name="unicorn"></a>
       <a href="unicorn/"><strong>Unicorn</strong><br><img src="unicorn/preview.png" alt="Unicorn Buddy" width="128" height="128"></a><br>
       Lavender mane, golden horn and gentle reactions.<br>
       <a href="unicorn/">Details</a> · <a href="unicorn/unicorn.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a href="werewolf/"><strong>Werewolf</strong><br><img src="werewolf/preview.png" alt="Werewolf Buddy" width="128" height="128"></a><br>
       A small, expressive werewolf.<br>
       <a href="werewolf/">Details</a> · <a href="werewolf/werewolf.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a href="woodpecker/"><strong>Woodpecker</strong><br><img src="woodpecker/preview.png" alt="Woodpecker with a red crest and blue body" width="128" height="128"></a><br>
       A red-crested bird with a blue body.<br>
       <a href="woodpecker/">Details</a> · <a href="woodpecker/woodpecker.tldw-persona-vpack?raw=1">Download</a>
     </td>
-    <td width="384"></td>
   </tr>
 </table>
 
