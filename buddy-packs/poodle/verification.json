@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "verified_on": "2026-09-08",
+  "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+  "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
+  "packs": [
+    {
+      "id": "poodle",
+      "title": "Poodle",
+      "bytes": 241513,
+      "sha256": "f311b680d19249989300064b12cda458d956226f6af64d58996705ebd029880e",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "db9072e10932ba4ca95993c1bc8765d3c459631f6973c0624742a39c1e43552e"
+    }
+  ],
+  "chatbook": [
+    {
+      "id": "poodle",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "id": "poodle",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    }
+  ],
+  "artwork_checks": {
+    "reviewed_poses": 16,
+    "fixed_support_anchor": {
+      "x": 64,
+      "baseline_y": 118
+    },
+    "stable_loops": [
+      "idle",
+      "thinking",
+      "speaking"
+    ],
+    "transparent_source": true,
+    "exact_idle_preview": true,
+    "anatomy_correction": "The listening pose uses the same two-eared body as idle, with detached attention strokes."
+  }
+}
