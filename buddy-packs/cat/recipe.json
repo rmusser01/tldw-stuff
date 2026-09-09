@@ -1,0 +1,304 @@
+{
+  "id": "cat",
+  "title": "Cat",
+  "description": "A seated gray tabby cat with a pale muzzle and chest, short whiskers and a curled striped tail.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "style": "Flat 2D cartoon with clean dark outlines, rounded shapes, matte colors and restrained shading, consistent with the existing animal companions.",
+  "orientation": "Face and both eyes directed toward the user, with a gentle three-quarter body view.",
+  "registration": {
+    "method": "Identify sixteen complete opaque body components, group into four rows, attach each nearby detached effect, extract with padding, use one common scale, then translate to a fixed support anchor.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.3561643835616438,
+    "raw_frame_crops": [
+      [
+        35,
+        37,
+        297,
+        314
+      ],
+      [
+        348,
+        37,
+        610,
+        314
+      ],
+      [
+        661,
+        37,
+        923,
+        314
+      ],
+      [
+        975,
+        37,
+        1236,
+        314
+      ],
+      [
+        35,
+        351,
+        296,
+        628
+      ],
+      [
+        348,
+        350,
+        610,
+        628
+      ],
+      [
+        661,
+        350,
+        923,
+        628
+      ],
+      [
+        975,
+        350,
+        1236,
+        628
+      ],
+      [
+        35,
+        654,
+        297,
+        941
+      ],
+      [
+        348,
+        666,
+        612,
+        941
+      ],
+      [
+        661,
+        664,
+        923,
+        941
+      ],
+      [
+        974,
+        664,
+        1237,
+        940
+      ],
+      [
+        35,
+        975,
+        308,
+        1253
+      ],
+      [
+        348,
+        977,
+        611,
+        1252
+      ],
+      [
+        661,
+        950,
+        924,
+        1252
+      ],
+      [
+        975,
+        977,
+        1237,
+        1253
+      ]
+    ],
+    "resized_frame_sizes": [
+      [
+        93,
+        99
+      ],
+      [
+        93,
+        99
+      ],
+      [
+        93,
+        99
+      ],
+      [
+        93,
+        99
+      ],
+      [
+        93,
+        99
+      ],
+      [
+        93,
+        99
+      ],
+      [
+        93,
+        99
+      ],
+      [
+        93,
+        99
+      ],
+      [
+        93,
+        102
+      ],
+      [
+        94,
+        98
+      ],
+      [
+        93,
+        99
+      ],
+      [
+        94,
+        98
+      ],
+      [
+        97,
+        99
+      ],
+      [
+        94,
+        98
+      ],
+      [
+        94,
+        108
+      ],
+      [
+        93,
+        98
+      ]
+    ],
+    "anchor": {
+      "x": 64,
+      "baseline_y": 118,
+      "alpha_threshold": 128,
+      "support_band_height": 8
+    },
+    "frame_translations": [
+      [
+        -2,
+        7
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        -2,
+        5
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        -4,
+        7
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -2,
+        7
+      ]
+    ]
+  },
+  "background_processing": {
+    "method": "Preserve generated transparency. Retain main opaque components and detached effects of at least thirty raw pixels with a three-pixel antialiasing margin; discard alpha<=8 noise.",
+    "main_component_min_raw_pixels": 10000,
+    "effect_component_min_raw_pixels": 30
+  },
+  "local_pose_changes": [
+    {
+      "frame": 5,
+      "body_frame": 4,
+      "effect_frame": 5,
+      "method": "Reuse the thinking body and replace the detached thought dots with those from the alternate frame."
+    }
+  ],
+  "loop_stabilization": {
+    "method": "Blink and speaking reuse their entire base pose with changes only inside the listed facial regions. Thinking reuses the same body while the detached thought dots change.",
+    "operations": [
+      {
+        "frame": 2,
+        "base_frame": 0,
+        "expression_frame": 2,
+        "expression_boxes": [
+          [
+            30,
+            50,
+            79,
+            68
+          ]
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_boxes_identical_to_base": true
+      },
+      {
+        "frame": 7,
+        "base_frame": 6,
+        "expression_frame": 7,
+        "expression_boxes": [
+          [
+            48,
+            66,
+            65,
+            77
+          ]
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_boxes_identical_to_base": true
+      }
+    ]
+  }
+}
