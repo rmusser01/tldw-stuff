@@ -34,8 +34,8 @@ previews, import steps and credits.
     </td>
     <td width="384" align="center" valign="top">
       <a name="teto"></a>
-      <a href="teto/"><strong>Teto</strong><br><img src="teto/preview.png" alt="Marker-drawn Teto with red twin tails" width="128" height="128"></a><br>
-      Red twin tails in a marker-drawn style.<br>
+      <a href="teto/"><strong>Teto</strong><br><img src="teto/preview.png" alt="Marker-drawn Teto with muted red drill twin tails" width="128" height="128"></a><br>
+      Matte red drill twin tails in a marker-drawn style.<br>
       <a href="teto/">Details</a> · <a href="teto/teto.tldw-persona-vpack?raw=1">Download</a>
     </td>
   </tr>

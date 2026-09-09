@@ -1,3 +1,6 @@
+Original v1.0.0 generation prompt
+================================
+
 Use case: stylized-concept.
 Asset type: one production 4-by-4 animation sprite sheet for a small desktop Buddy named Teto, matching the simple hand-drawn Migu Marker Basic companion.
 
@@ -17,3 +20,35 @@ Row 3: listening with one hand cupped beside head; sleepy with closed eyes and h
 Row 4: welcoming wave with one raised mitten; happy closed-eye smile with hands clasped; celebration with two arms raised and big happy open mouth, BOTH FEET STILL PLANTED; love with both mittens holding a tiny red heart at chest.
 
 Background: genuine transparent alpha; preserve opaque white face and clip. If output cannot supply alpha, use perfectly uniform pure #00FF00 green for easy local extraction, with absolutely no green inside the character. No floor, shadow, white page, colored matte, checkerboard, scenery or extra props. Deliver the sprite sheet itself, filling the output with the equal 4x4 layout.
+
+v1.0.1 edit 1: clearer drill tails
+==================================
+
+Use case: identity-preserve, precise hair edit.
+Image 1 is the EDIT TARGET: the current Teto Buddy atlas, a 4-column by 4-row sheet containing sixteen marker-drawn sprites. Image 2 is a HAIRSTYLE CONSTRUCTION REFERENCE ONLY: look at the red-haired girl's clearly tapered spiral drill twin tails.
+
+Edit ONLY the two red side ponytails of Teto in every one of the sixteen cells in Image 1. Make BOTH tails unambiguously read as her iconic DRILL TWIN TAILS, especially the tail on the VIEWER'S RIGHT which currently looks like a striped hair tie or bow.
+
+Each twin tail must be a long, tapered corkscrew of HAIR: a broad rounded root with a visible oval first coil, three or four clearly separated overlapping spiral turns, each progressively narrower toward a pointed curled tip below. Give the outer silhouette rounded stepped/scalloped coil edges, with a continuous dark red or black curling seam that wraps diagonally down the cone. The spiral must read from the silhouette and line work at tiny sprite size, rather than merely adding straight white stripes to a flat triangular wedge. Both tails should show similar visible length and clear spirals. They hang beside the face toward the shoulders, with roots level with the upper sides of the head; they do not stick straight sideways like ribbons. Use the same red-orange marker color as the existing character, with simple white highlights only if useful.
+
+Preserve ALL OTHER content from Image 1: the simple opaque white face, dot eyes and every existing expression, red bangs and curled ahoge, single white wing-shaped clip above the viewer-right tail, exact gray wrap-dress design with red trim, arm/hand gestures, two black stick legs, sixteen-pose order, character size, head center and planted feet. Preserve the deliberately simple rough marker illustration style. Do not transfer the detailed anime rendering, body, clothing, room, screens or other character from Image 2.
+
+Layout invariants: four equal columns and four equal rows; all sixteen whole sprites remain within their own cells with clear margins. Identical tail construction and stable positioning in all frames. Hands and arms should appear naturally in front of the hair where they overlap. No added limbs, hair ties, bows or accessories. Keep the background genuinely transparent and opaque white face/clip intact. No text, grid, backdrop, shadow, checkerboard or watermark. Return the edited sprite sheet.
+
+v1.0.1 edit 2: matte red and integrated roots
+=============================================
+
+Use case: precise-object-edit, preserve character identity.
+Image 1 is the EDIT TARGET: the new sixteen-pose Teto Buddy sheet with spiral drill twin tails. The user approves the clearer drill shape, but says the hair is too bright and looks glued on.
+Image 2 is the ORIGINAL BUDDY STYLE reference. Keep its simple, flat, slightly rough marker-doodle look.
+
+Refine ONLY the hair in Image 1, consistently across all sixteen sprites:
+- Use one restrained, muted cranberry-red color, approximately #BD4852, for bangs, ahoge and BOTH drill tails. No neon or primary-red saturation.
+- Make the hair matte and flat, with minimal darker-red line work to show the spiral. Remove glossy white shine, bright specular streaks, plastic gradients and deep shiny shading.
+- Integrate the drill roots naturally into the hair on the sides of the head. Each ponytail grows from behind the side bangs and flows into the first coil. Keep a continuous hair silhouette and matching line weight. Remove the closed dark oval rims that make the roots look like separate attached curlers, rings or accessories. Do not leave a seam, gap, sticker edge or black outline cutting across the root connection.
+- Keep the already approved tapered drill construction: three or four connected spiral turns that narrow downward into a small curled point on EACH side. The spirals should read as strands of the same hair, not stacked red beads or glued-on ornaments.
+- Use subtle dark-red curved separation strokes and the tapered outer contour, not white horizontal stripes. The first coil can tuck behind the side bangs so the attachment feels natural.
+
+Preserve the entire rest of the sheet: all sixteen expressions and gestures, opaque white face, tiny gray/red dress, black stick limbs, white wing-shaped clip, head center, character scale, row/column arrangement and fixed foot positions. Keep the friendly simplified marker style. Do not redesign the outfit, face, body, hands or pose order. Do not add details from other artwork.
+
+Output a 4-by-4 sprite sheet on genuinely transparent alpha, with white face and clip remaining opaque. No painted checkerboard, labels, text, scenery or shadow.

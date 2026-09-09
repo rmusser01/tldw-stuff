@@ -1,8 +1,8 @@
 {
   "id": "teto",
   "title": "Teto",
-  "description": "Red-haired marker-drawn Teto with twin tails, white face and a gray dress with red trim.",
-  "content_version": "1.0.0",
+  "description": "Marker-drawn Teto with muted cranberry-red drill twin tails, a white face and a gray dress with red trim.",
+  "content_version": "1.0.1",
   "creator": "tldw-project",
   "frame_size": 128,
   "columns": 4,
@@ -10,12 +10,12 @@
   "style": "Simple flat marker drawing; Teto design from the supplied references, with Migu Marker Basic as the style reference.",
   "orientation": "Front-facing face, torso and planted stance, with ordinary expressions looking toward the user.",
   "registration": {
-    "method": "one uniform scale for the entire character, then integer translation to a fixed support anchor",
+    "method": "equal quarter-sheet cells, one common proportional scale, then integer translation to a fixed foot support anchor",
     "raw_sheet_size": [
       1254,
       1254
     ],
-    "uniform_scale": 0.40764331210191085,
+    "uniform_scale": 0.4082934609250399,
     "resized_cell_sizes": [
       [
         128,
@@ -90,70 +90,287 @@
     },
     "frame_translations": [
       [
-        0,
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
         0
       ],
       [
-        0,
+        2,
+        1
+      ],
+      [
+        2,
         0
       ],
       [
-        0,
+        2,
         0
       ],
       [
-        0,
+        4,
         0
       ],
       [
-        0,
+        2,
         0
       ],
       [
-        0,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        0
-      ],
-      [
-        0,
-        0
+        2,
+        1
       ]
-    ]
+    ],
+    "note": "Translations describe the prepared edit before the three loop frames reuse their base frame."
   },
-  "background_processing": "Removed the baked-in gray checkerboard by exterior-connected neutral-pixel masking; bounded white face and hair clip remain opaque."
+  "background_processing": "Removed exterior-connected neutral pixels (RGB channel spread <20 and mean >=185) from the baked-in checkerboard. Retained bounded opaque white face and clip shapes. Cleared resampled alpha values <=8.",
+  "previous_preparation": {
+    "content_version": "1.0.0",
+    "source_sha256": "a573292101e4b77bd39abb92ffbfaf29e8639f9b2bad10ed236bbc6683034af9",
+    "registration": {
+      "method": "one uniform scale for the entire character, then integer translation to a fixed support anchor",
+      "raw_sheet_size": [
+        1254,
+        1254
+      ],
+      "uniform_scale": 0.40764331210191085,
+      "resized_cell_sizes": [
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128,
+          128
+        ]
+      ],
+      "anchor": {
+        "x": 64,
+        "baseline_y": 118,
+        "alpha_threshold": 128,
+        "support_band_height": 8
+      },
+      "frame_translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "background_processing": "Removed the baked-in gray checkerboard by exterior-connected neutral-pixel masking; bounded white face and hair clip remain opaque."
+  },
+  "hair_revision": "Both twin tails use connected, tapered spiral turns; muted matte cranberry red is shared by the bangs, ahoge and tails. The final generated drawing is used as a whole to preserve coherent roots and outlines; no tail-only composite is included.",
+  "loop_stabilization": {
+    "method": "Reuse the entire base pose and blend only the matching generated eye, brow or mouth region; hair, torso and feet remain pixel-identical within the idle, thinking and speaking loops.",
+    "operations": [
+      {
+        "frame": 2,
+        "base_frame": 0,
+        "expression_frame": 2,
+        "expression_boxes": [
+          [
+            47,
+            50,
+            60,
+            60
+          ],
+          [
+            71,
+            50,
+            84,
+            60
+          ]
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_boxes_identical_to_base": true,
+        "hair_exclusion": "Retain base pixels for red hair in either eye patch (R-G >30, R-B >20, alpha >128), plus a one-pixel outline margin."
+      },
+      {
+        "frame": 5,
+        "base_frame": 4,
+        "expression_frame": 5,
+        "expression_boxes": [
+          [
+            48,
+            47,
+            60,
+            60
+          ],
+          [
+            71,
+            47,
+            83,
+            60
+          ]
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_boxes_identical_to_base": true,
+        "hair_exclusion": "Retain base pixels for red hair in either eye patch (R-G >30, R-B >20, alpha >128), plus a one-pixel outline margin."
+      },
+      {
+        "frame": 7,
+        "base_frame": 6,
+        "expression_frame": 7,
+        "expression_boxes": [
+          [
+            56,
+            57,
+            76,
+            72
+          ]
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_boxes_identical_to_base": true
+      }
+    ]
+  }
 }

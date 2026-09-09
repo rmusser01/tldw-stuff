@@ -8,9 +8,13 @@ Reference images supplied by the user:
 https://i.4cdn.org/g/1788844177063862.png
 https://i.4cdn.org/g/1788893235735517.png
 
+Additional user-supplied drill-tail hairstyle reference: 1786948098649215.jpg
+Creator credit: anonymous (artist unidentified). This image is not bundled;
+its digest is recorded in PROVENANCE.json.
+
 The reference images have no published license supplied or verified here.
 Anonymous is an attribution label for an unidentified artist, not a claim of
-public-domain status. The original images are linked, not bundled or relicensed.
+public-domain status. The original images are identified above, not bundled or relicensed.
 Underlying character rights remain with their respective rights holders.
 
 New contributions: AI-assisted marker-style sprite artwork, the native Buddy
