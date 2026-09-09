@@ -1,0 +1,26 @@
+Hugging Face Buddy — mascot attribution and project contributions
+
+Pack creator: tldw-project
+Copyright 2026 tldw-project (new contributions)
+
+The Hugging Face name, hugging-face mascot and associated brand identity belong
+to Hugging Face. The official brand reference and published colors are at:
+https://huggingface.co/brand
+
+This is an unofficial, newly drawn Buddy adaptation created at the user's
+request. Hugging Face is credited for the mascot, not as the author or endorser
+of this pack. The official brand page offers assets for use in projects; this
+pack does not assert a separate open-content license for the underlying logo,
+mascot or trademarks. No official logo file is bundled or copied into the atlas.
+
+New contributions: AI-assisted sprite drawings, the native Buddy pack, state
+mappings, animation previews, documentation and preparation metadata. Apache-2.0
+covers the project's new contributions to the extent applicable; see LICENSE.txt.
+Underlying brand and artwork rights remain separate. The Apache-2.0 license does
+not grant rights to Hugging Face trademarks or imply affiliation or endorsement.
+
+Existing tldw-stuff companions informed the illustration style only. No existing
+Buddy image pixels are included in this atlas. The generated artwork was prepared
+using the user's authorized local image-processing workflow.
+
+Please retain this attribution, LICENSE.txt and PROVENANCE.json with copies.

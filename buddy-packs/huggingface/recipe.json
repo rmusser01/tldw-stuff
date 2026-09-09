@@ -1,0 +1,455 @@
+{
+  "id": "huggingface",
+  "title": "Hugging Face",
+  "description": "A round golden-yellow hugging face with two expressive hands and a warm smile.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "style": "Flat 2D cartoon with a yellow face, warm-orange outlines and charcoal features, matched to the existing Buddy collection.",
+  "orientation": "Front-facing circular face with exactly two hands; a fixed lower silhouette baseline without legs or a torso.",
+  "registration": {
+    "method": "One uniform scale for the entire sheet, then integer translation of complete frames to a fixed support anchor.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.3660130718954248,
+    "resized_cell_sizes": [
+      [
+        101,
+        85
+      ],
+      [
+        104,
+        85
+      ],
+      [
+        102,
+        85
+      ],
+      [
+        101,
+        85
+      ],
+      [
+        95,
+        85
+      ],
+      [
+        97,
+        92
+      ],
+      [
+        102,
+        85
+      ],
+      [
+        101,
+        85
+      ],
+      [
+        104,
+        83
+      ],
+      [
+        101,
+        88
+      ],
+      [
+        103,
+        83
+      ],
+      [
+        101,
+        93
+      ],
+      [
+        103,
+        83
+      ],
+      [
+        100,
+        83
+      ],
+      [
+        118,
+        83
+      ],
+      [
+        93,
+        88
+      ]
+    ],
+    "extraction": "Separated sixteen complete character components and assigned detached reaction marks to the nearest character, preserving marks crossing nominal grid boundaries. Cropped each group with eight raw pixels of padding.",
+    "raw_crop_bounds": [
+      [
+        39,
+        60,
+        316,
+        293
+      ],
+      [
+        340,
+        62,
+        624,
+        293
+      ],
+      [
+        637,
+        62,
+        917,
+        293
+      ],
+      [
+        938,
+        62,
+        1214,
+        293
+      ],
+      [
+        57,
+        359,
+        316,
+        591
+      ],
+      [
+        359,
+        340,
+        624,
+        591
+      ],
+      [
+        638,
+        359,
+        916,
+        590
+      ],
+      [
+        938,
+        358,
+        1214,
+        590
+      ],
+      [
+        36,
+        657,
+        320,
+        885
+      ],
+      [
+        342,
+        645,
+        619,
+        885
+      ],
+      [
+        637,
+        657,
+        918,
+        885
+      ],
+      [
+        938,
+        633,
+        1214,
+        886
+      ],
+      [
+        33,
+        945,
+        315,
+        1171
+      ],
+      [
+        341,
+        945,
+        615,
+        1171
+      ],
+      [
+        618,
+        945,
+        940,
+        1171
+      ],
+      [
+        958,
+        932,
+        1213,
+        1172
+      ]
+    ],
+    "raw_component_groups": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        7
+      ],
+      [
+        8,
+        5,
+        10
+      ],
+      [
+        9
+      ],
+      [
+        6
+      ],
+      [
+        13
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        15
+      ],
+      [
+        16,
+        11,
+        17
+      ],
+      [
+        20,
+        25,
+        27
+      ],
+      [
+        19
+      ],
+      [
+        21,
+        23,
+        24,
+        26
+      ],
+      [
+        22,
+        18
+      ]
+    ],
+    "anchor": {
+      "x": 64,
+      "baseline_y": 118,
+      "alpha_threshold": 128,
+      "support_band_height": 8,
+      "horizontal_landmark": "Upper arc of the circular face, independent of the hands."
+    },
+    "frame_translations": [
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        -2,
+        15
+      ],
+      [
+        -2,
+        11
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        -12,
+        16
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        -11,
+        16
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        1,
+        16
+      ],
+      [
+        4,
+        13
+      ]
+    ],
+    "face_alignment": {
+      "method": "Refined horizontal registration using the median upper-arc center of the circular face; moving hands do not determine the body position.",
+      "measurements": [
+        {
+          "frame": 0,
+          "before_face_center_x": 63.0,
+          "translation_x": 1
+        },
+        {
+          "frame": 1,
+          "before_face_center_x": 63.5,
+          "translation_x": 0
+        },
+        {
+          "frame": 2,
+          "before_face_center_x": 64.0,
+          "translation_x": 0
+        },
+        {
+          "frame": 3,
+          "before_face_center_x": 63.5,
+          "translation_x": 0
+        },
+        {
+          "frame": 4,
+          "before_face_center_x": 57.75,
+          "translation_x": 6
+        },
+        {
+          "frame": 5,
+          "before_face_center_x": 56.5,
+          "translation_x": 8
+        },
+        {
+          "frame": 6,
+          "before_face_center_x": 64.0,
+          "translation_x": 0
+        },
+        {
+          "frame": 7,
+          "before_face_center_x": 63.5,
+          "translation_x": 0
+        },
+        {
+          "frame": 8,
+          "before_face_center_x": 53.0,
+          "translation_x": 11
+        },
+        {
+          "frame": 9,
+          "before_face_center_x": 63.5,
+          "translation_x": 0
+        },
+        {
+          "frame": 10,
+          "before_face_center_x": 63.5,
+          "translation_x": 0
+        },
+        {
+          "frame": 11,
+          "before_face_center_x": 63.5,
+          "translation_x": 0
+        },
+        {
+          "frame": 12,
+          "before_face_center_x": 54.5,
+          "translation_x": 10
+        },
+        {
+          "frame": 13,
+          "before_face_center_x": 63.5,
+          "translation_x": 0
+        },
+        {
+          "frame": 14,
+          "before_face_center_x": 64.5,
+          "translation_x": 0
+        },
+        {
+          "frame": 15,
+          "before_face_center_x": 64.0,
+          "translation_x": 0
+        }
+      ],
+      "verification_scanlines_y": [
+        48,
+        52,
+        56
+      ],
+      "verification_x_range": [
+        32,
+        96
+      ],
+      "face_center_x": 64,
+      "face_center_tolerance_pixels": 1
+    }
+  },
+  "background_processing": {
+    "method": "Preserved generated alpha and removed alpha<=8 noise and tiny disconnected specks."
+  },
+  "loop_stabilization": {
+    "input_atlas_sha256": "84206a2db8f25c2f91e8d5700b59ae19a3da8fc6319632c8c8fd4bad80c27584",
+    "operations": [
+      {
+        "frame": 2,
+        "base_frame": 0,
+        "expression_frame": 2,
+        "expression_box": [
+          40,
+          60,
+          88,
+          79
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_box_identical_to_base": true
+      },
+      {
+        "frame": 7,
+        "base_frame": 6,
+        "expression_frame": 7,
+        "expression_box": [
+          48,
+          79,
+          80,
+          97
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_box_identical_to_base": true
+      },
+      {
+        "frame": 5,
+        "base_frame": 4,
+        "effects_frame": 5,
+        "method": "Only detached thought-bubble components overlay the unchanged thinking frame."
+      }
+    ]
+  }
+}

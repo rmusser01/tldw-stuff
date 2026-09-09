@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "verified_on": "2026-09-08",
+  "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+  "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
+  "packs": [
+    {
+      "id": "huggingface",
+      "title": "Hugging Face",
+      "bytes": 185511,
+      "sha256": "7f7e563759f5404cc0dfcedab8b5364e206a3fe4c3e2c23a7c8b307a6475a937",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "8c0e195b9e6827480d0ea0d9905d429d2d8a2b9134d07e134b2a78b2ccd61fc1"
+    }
+  ],
+  "chatbook": [
+    {
+      "id": "huggingface",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "id": "huggingface",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    }
+  ],
+  "registration": {
+    "result": "passed",
+    "poses": 16,
+    "baseline_y": 118,
+    "face_center_x": 64,
+    "face_center_tolerance_pixels": 1,
+    "method": "Connected circular face upper-arc checks ignore independently moving hands and floating reaction marks.",
+    "regression_evidence": "The initial hand-centered atlas failed face registration at poses 4, 5, 8 and 12; all sixteen corrected poses passed.",
+    "stabilized_loops": [
+      "idle/blink",
+      "thinking",
+      "speaking"
+    ]
+  }
+}
