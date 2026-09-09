@@ -20,32 +20,37 @@ previews, import steps and credits.
       <a href="dipsy-qipao/">Details</a> · <a href="dipsy-qipao/dipsy-qipao.tldw-persona-vpack?raw=1">Download</a>
     </td>
     <td width="384" align="center" valign="top">
+      <a name="huggingface"></a>
+      <a href="huggingface/"><strong>Hugging Face</strong><br><img src="huggingface/preview.png" alt="Hugging Face Buddy with a yellow face and two open hands" width="128" height="128"></a><br>
+      A sunny yellow face with two hugging hands.<br>
+      <a href="huggingface/">Details</a> · <a href="huggingface/huggingface.tldw-persona-vpack?raw=1">Download</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="384" align="center" valign="top">
       <a href="kimi/"><strong>Kimi</strong><br><img src="kimi/preview.png" alt="Kimi with silver hair and a black dress" width="128" height="128"></a><br>
       Silver hair and a black dress.<br>
       <a href="kimi/">Details</a> · <a href="kimi/kimi.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a name="teto"></a>
       <a href="teto/"><strong>Teto</strong><br><img src="teto/preview.png" alt="Marker-drawn Teto with red twin tails" width="128" height="128"></a><br>
       Red twin tails in a marker-drawn style.<br>
       <a href="teto/">Details</a> · <a href="teto/teto.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a href="trenchcoat/"><strong>Trenchcoat</strong><br><img src="trenchcoat/preview.png" alt="Shady person in a trenchcoat" width="128" height="128"></a><br>
       A mysterious companion in a trenchcoat.<br>
       <a href="trenchcoat/">Details</a> · <a href="trenchcoat/trenchcoat.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a name="un-aligned-waifu"></a>
       <a href="un-aligned-waifu/"><strong>un-aligned waifu</strong><br><img src="un-aligned-waifu/preview.png" alt="un-aligned waifu in a black dress holding a knife prop" width="128" height="128"></a><br>
       Blonde twin tails, red eyes and a knife prop.<br>
       <a href="un-aligned-waifu/">Details</a> · <a href="un-aligned-waifu/un-aligned-waifu.tldw-persona-vpack?raw=1">Download</a>
     </td>
-    <td width="384"></td>
   </tr>
 </table>
 
@@ -228,7 +233,8 @@ Apache-2.0 default; shipped defaults and adapted characters retain their
 specific artwork, source and license notices. See [LICENSING.md](../LICENSING.md)
 and each pack's details before reuse.
 
-Pepe credits character creator **Matt Furie**. The supplied references for
+Pepe credits character creator **Matt Furie**; **Hugging Face** is credited for
+its mascot. The supplied references for
 Dipsy (Qipao), Kimi, Cappy, Teto and un-aligned waifu credit **anonymous**;
 their notices retain the reference artwork's unpublished license status.
 

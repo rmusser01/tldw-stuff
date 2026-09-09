@@ -14,7 +14,7 @@ from io import BytesIO
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from PIL import Image, ImageChops
+from PIL import Image, ImageChops, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -36,6 +36,23 @@ def registration_checks(frame: Image.Image, name: str, index: int) -> None:
         return
     box = opaque.getbbox()
     assert box and box[3] == 118, (name, index, "baseline", box)
+    if name == "huggingface":
+        # The hugging hands move independently of the circular face. Its upper
+        # arc stays clear of hands at these scanlines. Isolate the connected
+        # body first so floating reaction marks cannot move the measured center.
+        face = opaque.copy()
+        ImageDraw.floodfill(face, (64, 78), 128)
+        face = face.point(lambda value: 255 if value == 128 else 0)
+        for y in (48, 52, 56):
+            arc = face.crop((32, y, 96, y + 1)).getbbox()
+            assert arc and abs(32 + (arc[0] + arc[2]) / 2 - 64) <= 1, (
+                name,
+                index,
+                "face center",
+                y,
+                arc,
+            )
+        return
     support = opaque.crop((0, 110, 128, 118)).getbbox()
     assert support and abs((support[0] + support[2]) / 2 - 64) <= 0.5, (
         name,

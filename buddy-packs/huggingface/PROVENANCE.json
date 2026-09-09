@@ -1,0 +1,28 @@
+{
+  "kind": "adapted",
+  "creator": "tldw-project",
+  "copyright": "2026 tldw-project (new contributions)",
+  "license": "Apache-2.0",
+  "content_version": "1.0.0",
+  "license_scope": "Project contributions to the extent applicable; underlying reference-artwork and character rights remain separate. See NOTICE.txt.",
+  "method": "OpenAI built-in image generation; user-authorized local alpha cleanup, proportional scaling, frame extraction and registration. Unchanged sprite regions were reused in blink, thinking and speaking loops to prevent body and prop jitter.",
+  "generated_input_sha256": "ee7402038eb7cfb93448cb34a7ff02b3fedfc7dfa1b4ac3b2025974bb1e4d1b5",
+  "source_sha256": "8c0e195b9e6827480d0ea0d9905d429d2d8a2b9134d07e134b2a78b2ccd61fc1",
+  "style_references": [
+    "../circle/source.png",
+    "../pepe/source.png"
+  ],
+  "reference_use": "Existing collection artwork was inspected to describe its style. No existing Buddy image pixels are included in this new atlas.",
+  "prompt": "PROMPT.txt",
+  "source": "source.png",
+  "notice": "NOTICE.txt",
+  "reference": {
+    "creator": "Hugging Face",
+    "work": "Hugging Face hugging-face mascot",
+    "url": "https://huggingface.co/brand",
+    "use": "Brand identity and published yellow/orange colors informed a textual prompt. The official logo was inspected separately after generation for identity and attribution review; no logo pixels were included in the generated atlas.",
+    "asset_url": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png",
+    "asset_sha256": "9cf16f4f32604eaf76dabbdf47701eea5a768ebcc7296acc1d1758181f71db73",
+    "license_status": "The public brand page offers official assets for use in projects. No separate open-content license for the mascot was asserted or verified; brand and underlying artwork rights remain separate from the project contribution license."
+  }
+}

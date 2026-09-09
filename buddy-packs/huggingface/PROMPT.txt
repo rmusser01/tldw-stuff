@@ -1,0 +1,16 @@
+Use case: stylized-concept.
+Create a finished 4-column by 4-row sprite sheet, sixteen consistent poses, for a small desktop Buddy named Hugging Face.
+
+Character: the recognizable Hugging Face hugging mascot: a round golden-yellow emoji face, warm orange outline, dark friendly eyes, broad curved smile, small rosy cheek marks and EXACTLY TWO golden-yellow open cartoon hands. The whole body IS the circular face. No torso, no legs, no feet, no clothing. The two hands extend from the lower left and right sides and gesture toward the user. Each hand has one thumb and four fingers, simplified cleanly for a tiny sprite. No duplicate hands and no extra arms. A front-facing, cheerful companion looking at the user.
+
+Style: charming FLAT 2D cartoon illustration matching small hand-inked desktop companions. Clean dark charcoal outlines on eyes and mouth, deeper warm-orange outline around face and hands, clear flat #FFD21E yellow with restrained #FF9D00 edge shading. Crisp readable expressions. Not pixel art, not 3D, not faceted, not a glossy rendered emoji. Keep the design very close to the familiar yellow hugging-face silhouette.
+
+Layout: one square sheet, equal four columns and four rows, absolutely no labels or grid lines. Every complete sprite and its small effects fit within the central 75 percent of its cell. All sixteen circular faces have EXACTLY the same diameter, same center point, same bottom baseline, same camera and no tilting. The hands stay at or above the circle's lower edge so the circular face has a fixed bottom anchor in every frame. No jumping, body bobbing, sliding, zooming or changing proportions. Clear empty margins around each complete pose.
+
+Exact row-major poses:
+Row 1: friendly idle, both hands in an open welcoming hug; same neutral idle with a tiny change to the fingertips; brief both-eyes-closed blink with otherwise IDENTICAL idle silhouette, hands and smile; neutral idle.
+Row 2: thinking with one hand at the lower cheek and the other resting in an open hug; the IDENTICAL thinking pose with two small thought bubbles above the right edge; speaking with a small open smiling mouth and both hands in the idle hug; the IDENTICAL speaking pose with the mouth slightly wider.
+Row 3: attentive listening with one hand cupped beside the face and the other in its resting position; sleepy closed eyes and a tiny Z above, both hands resting beside the face; gently worried eyebrows and one tiny sweat drop, two hands resting beside the face; confused raised eyebrow with one small question mark above.
+Row 4: friendly wave with only the left hand raised while the right hand stays in place; warm happy closed-eye smile and two open hugging hands; delighted big smile, both hands raised at the sides and two small sparkles, circle stays at its normal position; affectionate closed-eye smile with two hands curled gently inward in a hug and one small red heart above.
+
+The circle remains perfectly still and equal-sized across all sixteen frames. Expressions come from eyes, brows, mouths and the existing two hands, never added limbs. Genuine transparent background with alpha. No painted checkerboard, white backdrop, ground, drop shadow, scenery, lettering, watermark or other characters.
