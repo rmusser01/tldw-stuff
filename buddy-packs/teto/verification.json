@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "creator": "tldw-project",
   "reference_creator": "anonymous",
   "verified_on": "2026-09-08",
@@ -9,12 +9,12 @@
     {
       "id": "teto",
       "title": "Teto",
-      "bytes": 252591,
-      "sha256": "bddde593e5ea2b02684572deb5b9e17976d40023dcc49c5e9aa2138638e2efd8",
+      "bytes": 250639,
+      "sha256": "79cfe664e259c6b796d845dba087977ebde4ed2eba34c0f49305e5d766f5ecac",
       "assets": 1,
       "poses": 16,
       "states": 18,
-      "source_sha256": "a573292101e4b77bd39abb92ffbfaf29e8639f9b2bad10ed236bbc6683034af9"
+      "source_sha256": "27721270f76094f7def6ee8ec59d1f2371c43a5e5f7feb468c8d37d65573e321"
     }
   ],
   "chatbook": [
@@ -46,5 +46,19 @@
         "activatable manifest"
       ]
     }
-  ]
+  ],
+  "artwork_revision": {
+    "description": "Muted matte red, connected roots and tapered drill twin tails on both sides.",
+    "reviewed_poses": 16,
+    "fixed_support_anchor": {
+      "x": 64,
+      "baseline_y": 118
+    },
+    "stabilized_loops": [
+      "idle",
+      "thinking",
+      "speaking"
+    ],
+    "scope": "Artwork review plus native importer tests in temporary profiles and SQLite databases; no live application UI or server HTTP-worker testing."
+  }
 }

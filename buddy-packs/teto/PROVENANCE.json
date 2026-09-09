@@ -4,10 +4,10 @@
   "copyright": "2026 tldw-project (new contributions)",
   "license": "Apache-2.0",
   "license_scope": "Project-created sprite artwork, manifests and pack materials; does not relicense reference images or underlying character rights. See NOTICE.txt.",
-  "content_version": "1.0.0",
-  "method": "OpenAI built-in image generation using both displayed Teto references and the Migu Marker Basic style reference; user-authorized local background processing, proportional scaling, frame extraction and registration.",
-  "generated_input_sha256": "bc3ab634e9d78b55ef32c92862712d75e1cfd45e21a049d2b1ae1fbf901799f6",
-  "source_sha256": "a573292101e4b77bd39abb92ffbfaf29e8639f9b2bad10ed236bbc6683034af9",
+  "content_version": "1.0.1",
+  "method": "OpenAI built-in image editing of the original Teto atlas with a supplied drill-tail hairstyle reference, followed by a second edit for muted matte color and continuous roots. User-authorized local exterior-background removal, equal-cell extraction, proportional scaling and fixed-foot registration. The entire final edited drawing is used; blink, thinking and speaking reuse their base pose with only expression-region changes.",
+  "generated_input_sha256": "818f8f9813f0c29f1344f03456e41aecd3d50c14de2cd814718a2ff91be13c29",
+  "source_sha256": "27721270f76094f7def6ee8ec59d1f2371c43a5e5f7feb468c8d37d65573e321",
   "reference": {
     "creator": "anonymous",
     "credit_basis": "Artist not identified in the supplied references; anonymous credit follows the collection convention requested by the user.",
@@ -26,5 +26,24 @@
   },
   "prompt": "PROMPT.txt",
   "source": "source.png",
-  "notice": "NOTICE.txt"
+  "notice": "NOTICE.txt",
+  "previous_revision": {
+    "content_version": "1.0.0",
+    "generated_input_sha256": "bc3ab634e9d78b55ef32c92862712d75e1cfd45e21a049d2b1ae1fbf901799f6",
+    "source_sha256": "a573292101e4b77bd39abb92ffbfaf29e8639f9b2bad10ed236bbc6683034af9",
+    "method": "OpenAI built-in image generation using both displayed Teto references and the Migu Marker Basic style reference; user-authorized local background processing, proportional scaling, frame extraction and registration."
+  },
+  "revision_inputs": {
+    "original_atlas_sha256": "a573292101e4b77bd39abb92ffbfaf29e8639f9b2bad10ed236bbc6683034af9",
+    "first_drill_edit_sha256": "6d09f4b5c67644c5e7cb8bf0240df099bf42abd65db6757f934cf07de9f32051",
+    "final_matte_edit_sha256": "818f8f9813f0c29f1344f03456e41aecd3d50c14de2cd814718a2ff91be13c29"
+  },
+  "additional_reference": {
+    "filename": "1786948098649215.jpg",
+    "sha256": "a18b6a9f68dcea4b728fdaaaf3a72125620dd1f1af21a216875304c22e7f269d",
+    "creator": "anonymous",
+    "credit_basis": "Artist not identified; anonymous credit follows the user-requested collection convention.",
+    "license_status": "No published reference-image license supplied or verified.",
+    "use": "User-supplied hairstyle reference for the tapered spiral twin tails only; image is not bundled."
+  }
 }

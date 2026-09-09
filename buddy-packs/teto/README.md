@@ -1,14 +1,14 @@
 # Teto
 
-A red-haired, marker-drawn Teto companion with a white face, twin tails, a gray
-dress with red trim, and simple stick legs. Its drawing style pairs with
+A marker-drawn Teto companion with muted cranberry-red drill twin tails, a white
+face, a gray dress with red trim, and simple stick legs. Its drawing style pairs with
 [Migu Marker Basic](../migu-marker-basic/README.md).
 
 ## Preview and download
 
 <img src="preview.png" alt="Teto still preview" width="192" height="192"> <img src="preview.gif" alt="Teto animated expression preview" width="192" height="192">
 
-[**Download Teto**](teto.tldw-persona-vpack) · 252,591 bytes · [SHA-256 checksums](SHA256SUMS)
+[**Download Teto**](teto.tldw-persona-vpack) · 250,639 bytes · [SHA-256 checksums](SHA256SUMS)
 
 The still is the exact idle frame. The GIF cycles through actual pack frames on
 a dark background. Downloadable PNG artwork has transparency, including around
@@ -19,7 +19,7 @@ artwork previews, not application screenshots.
 
 | Field | Value |
 | --- | --- |
-| Content version | 1.0.0 |
+| Content version | 1.0.1 |
 | Pack creator | tldw-project |
 | Reference artwork credit | anonymous (artist unidentified) |
 | License | [Apache-2.0](LICENSE.txt) for project contributions; reference and character rights remain separate in [NOTICE.txt](NOTICE.txt) |
@@ -62,11 +62,19 @@ confused, and love; some intentionally share artwork. See [manifest.json](manife
 | 3 | Listening | Sleepy | Worried/error | Confused |
 | 4 | Wave | Happy | Celebrate | Love |
 
-The built-in OpenAI image tool generated the sheet from the supplied references.
-Authorized local processing removed its baked-in checkerboard, retained enclosed
+Version 1.0.1 gives both tails connected, tapered spiral turns. Matte red and
+continuous roots keep them consistent with the bangs and ahoge. The built-in
+OpenAI image tool edited the original sheet using the supplied hairstyle reference,
+then refined its color and roots. The complete revised drawing keeps the outlines
+coherent across the head and hair.
+
+Authorized local processing removed the baked-in checkerboard, retained enclosed
 white shapes, scaled every pose by one common factor, and aligned the feet to
-x=64 and y=118 in each cell. [PROMPT.txt](PROMPT.txt) records the exact prompt;
-[recipe.json](recipe.json) records the preparation and registration.
+x=64 and y=118 in each cell. Blink, thinking and speaking reuse their base pose,
+changing only the eye, brow or mouth regions so the hair and body stay still.
+[PROMPT.txt](PROMPT.txt) records the original and revision prompts;
+[recipe.json](recipe.json) records the preparation, registration and expression
+regions.
 
 ## Verification and rebuilding
 
@@ -105,8 +113,11 @@ Character-design references: [first supplied Teto drawing](https://i.4cdn.org/g/
 and [second supplied Teto drawing](https://i.4cdn.org/g/1788893235735517.png), credited
 to **anonymous** because their artist is unidentified. No published license was
 supplied or verified for these reference images. Originals are linked, not bundled
-or relicensed. Existing Migu artwork was used as a style reference; its pixels are
-not included in Teto. [PROVENANCE.json](PROVENANCE.json) records these sources.
+or relicensed. The user supplied an additional hairstyle reference,
+`1786948098649215.jpg`, for this revision, also credited to **anonymous**. Its
+filename and digest are recorded without bundling the image. Existing Migu artwork
+was used as a style reference; its pixels are not included in Teto.
+[PROVENANCE.json](PROVENANCE.json) records these sources and revision history.
 
 Keep [LICENSE.txt](LICENSE.txt), [NOTICE.txt](NOTICE.txt), and provenance with
 copies. The archive embeds creator, full license and reference notices. Chatbook
