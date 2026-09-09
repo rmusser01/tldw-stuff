@@ -1,0 +1,311 @@
+{
+  "id": "poodle",
+  "title": "Poodle",
+  "description": "A seated cream poodle with a curly topknot, two floppy ears and a pom-pom tail.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "style": "Flat 2D cartoon with clean dark outlines, rounded shapes, matte colors and restrained shading, consistent with the existing animal companions.",
+  "orientation": "Face and both eyes directed toward the user, with a gentle three-quarter body view.",
+  "registration": {
+    "method": "Identify sixteen complete opaque body components, group into four rows, attach each nearby detached effect, extract with padding, use one common scale, then translate to a fixed support anchor.",
+    "raw_sheet_size": [
+      1244,
+      1265
+    ],
+    "uniform_scale": 0.3674911660777385,
+    "raw_frame_crops": [
+      [
+        49,
+        21,
+        288,
+        309
+      ],
+      [
+        352,
+        21,
+        593,
+        309
+      ],
+      [
+        643,
+        22,
+        885,
+        309
+      ],
+      [
+        941,
+        21,
+        1182,
+        309
+      ],
+      [
+        49,
+        329,
+        289,
+        617
+      ],
+      [
+        351,
+        329,
+        592,
+        617
+      ],
+      [
+        644,
+        330,
+        887,
+        617
+      ],
+      [
+        942,
+        329,
+        1184,
+        617
+      ],
+      [
+        34,
+        636,
+        301,
+        929
+      ],
+      [
+        353,
+        639,
+        597,
+        929
+      ],
+      [
+        649,
+        640,
+        893,
+        928
+      ],
+      [
+        946,
+        639,
+        1195,
+        929
+      ],
+      [
+        50,
+        947,
+        336,
+        1234
+      ],
+      [
+        351,
+        948,
+        593,
+        1233
+      ],
+      [
+        642,
+        947,
+        890,
+        1233
+      ],
+      [
+        940,
+        947,
+        1207,
+        1234
+      ]
+    ],
+    "resized_frame_sizes": [
+      [
+        88,
+        106
+      ],
+      [
+        89,
+        106
+      ],
+      [
+        89,
+        105
+      ],
+      [
+        89,
+        106
+      ],
+      [
+        88,
+        106
+      ],
+      [
+        89,
+        106
+      ],
+      [
+        89,
+        105
+      ],
+      [
+        89,
+        106
+      ],
+      [
+        98,
+        108
+      ],
+      [
+        90,
+        107
+      ],
+      [
+        90,
+        106
+      ],
+      [
+        92,
+        107
+      ],
+      [
+        105,
+        105
+      ],
+      [
+        89,
+        105
+      ],
+      [
+        91,
+        105
+      ],
+      [
+        98,
+        105
+      ]
+    ],
+    "anchor": {
+      "x": 64,
+      "baseline_y": 118,
+      "alpha_threshold": 128,
+      "support_band_height": 8
+    },
+    "frame_translations": [
+      [
+        -5,
+        3
+      ],
+      [
+        -4,
+        3
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        -4,
+        3
+      ],
+      [
+        -5,
+        3
+      ],
+      [
+        -4,
+        3
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        -4,
+        3
+      ],
+      [
+        -5,
+        3
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        -4,
+        3
+      ],
+      [
+        -2,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "background_processing": {
+    "method": "Preserve generated transparency. Retain main opaque components and detached effects of at least thirty raw pixels with a three-pixel antialiasing margin; discard alpha<=8 noise.",
+    "main_component_min_raw_pixels": 10000,
+    "effect_component_min_raw_pixels": 30
+  },
+  "local_pose_changes": [
+    {
+      "frame": 5,
+      "body_frame": 4,
+      "effect_frame": 5,
+      "method": "Reuse the thinking body and replace the detached thought dots with those from the alternate frame."
+    },
+    {
+      "frame": 8,
+      "body_frame": 0,
+      "effect_frame": 8,
+      "method": "Use the two-eared idle body with the listening attention strokes; discard the generated extra ear shapes."
+    }
+  ],
+  "anatomy_correction": "Listening uses the reviewed two-eared idle body and its original attention strokes, excluding the extra generated ear shapes.",
+  "loop_stabilization": {
+    "method": "Blink and speaking reuse their entire base pose with changes only inside the listed facial regions. Thinking reuses the same body while the detached thought dots change.",
+    "operations": [
+      {
+        "frame": 2,
+        "base_frame": 0,
+        "expression_frame": 2,
+        "expression_boxes": [
+          [
+            39,
+            46,
+            76,
+            62
+          ]
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_boxes_identical_to_base": true
+      },
+      {
+        "frame": 7,
+        "base_frame": 6,
+        "expression_frame": 7,
+        "expression_boxes": [
+          [
+            45,
+            61,
+            65,
+            73
+          ]
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_boxes_identical_to_base": true
+      }
+    ]
+  }
+}

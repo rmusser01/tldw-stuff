@@ -1,0 +1,19 @@
+{
+  "kind": "original",
+  "creator": "tldw-project",
+  "copyright": "2026 tldw-project",
+  "license": "Apache-2.0",
+  "content_version": "1.0.0",
+  "method": "OpenAI built-in image generation from the user-requested animal concept and a textual description of the viewed collection style; user-authorized local alpha cleanup, complete-component extraction, proportional scaling, frame registration and reuse of unchanged pose regions. The listening frame reuses the two-eared idle body with the generated attention strokes to correct extra ear shapes.",
+  "generated_input_sha256": "c020a9fbf2330a23a5d8b4b59a7b7ad0708b0eded25a3adddeb3da892442a1a4",
+  "source_sha256": "db9072e10932ba4ca95993c1bc8765d3c459631f6973c0624742a39c1e43552e",
+  "style_references": [
+    "../llama/preview.png",
+    "../shiba-inu/preview.png",
+    "../rubber-duck/preview.png",
+    "../cappy/preview.png"
+  ],
+  "reference_use": "Existing collection artwork was viewed only to describe the cartoon style. No existing Buddy image pixels are included in this new atlas.",
+  "prompt": "PROMPT.txt",
+  "source": "source.png"
+}
