@@ -1,0 +1,19 @@
+{
+  "kind": "original",
+  "creator": "tldw-project",
+  "copyright": "2026 tldw-project",
+  "license": "Apache-2.0",
+  "content_version": "1.0.0",
+  "method": "OpenAI built-in image generation from the user-requested animal concept and a textual description of the viewed collection style; user-authorized local alpha cleanup, complete-component extraction, proportional scaling, frame registration and reuse of unchanged pose regions.",
+  "generated_input_sha256": "f8698a2e3f45de6a932f9e1cb1a836c353f9692b441fe34904af6cc1f9dfb968",
+  "source_sha256": "3053c3f71f1eed1a7a23fd95771ac868829df96f3f7aefe4277ea9979f691d3a",
+  "style_references": [
+    "../llama/preview.png",
+    "../shiba-inu/preview.png",
+    "../rubber-duck/preview.png",
+    "../cappy/preview.png"
+  ],
+  "reference_use": "Existing collection artwork was viewed only to describe the cartoon style. No existing Buddy image pixels are included in this new atlas.",
+  "prompt": "PROMPT.txt",
+  "source": "source.png"
+}
