@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "verified_on": "2026-09-08",
+  "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+  "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
+  "packs": [
+    {
+      "id": "horse",
+      "title": "Horse",
+      "bytes": 201053,
+      "sha256": "824f31f5d86d86f6bae05b926b3c4ac65d636404ea29d0d3c4c082a21b1c3801",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "ef5894181703f73e89f85c5119a670ffa3a6eb6e06c65089ff3f8cdc994b364c"
+    }
+  ],
+  "chatbook": [
+    {
+      "id": "horse",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "id": "horse",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    }
+  ],
+  "artwork_checks": {
+    "reviewed_poses": 16,
+    "fixed_support_anchor": {
+      "x": 64,
+      "baseline_y": 118
+    },
+    "stable_loops": [
+      "idle",
+      "thinking",
+      "speaking"
+    ],
+    "transparent_source": true,
+    "exact_idle_preview": true
+  }
+}
