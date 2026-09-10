@@ -222,8 +222,9 @@ The original basic Buddy packs, available here as separate downloads.
 ## Default personas
 
 The [six default persona archetypes](../personas/README.md) are available
-separately. They define persona setup metadata; choose a visual Buddy pack
-for a saved Persona using the [import steps](IMPORT.md).
+separately. They define assistant behavior; a Buddy supplies artwork and can
+follow a conversation or workspace without a Persona. Use the [import steps](IMPORT.md)
+for independent Buddies or artwork belonging to a Persona.
 See [how Personas and Buddies relate](../personas/README.md#buddy-companions).
 
 ## Authoring references
