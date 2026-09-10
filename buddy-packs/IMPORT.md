@@ -94,6 +94,9 @@ configured prefix if different.
 
 ### Create an independent Buddy from the imported artwork
 
+The existing server import-job repository requires SQLite storage. PostgreSQL
+Buddy snapshots and native exports are separate supported paths.
+
 After the import completes, use the actual destination Persona and imported
 pack IDs with authenticated `POST /api/v1/buddies`:
 
@@ -121,17 +124,29 @@ its conversation or workspace and **Apply**. Creating the artwork record alone
 does not attach it. API clients can use the versioned attachment workflow in the
 [Buddy API reference](https://github.com/rmusser01/tldw_server/blob/dev/Docs/API/Buddies.md).
 
-Keep the supplied license and provenance files with server copies. Independent
-copying and later export are separate operations; do not assume an export
-preserves every artwork notice without checking its contents.
+Keep the supplied license and provenance files with server copies. A live check
+of server `50c1f68957` confirmed that import discarded embedded artwork credits,
+which also removed them from independent copies and exports. The repair is in
+[server PR #2940](https://github.com/rmusser01/tldw_server/pull/2940); use a build
+containing that change before relying on embedded-credit preservation.
+
+To recover credits already lost by an older import, re-import the original
+credited archive and make a new independent Buddy. Existing copies are not
+silently rewritten. Archives that never embedded notices still need their
+accompanying files.
 
 ## Verification scope
 
 The independent-install instructions were checked against Chatbook
 `02374bf66af4e6a594d1a63f7f2d559554714fa8` and server
-`50c1f689575b1bc21ed3e78cdb193b03fe968cdd` on 2026-09-10. This is a source/control
-and API-contract review, not a new native-terminal, installed-extension or live
-HTTP import test. [Chatbook PR #2551](https://github.com/rmusser01/tldw_chatbook/pull/2551)
+`50c1f689575b1bc21ed3e78cdb193b03fe968cdd` on 2026-09-10. A subsequent live
+Trenchcoat check used the actual authenticated server import/export worker:
+preview, commit, independent copy, export and re-import completed. After the
+repair in PR #2940, the exact creator, source URL, license, 11,654 UTF-8 bytes
+of notices and every PNG byte survived. The exported archive also passed
+Chatbook's actual native importer with 18 activatable states and exact credits.
+These checks do not constitute a native-terminal or installed-extension walkthrough.
+See the [source-bound verification receipt](https://github.com/rmusser01/tldw_server/blob/0e72f25515/Docs/Reviews/2026-09-10-buddy-followup.md). [Chatbook PR #2551](https://github.com/rmusser01/tldw_chatbook/pull/2551)
 records the Trenchcoat import fix and mounted-dialog regression coverage.
 Older released builds may lack independent management or pasted-path support.
 
