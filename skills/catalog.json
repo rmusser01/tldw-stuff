@@ -159,7 +159,7 @@
       "install_url": "https://github.com/rmusser01/tldw-stuff/tree/main/skills/chatbook/petdex-install",
       "skill_sha256": "2876d05cb7c0dd2371c723f5460d3c7f79e7c02cd91ce7b8b829949ce52ca8b0",
       "manifest": "skills/chatbook/petdex-install/PROVENANCE.json",
-      "manifest_sha256": "91f4a4fd7d6f4f17c70b3290c3b8618f9ba71324be4ec966c934fc77106c6718"
+      "manifest_sha256": "36f8ad82041265f285635efb260583382f1a89fd3c9c3562ea0d2b7a826c546e"
     },
     {
       "id": "corey-haines/content-strategy",

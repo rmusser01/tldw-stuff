@@ -9,7 +9,7 @@ app controls or to the user with exact remaining steps.
 
 ## Tested implementation
 
-- Chatbook commit: `8aaadb56f1f8826cadfae743bbfdf1508b95cf49` (independent Buddy management integration).
+- Chatbook commit: `84c567f4405dc9999082a5e242b41b9e219df585` (independent Buddy management integration).
 - The original helper and behavioral trial used `b4e460f75142b37ff3df277fd712bdb1812007f9`; the helper checks and headless application journey were repeated on the integrated implementation.
 - Python 3.12, macOS, existing Chatbook dependencies; no dependency installation.
 - [Skill](../skills/chatbook/petdex-install/SKILL.md),
@@ -97,10 +97,10 @@ applying staged preferences.
 
 After removing the disposable input archive and restarting the app, the Buddy,
 character expression files and their hashes, credits and saved selection remained
-available. The final isolated application journey passed in 37.04 seconds on the tested
+available. The final isolated application journey passed in 29.98 seconds on the tested
 combined source tree, including current dev and the final review fixes. The
 skill/helper checks were also rerun against that application: all twelve passed
-in 1.486 seconds.
+in 1.097 seconds.
 
 No native terminal control, physical voice check, real-user Persona replacement,
 server install, other-product pet install, or automated skill trust approval was
