@@ -16,19 +16,65 @@ For shipped defaults, `starter-catalog.json` is the original server catalog deta
 for reference. It is **not** the file to import. Its fixture asset keys precede
 the exporter's native ID remapping. The archive is self-contained.
 
-## Chatbook (local Persona)
+## Chatbook: independent Buddy
+
+A Persona is optional. On a build with **Buddy & Persona Management**:
+
+1. In **Console**, choose **Menu → Buddy**.
+2. Expand **Import pack & size** and enter the downloaded archive's local path,
+   for example `~/Downloads/trenchcoat.tldw-persona-vpack`. Full paths and paths
+   surrounded by matching single or double quotes are accepted.
+3. Enable the Buddy and choose the conversation or workspace it should follow.
+   Create that target first if your profile has none. Leave the Persona choice
+   unchanged unless you also want to change assistant behavior.
+4. Choose **Apply** to import and save. Reopen management to check the selected
+   Buddy and target, then close the modal to see the artwork.
+
+Artwork import does not need a model, API key or image-generation service.
+Conversation replies and optional speech need their own configured services.
+Static/Dynamic controls change expression playback, not the attached assistant.
+
+Use the downloaded file itself, not its GitHub page URL, a saved HTML page,
+`starter-catalog.json`, a folder or a filesystem link. Do not unzip or rename
+the archive to import it.
+
+| Import problem | Next step |
+| --- | --- |
+| File cannot be found | Check the download location and pasted path. On an older build, use an unquoted full path or update to a build containing [the path-import fix](https://github.com/rmusser01/tldw_chatbook/pull/2551). |
+| Pack is invalid or unsupported | Download the `.tldw-persona-vpack` again using **Download raw file**; check the pack's compatibility record. |
+| Installation or settings could not be saved | Check profile storage permissions and free space, then retry. Reopen management to inspect what was saved before creating another copy. |
+
+See [Chatbook's Buddy guide](https://github.com/rmusser01/tldw_chatbook/blob/dev/Docs/User_Guide/buddy.md)
+for controls and troubleshooting.
+
+## Chatbook: artwork for a Persona
+
+Use this path when you specifically want to edit a Persona's own visual pack,
+or your build has the older Persona Visual editor:
 
 1. Open the Personas editor and select or create a local Persona. Save the Persona first.
 2. In **Persona Visual**, choose **Import Pack…** and select the downloaded archive.
 3. Review its states and image previews. Choose **Save Pack** to publish it to that Persona.
 4. Select a listed state to preview the saved pack. The Persona Buddy uses the active pack.
 
-A saved local Persona and a build with Persona Visual support are required.
-No model, tool, API key, image-generation service, or additional content is
-required to import the artwork. The server-backed Persona editor is a separate
-path; use the server endpoints below for that storage.
+A saved local Persona is required for this editor. Previewing a draft does not
+publish it. Importing into a Persona does not itself create an independent Buddy
+or a character card. For server-backed storage, use the server workflow below.
 
-## tldw_server
+## Server, WebUI and extension
+
+The server can own independent Buddies with no associated Persona. Open
+**Buddy & Persona** from the chat composer or workspace, choose **Your Buddies**
+or **Choose a ready-made Buddy**, select **One conversation** or **Workspace**,
+and choose **Apply**. These controls share the same server-backed artwork and
+attachment model. See the [management guide](https://github.com/rmusser01/tldw_server/blob/dev/Docs/User_Guides/WebUI/Buddy_And_Persona_Management.md).
+
+At the server revision checked below, this dialog has no downloaded-pack upload
+control. Downloaded collection packs use the Persona import API first; an
+independent copy can then be created through the Buddy API. Selecting ready-made
+artwork does not install a downloaded collection pack.
+
+### Import a downloaded pack
 
 Use the authenticated server's API docs at `/docs` with Persona enabled and the
 Persona job worker running. Create or choose a Persona owned by your account.
@@ -46,7 +92,50 @@ configured prefix if different.
    wait for completion. Review the resulting draft before activating it in your
    Persona visual-pack editor.
 
+### Create an independent Buddy from the imported artwork
+
+After the import completes, use the actual destination Persona and imported
+pack IDs with authenticated `POST /api/v1/buddies`:
+
+```json
+{
+  "name": "Trenchcoat",
+  "source": {
+    "kind": "persona_pack",
+    "persona_id": "YOUR_PERSONA_ID",
+    "pack_id": "YOUR_IMPORTED_PACK_ID"
+  },
+  "optional_persona_id": null,
+  "display_mode": "dynamic"
+}
+```
+
+Replace both placeholders with IDs returned by your server. Review the imported
+artwork before copying it. The source Persona must be owned by you and active;
+the pack must contain valid, complete artwork. The Buddy receives its own artwork
+snapshot, and `optional_persona_id: null` leaves it without a Persona association.
+Keep the returned Buddy ID and verify it with `GET /api/v1/buddies/{buddy_id}`.
+
+Reopen **Buddy & Persona**, select the new entry under **Your Buddies**, choose
+its conversation or workspace and **Apply**. Creating the artwork record alone
+does not attach it. API clients can use the versioned attachment workflow in the
+[Buddy API reference](https://github.com/rmusser01/tldw_server/blob/dev/Docs/API/Buddies.md).
+
+Keep the supplied license and provenance files with server copies. Independent
+copying and later export are separate operations; do not assume an export
+preserves every artwork notice without checking its contents.
+
 ## Verification scope
+
+The independent-install instructions were checked against Chatbook
+`02374bf66af4e6a594d1a63f7f2d559554714fa8` and server
+`50c1f689575b1bc21ed3e78cdb193b03fe968cdd` on 2026-09-10. This is a source/control
+and API-contract review, not a new native-terminal, installed-extension or live
+HTTP import test. [Chatbook PR #2551](https://github.com/rmusser01/tldw_chatbook/pull/2551)
+records the Trenchcoat import fix and mounted-dialog regression coverage.
+Older released builds may lack independent management or pasted-path support.
+
+### Earlier archive verification
 
 The seven shipped defaults and six scaffolds were verified on 2026-09-05.
 Those archives were produced through the server's

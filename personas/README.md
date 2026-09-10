@@ -21,8 +21,10 @@ them; downloading this repository does not change application defaults.
 ## Buddy companions
 
 The [finished Buddy packs](../buddy-packs/README.md#finished-packs) are published
-separately and can be attached to a saved Persona through the
-[Buddy import workflow](../buddy-packs/IMPORT.md). The archetype YAMLs do not name
+separately. A Buddy can follow a conversation or workspace without a Persona;
+you can also import artwork into a saved Persona's visual editor. Follow the
+[Buddy import workflow](../buddy-packs/IMPORT.md) for your app and destination.
+The archetype YAMLs do not name
 visual-pack IDs or contain artwork. Their original Buddy seed metadata is:
 
 | Persona | Species | Palette | Silhouette |
@@ -36,7 +38,7 @@ visual-pack IDs or contain artwork. Their original Buddy seed metadata is:
 
 These seeds are setup suggestions. The collection does not include matching
 animal-art packs or define a one-to-one pairing with the finished visual packs.
-Choose a published visual pack independently when configuring the Persona.
+Choose a published visual pack independently of assistant behavior.
 
 All six passed the real tldw_server archetype loader and schema at commit
 [`36b846628d77`](https://github.com/rmusser01/tldw_server/blob/36b846628d7755e91e0d5539740a9f5c9a837966/tldw_Server_API/app/core/Persona/archetype_loader.py)
