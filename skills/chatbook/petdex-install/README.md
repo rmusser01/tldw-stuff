@@ -1,17 +1,17 @@
 # petdex-install
 
-Help an agent install a requested Petdex companion into a selected Chatbook Persona,
-using the existing app review/save flow. An optional Python helper prepares a
+Help an agent install a requested Petdex companion as an independent Chatbook Buddy,
+using the app's review and Apply flow. An optional Python helper prepares a
 validated native Buddy archive when file execution is available.
 
 | Field | Value |
 | --- | --- |
-| Version | 1.0.0 |
+| Version | 1.1.0 |
 | Author | tldw-project |
 | License | [Apache-2.0](LICENSE.txt) for this skill/helper; downloaded pets retain their own terms |
-| Target | Chatbook local Personas and native Buddy packs |
-| Tested application | Chatbook `b4e460f75142b37ff3df277fd712bdb1812007f9` development implementation |
-| Verification date | 2026-09-08 |
+| Target | Chatbook independent Buddies; optional character expressions or Persona artwork |
+| Tested application | Chatbook `84c567f4405dc9999082a5e242b41b9e219df585` integration build |
+| Verification date | 2026-09-10 |
 
 ## Install the skill
 
@@ -24,11 +24,13 @@ dependency, account connection or trusted-script grant is installed automaticall
 
 ## Use
 
-> Install https://petdex.dev/pets/homelander into my Research Assistant Persona.
-> Keep my current floating Buddy selected.
+> Install https://petdex.dev/pets/homelander as my Buddy in Chatbook.
+> Also make an independent character with animated expressions from it.
 
-With authorized app controls, the agent reviews the exact pet in **Persona Visual →
-Petdex…**, uses the draft, saves the pack and verifies it. Without app controls,
+With authorized app controls, the agent opens **Console → Menu → Buddy → Import
+from Petdex**, reviews the exact pet, stages it with **Use draft**, and installs
+and selects it with **Apply**. No Persona is required. Cancelling before Apply
+publishes nothing. Without app controls,
 the helper can prepare files and provide the remaining import/save steps; it does
 not claim to have installed them. Character creation is an optional separate step
 when requested.
@@ -40,8 +42,8 @@ python scripts/prepare_pet.py --pet https://petdex.dev/pets/homelander --output 
 ```
 
 The new output directory contains `buddy.tldw-persona-vpack` and a JSON review
-receipt. Import the native archive into the intended Persona with **Import Pack…**,
-preview it, and **Save Pack**. Existing output directories are never replaced.
+receipt. In Buddy management, expand **Import pack & size**, enter the archive's
+absolute path and **Apply**. Existing output directories are never replaced.
 [Workflow details](references/workflow.md) cover local sources, inspection,
 source-bound manual mappings and result codes.
 

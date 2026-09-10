@@ -3,18 +3,19 @@
   "authors": "tldw-project",
   "copyright": "2026 tldw-project",
   "license": "Apache-2.0",
-  "content_version": "1.0.0",
+  "content_version": "1.1.0",
   "created_on": "2026-09-08",
   "method": "Original skill and thin preparation helper invoking installed Chatbook APIs. No Chatbook implementation, Petdex source code or pet artwork copied into this bundle. Dependencies and downloaded artwork retain their own licenses.",
   "references": [
     {
       "repository": "tldw_chatbook",
-      "commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+      "commit": "84c567f4405dc9999082a5e242b41b9e219df585",
       "paths": [
         "tldw_chatbook/Petdex/registry.py",
         "tldw_chatbook/Petdex/conversion.py",
         "tldw_chatbook/Petdex/sources.py",
-        "Docs/User_Guide/buddy.md"
+        "Docs/User_Guide/buddy.md",
+        "tldw_chatbook/UI/Navigation/buddy_management.py"
       ],
       "license": "AGPL-3.0-or-later",
       "use": "Installed application dependency and workflow reference; not redistributed here"
@@ -23,5 +24,6 @@
       "url": "https://petdex.dev/",
       "use": "User-selected metadata/artwork source; per-pet creator/terms retained"
     }
-  ]
+  ],
+  "updated_on": "2026-09-10"
 }
