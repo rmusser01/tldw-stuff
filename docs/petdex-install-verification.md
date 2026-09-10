@@ -1,6 +1,6 @@
 # Petdex installation skill verification
 
-Date: 2026-09-08 · Creator: tldw-project · Content version: 1.0.0
+Date: 2026-09-10 · Creator: tldw-project · Content version: 1.1.0
 
 The approved scope is a collection skill and preparation helper, using Chatbook's
 existing app review/save operation. It adds no native agent installation tool and
@@ -9,7 +9,8 @@ app controls or to the user with exact remaining steps.
 
 ## Tested implementation
 
-- Chatbook commit: `b4e460f75142b37ff3df277fd712bdb1812007f9` (development Petdex implementation).
+- Chatbook commit: `4cc1a450c74a416595a871362535371c56cc1c1e` (independent Buddy management integration).
+- The original helper and behavioral trial used `b4e460f75142b37ff3df277fd712bdb1812007f9`; the helper checks and headless application journey were repeated on the integrated implementation.
 - Python 3.12, macOS, existing Chatbook dependencies; no dependency installation.
 - [Skill](../skills/chatbook/petdex-install/SKILL.md),
   [helper](../skills/chatbook/petdex-install/scripts/prepare_pet.py), and
@@ -85,10 +86,25 @@ No pet artwork is included in this repository contribution.
 
 ## Limits and maintenance
 
-No live agent-controlled Chatbook save, real-user Persona replacement, server install,
-other-product pet install, or automated skill trust approval was performed. Prior
-application tests cover the underlying native review/save and character conversion;
-they do not establish that every agent host offers app controls.
+The follow-up used the production Textual app headlessly in a disposable profile.
+The real prepared archive was imported through Console Buddy management's native
+archive field and Apply. Exactly one independent Buddy was installed without a
+Persona. Create character produced fourteen independent expression assets, with
+Serhat/source/unspecified terms preserved. Six distinct animation frames were
+observed in the visible Dynamic preview; Static retained one frame. Cancelling
+management after explicit character creation preserved the character without
+applying staged preferences.
+
+After removing the disposable input archive and restarting the app, the Buddy,
+character expression files and their hashes, credits and saved selection remained
+available. The isolated application journey passed. The skill/helper checks were
+also rerun against the integrated application: all twelve passed.
+
+No native terminal control, physical voice check, real-user Persona replacement,
+server install, other-product pet install, or automated skill trust approval was
+performed. Headless application verification does not establish that every agent
+host offers app controls; without those controls the helper still reports only
+prepared files and gives the remaining import steps.
 
 The environment emits a pre-existing Requests dependency warning and verbose
 Chatbook config logs on stderr; JSON results remain on stdout. This skill does not

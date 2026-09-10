@@ -157,9 +157,9 @@
       "license": "Apache-2.0",
       "authors": "tldw-project",
       "install_url": "https://github.com/rmusser01/tldw-stuff/tree/main/skills/chatbook/petdex-install",
-      "skill_sha256": "23c6afb3a91956f47d674c7564f904126b4cbac1a09936ff786ae7942f0787ea",
+      "skill_sha256": "2876d05cb7c0dd2371c723f5460d3c7f79e7c02cd91ce7b8b829949ce52ca8b0",
       "manifest": "skills/chatbook/petdex-install/PROVENANCE.json",
-      "manifest_sha256": "36bb2327c28e0b71dd8becb3f8ad99c3d9d0cfca8d96fcf5d2b3de093e2556ff"
+      "manifest_sha256": "abc08de4986e53c4bb42cecf741a75e30d137b94331a56d3a4e5bda5ea42f44d"
     },
     {
       "id": "corey-haines/content-strategy",
