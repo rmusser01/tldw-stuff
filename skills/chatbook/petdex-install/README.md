@@ -10,7 +10,7 @@ validated native Buddy archive when file execution is available.
 | Author | tldw-project |
 | License | [Apache-2.0](LICENSE.txt) for this skill/helper; downloaded pets retain their own terms |
 | Target | Chatbook independent Buddies; optional character expressions or Persona artwork |
-| Tested application | Chatbook `4cc1a450c74a416595a871362535371c56cc1c1e` integration build |
+| Tested application | Chatbook `8aaadb56f1f8826cadfae743bbfdf1508b95cf49` integration build |
 | Verification date | 2026-09-10 |
 
 ## Install the skill

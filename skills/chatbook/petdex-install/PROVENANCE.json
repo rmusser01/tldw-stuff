@@ -9,7 +9,7 @@
   "references": [
     {
       "repository": "tldw_chatbook",
-      "commit": "4cc1a450c74a416595a871362535371c56cc1c1e",
+      "commit": "8aaadb56f1f8826cadfae743bbfdf1508b95cf49",
       "paths": [
         "tldw_chatbook/Petdex/registry.py",
         "tldw_chatbook/Petdex/conversion.py",
