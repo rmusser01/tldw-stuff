@@ -1,0 +1,304 @@
+{
+  "id": "horse",
+  "title": "Horse",
+  "description": "A chestnut horse with a white forehead blaze, a dark mane and tail, and a friendly tan muzzle.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "style": "Flat 2D cartoon with clean dark outlines, rounded shapes, matte colors and restrained shading, consistent with the existing animal companions.",
+  "orientation": "Face and both eyes directed toward the user, with a gentle three-quarter body view.",
+  "registration": {
+    "method": "Identify sixteen complete opaque body components, group into four rows, attach each nearby detached effect, extract with padding, use one common scale, then translate to a fixed support anchor.",
+    "raw_sheet_size": [
+      1261,
+      1247
+    ],
+    "uniform_scale": 0.36363636363636365,
+    "raw_frame_crops": [
+      [
+        56,
+        20,
+        303,
+        307
+      ],
+      [
+        372,
+        20,
+        619,
+        309
+      ],
+      [
+        689,
+        21,
+        935,
+        307
+      ],
+      [
+        1005,
+        20,
+        1251,
+        307
+      ],
+      [
+        57,
+        332,
+        303,
+        619
+      ],
+      [
+        372,
+        332,
+        619,
+        619
+      ],
+      [
+        689,
+        331,
+        935,
+        619
+      ],
+      [
+        1004,
+        331,
+        1251,
+        619
+      ],
+      [
+        57,
+        635,
+        303,
+        931
+      ],
+      [
+        372,
+        642,
+        619,
+        931
+      ],
+      [
+        688,
+        643,
+        935,
+        931
+      ],
+      [
+        1004,
+        643,
+        1251,
+        931
+      ],
+      [
+        58,
+        947,
+        324,
+        1234
+      ],
+      [
+        372,
+        947,
+        619,
+        1233
+      ],
+      [
+        687,
+        946,
+        935,
+        1233
+      ],
+      [
+        1004,
+        946,
+        1251,
+        1233
+      ]
+    ],
+    "resized_frame_sizes": [
+      [
+        90,
+        104
+      ],
+      [
+        90,
+        105
+      ],
+      [
+        89,
+        104
+      ],
+      [
+        89,
+        104
+      ],
+      [
+        89,
+        104
+      ],
+      [
+        90,
+        104
+      ],
+      [
+        89,
+        105
+      ],
+      [
+        90,
+        105
+      ],
+      [
+        89,
+        108
+      ],
+      [
+        90,
+        105
+      ],
+      [
+        90,
+        105
+      ],
+      [
+        90,
+        105
+      ],
+      [
+        97,
+        104
+      ],
+      [
+        90,
+        104
+      ],
+      [
+        90,
+        104
+      ],
+      [
+        90,
+        104
+      ]
+    ],
+    "anchor": {
+      "x": 64,
+      "baseline_y": 118,
+      "alpha_threshold": 128,
+      "support_band_height": 8
+    },
+    "frame_translations": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "background_processing": {
+    "method": "Preserve generated transparency. Retain main opaque components and detached effects of at least thirty raw pixels with a three-pixel antialiasing margin; discard alpha<=8 noise.",
+    "main_component_min_raw_pixels": 10000,
+    "effect_component_min_raw_pixels": 30
+  },
+  "local_pose_changes": [
+    {
+      "frame": 5,
+      "body_frame": 4,
+      "effect_frame": 5,
+      "method": "Reuse the thinking body and replace the detached thought dots with those from the alternate frame."
+    }
+  ],
+  "loop_stabilization": {
+    "method": "Blink and speaking reuse their entire base pose with changes only inside the listed facial regions. Thinking reuses the same body while the detached thought dots change.",
+    "operations": [
+      {
+        "frame": 2,
+        "base_frame": 0,
+        "expression_frame": 2,
+        "expression_boxes": [
+          [
+            25,
+            44,
+            55,
+            61
+          ]
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_boxes_identical_to_base": true
+      },
+      {
+        "frame": 7,
+        "base_frame": 6,
+        "expression_frame": 7,
+        "expression_boxes": [
+          [
+            28,
+            63,
+            45,
+            74
+          ]
+        ],
+        "edge_blend_pixels": 1,
+        "outside_expression_boxes_identical_to_base": true
+      }
+    ]
+  }
+}
