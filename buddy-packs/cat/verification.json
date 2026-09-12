@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "creator": "tldw-project",
+  "verified_on": "2026-09-08",
+  "chatbook_commit": "b4e460f75142b37ff3df277fd712bdb1812007f9",
+  "server_commit": "27cd02755563d326d218787ac60e0bc8e0524cb8",
+  "packs": [
+    {
+      "id": "cat",
+      "title": "Cat",
+      "bytes": 232286,
+      "sha256": "0b971afbdef0df7bafad51a34ebf85b0a3861a9953572d391ec86b82dc333445",
+      "assets": 1,
+      "poses": 16,
+      "states": 18,
+      "source_sha256": "f2cde30182c50737fd7543d198d17677cea0f7ce3609b2bc72a1b462eeee449e"
+    }
+  ],
+  "chatbook": [
+    {
+      "id": "cat",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ]
+    }
+  ],
+  "server": [
+    {
+      "id": "cat",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ]
+    }
+  ],
+  "artwork_checks": {
+    "reviewed_poses": 16,
+    "fixed_support_anchor": {
+      "x": 64,
+      "baseline_y": 118
+    },
+    "stable_loops": [
+      "idle",
+      "thinking",
+      "speaking"
+    ],
+    "transparent_source": true,
+    "exact_idle_preview": true
+  }
+}
