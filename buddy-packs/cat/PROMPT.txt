@@ -1,0 +1,16 @@
+Use case: stylized-concept.
+Asset type: production sixteen-pose sprite sheet for an optional desktop Buddy in the tldw-stuff collection.
+Style: friendly flat 2D cartoon matching a collection of simple outlined animal companions: rounded clear silhouette, expressive dark eyes, smooth dark-brown/charcoal outlines, restrained matte colors and one simple shadow tone. Clean, readable at 128 by 128 pixels. No 3D, low-poly facets, glossy plastic, realistic fur or busy tiny texture.
+
+Create ONE character repeated in a strict 4-column by 4-row grid of sixteen separate equal square cells. Every sprite is whole-body and fully inside its own cell, with generous empty gutters. Fixed camera, body size, head center and support baseline in all sixteen cells. Face looks toward the user, with both eyes readable and a slight three-quarter body angle. Keep the torso, legs, paws/hooves and body position identical across the sheet. Natural animal anatomy: exactly four legs total, attached to the same body; no human arms or hands and no duplicated limbs. Reactions come from the eyes, eyebrows, ears, mouth and small tail movements. No held objects. No jumping or movement around the cell.
+
+Pose order, left to right:
+Row 1: calm friendly idle; another calm neutral face; blink with eyes closed; calm neutral face.
+Row 2: thoughtful with mildly narrowed eyes and one small hollow thought dot above the head; thinking alternate with two small hollow thought dots in the same area; speaking with a small open mouth; speaking alternate with a slightly wider open mouth. In these paired frames only eyes/mouth and detached thought dots change.
+Row 3: attentive listening with alert ears; sleepy with heavy eyelids; worried/apologetic with lowered eyebrows; confused with one eyebrow raised.
+Row 4: greeting with a friendly face and tail lifted slightly; happy closed-eye smile; delighted celebration with two small sparkles above the head; affectionate face with one small floating heart beside the head. Feet remain planted even when happy.
+
+No words, labels, letters, numbers, grid lines, border or watermark. No scenery, floor, cast shadow or contact shadow.
+Background: genuinely transparent alpha; keep white character details and interiors opaque. Do not paint a checkerboard. If true transparency cannot be supplied, use a perfectly flat pure #00FF00 key-green background, with no green color anywhere in the character or effects.
+
+Character: a small friendly gray tabby cat sitting naturally, with two pointed ears with subtle pink inner ears, a pale muzzle and chest, a tiny pink nose, short whiskers, three simple dark forehead stripes and a curled tail resting to one side. Large dark expressive eyes and a compact rounded feline silhouette. Two narrow front legs/paws, two small hind paws at the seated haunches: exactly four cat legs total. No clothing, collar, accessories, human arms or hands. Keep all stripes, seated haunches and paws consistent across all poses.
