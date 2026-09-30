@@ -175,23 +175,32 @@ previews, import steps and credits.
       <a href="trash-panda/">Details</a> · <a href="trash-panda/trash-panda.tldw-persona-vpack?raw=1">Download</a>
     </td>
     <td width="384" align="center" valign="top">
+      <a name="sir-waddle"></a>
+      <a href="sir-waddle/"><strong>Sir Waddle</strong><br><img src="sir-waddle/preview.png" alt="Sir Waddle Buddy" width="128" height="128"></a><br>
+      A round penguin in an oversized teal scarf, with flipper greetings and indignant little glances.<br>
+      <a href="sir-waddle/">Details</a> · <a href="sir-waddle/sir-waddle.tldw-persona-vpack?raw=1">Download</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="384" align="center" valign="top">
       <a name="unicorn"></a>
       <a href="unicorn/"><strong>Unicorn</strong><br><img src="unicorn/preview.png" alt="Unicorn Buddy" width="128" height="128"></a><br>
       Lavender mane, golden horn and gentle reactions.<br>
       <a href="unicorn/">Details</a> · <a href="unicorn/unicorn.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a href="werewolf/"><strong>Werewolf</strong><br><img src="werewolf/preview.png" alt="Werewolf Buddy" width="128" height="128"></a><br>
       A small, expressive werewolf.<br>
       <a href="werewolf/">Details</a> · <a href="werewolf/werewolf.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a href="woodpecker/"><strong>Woodpecker</strong><br><img src="woodpecker/preview.png" alt="Woodpecker with a red crest and blue body" width="128" height="128"></a><br>
       A red-crested bird with a blue body.<br>
       <a href="woodpecker/">Details</a> · <a href="woodpecker/woodpecker.tldw-persona-vpack?raw=1">Download</a>
     </td>
+    <td width="384"></td>
   </tr>
 </table>
 
