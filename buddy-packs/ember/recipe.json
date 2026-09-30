@@ -1,0 +1,328 @@
+{
+  "id": "ember",
+  "title": "Ember",
+  "description": "A chubby orange dragon with little wings, expressive paws and a tiny celebratory flame.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "registration": {
+    "method": "Extract connected bodies with nearby effects, remove isolated alpha noise, apply one uniform scale per pack, translate to fixed support baseline and center.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.37894736842105264,
+    "raw_components": [
+      {
+        "body": [
+          72,
+          48,
+          278,
+          301
+        ],
+        "crop": [
+          71,
+          47,
+          279,
+          302
+        ],
+        "anchor": [
+          178.5,
+          301
+        ]
+      },
+      {
+        "body": [
+          381,
+          48,
+          586,
+          301
+        ],
+        "crop": [
+          380,
+          47,
+          587,
+          302
+        ],
+        "anchor": [
+          487.5,
+          301
+        ]
+      },
+      {
+        "body": [
+          689,
+          49,
+          892,
+          300
+        ],
+        "crop": [
+          688,
+          48,
+          893,
+          302
+        ],
+        "anchor": [
+          794.5,
+          300
+        ]
+      },
+      {
+        "body": [
+          1001,
+          47,
+          1205,
+          300
+        ],
+        "crop": [
+          1000,
+          47,
+          1206,
+          301
+        ],
+        "anchor": [
+          1105.5,
+          300
+        ]
+      },
+      {
+        "body": [
+          68,
+          358,
+          280,
+          609
+        ],
+        "crop": [
+          68,
+          340,
+          281,
+          610
+        ],
+        "anchor": [
+          179.0,
+          609
+        ]
+      },
+      {
+        "body": [
+          379,
+          357,
+          589,
+          609
+        ],
+        "crop": [
+          378,
+          337,
+          589,
+          610
+        ],
+        "anchor": [
+          487.5,
+          609
+        ]
+      },
+      {
+        "body": [
+          688,
+          358,
+          894,
+          609
+        ],
+        "crop": [
+          687,
+          357,
+          895,
+          610
+        ],
+        "anchor": [
+          794.5,
+          609
+        ]
+      },
+      {
+        "body": [
+          1001,
+          357,
+          1208,
+          609
+        ],
+        "crop": [
+          1000,
+          356,
+          1208,
+          610
+        ],
+        "anchor": [
+          1107.5,
+          609
+        ]
+      },
+      {
+        "body": [
+          71,
+          663,
+          279,
+          918
+        ],
+        "crop": [
+          63,
+          662,
+          286,
+          919
+        ],
+        "anchor": [
+          179.0,
+          918
+        ]
+      },
+      {
+        "body": [
+          379,
+          666,
+          586,
+          918
+        ],
+        "crop": [
+          378,
+          639,
+          587,
+          919
+        ],
+        "anchor": [
+          486.5,
+          918
+        ]
+      },
+      {
+        "body": [
+          687,
+          669,
+          893,
+          918
+        ],
+        "crop": [
+          686,
+          644,
+          894,
+          919
+        ],
+        "anchor": [
+          794.0,
+          918
+        ]
+      },
+      {
+        "body": [
+          1000,
+          663,
+          1207,
+          918
+        ],
+        "crop": [
+          999,
+          640,
+          1207,
+          919
+        ],
+        "anchor": [
+          1107.5,
+          918
+        ]
+      },
+      {
+        "body": [
+          73,
+          972,
+          279,
+          1221
+        ],
+        "crop": [
+          51,
+          971,
+          280,
+          1222
+        ],
+        "anchor": [
+          180.0,
+          1221
+        ]
+      },
+      {
+        "body": [
+          381,
+          973,
+          588,
+          1221
+        ],
+        "crop": [
+          380,
+          972,
+          589,
+          1222
+        ],
+        "anchor": [
+          489.5,
+          1221
+        ]
+      },
+      {
+        "body": [
+          685,
+          937,
+          895,
+          1221
+        ],
+        "crop": [
+          685,
+          936,
+          896,
+          1222
+        ],
+        "anchor": [
+          794.5,
+          1221
+        ]
+      },
+      {
+        "body": [
+          1007,
+          977,
+          1203,
+          1221
+        ],
+        "crop": [
+          1006,
+          948,
+          1204,
+          1222
+        ],
+        "anchor": [
+          1105.0,
+          1221
+        ]
+      }
+    ],
+    "support_baseline_y": 118,
+    "support_center_x": 64
+  },
+  "pose_corrections": [
+    "Idle blink uses a facial patch over identical idle artwork; speaking varies only mouth/beak; thinking reuses one body with changing detached dots.",
+    "Second thinking frame adds a smaller copy of the generated thought dot over the exact first frame."
+  ],
+  "stabilization_regions": {
+    "blink": [
+      42,
+      45,
+      82,
+      64
+    ],
+    "speaking": [
+      52,
+      59,
+      76,
+      76
+    ]
+  }
+}
