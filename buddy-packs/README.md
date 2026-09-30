@@ -107,37 +107,45 @@ previews, import steps and credits.
   </tr>
   <tr>
     <td width="384" align="center" valign="top">
+      <a name="moss"></a>
+      <a href="moss/"><strong>Moss</strong><br><img src="moss/preview.png" alt="Moss Buddy" width="128" height="128"></a><br>
+      A tiny mushroom creature with a terracotta cap, a moss patch and a flower that blooms for celebrations.<br>
+      <a href="moss/">Details</a> · <a href="moss/moss.tldw-persona-vpack?raw=1">Download</a>
+    </td>
+    <td width="384" align="center" valign="top">
       <a name="pelican-on-a-bicycle"></a>
       <a href="pelican-bicycle/"><strong>Pelican on a Bicycle</strong><br><img src="pelican-bicycle/preview.png" alt="Pelican riding a teal bicycle" width="128" height="128"></a><br>
       A pelican pedaling a teal bicycle.<br>
       <a href="pelican-bicycle/">Details</a> · <a href="pelican-bicycle/pelican-bicycle.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a name="pepe"></a>
       <a href="pepe/"><strong>Pepe</strong><br><img src="pepe/preview.png" alt="Short, round Pepe in a blue shirt" width="128" height="128"></a><br>
       A squat, round-bellied frog in a blue shirt.<br>
       <a href="pepe/">Details</a> · <a href="pepe/pepe.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a name="poodle"></a>
       <a href="poodle/"><strong>Poodle</strong><br><img src="poodle/preview.png" alt="Poodle Buddy" width="128" height="128"></a><br>
       Cream curls, floppy ears and a pom-pom tail.<br>
       <a href="poodle/">Details</a> · <a href="poodle/poodle.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a href="rubber-duck/"><strong>Rubber Duck</strong><br><img src="rubber-duck/preview.png" alt="Rubber Duck Buddy" width="128" height="128"></a><br>
       A cheerful rubber-duck companion.<br>
       <a href="rubber-duck/">Details</a> · <a href="rubber-duck/rubber-duck.tldw-persona-vpack?raw=1">Download</a>
     </td>
-  </tr>
-  <tr>
     <td width="384" align="center" valign="top">
       <a href="shiba-inu/"><strong>Shiba-inu</strong><br><img src="shiba-inu/preview.png" alt="Shiba-inu dog Buddy" width="128" height="128"></a><br>
       A Shiba-inu with expressive paws and ears.<br>
       <a href="shiba-inu/">Details</a> · <a href="shiba-inu/shiba-inu.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a name="trash-panda"></a>
       <a href="trash-panda/"><strong>Trash Panda</strong><br><img src="trash-panda/preview.png" alt="Trash Panda Buddy" width="128" height="128"></a><br>
