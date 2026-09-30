@@ -1,0 +1,329 @@
+{
+  "id": "sir-waddle",
+  "title": "Sir Waddle",
+  "description": "A round penguin in an oversized teal scarf, with flipper greetings and indignant little glances.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "registration": {
+    "method": "Extract connected bodies with nearby effects, remove isolated alpha noise, apply one uniform scale per pack, translate to fixed support baseline and center.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.3829787234042553,
+    "raw_components": [
+      {
+        "body": [
+          40,
+          54,
+          274,
+          297
+        ],
+        "crop": [
+          40,
+          53,
+          275,
+          298
+        ],
+        "anchor": [
+          157.5,
+          297
+        ]
+      },
+      {
+        "body": [
+          354,
+          54,
+          588,
+          297
+        ],
+        "crop": [
+          353,
+          53,
+          588,
+          298
+        ],
+        "anchor": [
+          471.0,
+          297
+        ]
+      },
+      {
+        "body": [
+          667,
+          54,
+          901,
+          297
+        ],
+        "crop": [
+          667,
+          53,
+          902,
+          298
+        ],
+        "anchor": [
+          784.0,
+          297
+        ]
+      },
+      {
+        "body": [
+          981,
+          54,
+          1215,
+          297
+        ],
+        "crop": [
+          980,
+          53,
+          1215,
+          298
+        ],
+        "anchor": [
+          1098.0,
+          297
+        ]
+      },
+      {
+        "body": [
+          57,
+          367,
+          283,
+          610
+        ],
+        "crop": [
+          56,
+          344,
+          284,
+          611
+        ],
+        "anchor": [
+          157.0,
+          610
+        ]
+      },
+      {
+        "body": [
+          370,
+          367,
+          596,
+          610
+        ],
+        "crop": [
+          369,
+          342,
+          597,
+          611
+        ],
+        "anchor": [
+          470.5,
+          610
+        ]
+      },
+      {
+        "body": [
+          665,
+          367,
+          909,
+          611
+        ],
+        "crop": [
+          664,
+          366,
+          910,
+          611
+        ],
+        "anchor": [
+          784.5,
+          611
+        ]
+      },
+      {
+        "body": [
+          979,
+          366,
+          1223,
+          610
+        ],
+        "crop": [
+          978,
+          365,
+          1224,
+          611
+        ],
+        "anchor": [
+          1097.5,
+          610
+        ]
+      },
+      {
+        "body": [
+          41,
+          681,
+          274,
+          923
+        ],
+        "crop": [
+          40,
+          680,
+          275,
+          924
+        ],
+        "anchor": [
+          157.5,
+          923
+        ]
+      },
+      {
+        "body": [
+          371,
+          680,
+          596,
+          923
+        ],
+        "crop": [
+          370,
+          679,
+          597,
+          924
+        ],
+        "anchor": [
+          471.0,
+          923
+        ]
+      },
+      {
+        "body": [
+          683,
+          680,
+          909,
+          923
+        ],
+        "crop": [
+          682,
+          653,
+          910,
+          924
+        ],
+        "anchor": [
+          784.0,
+          923
+        ]
+      },
+      {
+        "body": [
+          981,
+          681,
+          1215,
+          923
+        ],
+        "crop": [
+          980,
+          641,
+          1216,
+          924
+        ],
+        "anchor": [
+          1097.5,
+          923
+        ]
+      },
+      {
+        "body": [
+          41,
+          990,
+          282,
+          1234
+        ],
+        "crop": [
+          36,
+          989,
+          283,
+          1235
+        ],
+        "anchor": [
+          157.0,
+          1234
+        ]
+      },
+      {
+        "body": [
+          371,
+          991,
+          593,
+          1234
+        ],
+        "crop": [
+          370,
+          990,
+          594,
+          1235
+        ],
+        "anchor": [
+          471.0,
+          1234
+        ]
+      },
+      {
+        "body": [
+          656,
+          992,
+          912,
+          1234
+        ],
+        "crop": [
+          655,
+          968,
+          913,
+          1235
+        ],
+        "anchor": [
+          784.0,
+          1234
+        ]
+      },
+      {
+        "body": [
+          998,
+          993,
+          1223,
+          1233
+        ],
+        "crop": [
+          997,
+          959,
+          1223,
+          1235
+        ],
+        "anchor": [
+          1098.0,
+          1233
+        ]
+      }
+    ],
+    "support_baseline_y": 118,
+    "support_center_x": 64
+  },
+  "pose_corrections": [
+    "Idle blink uses a facial patch over identical idle artwork; speaking varies only mouth/beak; thinking reuses one body with changing detached dots.",
+    "Sleepy, worried, happy and love retain the idle flipper anatomy; face patches avoid ambiguous extra flippers behind the scarf.",
+    "Second thinking frame adds a smaller copy of the generated thought dot over the exact first frame."
+  ],
+  "stabilization_regions": {
+    "blink": [
+      39,
+      44,
+      87,
+      62
+    ],
+    "speaking": [
+      50,
+      51,
+      76,
+      73
+    ]
+  }
+}

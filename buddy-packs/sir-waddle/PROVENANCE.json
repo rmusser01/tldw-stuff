@@ -1,0 +1,16 @@
+{
+  "kind": "original",
+  "creator": "tldw-project",
+  "copyright": "2026 tldw-project",
+  "license": "Apache-2.0",
+  "content_version": "1.0.0",
+  "method": "OpenAI built-in image generation followed by user-authorized local cleanup, extraction, proportional registration and stabilization.",
+  "generated_input_sha256": "af0ff6d315829193516fe153162e299701238b49b5a4e0b858dd927abce30f22",
+  "style_references": [
+    "../llama/source.png"
+  ],
+  "reference_use": "Existing artwork viewed for style; no existing Buddy pixels copied.",
+  "prompt": "PROMPT.txt",
+  "source": "source.png",
+  "source_sha256": "5bc010f24156278d738b059d95cd595d10811a4ac5abcabc72568011a55d462a"
+}
