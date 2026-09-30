@@ -1,0 +1,329 @@
+{
+  "id": "byte",
+  "title": "Byte",
+  "description": "A beige CRT monitor with mint-green facial expressions and short rubber feet. The housing stays fixed while the face animates.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "registration": {
+    "method": "Extract connected bodies with nearby effects, remove isolated alpha noise, apply one uniform scale per pack, translate to fixed support baseline and center.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.4186046511627907,
+    "raw_components": [
+      {
+        "body": [
+          51,
+          73,
+          286,
+          283
+        ],
+        "crop": [
+          50,
+          72,
+          287,
+          284
+        ],
+        "anchor": [
+          158.0,
+          283
+        ]
+      },
+      {
+        "body": [
+          364,
+          73,
+          598,
+          283
+        ],
+        "crop": [
+          363,
+          72,
+          600,
+          284
+        ],
+        "anchor": [
+          470.0,
+          283
+        ]
+      },
+      {
+        "body": [
+          674,
+          73,
+          907,
+          283
+        ],
+        "crop": [
+          673,
+          72,
+          908,
+          284
+        ],
+        "anchor": [
+          779.5,
+          283
+        ]
+      },
+      {
+        "body": [
+          986,
+          73,
+          1219,
+          283
+        ],
+        "crop": [
+          985,
+          72,
+          1220,
+          284
+        ],
+        "anchor": [
+          1091.5,
+          283
+        ]
+      },
+      {
+        "body": [
+          52,
+          384,
+          286,
+          594
+        ],
+        "crop": [
+          50,
+          349,
+          287,
+          594
+        ],
+        "anchor": [
+          158.0,
+          594
+        ]
+      },
+      {
+        "body": [
+          364,
+          384,
+          598,
+          594
+        ],
+        "crop": [
+          363,
+          339,
+          599,
+          594
+        ],
+        "anchor": [
+          470.0,
+          594
+        ]
+      },
+      {
+        "body": [
+          674,
+          383,
+          907,
+          593
+        ],
+        "crop": [
+          673,
+          382,
+          908,
+          594
+        ],
+        "anchor": [
+          779.5,
+          593
+        ]
+      },
+      {
+        "body": [
+          986,
+          383,
+          1219,
+          593
+        ],
+        "crop": [
+          985,
+          382,
+          1220,
+          594
+        ],
+        "anchor": [
+          1091.5,
+          593
+        ]
+      },
+      {
+        "body": [
+          51,
+          692,
+          286,
+          904
+        ],
+        "crop": [
+          50,
+          692,
+          287,
+          905
+        ],
+        "anchor": [
+          157.0,
+          904
+        ]
+      },
+      {
+        "body": [
+          364,
+          693,
+          598,
+          904
+        ],
+        "crop": [
+          363,
+          692,
+          599,
+          905
+        ],
+        "anchor": [
+          470.0,
+          904
+        ]
+      },
+      {
+        "body": [
+          674,
+          693,
+          907,
+          904
+        ],
+        "crop": [
+          673,
+          654,
+          908,
+          905
+        ],
+        "anchor": [
+          779.5,
+          904
+        ]
+      },
+      {
+        "body": [
+          987,
+          693,
+          1219,
+          904
+        ],
+        "crop": [
+          986,
+          646,
+          1220,
+          905
+        ],
+        "anchor": [
+          1091.5,
+          904
+        ]
+      },
+      {
+        "body": [
+          51,
+          999,
+          286,
+          1210
+        ],
+        "crop": [
+          49,
+          998,
+          286,
+          1211
+        ],
+        "anchor": [
+          157.0,
+          1210
+        ]
+      },
+      {
+        "body": [
+          365,
+          999,
+          597,
+          1210
+        ],
+        "crop": [
+          363,
+          998,
+          598,
+          1211
+        ],
+        "anchor": [
+          469.5,
+          1210
+        ]
+      },
+      {
+        "body": [
+          675,
+          999,
+          906,
+          1210
+        ],
+        "crop": [
+          674,
+          956,
+          907,
+          1211
+        ],
+        "anchor": [
+          779.5,
+          1210
+        ]
+      },
+      {
+        "body": [
+          986,
+          999,
+          1218,
+          1210
+        ],
+        "crop": [
+          985,
+          960,
+          1219,
+          1211
+        ],
+        "anchor": [
+          1091.5,
+          1210
+        ]
+      }
+    ],
+    "support_baseline_y": 118,
+    "support_center_x": 64
+  },
+  "pose_corrections": [
+    "Idle blink uses a facial patch over identical idle artwork; speaking varies only mouth/beak; thinking reuses one body with changing detached dots.",
+    "All expressions retain the identical monitor housing/saucer; only the face/pilot region and detached reaction symbols change.",
+    "Second thinking frame adds a smaller copy of the generated thought dot over the exact first frame."
+  ],
+  "stabilization_regions": {
+    "blink": [
+      30,
+      48,
+      89,
+      94
+    ],
+    "speaking": [
+      47,
+      77,
+      69,
+      96
+    ]
+  }
+}

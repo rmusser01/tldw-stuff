@@ -15,10 +15,18 @@ previews, import steps and credits.
 <table>
   <tr>
     <td width="384" align="center" valign="top">
+      <a name="byte"></a>
+      <a href="byte/"><strong>Byte</strong><br><img src="byte/preview.png" alt="Byte Buddy" width="128" height="128"></a><br>
+      A beige CRT monitor with mint-green facial expressions and short rubber feet.<br>
+      <a href="byte/">Details</a> · <a href="byte/byte.tldw-persona-vpack?raw=1">Download</a>
+    </td>
+    <td width="384" align="center" valign="top">
       <a href="dipsy-qipao/"><strong>Dipsy (Qipao)</strong><br><img src="dipsy-qipao/preview.png" alt="Dipsy wearing a blue qipao" width="128" height="128"></a><br>
       Blue qipao and expressive reactions.<br>
       <a href="dipsy-qipao/">Details</a> · <a href="dipsy-qipao/dipsy-qipao.tldw-persona-vpack?raw=1">Download</a>
     </td>
+  </tr>
+  <tr>
     <td width="384" align="center" valign="top">
       <a name="dumpling"></a>
       <a href="dumpling/"><strong>Dumpling</strong><br><img src="dumpling/preview.png" alt="Dumpling Buddy" width="128" height="128"></a><br>
