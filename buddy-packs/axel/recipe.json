@@ -1,0 +1,329 @@
+{
+  "id": "axel",
+  "title": "Axel",
+  "description": "A pink axolotl with coral gills, a curled tail and expressive facial reactions.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "registration": {
+    "method": "Extract connected bodies with nearby effects, remove isolated alpha noise, apply one uniform scale per pack, translate to fixed support baseline and center.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.3900709219858156,
+    "raw_components": [
+      {
+        "body": [
+          33,
+          76,
+          292,
+          289
+        ],
+        "crop": [
+          33,
+          75,
+          294,
+          290
+        ],
+        "anchor": [
+          167.5,
+          289
+        ]
+      },
+      {
+        "body": [
+          344,
+          76,
+          602,
+          289
+        ],
+        "crop": [
+          343,
+          75,
+          604,
+          290
+        ],
+        "anchor": [
+          476.5,
+          289
+        ]
+      },
+      {
+        "body": [
+          652,
+          76,
+          911,
+          289
+        ],
+        "crop": [
+          651,
+          75,
+          913,
+          290
+        ],
+        "anchor": [
+          786.0,
+          289
+        ]
+      },
+      {
+        "body": [
+          963,
+          76,
+          1222,
+          289
+        ],
+        "crop": [
+          961,
+          75,
+          1223,
+          290
+        ],
+        "anchor": [
+          1098.0,
+          289
+        ]
+      },
+      {
+        "body": [
+          33,
+          376,
+          293,
+          602
+        ],
+        "crop": [
+          32,
+          357,
+          294,
+          603
+        ],
+        "anchor": [
+          169.0,
+          602
+        ]
+      },
+      {
+        "body": [
+          342,
+          379,
+          603,
+          602
+        ],
+        "crop": [
+          340,
+          352,
+          605,
+          603
+        ],
+        "anchor": [
+          478.0,
+          602
+        ]
+      },
+      {
+        "body": [
+          652,
+          382,
+          916,
+          602
+        ],
+        "crop": [
+          651,
+          381,
+          917,
+          603
+        ],
+        "anchor": [
+          788.0,
+          602
+        ]
+      },
+      {
+        "body": [
+          962,
+          380,
+          1224,
+          602
+        ],
+        "crop": [
+          961,
+          379,
+          1225,
+          602
+        ],
+        "anchor": [
+          1099.0,
+          602
+        ]
+      },
+      {
+        "body": [
+          38,
+          691,
+          291,
+          915
+        ],
+        "crop": [
+          36,
+          678,
+          292,
+          916
+        ],
+        "anchor": [
+          169.0,
+          915
+        ]
+      },
+      {
+        "body": [
+          341,
+          705,
+          603,
+          915
+        ],
+        "crop": [
+          340,
+          705,
+          605,
+          916
+        ],
+        "anchor": [
+          478.5,
+          915
+        ]
+      },
+      {
+        "body": [
+          650,
+          685,
+          910,
+          915
+        ],
+        "crop": [
+          648,
+          663,
+          911,
+          916
+        ],
+        "anchor": [
+          789.0,
+          915
+        ]
+      },
+      {
+        "body": [
+          965,
+          691,
+          1230,
+          915
+        ],
+        "crop": [
+          964,
+          651,
+          1231,
+          916
+        ],
+        "anchor": [
+          1099.0,
+          915
+        ]
+      },
+      {
+        "body": [
+          43,
+          987,
+          305,
+          1207
+        ],
+        "crop": [
+          42,
+          986,
+          306,
+          1208
+        ],
+        "anchor": [
+          174.5,
+          1207
+        ]
+      },
+      {
+        "body": [
+          344,
+          985,
+          603,
+          1207
+        ],
+        "crop": [
+          342,
+          984,
+          605,
+          1208
+        ],
+        "anchor": [
+          478.5,
+          1207
+        ]
+      },
+      {
+        "body": [
+          647,
+          1001,
+          915,
+          1207
+        ],
+        "crop": [
+          645,
+          961,
+          916,
+          1208
+        ],
+        "anchor": [
+          785.5,
+          1207
+        ]
+      },
+      {
+        "body": [
+          960,
+          978,
+          1220,
+          1207
+        ],
+        "crop": [
+          958,
+          962,
+          1221,
+          1208
+        ],
+        "anchor": [
+          1099.0,
+          1207
+        ]
+      }
+    ],
+    "support_baseline_y": 118,
+    "support_center_x": 64
+  },
+  "pose_corrections": [
+    "Idle blink uses a facial patch over identical idle artwork; speaking varies only mouth/beak; thinking reuses one body with changing detached dots.",
+    "Replaced the extra-limbed generated thinking bodies with the anatomically correct worried body and original thought dots.",
+    "Second thinking frame adds a smaller copy of the generated thought dot over the exact first frame."
+  ],
+  "stabilization_regions": {
+    "blink": [
+      38,
+      53,
+      86,
+      70
+    ],
+    "speaking": [
+      51,
+      61,
+      79,
+      81
+    ]
+  }
+}
