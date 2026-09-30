@@ -1,0 +1,328 @@
+{
+  "id": "trash-panda",
+  "title": "Trash Panda",
+  "description": "A squat gray raccoon with a striped tail, thoughtful paw gestures and a sleepy tail hug.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "registration": {
+    "method": "Extract connected bodies with nearby effects, remove isolated alpha noise, apply one uniform scale per pack, translate to fixed support baseline and center.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.36423841059602646,
+    "raw_components": [
+      {
+        "body": [
+          49,
+          39,
+          289,
+          295
+        ],
+        "crop": [
+          48,
+          38,
+          290,
+          296
+        ],
+        "anchor": [
+          163.5,
+          295
+        ]
+      },
+      {
+        "body": [
+          356,
+          39,
+          597,
+          295
+        ],
+        "crop": [
+          355,
+          38,
+          598,
+          296
+        ],
+        "anchor": [
+          471.5,
+          295
+        ]
+      },
+      {
+        "body": [
+          664,
+          38,
+          907,
+          295
+        ],
+        "crop": [
+          664,
+          36,
+          908,
+          296
+        ],
+        "anchor": [
+          780.5,
+          295
+        ]
+      },
+      {
+        "body": [
+          977,
+          38,
+          1218,
+          295
+        ],
+        "crop": [
+          976,
+          38,
+          1220,
+          296
+        ],
+        "anchor": [
+          1092.5,
+          295
+        ]
+      },
+      {
+        "body": [
+          47,
+          354,
+          292,
+          607
+        ],
+        "crop": [
+          46,
+          326,
+          293,
+          608
+        ],
+        "anchor": [
+          165.0,
+          607
+        ]
+      },
+      {
+        "body": [
+          358,
+          355,
+          602,
+          607
+        ],
+        "crop": [
+          356,
+          324,
+          603,
+          608
+        ],
+        "anchor": [
+          474.5,
+          607
+        ]
+      },
+      {
+        "body": [
+          670,
+          348,
+          910,
+          607
+        ],
+        "crop": [
+          669,
+          347,
+          911,
+          608
+        ],
+        "anchor": [
+          784.0,
+          607
+        ]
+      },
+      {
+        "body": [
+          981,
+          348,
+          1219,
+          607
+        ],
+        "crop": [
+          980,
+          347,
+          1220,
+          608
+        ],
+        "anchor": [
+          1095.5,
+          607
+        ]
+      },
+      {
+        "body": [
+          52,
+          662,
+          292,
+          920
+        ],
+        "crop": [
+          26,
+          661,
+          293,
+          921
+        ],
+        "anchor": [
+          166.5,
+          920
+        ]
+      },
+      {
+        "body": [
+          362,
+          676,
+          573,
+          920
+        ],
+        "crop": [
+          361,
+          675,
+          575,
+          921
+        ],
+        "anchor": [
+          459.5,
+          920
+        ]
+      },
+      {
+        "body": [
+          677,
+          660,
+          913,
+          920
+        ],
+        "crop": [
+          676,
+          632,
+          914,
+          921
+        ],
+        "anchor": [
+          789.0,
+          920
+        ]
+      },
+      {
+        "body": [
+          991,
+          662,
+          1225,
+          920
+        ],
+        "crop": [
+          990,
+          632,
+          1226,
+          921
+        ],
+        "anchor": [
+          1102.5,
+          920
+        ]
+      },
+      {
+        "body": [
+          41,
+          966,
+          291,
+          1233
+        ],
+        "crop": [
+          14,
+          965,
+          292,
+          1234
+        ],
+        "anchor": [
+          165.0,
+          1233
+        ]
+      },
+      {
+        "body": [
+          356,
+          973,
+          598,
+          1233
+        ],
+        "crop": [
+          355,
+          972,
+          599,
+          1234
+        ],
+        "anchor": [
+          472.5,
+          1233
+        ]
+      },
+      {
+        "body": [
+          672,
+          977,
+          913,
+          1233
+        ],
+        "crop": [
+          670,
+          938,
+          914,
+          1234
+        ],
+        "anchor": [
+          786.0,
+          1233
+        ]
+      },
+      {
+        "body": [
+          984,
+          976,
+          1223,
+          1233
+        ],
+        "crop": [
+          983,
+          950,
+          1224,
+          1234
+        ],
+        "anchor": [
+          1098.0,
+          1233
+        ]
+      }
+    ],
+    "support_baseline_y": 118,
+    "support_center_x": 64
+  },
+  "pose_corrections": [
+    "Idle blink uses a facial patch over identical idle artwork; speaking varies only mouth/beak; thinking reuses one body with changing detached dots.",
+    "Second thinking frame adds a smaller copy of the generated thought dot over the exact first frame."
+  ],
+  "stabilization_regions": {
+    "blink": [
+      35,
+      42,
+      78,
+      63
+    ],
+    "speaking": [
+      49,
+      59,
+      69,
+      74
+    ]
+  }
+}
