@@ -1,0 +1,45 @@
+{
+  "verified_on": "2026-09-29",
+  "archive": {
+    "file": "byte.tldw-persona-vpack",
+    "bytes": 135542,
+    "sha256": "5357cf44e4231afc40bc2789f0c94dc6bbb7a49b6426ae672a08f58eb3aded9a"
+  },
+  "hosts": [
+    {
+      "id": "byte",
+      "host": "chatbook",
+      "result": "passed",
+      "checks": [
+        "native import",
+        "publication",
+        "reload",
+        "export roundtrip",
+        "motion/static selection",
+        "animated character conversion",
+        "independent character publication",
+        "attribution retention"
+      ],
+      "commit": "c49be0691652557c4a32db54a1604e4ea90cac97",
+      "source": "clean committed-source snapshot; temporary configuration, profiles and SQLite databases"
+    },
+    {
+      "id": "byte",
+      "host": "server",
+      "result": "passed",
+      "checks": [
+        "native preview",
+        "committed inactive draft",
+        "asset checksum",
+        "activatable manifest"
+      ],
+      "commit": "6110d2ae436c805c3beeda8f84427b4890534ddf",
+      "source": "clean committed-source snapshot; temporary configuration, profiles and SQLite databases"
+    }
+  ],
+  "visual_review": "All sixteen sprite slots checked for anatomy, framing, transparency and fixed support anchors; idle and speaking reuse body pixels, thinking adds a dot.",
+  "limitations": [
+    "No live application UI or server HTTP-worker test is claimed.",
+    "Buddy-to-character conversion preserves supported sequences; it does not guarantee all eight canonical character emotions."
+  ]
+}
