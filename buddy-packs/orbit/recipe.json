@@ -1,0 +1,330 @@
+{
+  "id": "orbit",
+  "title": "Orbit",
+  "description": "A tiny green alien piloting a lavender saucer. The saucer stays fixed while the pilot reacts beneath its dome.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "registration": {
+    "method": "Extract connected bodies with nearby effects, remove isolated alpha noise, apply one uniform scale per pack, translate to fixed support baseline and center.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.3985239852398524,
+    "raw_components": [
+      {
+        "body": [
+          34,
+          44,
+          292,
+          273
+        ],
+        "crop": [
+          33,
+          44,
+          293,
+          274
+        ],
+        "anchor": [
+          164.0,
+          273
+        ]
+      },
+      {
+        "body": [
+          343,
+          44,
+          601,
+          274
+        ],
+        "crop": [
+          342,
+          43,
+          602,
+          275
+        ],
+        "anchor": [
+          473.0,
+          274
+        ]
+      },
+      {
+        "body": [
+          653,
+          44,
+          912,
+          274
+        ],
+        "crop": [
+          652,
+          43,
+          913,
+          275
+        ],
+        "anchor": [
+          783.0,
+          274
+        ]
+      },
+      {
+        "body": [
+          961,
+          43,
+          1220,
+          273
+        ],
+        "crop": [
+          960,
+          43,
+          1221,
+          274
+        ],
+        "anchor": [
+          1092.0,
+          273
+        ]
+      },
+      {
+        "body": [
+          34,
+          368,
+          292,
+          597
+        ],
+        "crop": [
+          33,
+          338,
+          293,
+          598
+        ],
+        "anchor": [
+          164.0,
+          597
+        ]
+      },
+      {
+        "body": [
+          343,
+          368,
+          601,
+          597
+        ],
+        "crop": [
+          342,
+          333,
+          602,
+          598
+        ],
+        "anchor": [
+          473.0,
+          597
+        ]
+      },
+      {
+        "body": [
+          653,
+          368,
+          912,
+          598
+        ],
+        "crop": [
+          652,
+          367,
+          913,
+          599
+        ],
+        "anchor": [
+          783.0,
+          598
+        ]
+      },
+      {
+        "body": [
+          962,
+          368,
+          1220,
+          598
+        ],
+        "crop": [
+          961,
+          367,
+          1221,
+          598
+        ],
+        "anchor": [
+          1092.0,
+          598
+        ]
+      },
+      {
+        "body": [
+          34,
+          679,
+          292,
+          908
+        ],
+        "crop": [
+          33,
+          677,
+          293,
+          909
+        ],
+        "anchor": [
+          163.5,
+          908
+        ]
+      },
+      {
+        "body": [
+          343,
+          679,
+          601,
+          908
+        ],
+        "crop": [
+          342,
+          677,
+          602,
+          909
+        ],
+        "anchor": [
+          472.5,
+          908
+        ]
+      },
+      {
+        "body": [
+          653,
+          682,
+          912,
+          908
+        ],
+        "crop": [
+          652,
+          648,
+          913,
+          909
+        ],
+        "anchor": [
+          783.0,
+          908
+        ]
+      },
+      {
+        "body": [
+          962,
+          680,
+          1220,
+          908
+        ],
+        "crop": [
+          961,
+          637,
+          1221,
+          909
+        ],
+        "anchor": [
+          1092.0,
+          908
+        ]
+      },
+      {
+        "body": [
+          34,
+          987,
+          292,
+          1217
+        ],
+        "crop": [
+          33,
+          986,
+          293,
+          1219
+        ],
+        "anchor": [
+          164.0,
+          1217
+        ]
+      },
+      {
+        "body": [
+          343,
+          987,
+          601,
+          1217
+        ],
+        "crop": [
+          342,
+          985,
+          602,
+          1218
+        ],
+        "anchor": [
+          473.0,
+          1217
+        ]
+      },
+      {
+        "body": [
+          653,
+          988,
+          912,
+          1217
+        ],
+        "crop": [
+          652,
+          969,
+          913,
+          1219
+        ],
+        "anchor": [
+          783.0,
+          1217
+        ]
+      },
+      {
+        "body": [
+          962,
+          987,
+          1220,
+          1217
+        ],
+        "crop": [
+          961,
+          959,
+          1221,
+          1218
+        ],
+        "anchor": [
+          1091.5,
+          1217
+        ]
+      }
+    ],
+    "support_baseline_y": 118,
+    "support_center_x": 64
+  },
+  "pose_corrections": [
+    "Idle blink uses a facial patch over identical idle artwork; speaking varies only mouth/beak; thinking reuses one body with changing detached dots.",
+    "All expressions retain the identical monitor housing/saucer; only the face/pilot region and detached reaction symbols change.",
+    "Sleepy uses the clean closed-eye blink to preserve the pilot silhouette and avoid a face-compositing seam.",
+    "Second thinking frame adds a smaller copy of the generated thought dot over the exact first frame."
+  ],
+  "stabilization_regions": {
+    "blink": [
+      42,
+      48,
+      85,
+      67
+    ],
+    "speaking": [
+      53,
+      59,
+      74,
+      76
+    ]
+  }
+}
