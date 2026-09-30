@@ -1,0 +1,328 @@
+{
+  "id": "dumpling",
+  "title": "Dumpling",
+  "description": "A cheerful ivory dumpling with tiny feet, expressive pleats and a little steam puff when worried.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "registration": {
+    "method": "Extract connected bodies with nearby effects, remove isolated alpha noise, apply one uniform scale per pack, translate to fixed support baseline and center.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.40298507462686567,
+    "raw_components": [
+      {
+        "body": [
+          47,
+          68,
+          282,
+          294
+        ],
+        "crop": [
+          47,
+          68,
+          283,
+          295
+        ],
+        "anchor": [
+          165.0,
+          294
+        ]
+      },
+      {
+        "body": [
+          361,
+          69,
+          596,
+          294
+        ],
+        "crop": [
+          360,
+          68,
+          597,
+          295
+        ],
+        "anchor": [
+          478.5,
+          294
+        ]
+      },
+      {
+        "body": [
+          674,
+          69,
+          909,
+          294
+        ],
+        "crop": [
+          673,
+          68,
+          910,
+          295
+        ],
+        "anchor": [
+          791.5,
+          294
+        ]
+      },
+      {
+        "body": [
+          986,
+          68,
+          1221,
+          294
+        ],
+        "crop": [
+          985,
+          68,
+          1222,
+          295
+        ],
+        "anchor": [
+          1104.0,
+          294
+        ]
+      },
+      {
+        "body": [
+          47,
+          384,
+          283,
+          608
+        ],
+        "crop": [
+          46,
+          362,
+          284,
+          609
+        ],
+        "anchor": [
+          166.0,
+          608
+        ]
+      },
+      {
+        "body": [
+          361,
+          384,
+          597,
+          608
+        ],
+        "crop": [
+          360,
+          350,
+          597,
+          609
+        ],
+        "anchor": [
+          480.0,
+          608
+        ]
+      },
+      {
+        "body": [
+          673,
+          384,
+          909,
+          608
+        ],
+        "crop": [
+          672,
+          383,
+          910,
+          609
+        ],
+        "anchor": [
+          791.5,
+          608
+        ]
+      },
+      {
+        "body": [
+          986,
+          383,
+          1222,
+          608
+        ],
+        "crop": [
+          985,
+          382,
+          1223,
+          608
+        ],
+        "anchor": [
+          1104.0,
+          608
+        ]
+      },
+      {
+        "body": [
+          48,
+          694,
+          283,
+          920
+        ],
+        "crop": [
+          47,
+          693,
+          284,
+          921
+        ],
+        "anchor": [
+          165.5,
+          920
+        ]
+      },
+      {
+        "body": [
+          361,
+          695,
+          597,
+          920
+        ],
+        "crop": [
+          360,
+          695,
+          597,
+          921
+        ],
+        "anchor": [
+          478.5,
+          920
+        ]
+      },
+      {
+        "body": [
+          673,
+          698,
+          909,
+          920
+        ],
+        "crop": [
+          673,
+          652,
+          910,
+          921
+        ],
+        "anchor": [
+          791.0,
+          920
+        ]
+      },
+      {
+        "body": [
+          986,
+          697,
+          1221,
+          920
+        ],
+        "crop": [
+          985,
+          655,
+          1222,
+          921
+        ],
+        "anchor": [
+          1104.0,
+          920
+        ]
+      },
+      {
+        "body": [
+          50,
+          1009,
+          285,
+          1229
+        ],
+        "crop": [
+          45,
+          987,
+          286,
+          1229
+        ],
+        "anchor": [
+          167.5,
+          1229
+        ]
+      },
+      {
+        "body": [
+          361,
+          1008,
+          597,
+          1230
+        ],
+        "crop": [
+          360,
+          1007,
+          597,
+          1231
+        ],
+        "anchor": [
+          479.0,
+          1230
+        ]
+      },
+      {
+        "body": [
+          673,
+          1008,
+          909,
+          1230
+        ],
+        "crop": [
+          672,
+          975,
+          910,
+          1231
+        ],
+        "anchor": [
+          791.0,
+          1230
+        ]
+      },
+      {
+        "body": [
+          986,
+          1012,
+          1222,
+          1229
+        ],
+        "crop": [
+          985,
+          971,
+          1222,
+          1230
+        ],
+        "anchor": [
+          1103.5,
+          1229
+        ]
+      }
+    ],
+    "support_baseline_y": 118,
+    "support_center_x": 64
+  },
+  "pose_corrections": [
+    "Idle blink uses a facial patch over identical idle artwork; speaking varies only mouth/beak; thinking reuses one body with changing detached dots.",
+    "Second thinking frame adds a smaller copy of the generated thought dot over the exact first frame."
+  ],
+  "stabilization_regions": {
+    "blink": [
+      37,
+      67,
+      91,
+      83
+    ],
+    "speaking": [
+      54,
+      77,
+      76,
+      94
+    ]
+  }
+}
