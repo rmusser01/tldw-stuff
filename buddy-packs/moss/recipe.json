@@ -1,0 +1,328 @@
+{
+  "id": "moss",
+  "title": "Moss",
+  "description": "A tiny mushroom creature with a terracotta cap, a moss patch and a flower that blooms for celebrations.",
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "frame_size": 128,
+  "columns": 4,
+  "rows": 4,
+  "registration": {
+    "method": "Extract connected bodies with nearby effects, remove isolated alpha noise, apply one uniform scale per pack, translate to fixed support baseline and center.",
+    "raw_sheet_size": [
+      1254,
+      1254
+    ],
+    "uniform_scale": 0.39416058394160586,
+    "raw_components": [
+      {
+        "body": [
+          35,
+          65,
+          279,
+          304
+        ],
+        "crop": [
+          34,
+          64,
+          280,
+          305
+        ],
+        "anchor": [
+          158.0,
+          304
+        ]
+      },
+      {
+        "body": [
+          348,
+          65,
+          592,
+          305
+        ],
+        "crop": [
+          347,
+          64,
+          593,
+          306
+        ],
+        "anchor": [
+          470.5,
+          305
+        ]
+      },
+      {
+        "body": [
+          661,
+          66,
+          905,
+          305
+        ],
+        "crop": [
+          660,
+          65,
+          906,
+          306
+        ],
+        "anchor": [
+          784.5,
+          305
+        ]
+      },
+      {
+        "body": [
+          975,
+          65,
+          1218,
+          305
+        ],
+        "crop": [
+          973,
+          65,
+          1219,
+          306
+        ],
+        "anchor": [
+          1096.5,
+          305
+        ]
+      },
+      {
+        "body": [
+          35,
+          398,
+          279,
+          636
+        ],
+        "crop": [
+          34,
+          370,
+          280,
+          637
+        ],
+        "anchor": [
+          158.0,
+          636
+        ]
+      },
+      {
+        "body": [
+          348,
+          398,
+          592,
+          638
+        ],
+        "crop": [
+          347,
+          366,
+          593,
+          639
+        ],
+        "anchor": [
+          471.0,
+          638
+        ]
+      },
+      {
+        "body": [
+          661,
+          398,
+          905,
+          638
+        ],
+        "crop": [
+          660,
+          397,
+          906,
+          639
+        ],
+        "anchor": [
+          784.0,
+          638
+        ]
+      },
+      {
+        "body": [
+          975,
+          398,
+          1219,
+          638
+        ],
+        "crop": [
+          974,
+          397,
+          1219,
+          639
+        ],
+        "anchor": [
+          1097.5,
+          638
+        ]
+      },
+      {
+        "body": [
+          36,
+          721,
+          279,
+          954
+        ],
+        "crop": [
+          35,
+          703,
+          280,
+          955
+        ],
+        "anchor": [
+          157.0,
+          954
+        ]
+      },
+      {
+        "body": [
+          348,
+          721,
+          592,
+          955
+        ],
+        "crop": [
+          347,
+          720,
+          593,
+          955
+        ],
+        "anchor": [
+          471.0,
+          955
+        ]
+      },
+      {
+        "body": [
+          661,
+          720,
+          905,
+          955
+        ],
+        "crop": [
+          660,
+          685,
+          906,
+          956
+        ],
+        "anchor": [
+          785.5,
+          955
+        ]
+      },
+      {
+        "body": [
+          975,
+          721,
+          1218,
+          954
+        ],
+        "crop": [
+          973,
+          680,
+          1219,
+          955
+        ],
+        "anchor": [
+          1099.0,
+          954
+        ]
+      },
+      {
+        "body": [
+          37,
+          996,
+          278,
+          1226
+        ],
+        "crop": [
+          36,
+          995,
+          279,
+          1227
+        ],
+        "anchor": [
+          158.5,
+          1226
+        ]
+      },
+      {
+        "body": [
+          348,
+          1000,
+          593,
+          1230
+        ],
+        "crop": [
+          347,
+          999,
+          594,
+          1231
+        ],
+        "anchor": [
+          470.5,
+          1230
+        ]
+      },
+      {
+        "body": [
+          663,
+          964,
+          907,
+          1230
+        ],
+        "crop": [
+          662,
+          963,
+          915,
+          1231
+        ],
+        "anchor": [
+          784.5,
+          1230
+        ]
+      },
+      {
+        "body": [
+          976,
+          997,
+          1220,
+          1228
+        ],
+        "crop": [
+          974,
+          975,
+          1221,
+          1229
+        ],
+        "anchor": [
+          1100.5,
+          1228
+        ]
+      }
+    ],
+    "support_baseline_y": 118,
+    "support_center_x": 64
+  },
+  "pose_corrections": [
+    "Idle blink uses a facial patch over identical idle artwork; speaking varies only mouth/beak; thinking reuses one body with changing detached dots.",
+    "Second thinking frame adds a smaller copy of the generated thought dot over the exact first frame."
+  ],
+  "stabilization_regions": {
+    "blink": [
+      43,
+      69,
+      82,
+      84
+    ],
+    "speaking": [
+      56,
+      79,
+      72,
+      92
+    ]
+  }
+}
