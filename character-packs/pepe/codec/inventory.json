@@ -1,0 +1,142 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Pepe. A short, broad Pepe the Frog with heavy eyelids, a round blue-shirted belly and stubby brown trouser legs. Style: Flat 2D cartoon, matched to the existing collection with clean dark outlines and restrained shading.. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant head-and-shoulders close-up with both eyes visible, ears/horn fully within tile with margin. Natural species-appropriate muzzle or bill; only mouth/bill opens for speech, head and cheeks stay fixed. No full body or new props. Keep scarf below the mouth if present.",
+  "generated_board_sha256": "7a90bfe45946751e8a98d990a6309d926b9a9cd8b7fee568cceb1d49734bf4b0",
+  "reference_sha256": "03ebfe12f014a5773e40486bf09e550f249888878a775f7bdadf6e97f9a22149",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9997089171188398,
+      "matrix": [
+        [
+          0.9999439716339111,
+          -0.0002111340727424249,
+          0.04055539518594742
+        ],
+        [
+          0.0001243863080162555,
+          1.0000334978103638,
+          -0.04014846682548523
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9995846291748073,
+      "matrix": [
+        [
+          0.9997751116752625,
+          -4.7671401262050495e-05,
+          0.03337676450610161
+        ],
+        [
+          6.546007352881134e-05,
+          0.9991411566734314,
+          0.0767243504524231
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.999601703886434,
+      "matrix": [
+        [
+          0.9998680353164673,
+          -0.0001970662415260449,
+          0.03120245784521103
+        ],
+        [
+          0.00015628064284101129,
+          0.9992052316665649,
+          0.07335585355758667
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "e353a418c3dfb337dc10bc7995bc857557717aa6e0820f3c48d115e30e7a7ffe",
+    "left_eye": {
+      "x": 79,
+      "y": 87,
+      "width": 84,
+      "height": 45
+    },
+    "right_eye": {
+      "x": 163,
+      "y": 87,
+      "width": 71,
+      "height": 45
+    },
+    "mouth": {
+      "x": 69,
+      "y": 134,
+      "width": 164,
+      "height": 43
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "185731fecb8a0114d2a9006b01bdc325195bde074dd9d7f46074c981524f0b93",
+      "bytes": 81980,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "8c30d9f8de0284348e49f5881ab1c5e31bc3f8ee7233b92ffea2e3469645b9f4",
+      "bytes": 82505,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "482cb89d42ee4057ae11556888a18658b996278787fd3fa5c9d26df6298b951f",
+      "bytes": 82617,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "7afb5946b6ae89f1f226a70a163b5b6e4607e08a92878d629c15287c1b164553",
+      "bytes": 78669,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "000ad141b1141d3adbf5f17e1390c75e4e92e60221474e53ccb7ea41a17e1db8",
+      "bytes": 79186,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "3d4e99fd98eb9fcad2c206377623195df51d7a0070ed77de035e7ff3d0667fbd",
+      "bytes": 79288,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/pepe",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": {
+      "creator": "Matt Furie",
+      "work": "Pepe the Frog from Boy's Club",
+      "url": "https://www.fantagraphics.com/collections/matt-furie",
+      "use": "Character attribution verified against the publisher. New project-generated sprites adapted from the earlier project atlas; no Matt Furie illustrations were downloaded or bundled.",
+      "license_status": "Underlying character rights retained; this pack does not grant a license to Matt Furie artwork or characters."
+    },
+    "source_metadata_sha256": "edaadde3218d38f0efd4fd23491ef1ae12f864ac3675a4131fcadc87e7cd15b5"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

@@ -8,7 +8,7 @@ The built-in general-purpose character, preserved as separate application defaul
 | [server.character.json](server.character.json) | Server's minimal general-purpose card and greeting, with no added system prompt | [GPL-3.0-only](SERVER_LICENSE.txt) |
 
 Content version: **1.0.1**, exported from fresh temporary databases on 2026-09-05.
-Neither variant includes artwork or a voice profile. Choose the variant you want;
+Neither JSON variant embeds artwork or a voice profile. Optional codec artwork is supplied separately below. Choose the variant you want;
 they have the same character name but different original content.
 
 ## Use and verification
@@ -41,3 +41,23 @@ prompts, reactions, artwork pixels and source-license notices retain their prior
 content. [Metadata changes and checksums](../creator-metadata.json) record the
 previous source hashes and updated distributed hashes. Earlier import results
 describe the original snapshot; this update was checked for metadata-only changes.
+
+## Optional codec portrait — artwork version 1.0.0
+
+![Six matching mouth and blink poses](codec/preview.webp)
+
+The 2026-10-25 collection update adds [six ready-made living portrait frames](codec/)
+and a [checksum/provenance inventory](codec/inventory.json). Existing cards,
+prompts, artwork and expression mappings are preserved. Follow the
+[codec setup guide](../CODEC.md); these files do not activate themselves when
+the card is imported. Duplicate customized characters before changing their
+local artwork. Use `codec/rest.png` as the source for this specific performance.
+
+See [qualification evidence](../codec-verification.json) for tested Chatbook
+commit and scope. Server performance imports are not supported; no new server
+or third-party qualification is claimed. A voice remains a separate local choice.
+
+The optional original operator portrait uses Apache-2.0 for AI-assisted project
+contributions to the extent applicable; both JSON cards retain their existing
+AGPL/GPL terms. Creator: **tldw-project**. The original artwork was made with
+built-in ChatGPT image generation, then source-preserving local composition.

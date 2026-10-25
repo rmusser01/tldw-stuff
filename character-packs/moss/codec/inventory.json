@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Moss. A tiny mushroom creature with a terracotta cap, a moss patch and a flower that blooms for celebrations. Style: Preserve the recognizable cartoon style and defining features of the reference.. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant close-up with both eyes visible. Natural species-appropriate muzzle or beak; speaking changes only the lower mouth/beak region. Keep ears/headgear in the tile with space above. No full body. For a saucer pilot keep the saucer/dome fixed, show the pilot face clearly. For Hugging Face retain the sunny yellow face and hugging hands near bottom. For pelican show the pelican's head and upper chest, bicycle can be outside crop.",
+  "generated_board_sha256": "2c08e036b12a0271fb9c35daa6b5d3a34e557e1f140970d348922b14158ae7f3",
+  "reference_sha256": "9c87a036d244470e48152720afb95d7cf9114e3096f1dcd11bfb947e8d3ebbe9",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9997927014896182,
+      "matrix": [
+        [
+          0.9999502301216125,
+          -0.00023321391199715436,
+          0.034850046038627625
+        ],
+        [
+          7.1923372161109e-05,
+          1.0000940561294556,
+          -0.03872918337583542
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9997663995025762,
+      "matrix": [
+        [
+          1.0000078678131104,
+          -0.0001385911600664258,
+          0.02856532856822014
+        ],
+        [
+          8.66516274982132e-05,
+          0.9993744492530823,
+          0.026868848130106926
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9997124565641172,
+      "matrix": [
+        [
+          0.9997674226760864,
+          -0.0001122310059145093,
+          0.04201922193169594
+        ],
+        [
+          -0.00016734669043216854,
+          0.9994891881942749,
+          0.042951252311468124
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "d8a1e45b9e74d347639c3a8b70d1e235ddd12e7bb46507c707201194c8b7ec10",
+    "left_eye": {
+      "x": 82,
+      "y": 133,
+      "width": 31,
+      "height": 31
+    },
+    "right_eye": {
+      "x": 145,
+      "y": 133,
+      "width": 31,
+      "height": 31
+    },
+    "mouth": {
+      "x": 115,
+      "y": 158,
+      "width": 29,
+      "height": 28
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "771fa0a74ff1c0344d8c99096eb77c0c768631abc6d4d8eae3f767aa02e87b06",
+      "bytes": 96363,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "afbbb36b8399dc7f06f88ba18722fa58b533af2711306393b60c45344cc5d37a",
+      "bytes": 96435,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "ebeb42296f976ef0ba38eebae9ad0371ace87822b24c93ac8d7c298cf421aed5",
+      "bytes": 96513,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "f1c0c17a526574fda1cd72eba18dd382326a070eb1082ca4fdfa0027006c03ab",
+      "bytes": 96007,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "864fff018de863a47690eb32a3822ba182e9f2505ef474201eb32eba08285530",
+      "bytes": 96102,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "75ed9ea41224acf29d2c79202345cd90ad9a4822b8600bc78362b873a1075e0b",
+      "bytes": 96154,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/moss",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "b4e85b8d7125dbdf04e1ebcfa58ac4bfdadb9dea4baf0c91543d7410dac5f3b5"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

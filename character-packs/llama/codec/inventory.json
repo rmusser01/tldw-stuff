@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Llama. A cream-colored llama with expressive ears, a woolly coat and four hoofed legs. Style: Flat 2D cartoon, matched to the existing collection with clean dark outlines and restrained shading.. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant close-up with both eyes visible. Natural species-appropriate muzzle or beak; speaking changes only the lower mouth/beak region. Keep ears/headgear in the tile with space above. No full body. For a saucer pilot keep the saucer/dome fixed, show the pilot face clearly. For Hugging Face retain the sunny yellow face and hugging hands near bottom. For pelican show the pelican's head and upper chest, bicycle can be outside crop.",
+  "generated_board_sha256": "c83b3d8e21c6e39f2d299397ed92fca69acd3a2c773d124ac24cf81491f9fb6e",
+  "reference_sha256": "0cc8a56da8e103850d793ff0e42744b2d294a593748f262b914dbd60f3c0453e",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9997123840516045,
+      "matrix": [
+        [
+          1.0003948211669922,
+          0.0001994274789467454,
+          -0.4371526539325714
+        ],
+        [
+          0.0001427621318725869,
+          1.000144600868225,
+          -0.022857706993818283
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9999071951020567,
+      "matrix": [
+        [
+          0.9998296499252319,
+          -8.598359272582456e-06,
+          0.010212978348135948
+        ],
+        [
+          0.00027481894358061254,
+          0.999765932559967,
+          -0.04478015378117561
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9997014475009846,
+      "matrix": [
+        [
+          1.0003228187561035,
+          0.00012886442709714174,
+          -0.43695369362831116
+        ],
+        [
+          0.0003139367909170687,
+          0.9999562501907349,
+          -0.056454118341207504
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "64dab8ca318f4e727696aaa30b279c64bce704414cadde9c8dc57e1cc76a16f1",
+    "left_eye": {
+      "x": 79,
+      "y": 101,
+      "width": 34,
+      "height": 40
+    },
+    "right_eye": {
+      "x": 144,
+      "y": 101,
+      "width": 32,
+      "height": 40
+    },
+    "mouth": {
+      "x": 107,
+      "y": 145,
+      "width": 44,
+      "height": 31
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "0254bf2c67a299516ee1fbc3d99751c4523ff466020d84d1e42f8cd7b1003a49",
+      "bytes": 87792,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "db382dd71fd2421489be3e4fbfa7f808349f894836056b24af77cd38d792690c",
+      "bytes": 88060,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "9823ad701f4a5f215e306707993e99532101dc95606c5247a7401fb6d2cbec09",
+      "bytes": 88480,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "929988130cde2d31043fe7a376bb9fe88c89c3883b87964ed1b2702c697a1fc7",
+      "bytes": 86128,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "9da146871424e779f4ae82c9f9a6171057479523c662306f97eb20268fbd0816",
+      "bytes": 86399,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "eb91b007f2ca8d01a200a4a502be56d085244cfb6aed191c85e9db4dbcb23f6f",
+      "bytes": 86809,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/llama",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "daf2e1bf7289f159c6ea92264b00c205a1277c21563fa5415d63663d9997be2c"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

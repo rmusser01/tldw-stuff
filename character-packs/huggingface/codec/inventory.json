@@ -1,0 +1,144 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Hugging Face. A round golden-yellow hugging face with two expressive hands and a warm smile. Style: Flat 2D cartoon with a yellow face, warm-orange outlines and charcoal features, matched to the existing Buddy collection.. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant close-up with both eyes visible. Natural species-appropriate muzzle or beak; speaking changes only the lower mouth/beak region. Keep ears/headgear in the tile with space above. No full body. For a saucer pilot keep the saucer/dome fixed, show the pilot face clearly. For Hugging Face retain the sunny yellow face and hugging hands near bottom. For pelican show the pelican's head and upper chest, bicycle can be outside crop.",
+  "generated_board_sha256": "b8df21a386d372880f55ad529e8e79a557881c96b493cb8a6ac30750f5227fdd",
+  "reference_sha256": "0d3116cf1f619fe2181a3ae43875442d69ae3bbb279b7ff6ac5a7a99b6780709",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9998999007519654,
+      "matrix": [
+        [
+          0.999910295009613,
+          0.0007921017822809517,
+          -0.6623227596282959
+        ],
+        [
+          -8.995157259050757e-06,
+          0.9999487400054932,
+          0.02369074523448944
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9997943838242215,
+      "matrix": [
+        [
+          1.0000442266464233,
+          -8.312530553666875e-05,
+          -0.20654918253421783
+        ],
+        [
+          -0.00012335549399722368,
+          1.0001459121704102,
+          -5.33419132232666
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9995205186076261,
+      "matrix": [
+        [
+          1.0005336999893188,
+          0.0011352981673553586,
+          -1.853270411491394
+        ],
+        [
+          -9.647203114582226e-05,
+          1.0003780126571655,
+          -5.393688201904297
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "1ee5609279859916fd6334c73dc47338bdc4dcfa21550be20eb824385959a433",
+    "left_eye": {
+      "x": 78,
+      "y": 94,
+      "width": 34,
+      "height": 36
+    },
+    "right_eye": {
+      "x": 143,
+      "y": 94,
+      "width": 34,
+      "height": 36
+    },
+    "mouth": {
+      "x": 91,
+      "y": 130,
+      "width": 70,
+      "height": 37
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "549c165276928dbea49e997d930232b1bead2149385ecb12880ef1e2960132e8",
+      "bytes": 79188,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "9000debd30120fde41ad96871ab99445747aeb671e2853c77d2e97adb7729627",
+      "bytes": 78956,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "a02ab59953a142e1cdc30f4eb41837ee6d53440fc370b80d3ef5ab74cad5736d",
+      "bytes": 79334,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "bc0909b80b45d60dc2c6f0d14568f94691ddbe3511b319d6b556e07d97e0fd53",
+      "bytes": 78818,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "ec7c075c0a883d66d3ae62e24b0d0d62e830b1a139b36ed7a6bc52aab3808040",
+      "bytes": 78595,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "cf385625e67b0e62ec1ec5e5c33cc54eb105c6c792e090ae860e4759ebe1ea22",
+      "bytes": 78965,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/huggingface",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": {
+      "creator": "Hugging Face",
+      "work": "Hugging Face hugging-face mascot",
+      "url": "https://huggingface.co/brand",
+      "use": "Brand identity and published yellow/orange colors informed a textual prompt. The official logo was inspected separately after generation for identity and attribution review; no logo pixels were included in the generated atlas.",
+      "asset_url": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.png",
+      "asset_sha256": "9cf16f4f32604eaf76dabbdf47701eea5a768ebcc7296acc1d1758181f71db73",
+      "license_status": "The public brand page offers official assets for use in projects. No separate open-content license for the mascot was asserted or verified; brand and underlying artwork rights remain separate from the project contribution license."
+    },
+    "source_metadata_sha256": "545b90a9b104b42a7cea0cac0b1d0deb27cb77699e39dad6cab3888d81a5f536"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

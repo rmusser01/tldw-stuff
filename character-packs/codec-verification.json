@@ -1,0 +1,1360 @@
+{
+  "date": "2026-10-25",
+  "app_commit": "e4e4fd7846d57134b10f7da1169dc63eef724c29",
+  "equivalent_merged_app_tree": "1850d2599c58af9a0c1a8721e6c0a31e431d92fa",
+  "mode": "Production source app, offline Textual run_test, fresh disposable admitted profiles. Native character import, database, portrait controller and Console services; local-server discovery and audio hardware disabled in the driver.",
+  "sets": [
+    {
+      "pack": "switch",
+      "card": "switch/switch.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "73ade5e7cf2dcccc70369ab5920895a9d398a59355a1c1598c71404864da1feb",
+        "bbe8ca6851c59f57e78ce4e303ce534dcf17f7eb622d079d9b050cecacfa77b4",
+        "83bfb490e93d4115c956a8253eca6d36a31750b01657377e9f60f0c9b3ebc4f2",
+        "bba002654ca4532e69558a7bcddcf9b51c5acd142dead3ec7c8ce8015489a028",
+        "1b1114077b5caaa84c7fde51faedf4e27de7e85b8d1d405c1a5bc95c262007e4",
+        "e9d2d2ab14b8edbbe2cd11c17676263fee75c9a3570e4e6deb7fb51d7d27ea86"
+      ],
+      "card_sha256": "6c9966a61045b4dd9a3e582854a641b2ba0f0722a94bea220e50fb7ccf7e3875"
+    },
+    {
+      "pack": "patch",
+      "card": "patch/patch.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "6c1cfb5fb25e812c4a4bfe378618791e96e1d198aa8e10b0d95c3a306901f423",
+        "33cf7eb09fb97ba83900dd47c9d1a5a2fd01bbaaca9222bfad34632a396ac683",
+        "fe74b9db7e81758f428a20cb936b66ece59151127763b5472936e4dfd8ac97b6",
+        "1abd474db567a583b70c443e32f49852d15ad239b22dd165deffa047d2e29dfd",
+        "1db601284eb5c0cff10cd693a9be9162edaa61b10ed48795085610cbaf0d7087",
+        "a502f9ad988f224d45f76df26e3b908e706d19ac310796f653ba4c32115e7b06"
+      ],
+      "card_sha256": "3ec54188a0c5bbd20874251f1c4d1b665b51407c30f08364da4f0554ca7bf38f"
+    },
+    {
+      "pack": "pulse",
+      "card": "pulse/pulse.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "14470982be338b69280600ac660fe04fc40a120eca6e4414af0e176abe8dc13a",
+        "a499217c7dd34b7a5ed0a509887b04bce83ffe72a163793dd8b98492720b0b92",
+        "8c7dff0e1ec0d241f3885204edb46c8e9b5ee532f3d3fbd325508281dcf6a808",
+        "4f185cc56d84ac265403be6265a915905d187c0cb929e48e94435660dbeef4c0",
+        "9144313eb35ce68ba190687b5a39f11bde9da5ee139499d4d44a393aa4cdec38",
+        "116ae7c74c086f720b45a60d8c71688d66898115bf1fe1752fc74daf0c1ead05"
+      ],
+      "card_sha256": "7fce19f367d6328e5c112e8fb35d4dc8bd17ccac89fda7a52a9d2891d068bbe4"
+    },
+    {
+      "pack": "vector",
+      "card": "vector/vector.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "0b4f231d5db7241bf9377f77de690e0a56ca25e5183b1835542287a3de60ff71",
+        "6a211c0b2a3dfa4730988688b4d88dca948504093de2bf6b70742d1a2b4ed066",
+        "dc2eda65b59f0510808d66cdbdba67da27a35e0d3cab566a7b5dd3cfb5451eb0",
+        "3d26f59cadc83c842b1ecdabc011babd4fc5e7bc53e0216fc6af26c8d5363a03",
+        "bbc975c39b0c01ff1938ad0687e6491605395dd9ea20b10607c4747720a12e57",
+        "54c6e146a551f78c456eab592bb4e53f1113474aed0fff7f048952837eee553f"
+      ],
+      "card_sha256": "51de963818af02134c13fb7017acea86c43561d9454bcbe3d9047377cc367406"
+    },
+    {
+      "pack": "default-assistant",
+      "card": "default-assistant/chatbook.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "923473da0e048d43cf82baf83329413ab187d472415e9b112ebb559c00eddffa",
+        "4bb02d7626b31a0ecbf1c2a8cac238f07d5e58fc34b5061a5c5e1ccd468633eb",
+        "a0a65d04cee401cfc3d336c6cb84975ee182035ac76c5130f3710457a2dc3799",
+        "009e7520cd72e2f0407bf37997eef4e152c0875832abb3a62a913346b843d24c",
+        "ae37cf3def1c57ab9ac8ed2f6f95887efe49705006a96f5ab24a9c373430ad28",
+        "fb4f66450ce2304acf1f3214b9acecc3594b2af2729e8a2398d9d2acc90ec151"
+      ],
+      "card_sha256": "10e073495e490c27d0cc978a7cf59ca1c12f43da0fd4f21dec780bbf3510ef6f"
+    },
+    {
+      "pack": "samira",
+      "card": "samira/assets/characters/samira/Samira.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "4015a54710c28addcf32168597cb6a74ad8ccafd56fa48e9eb1fdfdc56cff11c",
+        "cde201a029e5d9a1185c1c3b2761f9f1eea389ac9d8db285f4a8a288a16f55bb",
+        "92c615d52dca61290e972ee2b84fac5a99af5512e9b5a2833755cad56b30444e",
+        "39991ccad242a931cc60fc2c8c32fdc9ad5ea640858b29244cc542db909ac331",
+        "3626aa3fe4d362d7848237b0c42a6547a557b908eca38a1db9b98d11f4926c13",
+        "149dcaba071de4fd90cc0c09ad4123f76a37b60be2baa85371a7818c344a5fac"
+      ],
+      "card_sha256": "a54a9958f251a312ffb35e764cfb61aab0e92c0636e04d92ee45178c08856cd8"
+    },
+    {
+      "pack": "pixel-migu",
+      "card": "pixel-migu/assets/characters/pixel_migu/pixel-migu.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "584104edf558d808748dc0aa0a288d0698f1ed9343237a8f2b0f3fd9fec8bfb2",
+        "600e5c9d1bb3bff791d79884dc385b878cd9a62b6f09340cac1c48bb66ae261e",
+        "5ac7e594724730401bc7a57451dc327a23ebc7e27f57106e0401b87a4fe4663a",
+        "c62983d97049f7cb6f34d94170ff47f214fbdd4fcf31a3ad752157a4a4fe9066",
+        "9db77d94ee9c3dd07c1e57d5cb7dde45932e98d0781a136fa38d6ac1f492dd4f",
+        "10acafaee3d59f8c29b7e22ebf028b114f287aed0a4e6643321c103a3890f9f9"
+      ],
+      "card_sha256": "41f5020735c8bc4d140ace29d6f782a3f9476dabd1695938e6645fa079591732"
+    },
+    {
+      "pack": "archive-cube-basic",
+      "card": "archive-cube-basic/archive-cube-basic.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "320e090c18be10410ee5020c5dc637b17fbed7eee3bfb9e829ec030d79f90461",
+        "4d8fb11d7eb023c5c01df5fdc7cca0374fe49c7d38eb19d7ac33d96ae09ff92b",
+        "9952425c15ad37e7d5b3328de5d66f1f332fad68a0cded100afb066701198368",
+        "1584bb7522bf156019e621ba0a8cc5715dcf4b75684a8841f6b29857257cac52",
+        "9232e6aea2721edb338756aaa7ae5bbf4d5058d7028b4a3fbf772761758ec59e",
+        "7f5c261d215f56b0ee3eef6e4ba48fd56b92a82d6dd4211cd3345d1b131da10e"
+      ],
+      "card_sha256": "75aa589bc06e11c6101d35dfcf5b218d98c7c79128e804ab3b8bf51036ec0f8f"
+    },
+    {
+      "pack": "cat",
+      "card": "cat/cat.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "ab6c0e00c3bf62cfa0108b2843b0094b689666c74bbc1070314821f813192e0a",
+        "fc5cefc5281abb12c1a5afb6bf70c40aec7385083e41530cab9d0e235c1b47ee",
+        "c09616df879fce2fbebf398efe2a08dce9785ab1cfe2b56ff038a7b2ddcaa7c7",
+        "e37bc6beceb338fd06aef6328d5e7d4c39038ca7a0cfb8f0037f452397d3ce85",
+        "09f326661cdf441e619c2654cb41b9b81efd6bce1311cd20346c50510a91efe4",
+        "98d45d0c02a3facf1f2d1742843a26490a51a1626e6ca266a5b2c9d2d1bece6c"
+      ],
+      "card_sha256": "e5d33559742f733cfdd26ffcf46f047fe1cceecf19fcdb7c9adb53418925c70a"
+    },
+    {
+      "pack": "ember",
+      "card": "ember/ember.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "9a6a11f2a8b8caafaba471f64f80723c6fe21af7a06a987f60c07fcb7b66aa58",
+        "a2bc4f2cb69a62d9fb3837cb9040e6adeed9bccb9199cda861e51ed0ffd54a43",
+        "1913b7c76349fefb9a7ba192c7f6f7ee66524e11afad9566e5f030e9a02d9897",
+        "91fefd1f8919a9c10ece93843bc3a61d6d6784080cf28fbe751d91eeda55a2c0",
+        "e430c381ccacd5d19a71afb6ecaae5429faa45b9ca924e91daebb0380534fec1",
+        "8fc0d0c997284b3290bcf2a595cc81762d99139f729c0814189ef3233302fa55"
+      ],
+      "card_sha256": "1e6a00ab1604fe25980a78d11f55064a495b1e7bcf8a09b9409e466a6803a75b"
+    },
+    {
+      "pack": "index-card-basic",
+      "card": "index-card-basic/index-card-basic.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "323d2a2b71c0156c93ce321a708ca57e0f9b1af87f0bc13fdd1b9b6ff3b64e17",
+        "955578f41dd10003f4ea4921e3ca2f0f61e3c200ebe01780093f0b419cd46f5c",
+        "e715e75076270d5baa1cade2c70124c2eaa8a037000850fed6d4f218c418aed8",
+        "d521d6e5aea2c52097212e454216a57898b8a6e132f7fec608dc6bddb755cd74",
+        "94b5c66c63c7b326eb97fddc8ed43bbaa2990e5043ffb7530d80a2a94cfd3ae3",
+        "129d285a7d4d88ca084ddf6675a823d1bd9885ae29086de28df6fd6853ef32bd"
+      ],
+      "card_sha256": "3fd1e986d8deea4b33d0aa7ab5ca68f9b6c81a1c2af6a550337d0aab84e22caf"
+    },
+    {
+      "pack": "moss",
+      "card": "moss/moss.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "771fa0a74ff1c0344d8c99096eb77c0c768631abc6d4d8eae3f767aa02e87b06",
+        "afbbb36b8399dc7f06f88ba18722fa58b533af2711306393b60c45344cc5d37a",
+        "ebeb42296f976ef0ba38eebae9ad0371ace87822b24c93ac8d7c298cf421aed5",
+        "f1c0c17a526574fda1cd72eba18dd382326a070eb1082ca4fdfa0027006c03ab",
+        "864fff018de863a47690eb32a3822ba182e9f2505ef474201eb32eba08285530",
+        "75ed9ea41224acf29d2c79202345cd90ad9a4822b8600bc78362b873a1075e0b"
+      ],
+      "card_sha256": "37a789f3d2ee7b74ef98061e393a7bed24122bc3d6f740e5e0a383969419e42c"
+    },
+    {
+      "pack": "pepe",
+      "card": "pepe/pepe.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "185731fecb8a0114d2a9006b01bdc325195bde074dd9d7f46074c981524f0b93",
+        "8c30d9f8de0284348e49f5881ab1c5e31bc3f8ee7233b92ffea2e3469645b9f4",
+        "482cb89d42ee4057ae11556888a18658b996278787fd3fa5c9d26df6298b951f",
+        "7afb5946b6ae89f1f226a70a163b5b6e4607e08a92878d629c15287c1b164553",
+        "000ad141b1141d3adbf5f17e1390c75e4e92e60221474e53ccb7ea41a17e1db8",
+        "3d4e99fd98eb9fcad2c206377623195df51d7a0070ed77de035e7ff3d0667fbd"
+      ],
+      "card_sha256": "d797ad73bb6e18474ede0a0f5ac912378b3085eb8a4e98ecd4003fe3058bb73d"
+    },
+    {
+      "pack": "shiba-inu",
+      "card": "shiba-inu/shiba-inu.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "c04c269ef6cb98e23ec8111639b9aaac935c463d6713d057e1831b49b2ac1fd4",
+        "70ca706cd4b7054bc351c3b789c988f2fc4d01d565b816581221ee1f2b4d956e",
+        "c8b4f8908c3e49241955ef3e2b196b47f10c074f83c8734a9f18a83dd78e8898",
+        "564b0b67f5faf78b1e3108fec69b89d4ec4b7d2c92def6c080d17179d5436d17",
+        "740562fecd8106daff7e76657570e0f3708a5f19ae824d4980296030287b908e",
+        "ac7ceed75f47fff29e771a0a266540523c6947524416d2fa3115cbf5243dc3c7"
+      ],
+      "card_sha256": "ff0be6b4fc64035e816c85e23620aae9a4a249f561987ad4ee9317c87ed0d10d"
+    },
+    {
+      "pack": "trash-panda",
+      "card": "trash-panda/trash-panda.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "734cab912ae43a719569b89ef8f8f48039778fc2431eab247f2ba2065414e158",
+        "4194d409dca98e56e7661b08f102abe6a9f759e7d71f36d1373e35f70d4a0038",
+        "067ec0f7f6f563816779337234328182dcae6f5d580cd56007a4f0ec83272501",
+        "8cac9c984452a04d51468bc750a7c140d0a52c92d2317a7a795eeb02ee1a0219",
+        "2207721515e452c4b5cda7e262455ec19415c2d5c89dd067ee8d08f4bd564b39",
+        "cd7a260aba548cdfb6adf521d75a86304734da51e57ac51a43cd24dd48fbfa27"
+      ],
+      "card_sha256": "91e1a9afb1b7e589945287a5a08e301b0dca4170032f6467d49da248ec63c523"
+    },
+    {
+      "pack": "werewolf",
+      "card": "werewolf/werewolf.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "22fb77b88c14e0b490168cf478f9c7b11bdf8a59d3b221e8b5d279c555221156",
+        "f7229b3a78611f7d5475e06becfb7d5663d67cf01013b2325570ad0da6b3a54b",
+        "1356ea2262b4f6ff32eb82e462314ed1eeb3748f8899932c2890dd7791f454f1",
+        "cce9de53045c11e93865e77a1919ad7608002ebea604577e8a3f76fdeccc2df4",
+        "794fc9616c9e1c4efba471411ee691cf4b5ea60f3c8498649d81cf8a15935b14",
+        "b14518299196180b50ddb2712916ead2b5aa8cd0ea8ade4e590941b4bd05e296"
+      ],
+      "card_sha256": "f187f0a16ee6540d3815dcd3127bc1be213fc5ff8ec71ac760d6e0e2b9ff5141"
+    },
+    {
+      "pack": "sunny",
+      "card": "sunny/sunny.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "1a1c5d386c65e16f6a31db6b38f5d83c09bb55aca26c03f3e3d77b27cf4a7b4f",
+        "a4ac518604ced0b34bcd33677af5441ae6d6feced45efc6710d86a522b81c409",
+        "193598b2b176e4e0c27d238321d489d53eaf8fa0ac64d93000aeee148a6f798c",
+        "81ed4f1bd08151a88475d74caa8b5cf36f64f2ad342caeb924aeacd811b10634",
+        "e915ab4a42a47be16082be89b8fa0c02626db5795625ba24d91c9f62b21ae23f",
+        "ac185ca5b9df510b69ae1b894d36ccbf139e4296a679c4f96252bf792c2a8087"
+      ],
+      "card_sha256": "b07f69322335e0dcebf6bdb9b983215e5060f2d3bc5324844b20f7dd5a2f68be"
+    },
+    {
+      "pack": "axel",
+      "card": "axel/axel.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "8e39ef03f30d4f5c005f8c4b9a1003516279ecd04ae703a71be980f8e1b8bee3",
+        "68661f6a4b4b3c984dbfedab1ab577f1203f005540507b2fb9e712c56d1e3b38",
+        "192ea4cd11068a08a9a8e0fa57f2e9b93dd45cad121852043d1676ae05626e1d",
+        "4cfa7834754ec5b78d2865125f1fb8f4e821af144d994acc447c3df2c3e506a4",
+        "7bdafabc13cf3488f056c014a7e27e34f413f3359dbc5c4f435401abe4e5950a",
+        "d23db4ffe243ca3e69a2d411fc93bb43635d20272f9d88b66b31b5b2568a58c6"
+      ],
+      "card_sha256": "ca7c11e5020d1a5b12f35d69743e55d55aa366c019609d7078780fa503f224bf"
+    },
+    {
+      "pack": "dipsy",
+      "card": "dipsy/dipsy.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "09bedbfc2d9d27abc2e20ab44ff798419d9d9d4b92a570389f234f3d576ac147",
+        "451fe285e9886baf7033902f7122ccba44e9b88b48ad966dbfca4f192b363092",
+        "e7833ced56265208e9bfa87026f04a196abc469cf031c9a4b368262766f95ef3",
+        "10af02154ba872bcaac3c0fe938b23bf72b593b08dab69b3f5bd01d1d58e1cf9",
+        "076239f0ea631ecd29f780534738fe409a999811905cf0c4d722202e47ae09fd",
+        "a14028a326fd8510e41133c651db79e146b03d4995353d4f4359b5bef6c804da"
+      ],
+      "card_sha256": "41660186aab20abfbf5bcceca739aa34a490217fe09346aa98f85cb59b2cd8a4"
+    },
+    {
+      "pack": "ghosty",
+      "card": "ghosty/ghosty.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "baea98eca4502628a72167143d55ccf1060eabc0a2252a1cb1bfec3dc1c19e80",
+        "b3d8314eab5a0bf8a3fbcb7a8ffd835dd9d72486a3e4291552c274e1c42dde75",
+        "cd0c7b6b94c7cba8221d13c91a4cc9b57bb498e08652ecaaa42b1fb60345a5e6",
+        "eb07ac05b69699490c719551130d561e9a3db273e38041cb0e2cb5b336d2e13f",
+        "785381be24a6812d115cbc6e06be5288c13ed86ccea75625b1bafdb04616fa85",
+        "5037f747523243d7d4a9dcc67821af6cfd10ec7392581b8a064736f1215215ce"
+      ],
+      "card_sha256": "e5d0946d80503ea6cec88cb042344838e39e8c0993d7630f623619087571386a"
+    },
+    {
+      "pack": "kimi",
+      "card": "kimi/kimi.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "50d41c9b5cb8e38c3f4bcca400259fe8cf7999735f8451b890000c19d2c5231e",
+        "bd5a99cec34ede24042bb27077fef8969cb975444601253a0b638c2d467863a9",
+        "1c66fe6197da43d8ccce47dfae03c68e617e0d57134dbbc1c0da33b846ded857",
+        "1c6e7d490f7c8429214f20adc0f872595951a14a6a0b5aa5a408bd00284abb08",
+        "546863715fe437290adeadc66edd1a19819ff9f3c48142425d5d18b492fd29ff",
+        "b4b721c96d94a2ae34626245f99ba1f39fff2ffefac1cc69769bc1abfa907b4b"
+      ],
+      "card_sha256": "74fb44e1bf87b04aabf169e66fea8e69239b5c7916c120e918a92aa2309de12e"
+    },
+    {
+      "pack": "orbit",
+      "card": "orbit/orbit.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "f79b1d8419b7b2c291b56ef944cf768ee4dc810b300a58da148b71e7389c2952",
+        "31c05dacf8255c56462046fdc17c13a2f659289def44182b64e5336b087de102",
+        "29b72b02f552630a5c1ea2eb81f436992628d39457327aacc6df59d3529f65b1",
+        "e6d460a731f4734d37168a41d32a716ead8f89387a5c72dd108e78cf5fd6330e",
+        "c0ce86d59559235a836e3d8efbc1b8b4e050fd4fd23696d30114dd192bc49cdc",
+        "c1ba50a9185b7a5b53aed1738a17416da031becafb5a158eca29795f84fdef92"
+      ],
+      "card_sha256": "70c5ae95fad8974f1638427777b60b69276a1698d205db80889a7ead8f3d25c2"
+    },
+    {
+      "pack": "poodle",
+      "card": "poodle/poodle.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "6c89b34d945fc999d1594eb3ede0745f46a5cbb0fc6edfbcc7f7846028f5a9b2",
+        "6229ee45772beae68a03baed436baf189fdad8f042db8792fa438007ddcec1c7",
+        "0071bc64e2826413e9541bd60a236c39f70fb6448f9b4fbd53cb916856f27bd3",
+        "16840d32e12dcfa595bde6222b57103974a5a1286194ee80601fd7c7ae2fcd4f",
+        "e6d5a2e7fc6e01d574d3b98ac1cd436c9b9cb93c02a9e05da3e64ded78a470ef",
+        "7ca658d60dc306b135b9af0575d3815019ae177b7555d964e9c0801dc7d20501"
+      ],
+      "card_sha256": "34e5a6e89bc9a7b96b6d6f0e7b27cb316b8029b8e0062157347ed4edf406d99f"
+    },
+    {
+      "pack": "sir-waddle",
+      "card": "sir-waddle/sir-waddle.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "696a1ae85e4d37add9842c3d0f15372b9a0d118174d364fca782c8ffe70abe08",
+        "9ae2031af52d71340252ad8b155462fc4871d223c5f7aabc4915e16e17b9bf0f",
+        "756ed31319cc10969e1be323d665cf2616ccd18ae7a35a2027678d6ccadbad96",
+        "d5029cb30d12ef038c9fbb0421090547b8316736450d04a9ab3177648b288233",
+        "08233c4fe29920f3dd4877001effec3a07380dc2c54a736ece59f4594ad57652",
+        "94645d3afdb2d319a0cdd2f9d0682e054b8002fcab2011730bbde6d767d7110f"
+      ],
+      "card_sha256": "e3eb3c1806bd81d8b595d39aa3dc7487d2acd45d167fb33f1daf43341ee367fb"
+    },
+    {
+      "pack": "trenchcoat",
+      "card": "trenchcoat/trenchcoat.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "dd47e2ee73a82b8cf27c0c20f3c59ee3ceb5db7b788559190c2c56633963df3f",
+        "8241c4310181a31479658b0893348980d78c0e438ea2e23252b134345b952914",
+        "ff3a289ae94eacdc26e624ddbb3153eeef8c35c816310fb3b2686dbe2662de07",
+        "c502e72c7ef1e98023496374e7aa54a6f802522426fd69c5c60a0dbd3780818e",
+        "31c383b7a59c16c79e2380df865fd1db0c45ed4cede042699d442113d966eedf",
+        "1bfb003f45c0e8065d6982301abad2f200b2a467d5ee18984133da130bbf85f9"
+      ],
+      "card_sha256": "57dcb004bc087df5b4b9f82125bb9c4d652b31c5d53073ceaa84937ebefaf2e8"
+    },
+    {
+      "pack": "woodpecker",
+      "card": "woodpecker/woodpecker.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "df5e675b2b0b8277e43e1b0016f4b7522093755d81a2151aedacc0c2a40cc7f4",
+        "2650011ed5c5c56594c0b0134542a529995c7b10f3282f3bc6761678c7af8812",
+        "719cd1c16495d6bd9d8024c694de477368def26c4c8f9c1357bae6034c94ad62",
+        "f2df0f8728b8820f5003b8b9a2c8a7c61003724ff418e5af46d6081441eff648",
+        "f9485a4075d9d2422d14c1ff7310ea2817caaf3fd83f2cf075a397cb14b33ded",
+        "912dba5034d3812ae399d1ce2e6137027170f5ac206965de81f17e80e47aac3c"
+      ],
+      "card_sha256": "e73c81cadb9ae340f99d9df6035c42a8aa2ca3eb902d6c164831b8d8801824cb"
+    },
+    {
+      "pack": "byte",
+      "card": "byte/byte.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "5b84c0ac039681b4c4376ebd23963c7b681f319a76eab56d134d02fa26d7874f",
+        "db1a40cc683c6616aed125ede9627fbe33508ee402ce567cd803b126a1ebb5ac",
+        "4978e69ec8974e383a3be4a8906e8d8d58eb70f4e1c59ca667d67a19eb9a0d0b",
+        "eadb377270d20b5b0f3c92adfd4a9bae11bd797dacca5aa0489c9d39f5f0f006",
+        "3fd2e8414cc7241629fbf8403a4b5db5e4733548931346a532c3a7d29c86c561",
+        "b8ebd53cbabf9574b9f98aa49a95bd4f79549a9cf4d33bc416b50613ff41e3c5"
+      ],
+      "card_sha256": "34ee061e5b1d070c0b435e904b07e2bba38b24297c60ab5d8df7f61c114bfe08"
+    },
+    {
+      "pack": "dipsy-qipao",
+      "card": "dipsy-qipao/dipsy-qipao.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "2b1852d5d857084dd479ada06664fd6fb02cd996bea0588cc495ab5b6c5ddad1",
+        "a5ae1d0cce51283f287a0a3f7d4586f126b6cf9886b64dc3533bf1bffb381500",
+        "c433ebbee6bb35570fd3a710c8390e229a97a51f6bf32b8da768a90adb436392",
+        "5b07a7f7beb7ca48895d27652a2701efe6238ad36a981627ef1d308adeabb441",
+        "70e5f5d160bec13be99d22f2965bed138d76fe2996187ebc97e322e8942c3030",
+        "fc5d432ed291733124c823fcfa14559adaff49be7ef141ff85b50a1bac0cf67a"
+      ],
+      "card_sha256": "d1060bf533820950bd37836dbf9708f99bdda5697830b1cc3e924bae44a1746e"
+    },
+    {
+      "pack": "horse",
+      "card": "horse/horse.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "2bcd47638491bf3a31129b7ff743393c5ab8f2808a50cb9ce9ad75fe6f1421d2",
+        "49b85750098eb20d265c4d654bb60ffeda970e75a53e0770b9285e18ea4d3311",
+        "f08a0284c03ab906359505dcefeee3de1c81d7fc0b015de104174f0519a8cf86",
+        "cbfcefc1d3005222899040f3f9cbb1ac35dc1a6f93f5a5179724e915f414d9e1",
+        "ea5bd37fad1f8786bf5939ce855f07efbc3709bc88a3423fba3537ea0e0d486b",
+        "07d608334bbb88f0b893c8c04cab943de2f4207ab5917f1f203c3bd8a07cfce2"
+      ],
+      "card_sha256": "c006aff373e2c820a2624456031fb7a36d9d2284017eda7816e767a329413c89"
+    },
+    {
+      "pack": "llama",
+      "card": "llama/llama.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "0254bf2c67a299516ee1fbc3d99751c4523ff466020d84d1e42f8cd7b1003a49",
+        "db382dd71fd2421489be3e4fbfa7f808349f894836056b24af77cd38d792690c",
+        "9823ad701f4a5f215e306707993e99532101dc95606c5247a7401fb6d2cbec09",
+        "929988130cde2d31043fe7a376bb9fe88c89c3883b87964ed1b2702c697a1fc7",
+        "9da146871424e779f4ae82c9f9a6171057479523c662306f97eb20268fbd0816",
+        "eb91b007f2ca8d01a200a4a502be56d085244cfb6aed191c85e9db4dbcb23f6f"
+      ],
+      "card_sha256": "d36b369ed983cb2313af0e9b1cf57db6026c2a182ab3524dffd58018437e8504"
+    },
+    {
+      "pack": "paperclip-basic",
+      "card": "paperclip-basic/paperclip-basic.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "2172970c82ec7b5e854882db9049339c4052ecafdff54d8b7a459395d4eec7d6",
+        "631901a03a759b4da12392c31cd0461e56a21697c0570070fe41153764d698ec",
+        "995656895a428cc954ccde70e29ab243a58f8d5ef146ed45d6b990867d107010",
+        "439d8e34433681a4302fe5c7ee34d01f6e399530c7beea1931c71e91b4d68464",
+        "16f87dc0cbd1792149a471e3007db485122c66d72820861193a05c94f7453219",
+        "ee559ff6ae7ab774bffd89383fdc58aa1aad92ec3af2a904bb2e2b1d42fb3d13"
+      ],
+      "card_sha256": "100c2068fbaad447d65e352c2f1a22d6fc2105cec080b6dc1b1a6c4b878da23c"
+    },
+    {
+      "pack": "rubber-duck",
+      "card": "rubber-duck/rubber-duck.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "c10af77507dc5cb49d5d7702ac59de67c871855b3f87d933e935644f82cb2e7b",
+        "c83a7aff44269c5918f8f57cceeb8af3871a972c165ac93fbe9113344cf92ec9",
+        "1450c95ccb08791a2fd120a0c1451332af745dc1bfe31ceea49148ad7f77b633",
+        "55f598dbf8b3f96eb4ef474ef9ebb6a983873c3375aad613e734442cb828b7b6",
+        "aff459a93f5d959a2c85bc2b5374d035a23ad2bcbcb79497be905fcf6744296e",
+        "168110d5ea20ccf6e3fd95cd336f8c2a66702dc0a6f7dcd99069aa1c129d1c86"
+      ],
+      "card_sha256": "f96d44ad63c7365c66404773849e096ac4279ddf0a8a23d840255591773c55b2"
+    },
+    {
+      "pack": "terminal-tile-basic",
+      "card": "terminal-tile-basic/terminal-tile-basic.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "605949abf11e46dc3f3090d825358a3ae1b92e5c5c5bc7a0b193fd8b679bdb31",
+        "48ecfdffe87912021a31422377593d34702604c42140b06948c8b42413ff384e",
+        "f35625f1823837c33b29d3de12a3075ac3d36bce32177edc7d05afea5552bd47",
+        "a52cabb91adc76bbe742ef5ea45a595d6256fddfdc7ebf2800d12476cbfa8026",
+        "e98f9436101318f088ca3d863cb9d3192c4657bb626cc288b73fe7565651e6a6",
+        "1a11003205a4baf9e3ec33300b70e5aacc5768b03be33916a0329927d51f46c7"
+      ],
+      "card_sha256": "76c0b34ed4e77d6ab8d7cae318612dec8b7f6900a1fa1f57d89499584b551375"
+    },
+    {
+      "pack": "un-aligned-waifu",
+      "card": "un-aligned-waifu/un-aligned-waifu.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "c95de17c0a0db157d908b30b8a3ae385c0506b99d3bce963c87f99217243d9b0",
+        "65fec0253c5dcefbcf9fda0b3bb0c0a9d17f90da33d22b2ede9d431860edbe0f",
+        "3f67054d24c70e67bd03d3826a8421aea7c8579e37b79b4f35a77e90787e182a",
+        "637c5c10d9cc95c73d421b2eb18a3689b9efac3d15faf74648dc0599a3e878a9",
+        "ab5c735fe435d1a4d6fcfbb61bd65051ece825cdb9d8a1e5c9374a608cb6d133",
+        "fc9f5d3471938d866e28348241dcafbd1a083722fa1ded9083b83f96c56465b7"
+      ],
+      "card_sha256": "623a3a8cf81cb572cac4af87f5c95d8d26c8a108616d193cd9636a2249d20bab"
+    },
+    {
+      "pack": "saffron",
+      "card": "saffron/saffron.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "985045984780780911d24b47fced421489b88177192c5aac35838784b64e659f",
+        "373cef9fe88f6db917bb041f27f8a6d988f4343a2b5b5ad955a0319f522b9820",
+        "663bed83101cf78f4fa98aaba8b2f73c0980563533ceb7678615ac0b90300aef",
+        "414e8aedf53b027d7f7d1fafafee243b57ec1d3c60bf5017a08bc5a3da471bb6",
+        "956c825b2189a0ba0ea72681f3e59a790800a465110bdd4c7430105c1ac3f1b9",
+        "57a37dd1db3d9adcb78fdeecb798892550f77c286510caa17e3cf6c7780f13dc"
+      ],
+      "card_sha256": "2b03aa0c7e95cffea1879965d5834efa4058efc533d850f6ce371f9f5256f8f2"
+    },
+    {
+      "pack": "cappy",
+      "card": "cappy/cappy.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "81639e92bdeb982a6f225ba585f1fac6125debeab050ca4b529449e63af83692",
+        "bf0a7a67efa778d0c4b34104fcd9afdb8980c419fcf4da7ab712431c9940064d",
+        "d9dfe8cdc56fcd3fa140879c9382ef1463bb4272a873d3a59bf17fcd7e896d04",
+        "bd3b8c2167de7fc575c2b9f0e08463d482e05b4f8bcadaa4b350b3c6fab02cca",
+        "2970b5b74702c9dff2b2ba6b2816fb235a6002ae6e32e5f2006bbb36aa29e099",
+        "bdae268fe2662c44bef4e8d84431d6ec82d8bef10fae142240bb3e3556c3de10"
+      ],
+      "card_sha256": "862ed13c45f0b2abb548ab11089aa962440e4464897218989769a7ebaaeb7f16"
+    },
+    {
+      "pack": "dumpling",
+      "card": "dumpling/dumpling.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "ee12753daeb526c1d93c59aa9c09ccca6abbed927fc6f6b39ab2a203796f7ef6",
+        "d19a7b0053d8970c90c5dfb65eb0442cb1478b0bdd55da5a5632c908b717c747",
+        "87a7070ae51d6ecb3089edfa577ab54682be9b42cdbe35291f43627771eb2576",
+        "305fd303e6ad500677880d56c7d17b13b630f1617b4af220689d0e6e2acb4bd6",
+        "7a97573b123a724436945c375ce304bf903324b76be1e085727d6d39b31884e4",
+        "dae2fd2b5efec2bda404240bce19aeabf529f53d4fa7f26772d136a25fcd8073"
+      ],
+      "card_sha256": "8fcd183c86fea816149580ab5bee6f33249133804331367d9b445f0f56102db0"
+    },
+    {
+      "pack": "huggingface",
+      "card": "huggingface/huggingface.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "549c165276928dbea49e997d930232b1bead2149385ecb12880ef1e2960132e8",
+        "9000debd30120fde41ad96871ab99445747aeb671e2853c77d2e97adb7729627",
+        "a02ab59953a142e1cdc30f4eb41837ee6d53440fc370b80d3ef5ab74cad5736d",
+        "bc0909b80b45d60dc2c6f0d14568f94691ddbe3511b319d6b556e07d97e0fd53",
+        "ec7c075c0a883d66d3ae62e24b0d0d62e830b1a139b36ed7a6bc52aab3808040",
+        "cf385625e67b0e62ec1ec5e5c33cc54eb105c6c792e090ae860e4759ebe1ea22"
+      ],
+      "card_sha256": "a01ceeee6a8b01e62f4b2485fe5ad342b4ac1c14162d4029868e04c3a5152b43"
+    },
+    {
+      "pack": "migu-marker-basic",
+      "card": "migu-marker-basic/migu-marker-basic.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "f7fab7cf3827bbf825acbc1de7d27534512ba44fb299d2e7676c9b01049d8993",
+        "a7f30c9a6f9bbb52347500ff676393bea3c34e107bd83da4b8dafb33e341cb8f",
+        "6a20850d399a0c25b6fb9122c274fa9557afb2e66c839086c6594af55c857862",
+        "a11d21c7627f5dc602fc14033c43a46aadc68ff74f01bdf8c04a565eec6a7ac3",
+        "b92058313f8ce85799333119cf3f0f1fc61cda0f2df278734fe1c5e368c6d414",
+        "ad54566c5abe94dff7278a67e5e9cd8e80a03373d98806a75307b17e629306db"
+      ],
+      "card_sha256": "32af7e67df926a30d73b1bd31225aefb873eba2e0b75ca7c8c0aa11f8cead5b0"
+    },
+    {
+      "pack": "pelican-bicycle",
+      "card": "pelican-bicycle/pelican-bicycle.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "96cb3ed0bae294d67d1421a02f777d15b19897d9dd341e2483344b0cabf6c4ed",
+        "0c4bb4c603a8b62a165c193e961e222db2b3f7a9bed967c2ee97d35320c6f8ab",
+        "f8cd57da4ef64958b260fc7f0a80dd3fb6540fdabbe6ecf046ba73f83ed82605",
+        "5f808d2a4b877382cf0fc6bf366c71bddf1173719edbec5cfb1a6db8980b8ca2",
+        "a222b86c471c55b4ba34d956bd5eac5fb5f8eb3dab5a4cb42d3c2aba324ea803",
+        "131abc9365476e6dd1e2fb12397240d37bded87ac0a755e70fd1a8d1940ef9cc"
+      ],
+      "card_sha256": "5f53c679616540cfbc27198af7698333715e3624c1f06f34ed9421dbbd349e2e"
+    },
+    {
+      "pack": "search-lens-basic",
+      "card": "search-lens-basic/search-lens-basic.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "1f2d5866069ea1470839f5d37bd0a2e7db6a7c6e2dc9b40dfc60495b71e0f162",
+        "1c5be7174b9c63fef627b485635e950fa5e9ac7dd1d1d23951c8722b467f6072",
+        "75fd2817ef40a46abc13789eae85a475dd001aeb8fd7782d08ffd1954cda0ded",
+        "62649c6d08b2f463d26523768d9a7f2ddeddc291bb51edf236e4476b1e2717ef",
+        "7e2cff62c26063238222ead927bd65cab114af928bf454c0bef41b4545330d1c",
+        "35e9ab8d30f4d7beef8ad0a03c0ceadc3a064adddeb92339a5660e46eb5c6b3b"
+      ],
+      "card_sha256": "5e384053f89f30d78d214d81e1f605b34312b63b9ca15c4788e33f81e6f857fb"
+    },
+    {
+      "pack": "teto",
+      "card": "teto/teto.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "613168a8f80d031ae4e0710d98942bb169842b587db5eb4bcaeecd19ce87ec21",
+        "804a21eb28a2fab00aa830ae573d949474e9f934a4cb1af7ef958a3c81d16fc9",
+        "e42c3d579873ab5e9700a69fcbcc03ba8c162d7b39606c70e396ccb77da1a042",
+        "e292a8872b21be44aa758e0cd6773d23621fe845c6a5b6b72138623e903b4c25",
+        "f1d61ab77d19cc6c9e5f734276b9d65c68befb5d9d730759533dd7ea023e65d3",
+        "9b76b471cc01665d2462da50e64a449ec2154282166b839ce5f71a87dd9b3d95"
+      ],
+      "card_sha256": "8f401f715b4bd29e1955131c0f51c0a1c6b88c92f71e341f97ed6dc4a6899a1f"
+    },
+    {
+      "pack": "unicorn",
+      "card": "unicorn/unicorn.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "8da98c8683fba0cc911353e83a1f6681dac1abd2e53bfc808bafafabff8f49e7",
+        "05e5c276ea212ccb76c68f9a0b0b0faa715a1884771be7c88d5e500bec302c75",
+        "dedc65f28cbf71831fe820eebb30c7487c931a10bbf362e2b357912396af3cc0",
+        "ba154283fb9c82063fcfb0419f1d74caba0a72e51a108965bfbee0cceadc76d7",
+        "9da22bcdac98344286a25838fd24db624101b8261148a1ab173573a8d9a0f66a",
+        "c7105e3787036ca981c692259787cd43d10e898b6073670620481b3e60957354"
+      ],
+      "card_sha256": "6bb9c1d0aedf0d44031217f32cfcba98371156c704a9438cea8de6546665b690"
+    },
+    {
+      "pack": "rowan",
+      "card": "rowan/rowan.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "4a71dc5d1a842159743a5c9a32be99ab2b22d1ce9698295866a7235135a1a828",
+        "42a2e909e012a2058cf2b0655bc00f29e2244a093920dafde5dd71a61f4b2355",
+        "c995bf83b69c08172f798479e44491e819dd200628d17e330b7a4f16d8dd4e82",
+        "5c8d200093080ccee45c045de3a4c96d45b9dad3af8a1519dbc1a60a402aba39",
+        "2b34bfc2f1bb95f0294cd1cb55119d408158e752dad137d41fb40ccbc3ea63c6",
+        "3add40e877e7b10857ef0c6e74378834dbd0c8d398c554d32846feb3f994df0e"
+      ],
+      "card_sha256": "48d6e171dd02d44d28be7d69f157a7d157a5a1b11ebe57c44970274d3e27b9ce"
+    }
+  ],
+  "extra_card_imports": [
+    {
+      "file": "default-assistant/server.character.json",
+      "native_import_succeeded": true,
+      "created": false
+    },
+    {
+      "file": "samira/server.character.json",
+      "native_import_succeeded": true,
+      "created": false
+    },
+    {
+      "file": "pixel-migu/assets/characters/pixel_migu/pixel-migu.character.png",
+      "native_import_succeeded": true,
+      "created": false
+    }
+  ],
+  "limits": [
+    "Headless native UI: file-picker interaction and physical terminal graphics not exercised.",
+    "Portrait bytes assigned through native DB save before UI authoring; avatar upload dialog not exercised.",
+    "No new live TTS, LLM or configured image-provider calls in this asset qualification. PR #3244 separately verified live Pocket TTS.",
+    "Built-in ChatGPT image generation does not close configured live image-adapter gap TASK-36555 AC5.",
+    "New cards and codec performance untested on server and third-party clients."
+  ],
+  "static_checks": {
+    "sets": 44,
+    "frames": 264,
+    "png_bytes": 23976397,
+    "exact_open_eye_plane": true,
+    "exact_closed_eye_plane": true,
+    "exact_mouth_pairs": true,
+    "outside_pixels_unchanged": true,
+    "native_frame_and_set_budgets": true,
+    "original_cards_images_mappings_unchanged": true,
+    "negative_tests": [
+      "changed open eye with refreshed hashes rejected",
+      "18MiB total set with 3MiB individual frames rejected",
+      "omitted finished Buddy rejected by roster coverage check",
+      "card path escaping its pack rejected"
+    ],
+    "ruff": "pass"
+  },
+  "review": {
+    "original_seven": {
+      "independent_review": "no critical or important findings",
+      "minor_findings": "open-eye equality and native set/dimension budget checks added, with negative tests"
+    },
+    "expanded_roster": "Independent read-only review found no outstanding content, license, import or validation findings. Final evidence review caught stale original-seven static totals; totals and negative-test descriptions were corrected before commit."
+  },
+  "external_generation": "Built-in ChatGPT image_gen, followed by locally authorized composition; per-pack prompts and source hashes are in codec/inventory.json.",
+  "runs": [
+    {
+      "scope": "Original seven sets",
+      "date": "2026-10-25",
+      "set_count": 7,
+      "checks": "Native card persistence, six manual imports, Apply/reopen, named poses, cycle and Console exact frames."
+    },
+    {
+      "scope": "37 expanded sets",
+      "date": "2026-10-25",
+      "set_count": 37,
+      "checks": "Same native paths; fresh disposable profiles in four batches. Database operations use the normal off-loop thread path; waits honor Personas initial loading and Console attachment reconciliation."
+    }
+  ],
+  "summary": {
+    "sets": 44,
+    "pngs": 264,
+    "static_check": "tests/check_codec_collection.py passed, plus all four targeted negative tests.",
+    "source_preservation": "All original Buddy non-README files and existing card payloads are unchanged; the prior seven codec sets are byte-identical to a3f4e15.",
+    "review": "Independent read-only content/code review found no substantive issues; visual review covered all expanded six-pose sets.",
+    "adr": "No new ADR: additive content uses existing native V2 cards and manual six-role performance imports."
+  },
+  "qualification_driver_notes": [
+    "Initial exploratory runs called database mutation synchronously on the UI thread and attempted selection before native navigation settled; these encountered SQLite contention or UI timeouts. The driver was corrected to match the native threaded DB path and screen readiness. Only complete passing runs contribute the expanded qualification results.",
+    "No application runtime code was changed for the content qualification."
+  ]
+}

@@ -50,3 +50,23 @@ prompts, reactions, artwork pixels and source-license notices retain their prior
 content. [Metadata changes and checksums](../creator-metadata.json) record the
 previous source hashes and updated distributed hashes. Earlier import results
 describe the original snapshot; this update was checked for metadata-only changes.
+
+## Optional codec portrait — artwork version 1.0.0
+
+![Six matching mouth and blink poses](codec/preview.webp)
+
+The 2026-10-25 collection update adds [six ready-made living portrait frames](codec/)
+and a [checksum/provenance inventory](codec/inventory.json). Existing cards,
+prompts, artwork and expression mappings are preserved. Follow the
+[codec setup guide](../CODEC.md); these files do not activate themselves when
+the card is imported. Duplicate customized characters before changing their
+local artwork. Use `codec/rest.png` as the source for this specific performance.
+
+See [qualification evidence](../codec-verification.json) for tested Chatbook
+commit and scope. Server performance imports are not supported; no new server
+or third-party qualification is claimed. A voice remains a separate local choice.
+
+The codec set reuses the user-approved 2026-10-23 paired artwork, resized as
+copies to 256px. Samira artwork retains **AGPL-3.0-or-later** and the existing
+asset notice. It has a decorative background already present in its approved
+source; other original expression images are unchanged.

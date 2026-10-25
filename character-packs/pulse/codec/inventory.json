@@ -1,0 +1,94 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "base_original_sha256": "6ee58565bcd85b61a4bb69cfa504f8e7c131256a989af33d3423ca558618f491",
+  "preparation": "Source resized to 256x256; Lanczos; same base for every component; production compositor version 1.",
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "2427f14fcb56277a5ca5b16b58e397d04a6ddacedaf77d4e95be9705a68bc3aa",
+    "left_eye": {
+      "x": 88,
+      "y": 81,
+      "width": 32,
+      "height": 22
+    },
+    "right_eye": {
+      "x": 131,
+      "y": 81,
+      "width": 32,
+      "height": 22
+    },
+    "mouth": {
+      "x": 107,
+      "y": 124,
+      "width": 46,
+      "height": 27
+    },
+    "neutral_base_confirmed": true
+  },
+  "components": {
+    "small": {
+      "prompt": "Use case: identity-preserve. Asset type: aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target. Return ONE square PNG at identical canvas and head position. Change ONLY the lips to a restrained speaking pose: part them slightly with a clearly visible narrow dark gap about 6 pixels high on a 1024px canvas. Keep the upper lip and mouth corners anchored; lower lip moves only a few pixels. No smile, grin, tongue or prominent teeth. Eyes remain naturally OPEN exactly as the source. Preserve exact identity, skin color, lighting, exposure, contrast, placement, hairstyle, clothing, background. No recrop, zoom, head rotation, relighting or darkening. Only the mouth pixels will be composited.",
+      "generated_sha256": "ca9565c28db742579ebd9bba86d0f893206af3b1156561f627aab55140112f20"
+    },
+    "open": {
+      "prompt": "Use case: identity-preserve. Asset type: aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target. Return ONE square PNG at identical canvas and head position. Change ONLY the lips to a clearly readable medium speaking vowel: a relaxed oval dark opening about 22 pixels high on a 1024px canvas. A small suggestion of upper teeth is acceptable, no tongue, smile or shout. Keep mouth corners anchored and jaw/chin stationary. Eyes remain naturally OPEN exactly as the source. Preserve exact identity, skin color, lighting, exposure, contrast, placement, hairstyle, clothing, background. No recrop, zoom, head rotation, relighting or darkening. Only the mouth pixels will be composited.",
+      "generated_sha256": "99a651d8c1089adadf8bd31a8fa00103c5f8b3bf046dc4cfe22356c0ecac38a2"
+    },
+    "eyelids": {
+      "prompt": "Use case: identity-preserve. Asset type: aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target. Return ONE square PNG at identical canvas and head position. Change ONLY both eyelids to a fully CLOSED natural blink. Both eyes shut equally, relaxed lids, no wink or squeezing. Preserve eyebrows and any glasses/lens reflections/frame exactly. Lips remain fully CLOSED exactly as the source. Preserve exact identity, skin color, lighting, exposure, contrast, placement, hairstyle, clothing, background. No recrop, zoom, head rotation, relighting or darkening. Only the eyelid pixels will be composited.",
+      "generated_sha256": "a0a5ffc3eddf32a66c1a1548abfa50533d92dc3c997aec889194cd1285350178"
+    }
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "14470982be338b69280600ac660fe04fc40a120eca6e4414af0e176abe8dc13a",
+      "bytes": 105698,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "a499217c7dd34b7a5ed0a509887b04bce83ffe72a163793dd8b98492720b0b92",
+      "bytes": 105725,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "8c7dff0e1ec0d241f3885204edb46c8e9b5ee532f3d3fbd325508281dcf6a808",
+      "bytes": 105765,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "4f185cc56d84ac265403be6265a915905d187c0cb929e48e94435660dbeef4c0",
+      "bytes": 105337,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "9144313eb35ce68ba190687b5a39f11bde9da5ee139499d4d44a393aa4cdec38",
+      "bytes": 105367,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "116ae7c74c086f720b45a60d8c71688d66898115bf1fe1752fc74daf0c1ead05",
+      "bytes": 105408,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "notice": "Descriptive file/checksum/region inventory, not an automatic app import format.",
+  "base_prompt": "Use case: stylized-concept. Asset type: neutral base portrait for a codec-style radio-call character, to be animated through separate mouth and eyelid patches. Create ONE square 1024x1024 PNG. Original mature graphic-novel character painting, restrained realistic anatomy, painterly but crisp facial features, muted cinematic color. Front-facing, upright and centered head-and-shoulders, whole head and both ears visible, head fixed vertically with eyes near 43 percent canvas height and mouth near 63 percent. Eyes fully OPEN looking at viewer; lips gently CLOSED, relaxed neutral expression. Face is clearly illuminated with soft even key light; preserve visible detail in the cheeks and jaw, avoid underexposure. Plain quiet charcoal-teal backdrop. Radio framing and scanlines are supplied by the app: NO border, UI, text, letters, symbols, logos, scanlines, glow or watermark. One person only, no props crossing the face, no expressive head tilt. This is the base state, not a speaking or blinking pose. An Indian woman in her late forties, warm medium-brown skin, dark eyes, a few faint smile lines, dark hair with gray strands gathered neatly back, a small scar through one eyebrow, patient steady bearing. Muted ivory medical field jacket with slate-green collar, no insignia or medical symbols. Original medical-support character, reassuring without a smile.",
+  "artwork_license": "Apache-2.0 for original AI-assisted project contributions to the extent applicable."
+}

@@ -1,0 +1,142 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Cappy. Cappy the capybara in a red-and-gold tang jacket. Style: 2D cartoon; character design adapted from the user-provided reference. Make a clear face-dominant close-up, retaining the reference's recognizable cartoon design, colors, species, costume and distinctive features. Natural species-appropriate muzzle or mouth. For Byte keep the identical beige CRT casing in all tiles, change only the mint screen face. Entire head, ears, gills or horns visible with 8% margin at top, no full body or unrelated props. Do not make photorealistic.",
+  "generated_board_sha256": "269adb50ac99bce9271e67b8d4e6cfa9c529c19e73e4ab0f57ba466550177fc8",
+  "reference_sha256": "e833f89c62d8ac673c5018898d543ba13dfafdc851dda7e00ac3cd6819b3d9ad",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9992756102865392,
+      "matrix": [
+        [
+          1.0002621412277222,
+          -0.00013563082029577345,
+          -0.022980893030762672
+        ],
+        [
+          4.8074289225041866e-05,
+          1.000076413154602,
+          -0.0317547544836998
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9990099650804724,
+      "matrix": [
+        [
+          1.000321865081787,
+          -0.00016256491653621197,
+          0.003304583951830864
+        ],
+        [
+          -5.3002113418187946e-05,
+          1.0006396770477295,
+          -0.21701385080814362
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9991741506894429,
+      "matrix": [
+        [
+          1.0002678632736206,
+          -0.0003653121239040047,
+          0.03842898830771446
+        ],
+        [
+          -0.00024258237681351602,
+          0.9996656179428101,
+          0.017060142010450363
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "2fc3a446adcdb10be078fe828018a7148da9c3ed140640da9a786275700f7053",
+    "left_eye": {
+      "x": 63,
+      "y": 61,
+      "width": 30,
+      "height": 33
+    },
+    "right_eye": {
+      "x": 163,
+      "y": 61,
+      "width": 30,
+      "height": 33
+    },
+    "mouth": {
+      "x": 108,
+      "y": 125,
+      "width": 43,
+      "height": 31
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "81639e92bdeb982a6f225ba585f1fac6125debeab050ca4b529449e63af83692",
+      "bytes": 101547,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "bf0a7a67efa778d0c4b34104fcd9afdb8980c419fcf4da7ab712431c9940064d",
+      "bytes": 101885,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "d9dfe8cdc56fcd3fa140879c9382ef1463bb4272a873d3a59bf17fcd7e896d04",
+      "bytes": 102212,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "bd3b8c2167de7fc575c2b9f0e08463d482e05b4f8bcadaa4b350b3c6fab02cca",
+      "bytes": 100962,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "2970b5b74702c9dff2b2ba6b2816fb235a6002ae6e32e5f2006bbb36aa29e099",
+      "bytes": 101297,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "bdae268fe2662c44bef4e8d84431d6ec82d8bef10fae142240bb3e3556c3de10",
+      "bytes": 101609,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/cappy",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": {
+      "creator": "anonymous",
+      "credit_basis": "User-requested credit for the 4chan meme reference; artist identity not independently verified.",
+      "url": "https://i.4cdn.org/g/1788855416369834.png",
+      "license_status": "No published license supplied or verified.",
+      "use": "Character-design reference only; original image not bundled."
+    },
+    "source_metadata_sha256": "aca921cb05030b50e9b35d55d12b24c1902de5150f21518c15a3ae97d3bd65d8"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

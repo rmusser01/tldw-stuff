@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Dipsy. A cheerful blue whale with a curled tail and a celebratory water spout. Style: 2D cartoon, matched to existing Buddy art. Make a clear face-dominant close-up, retaining the reference's recognizable cartoon design, colors, species, costume and distinctive features. Natural species-appropriate muzzle or mouth. For Byte keep the identical beige CRT casing in all tiles, change only the mint screen face. Entire head, ears, gills or horns visible with 8% margin at top, no full body or unrelated props. Do not make photorealistic.",
+  "generated_board_sha256": "888ab03628f83299d00eea9b152d67908e405f4989ae5b4f5491886100e0f6ce",
+  "reference_sha256": "b70e5430f0a62812fc00698506fd633335d349721c3c0c90b5b0526109f6ca91",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9998767469169579,
+      "matrix": [
+        [
+          0.9994641542434692,
+          -0.00032580303377471864,
+          -0.11584730446338654
+        ],
+        [
+          1.1905795872735325e-05,
+          0.9998465776443481,
+          0.014558175578713417
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9998875890749267,
+      "matrix": [
+        [
+          0.9996273517608643,
+          -0.0005965122254565358,
+          0.041457999497652054
+        ],
+        [
+          0.0002064132713712752,
+          0.9996277093887329,
+          -0.05518745630979538
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9998793665512627,
+      "matrix": [
+        [
+          0.9986782670021057,
+          -0.00019378789875190705,
+          0.013785289600491524
+        ],
+        [
+          6.186841346789151e-05,
+          0.999472975730896,
+          0.0012733563780784607
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "efae1757475e6dd018b617a2cabd3aa575e55b8b61cbbcf4f24ac5075f8e675e",
+    "left_eye": {
+      "x": 48,
+      "y": 129,
+      "width": 31,
+      "height": 34
+    },
+    "right_eye": {
+      "x": 127,
+      "y": 129,
+      "width": 31,
+      "height": 34
+    },
+    "mouth": {
+      "x": 86,
+      "y": 163,
+      "width": 39,
+      "height": 29
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "09bedbfc2d9d27abc2e20ab44ff798419d9d9d4b92a570389f234f3d576ac147",
+      "bytes": 83583,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "451fe285e9886baf7033902f7122ccba44e9b88b48ad966dbfca4f192b363092",
+      "bytes": 83784,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "e7833ced56265208e9bfa87026f04a196abc469cf031c9a4b368262766f95ef3",
+      "bytes": 84039,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "10af02154ba872bcaac3c0fe938b23bf72b593b08dab69b3f5bd01d1d58e1cf9",
+      "bytes": 83001,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "076239f0ea631ecd29f780534738fe409a999811905cf0c4d722202e47ae09fd",
+      "bytes": 83194,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "a14028a326fd8510e41133c651db79e146b03d4995353d4f4359b5bef6c804da",
+      "bytes": 83454,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/dipsy",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "dc10158e5373cc302f0d2c78a819a48cf3e9333df18b1cb7b9826586f96a6b1c"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

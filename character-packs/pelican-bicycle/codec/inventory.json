@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Pelican on a Bicycle. A white pelican with a long orange bill, perched on a teal bicycle. Style: Flat 2D cartoon, matched to the existing collection with clean dark outlines and restrained shading.. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant close-up with both eyes visible. Natural species-appropriate muzzle or beak; speaking changes only the lower mouth/beak region. Keep ears/headgear in the tile with space above. No full body. For a saucer pilot keep the saucer/dome fixed, show the pilot face clearly. For Hugging Face retain the sunny yellow face and hugging hands near bottom. For pelican show the pelican's head and upper chest, bicycle can be outside crop.",
+  "generated_board_sha256": "d6a52f8bc53797eb3b5f9ade1aa1c816ec9863e60056eb77078e77788986699d",
+  "reference_sha256": "03df89030591662233ff38ec87f259ebb575e216f4f56ac24c5af54931a719a6",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9999278780300825,
+      "matrix": [
+        [
+          0.999879777431488,
+          0.00014521308185067028,
+          -0.03935400769114494
+        ],
+        [
+          -3.0188672099029645e-05,
+          0.9998951554298401,
+          0.01951524242758751
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9998961867822249,
+      "matrix": [
+        [
+          0.9997967481613159,
+          -1.2177390090073459e-05,
+          0.027106240391731262
+        ],
+        [
+          2.699304786801804e-05,
+          0.9996616244316101,
+          0.05350670590996742
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9998797062439868,
+      "matrix": [
+        [
+          1.0000778436660767,
+          -1.633031206438318e-05,
+          -0.013353812508285046
+        ],
+        [
+          0.0001514118630439043,
+          0.9996770620346069,
+          0.019422704353928566
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "da2cab637a677ae6cc24710d60c72ec5ab0cc82215faf4366fa1bf68ae349a30",
+    "left_eye": {
+      "x": 103,
+      "y": 65,
+      "width": 34,
+      "height": 43
+    },
+    "right_eye": {
+      "x": 148,
+      "y": 65,
+      "width": 30,
+      "height": 43
+    },
+    "mouth": {
+      "x": 89,
+      "y": 108,
+      "width": 154,
+      "height": 83
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "96cb3ed0bae294d67d1421a02f777d15b19897d9dd341e2483344b0cabf6c4ed",
+      "bytes": 91584,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "0c4bb4c603a8b62a165c193e961e222db2b3f7a9bed967c2ee97d35320c6f8ab",
+      "bytes": 92727,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "f8cd57da4ef64958b260fc7f0a80dd3fb6540fdabbe6ecf046ba73f83ed82605",
+      "bytes": 93707,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "5f808d2a4b877382cf0fc6bf366c71bddf1173719edbec5cfb1a6db8980b8ca2",
+      "bytes": 90820,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "a222b86c471c55b4ba34d956bd5eac5fb5f8eb3dab5a4cb42d3c2aba324ea803",
+      "bytes": 91932,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "131abc9365476e6dd1e2fb12397240d37bded87ac0a755e70fd1a8d1940ef9cc",
+      "bytes": 92921,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/pelican-bicycle",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "64228d02d0ba830bd3f44f1cb75d1aa2b6b2169ae4a43880b65edcb52405bf50"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

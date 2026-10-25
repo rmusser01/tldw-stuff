@@ -69,3 +69,9 @@ match exactly. One archive therefore covers both applications; no second
 asset copy or format conversion is needed. The native exporter remaps asset
 IDs and generates synthetic export metadata. See the separate character card
 collection for the character identity; a Buddy import does not import a card.
+
+## Codec character counterpart
+
+An optional [pixel-migu character card and paired codec portrait](../../character-packs/pixel-migu/README.md)
+is available. Follow its separate character/performance import steps; this
+Buddy archive, animation mappings and existing installed copies are unchanged.

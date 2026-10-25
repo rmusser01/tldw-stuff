@@ -1,0 +1,94 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "base_original_sha256": "a99fb7cc27dbe6bd69ac9febca5af2b387ba5cd0435861ce2693d768bf0c5056",
+  "preparation": "Source resized to 256x256; Lanczos; same base for every component; production compositor version 1.",
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "3674a644fb42314f3435baeca189cf8741e155421ae58abd0f7844c661fb5a81",
+    "left_eye": {
+      "x": 87,
+      "y": 87,
+      "width": 35,
+      "height": 25
+    },
+    "right_eye": {
+      "x": 132,
+      "y": 87,
+      "width": 35,
+      "height": 25
+    },
+    "mouth": {
+      "x": 108,
+      "y": 133,
+      "width": 49,
+      "height": 29
+    },
+    "neutral_base_confirmed": true
+  },
+  "components": {
+    "small": {
+      "prompt": "Use case: identity-preserve. Asset type: aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target. Return ONE square PNG at identical canvas and head position. Change ONLY the lips to a restrained speaking pose: part them slightly with a clearly visible narrow dark gap about 6 pixels high on a 1024px canvas. Keep the upper lip and mouth corners anchored; lower lip moves only a few pixels. No smile, grin, tongue or prominent teeth. Eyes remain naturally OPEN exactly as the source. Preserve exact identity, skin color, lighting, exposure, contrast, placement, hairstyle, clothing, background. No recrop, zoom, head rotation, relighting or darkening. Only the mouth pixels will be composited.",
+      "generated_sha256": "c848694e49f4973ff9b2eddb0117271dff34f34c20b0b80c7831830d89733b4c"
+    },
+    "open": {
+      "prompt": "Use case: identity-preserve. Asset type: aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target. Return ONE square PNG at identical canvas and head position. Change ONLY the lips to a clearly readable medium speaking vowel: a relaxed oval dark opening about 22 pixels high on a 1024px canvas. A small suggestion of upper teeth is acceptable, no tongue, smile or shout. Keep mouth corners anchored and jaw/chin stationary. Eyes remain naturally OPEN exactly as the source. Preserve exact identity, skin color, lighting, exposure, contrast, placement, hairstyle, clothing, background. No recrop, zoom, head rotation, relighting or darkening. Only the mouth pixels will be composited.",
+      "generated_sha256": "c9d7efc54902e8869068f5a624a085a3d2dc63624e3b6937c06973233afd3a69"
+    },
+    "eyelids": {
+      "prompt": "Use case: identity-preserve. Asset type: aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target. Return ONE square PNG at identical canvas and head position. Change ONLY both eyelids to a fully CLOSED natural blink. Both eyes shut equally, relaxed lids, no wink or squeezing. Preserve eyebrows and any glasses/lens reflections/frame exactly. Lips remain fully CLOSED exactly as the source. Preserve exact identity, skin color, lighting, exposure, contrast, placement, hairstyle, clothing, background. No recrop, zoom, head rotation, relighting or darkening. Only the eyelid pixels will be composited.",
+      "generated_sha256": "0adbe2f7cc535a8d2c270774927764db1c90d02b8facc6468e51ea54dcaaafd2"
+    }
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "923473da0e048d43cf82baf83329413ab187d472415e9b112ebb559c00eddffa",
+      "bytes": 97247,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "4bb02d7626b31a0ecbf1c2a8cac238f07d5e58fc34b5061a5c5e1ccd468633eb",
+      "bytes": 97264,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "a0a65d04cee401cfc3d336c6cb84975ee182035ac76c5130f3710457a2dc3799",
+      "bytes": 97350,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "009e7520cd72e2f0407bf37997eef4e152c0875832abb3a62a913346b843d24c",
+      "bytes": 96771,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "ae37cf3def1c57ab9ac8ed2f6f95887efe49705006a96f5ab24a9c373430ad28",
+      "bytes": 96795,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "fb4f66450ce2304acf1f3214b9acecc3594b2af2729e8a2398d9d2acc90ec151",
+      "bytes": 96873,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "notice": "Descriptive file/checksum/region inventory, not an automatic app import format.",
+  "base_prompt": "Use case: stylized-concept. Asset type: neutral base portrait for a codec-style radio-call character, to be animated through separate mouth and eyelid patches. Create ONE square 1024x1024 PNG. Original mature graphic-novel character painting, restrained realistic anatomy, painterly but crisp facial features, muted cinematic color. Front-facing, upright and centered head-and-shoulders, whole head and both ears visible, head fixed vertically with eyes near 43 percent canvas height and mouth near 63 percent. Eyes fully OPEN looking at viewer; lips gently CLOSED, relaxed neutral expression. Face is clearly illuminated with soft even key light; preserve visible detail in the cheeks and jaw, avoid underexposure. Plain quiet charcoal-teal backdrop. Radio framing and scanlines are supplied by the app: NO border, UI, text, letters, symbols, logos, scanlines, glow or watermark. One person only, no props crossing the face, no expressive head tilt. This is the base state, not a speaking or blinking pose. An original androgynous adult communications operator in their thirties, medium olive skin, short softly textured dark-brown hair, hazel eyes, smooth face, calm approachable gender-neutral features. Simple slate-blue crew jacket and charcoal collar with a tiny unobtrusive radio earpiece. Understated, flexible and welcoming general-purpose assistant; no specific franchise resemblance.",
+  "artwork_license": "Apache-2.0 for original AI-assisted project contributions to the extent applicable."
+}

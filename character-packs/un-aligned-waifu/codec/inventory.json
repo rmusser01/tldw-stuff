@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: un-aligned waifu. A blonde twin-tailed cartoon companion with red eyes, a black dress and choker, and a silver knife prop, adapted from the supplied poster. Style: Flat 2D cartoon, matched to the existing collection with clean dark outlines and restrained shading.. Convert the reference into a readable close-up radio-contact portrait; retain its defining colors, face, hairstyle/headgear, costume and stylization. Do not make the character photorealistic or add unrelated accessories. For a concealed or abstract face, use the reference's stylized eye and mouth treatment. Keep the head entirely inside every tile, leaving 8% space above the highest hair/headgear.",
+  "generated_board_sha256": "ba6184753c7e38a0bd7ec25c36e7db782aa4511fac4c914891caea3f7bb9acf8",
+  "reference_sha256": "4b39eea2abc8a33e05c3e0ea0be840176025ec7889917ab1830aa139f646a526",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9996927257909438,
+      "matrix": [
+        [
+          1.0004420280456543,
+          1.6462650819448754e-05,
+          -0.09100980311632156
+        ],
+        [
+          6.840257265139371e-05,
+          1.0001640319824219,
+          -0.03971864655613899
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9997624747270794,
+      "matrix": [
+        [
+          1.0000790357589722,
+          -0.0002060289989458397,
+          0.005732361227273941
+        ],
+        [
+          -9.723777475301176e-05,
+          0.9995564222335815,
+          0.03821369260549545
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9986908602869984,
+      "matrix": [
+        [
+          1.0003453493118286,
+          -0.00014700120664201677,
+          -0.04724741727113724
+        ],
+        [
+          8.176186383934692e-05,
+          0.9996064901351929,
+          0.004784135147929192
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "024810bbfb52209b9adf80bd842892cdf41dff6fc227ccaa7e47a4bc26dda1eb",
+    "left_eye": {
+      "x": 82,
+      "y": 94,
+      "width": 41,
+      "height": 38
+    },
+    "right_eye": {
+      "x": 138,
+      "y": 94,
+      "width": 43,
+      "height": 38
+    },
+    "mouth": {
+      "x": 115,
+      "y": 137,
+      "width": 32,
+      "height": 30
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "c95de17c0a0db157d908b30b8a3ae385c0506b99d3bce963c87f99217243d9b0",
+      "bytes": 114679,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "65fec0253c5dcefbcf9fda0b3bb0c0a9d17f90da33d22b2ede9d431860edbe0f",
+      "bytes": 114964,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "3f67054d24c70e67bd03d3826a8421aea7c8579e37b79b4f35a77e90787e182a",
+      "bytes": 115182,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "637c5c10d9cc95c73d421b2eb18a3689b9efac3d15faf74648dc0599a3e878a9",
+      "bytes": 113281,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "ab5c735fe435d1a4d6fcfbb61bd65051ece825cdb9d8a1e5c9374a608cb6d133",
+      "bytes": 113562,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "fc9f5d3471938d866e28348241dcafbd1a083722fa1ded9083b83f96c56465b7",
+      "bytes": 113793,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/un-aligned-waifu",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "c113b888bb264ea7b8b2dce826f3485b4ea3686d047e0c31f2831c907c16f096"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

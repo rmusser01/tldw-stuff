@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Ghosty. A friendly white sheet ghost with expressive little sheet arms. Style: 2D cartoon, matched to existing Buddy art. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant close-up with both eyes visible. Natural species-appropriate muzzle or beak; speaking changes only the lower mouth/beak region. Keep ears/headgear in the tile with space above. No full body. For a saucer pilot keep the saucer/dome fixed, show the pilot face clearly. For Hugging Face retain the sunny yellow face and hugging hands near bottom. For pelican show the pelican's head and upper chest, bicycle can be outside crop.",
+  "generated_board_sha256": "b416e2506d02bb4470acfcf1712d9664e7030bff6d777029989827afeddb4820",
+  "reference_sha256": "43c3ca65a69de96296e484d6615d568f8a8b74e985a9e8e52e7ee9d85865f550",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9997823653311082,
+      "matrix": [
+        [
+          1.0003037452697754,
+          0.007647683843970299,
+          -4.349255561828613
+        ],
+        [
+          0.0004918164922855794,
+          1.0004783868789673,
+          -0.14739158749580383
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9964119959599169,
+      "matrix": [
+        [
+          0.9978867769241333,
+          0.0025651289615780115,
+          -0.24332597851753235
+        ],
+        [
+          -0.00038445438258349895,
+          1.0022683143615723,
+          -7.430380344390869
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.999612393668285,
+      "matrix": [
+        [
+          0.9978880286216736,
+          0.009196423925459385,
+          -4.189269065856934
+        ],
+        [
+          0.0036960251163691282,
+          1.0058062076568604,
+          -7.978368282318115
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "3812d074829f8938c13de06ce07e591562ca5730f75f6a6ddc641c38508e81a7",
+    "left_eye": {
+      "x": 83,
+      "y": 87,
+      "width": 29,
+      "height": 40
+    },
+    "right_eye": {
+      "x": 145,
+      "y": 87,
+      "width": 32,
+      "height": 40
+    },
+    "mouth": {
+      "x": 113,
+      "y": 118,
+      "width": 31,
+      "height": 30
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "baea98eca4502628a72167143d55ccf1060eabc0a2252a1cb1bfec3dc1c19e80",
+      "bytes": 73162,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "b3d8314eab5a0bf8a3fbcb7a8ffd835dd9d72486a3e4291552c274e1c42dde75",
+      "bytes": 73231,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "cd0c7b6b94c7cba8221d13c91a4cc9b57bb498e08652ecaaa42b1fb60345a5e6",
+      "bytes": 73511,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "eb07ac05b69699490c719551130d561e9a3db273e38041cb0e2cb5b336d2e13f",
+      "bytes": 73127,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "785381be24a6812d115cbc6e06be5288c13ed86ccea75625b1bafdb04616fa85",
+      "bytes": 73233,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "5037f747523243d7d4a9dcc67821af6cfd10ec7392581b8a064736f1215215ce",
+      "bytes": 73520,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/ghosty",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "980028678e9c2ef2c836f13daf8d21cfa54aa7504795030edf6516f062775387"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

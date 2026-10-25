@@ -1,0 +1,142 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Dipsy (Qipao). Dipsy with round glasses, twin buns and a blue floral qipao. Style: 2D cartoon; character design adapted from the user-provided reference. Convert the reference into a readable close-up radio-contact portrait; retain its defining colors, face, hairstyle/headgear, costume and stylization. Do not make the character photorealistic or add unrelated accessories. For a concealed or abstract face, use the reference's stylized eye and mouth treatment. Keep the head entirely inside every tile, leaving 8% space above the highest hair/headgear.",
+  "generated_board_sha256": "3da0c2a42c3b1209088702e056a0935e70bd6dc81dacebf50f243f3cb994bb50",
+  "reference_sha256": "33a86a3b7c4e18c16442cd9a2cec02b152c4beeae37ca5f5c8dce0864ad8b350",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9996553230513198,
+      "matrix": [
+        [
+          1.0002442598342896,
+          -1.4598645066143945e-05,
+          -0.10422994196414948
+        ],
+        [
+          -5.495589357451536e-05,
+          1.0000853538513184,
+          -0.009369594976305962
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9996205508091052,
+      "matrix": [
+        [
+          1.00031316280365,
+          0.0002584415196906775,
+          -0.10971088707447052
+        ],
+        [
+          7.676350651308894e-05,
+          0.9996885061264038,
+          0.061997853219509125
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.995981569895105,
+      "matrix": [
+        [
+          1.0008370876312256,
+          0.0005086066084913909,
+          -0.322075754404068
+        ],
+        [
+          0.0006904459442012012,
+          0.9971243143081665,
+          0.5518129467964172
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "01f2e4c541aa4988b08202b2c136105bc3315d52470b9060d5179a3d2ca72422",
+    "left_eye": {
+      "x": 83,
+      "y": 105,
+      "width": 37,
+      "height": 38
+    },
+    "right_eye": {
+      "x": 138,
+      "y": 105,
+      "width": 38,
+      "height": 38
+    },
+    "mouth": {
+      "x": 113,
+      "y": 145,
+      "width": 34,
+      "height": 27
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "2b1852d5d857084dd479ada06664fd6fb02cd996bea0588cc495ab5b6c5ddad1",
+      "bytes": 104370,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "a5ae1d0cce51283f287a0a3f7d4586f126b6cf9886b64dc3533bf1bffb381500",
+      "bytes": 104605,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "c433ebbee6bb35570fd3a710c8390e229a97a51f6bf32b8da768a90adb436392",
+      "bytes": 104884,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "5b07a7f7beb7ca48895d27652a2701efe6238ad36a981627ef1d308adeabb441",
+      "bytes": 102721,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "70e5f5d160bec13be99d22f2965bed138d76fe2996187ebc97e322e8942c3030",
+      "bytes": 102974,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "fc5d432ed291733124c823fcfa14559adaff49be7ef141ff85b50a1bac0cf67a",
+      "bytes": 103241,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/dipsy-qipao",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": {
+      "creator": "anonymous",
+      "credit_basis": "User-requested credit for the 4chan meme reference; artist identity not independently verified.",
+      "url": "https://i.4cdn.org/g/1788855416369834.png",
+      "license_status": "No published license supplied or verified.",
+      "use": "Character-design reference only; original image not bundled."
+    },
+    "source_metadata_sha256": "9f73b1a77f88da7f8da0e8312a5d73ba99081cfb35b7d0eacfcfe7f7afc4881c"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

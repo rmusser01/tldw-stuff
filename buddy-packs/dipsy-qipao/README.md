@@ -94,3 +94,9 @@ To update a customized Buddy, import into a new Persona/draft and compare before
 switching. Downloaded copies are independent and never update automatically.
 [PROMPT.txt](PROMPT.txt) records the built-in generation, viewer-facing and dress-correction prompts;
 [recipe.json](recipe.json) describes the prepared atlas.
+
+## Codec character counterpart
+
+An optional [Dipsy (Qipao) character card and paired codec portrait](../../character-packs/dipsy-qipao/README.md)
+is now available. Follow its separate character/performance import steps; this
+Buddy archive, animation mappings and existing installed copies are unchanged.

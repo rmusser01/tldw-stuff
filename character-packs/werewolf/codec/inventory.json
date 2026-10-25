@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Werewolf. A friendly gray werewolf with tiny fangs, a fluffy tail, and purple shorts. Style: 2D cartoon, matched to existing Buddy art. Preserve this reference's face, palette, species/object silhouette and distinctive details. Clear face-dominant close-up, both eyes visible and all head/headgear within tile. Natural species-appropriate muzzle/beak for animals. For object characters retain the SAME object structure, changing only its small expressive face. Keep the paperclip's smiley-face medallion intact; terminal face is luminous mint on dark screen; search-lens face sits inside glass. Do not transform objects into humans. The mouth must have three distinct closed/small/open looks.",
+  "generated_board_sha256": "6a554c0b208edbf368d3974ae6213e531a4ce7daf95226ef466dad76b423bce1",
+  "reference_sha256": "59c1010c9075da5e85a910e0a96c6f63e253467307dc6a51340feebe62396fe5",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9994438448606036,
+      "matrix": [
+        [
+          1.0000277757644653,
+          0.00047458879998885095,
+          -2.3461356163024902
+        ],
+        [
+          6.923069304320961e-05,
+          1.000024437904358,
+          -0.032975174486637115
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9977166407980388,
+      "matrix": [
+        [
+          1.0018125772476196,
+          -0.002065736800432205,
+          0.3422068953514099
+        ],
+        [
+          0.0003749517200049013,
+          1.0095149278640747,
+          -2.4883625507354736
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.989677937697783,
+      "matrix": [
+        [
+          0.9998478293418884,
+          0.002835499355569482,
+          -2.827122211456299
+        ],
+        [
+          -0.0011929054744541645,
+          1.0064798593521118,
+          -1.2674109935760498
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "a7897e55b3dfda130cc480a24efcf80089c2ff26266bdc29d5c123718131ae97",
+    "left_eye": {
+      "x": 80,
+      "y": 104,
+      "width": 30,
+      "height": 38
+    },
+    "right_eye": {
+      "x": 149,
+      "y": 104,
+      "width": 31,
+      "height": 38
+    },
+    "mouth": {
+      "x": 102,
+      "y": 142,
+      "width": 54,
+      "height": 34
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "22fb77b88c14e0b490168cf478f9c7b11bdf8a59d3b221e8b5d279c555221156",
+      "bytes": 91395,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "f7229b3a78611f7d5475e06becfb7d5663d67cf01013b2325570ad0da6b3a54b",
+      "bytes": 91607,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "1356ea2262b4f6ff32eb82e462314ed1eeb3748f8899932c2890dd7791f454f1",
+      "bytes": 91947,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "cce9de53045c11e93865e77a1919ad7608002ebea604577e8a3f76fdeccc2df4",
+      "bytes": 91083,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "794fc9616c9e1c4efba471411ee691cf4b5ea60f3c8498649d81cf8a15935b14",
+      "bytes": 91296,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "b14518299196180b50ddb2712916ead2b5aa8cd0ea8ade4e590941b4bd05e296",
+      "bytes": 91654,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/werewolf",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "97a92b08b37ac64bba029333c53a6d5ca53b007f23e3bcd56b0ff4b96e58fd4b"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

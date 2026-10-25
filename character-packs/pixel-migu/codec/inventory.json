@@ -1,0 +1,93 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "base_original_sha256": "39712f2f62b92805a0a0716fa9964b1da1fd37acd4a9cf0e4cd400a28443044d",
+  "preparation": "Original 128px neutral sprite retained exactly. Generated eye/mouth feature crops registered locally to its grid, mapped to the original cyan/dark palette with hard edges, then assembled with the production compositor. No global generated pixels used.",
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 128,
+    "height": 128,
+    "base_pixel_sha256": "d7271cfb0285b81d223ff1350636ba2d7c3ddd6930caf05e4233d5be7789c588",
+    "left_eye": {
+      "x": 49,
+      "y": 60,
+      "width": 11,
+      "height": 15
+    },
+    "right_eye": {
+      "x": 67,
+      "y": 59,
+      "width": 12,
+      "height": 16
+    },
+    "mouth": {
+      "x": 58,
+      "y": 75,
+      "width": 15,
+      "height": 5
+    },
+    "neutral_base_confirmed": true
+  },
+  "components": {
+    "small": {
+      "prompt": "Use case: identity-preserve. Asset type: single local pixel-sprite edit source. Image1 is the exact edit target. Add a SMALL black horizontal mouth gap near the bottom center of the cyan face, about 6 pixels wide and 2 pixels tall in the source 128x128 pixel grid. Keep both existing vertical black eyes OPEN. Preserve exact original128x128 composition and grid alignment, flat cyan and near-black palette, hard square pixel edges, black background, hair silhouette, body and pose. No gradients, realistic texture, smooth edges, lighting effects, head movement, added text or border. Return ONE square PNG, no sprite sheet. It will be downsampled to the original128px grid.",
+      "generated_sha256": "93668ebf6eca7f220d01f0040f7b51098d9ed301bc3ab49337894979604941fa"
+    },
+    "open": {
+      "prompt": "Use case: identity-preserve. Asset type: single local pixel-sprite edit source. Image1 is the exact edit target. Add a medium OPEN black rectangular speaking mouth near the bottom center of the cyan face, about 8 pixels wide and 6 pixels tall in the source128x128 grid. Keep both existing vertical black eyes OPEN. No white teeth or red tongue. Preserve exact original128x128 composition and grid alignment, flat cyan and near-black palette, hard square pixel edges, black background, hair silhouette, body and pose. No gradients, realistic texture, smooth edges, lighting effects, head movement, added text or border. Return ONE square PNG, no sprite sheet. It will be downsampled to the original128px grid.",
+      "generated_sha256": "c2616b9b3e04de4edb0338bdabe47aef97e324ab3e47a730bfd13348bfcdb74b"
+    },
+    "eyelids": {
+      "prompt": "Use case: identity-preserve. Asset type: single local pixel-sprite edit source. Image1 is the exact edit target. Replace ONLY the two existing vertical black eye bars with two short horizontal black bars at the same centers, indicating a CLOSED blink. Leave mouth closed, no mouth opening. Preserve exact original128x128 composition and grid alignment, flat cyan and near-black palette, hard square pixel edges, black background, hair silhouette, body and pose. No gradients, realistic texture, smooth edges, lighting effects, head movement, added text or border. Return ONE square PNG, no sprite sheet. It will be downsampled to the original128px grid.",
+      "generated_sha256": "b6d415cec5f06449152479685dbde64fd543434188c63eba28dcdf793dbd60e1"
+    }
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "584104edf558d808748dc0aa0a288d0698f1ed9343237a8f2b0f3fd9fec8bfb2",
+      "bytes": 698,
+      "width": 128,
+      "height": 128
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "600e5c9d1bb3bff791d79884dc385b878cd9a62b6f09340cac1c48bb66ae261e",
+      "bytes": 708,
+      "width": 128,
+      "height": 128
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "5ac7e594724730401bc7a57451dc327a23ebc7e27f57106e0401b87a4fe4663a",
+      "bytes": 705,
+      "width": 128,
+      "height": 128
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "c62983d97049f7cb6f34d94170ff47f214fbdd4fcf31a3ad752157a4a4fe9066",
+      "bytes": 696,
+      "width": 128,
+      "height": 128
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "9db77d94ee9c3dd07c1e57d5cb7dde45932e98d0781a136fa38d6ac1f492dd4f",
+      "bytes": 703,
+      "width": 128,
+      "height": 128
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "10acafaee3d59f8c29b7e22ebf028b114f287aed0a4e6643321c103a3890f9f9",
+      "bytes": 705,
+      "width": 128,
+      "height": 128
+    }
+  },
+  "notice": "Descriptive file/checksum/region inventory, not an automatic app import format.",
+  "artwork_license": "LicenseRef-User-Supplied; existing asset notice retained; no new redistribution license asserted."
+}

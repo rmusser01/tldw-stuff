@@ -1,0 +1,94 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "base_original_sha256": "9bf0c17ebe4bc3123df3c0a957b4b4cde198e7acb7823e25b93d8454558e9f7d",
+  "preparation": "Source resized to 256x256; Lanczos; same base for every component; production compositor version 1.",
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "68c26d67fd63f9b87a920bada49db825cbef5de8d9ebafa2a56dc943147c8c43",
+    "left_eye": {
+      "x": 89,
+      "y": 86,
+      "width": 31,
+      "height": 22
+    },
+    "right_eye": {
+      "x": 131,
+      "y": 86,
+      "width": 31,
+      "height": 22
+    },
+    "mouth": {
+      "x": 106,
+      "y": 128,
+      "width": 46,
+      "height": 26
+    },
+    "neutral_base_confirmed": true
+  },
+  "components": {
+    "small": {
+      "prompt": "Use case: identity-preserve. Asset type: one aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target, not merely a style reference. Return ONE square PNG at the identical canvas and head position. Change ONLY the lips to a restrained speaking pose: part them slightly with a clearly visible narrow dark gap about 6 pixels high on a 1024px canvas. Keep the upper lip and mouth corners anchored; lower lip moves only a few pixels. No smile, grin, tongue or prominent teeth. Eyes remain naturally OPEN exactly as the source. Preserve the source person's exact identity, age, skin color, pores, lighting, exposure, contrast, face placement/scale, hairstyle, clothing, background and all other pixels. No recrop, zoom, camera change, head rotation, smoothing, relighting, overall darkening or added effects. This is an extremely conservative local edit. The compositor will use ONLY the mouth pixels; do not change the rest of the portrait.",
+      "generated_sha256": "d12b3bfc54cd358d3688c9a8b0b5ce36d8399341dc0669bb0ba264297266a172"
+    },
+    "open": {
+      "prompt": "Use case: identity-preserve. Asset type: one aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target, not merely a style reference. Return ONE square PNG at the identical canvas and head position. Change ONLY the lips to a clearly readable medium speaking vowel: a relaxed oval dark opening about 22 pixels high on a 1024px canvas. A small suggestion of upper teeth is acceptable, no tongue, smile or shout. Keep mouth corners anchored and jaw/chin stationary. Eyes remain naturally OPEN exactly as the source. Preserve the source person's exact identity, age, skin color, pores, lighting, exposure, contrast, face placement/scale, hairstyle, clothing, background and all other pixels. No recrop, zoom, camera change, head rotation, smoothing, relighting, overall darkening or added effects. This is an extremely conservative local edit. The compositor will use ONLY the mouth pixels; do not change the rest of the portrait.",
+      "generated_sha256": "166d335f206988f7412d623768e887a68d82b56f361088f1d7afed6d61a4cd32"
+    },
+    "eyelids": {
+      "prompt": "Use case: identity-preserve. Asset type: one aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target, not merely a style reference. Return ONE square PNG at the identical canvas and head position. Change ONLY both eyelids to a fully CLOSED natural blink. Both eyes shut equally, relaxed lids, no wink or squeezing. Preserve eyebrows and any glasses/lens reflections/frame exactly. Lips remain fully CLOSED exactly as the source. Preserve the source person's exact identity, age, skin color, pores, lighting, exposure, contrast, face placement/scale, hairstyle, clothing, background and all other pixels. No recrop, zoom, camera change, head rotation, smoothing, relighting, overall darkening or added effects. This is an extremely conservative local edit. The compositor will use ONLY the eyelid pixels; do not change the rest of the portrait.",
+      "generated_sha256": "abf50e49490520424f183effa67ed76c603b00aa8c9b783ba0aa2c566c920df0"
+    }
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "73ade5e7cf2dcccc70369ab5920895a9d398a59355a1c1598c71404864da1feb",
+      "bytes": 99757,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "bbe8ca6851c59f57e78ce4e303ce534dcf17f7eb622d079d9b050cecacfa77b4",
+      "bytes": 99773,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "83bfb490e93d4115c956a8253eca6d36a31750b01657377e9f60f0c9b3ebc4f2",
+      "bytes": 99837,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "bba002654ca4532e69558a7bcddcf9b51c5acd142dead3ec7c8ce8015489a028",
+      "bytes": 99312,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "1b1114077b5caaa84c7fde51faedf4e27de7e85b8d1d405c1a5bc95c262007e4",
+      "bytes": 99334,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "e9d2d2ab14b8edbbe2cd11c17676263fee75c9a3570e4e6deb7fb51d7d27ea86",
+      "bytes": 99397,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "notice": "Descriptive file/checksum/region inventory, not an automatic app import format.",
+  "base_prompt": "Use case: stylized-concept. Asset type: neutral base portrait for a codec-style radio-call character, to be animated through separate mouth and eyelid patches. Create ONE square 1024x1024 PNG. Original mature graphic-novel character painting, restrained realistic anatomy, painterly but crisp facial features, muted cinematic color. Front-facing, upright and centered head-and-shoulders, whole head and both ears visible, head fixed vertically with eyes near 43 percent canvas height and mouth near 63 percent. Eyes fully OPEN looking at viewer; lips gently CLOSED, relaxed neutral expression. Face is clearly illuminated with soft even key light; preserve visible detail in the cheeks and jaw, avoid underexposure. Plain quiet charcoal-teal backdrop. Radio framing and scanlines are supplied by the app: NO border, UI, text, letters, symbols, logos, scanlines, glow or watermark. One person only, no props crossing the face, no expressive head tilt. This is the base state, not a speaking or blinking pose. A Black woman in her early forties, medium-brown skin, short close natural curls with one silver streak at the temple, warm dark eyes, square practical jaw, slightly asymmetric brows, calm dry wit. Amber-brown field jacket with a simple dark collar and a small understated radio earpiece. Competent approachable original civilian operations coordinator.",
+  "artwork_license": "Apache-2.0 for original AI-assisted project contributions to the extent applicable."
+}

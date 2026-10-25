@@ -73,3 +73,25 @@ reference files have only relative-link relocations; the included integration
 guides are unchanged and retain Corey Haines’s MIT terms. Collection READMEs and
 indexes remain original Apache-2.0 documentation. Source/output hashes identify
 these changes separately.
+
+## Original codec support collection
+
+Switch, Patch, Pulse and Vector: original character text and AI-assisted artwork,
+creator **tldw-project**, Apache-2.0 to the extent applicable. Default Assistant's
+optional new operator artwork has the same terms; its original JSON cards retain
+their AGPL/GPL licenses. Samira codec derivatives retain AGPL-3.0-or-later.
+Pixel-migu codec derivatives retain the existing LicenseRef-User-Supplied notice;
+no new license grant for its underlying artwork is asserted. Each codec inventory
+records generation provenance and preparation separately from card text.
+
+## Expanded codec character counterparts
+
+The additional Buddy codec portraits retain their source pack's artwork terms,
+including GPL-3.0-only for the six expressive basic defaults and the existing
+Apache/project-contribution, reference-art and brand notices elsewhere. Original
+Buddy payloads are unchanged. Newly authored counterpart card text uses Apache-2.0.
+Saffron, Rowan and Sunny derive from user-supplied design boards whose artist and
+published reference license were not specified or independently verified; those
+boards are not redistributed. Project contributions are Apache-2.0 to the extent
+applicable, with underlying design and branding rights separate. Each new pack
+includes NOTICE.md, applicable full license text and source-hash provenance.

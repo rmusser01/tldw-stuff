@@ -64,3 +64,9 @@ scope map supplies the GPL-3.0-only terms for repository-authored material.
 The native exporter remapped fixture asset keys to portable asset IDs and
 created synthetic export metadata. Artwork bytes, timings, state mappings,
 production status and recipes are unchanged. No original art was generated here.
+
+## Codec character counterpart
+
+An optional [Terminal Tile Basic character card and paired codec portrait](../../character-packs/terminal-tile-basic/README.md)
+is now available. Follow its separate character/performance import steps; this
+Buddy archive, animation mappings and existing installed copies are unchanged.

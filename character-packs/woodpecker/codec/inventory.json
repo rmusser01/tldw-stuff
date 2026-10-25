@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Woodpecker. A playful red-crested woodpecker with blue wings and a golden beak. Style: 2D cartoon, matched to existing Buddy art. Preserve this reference's face, palette, species/object silhouette and distinctive details. Clear face-dominant close-up, both eyes visible and all head/headgear within tile. Natural species-appropriate muzzle/beak for animals. For object characters retain the SAME object structure, changing only its small expressive face. Keep the paperclip's smiley-face medallion intact; terminal face is luminous mint on dark screen; search-lens face sits inside glass. Do not transform objects into humans. The mouth must have three distinct closed/small/open looks.",
+  "generated_board_sha256": "217a2d2e628503ec9922bb930c3e808c12e3e70523c4f2971896ef66f49cb558",
+  "reference_sha256": "18a47c93d36e5ace3c05afd481cc0c900b97e463e4f8fe32dfbf112c59402cb5",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9999261954227511,
+      "matrix": [
+        [
+          0.999708890914917,
+          -9.264155232813209e-05,
+          0.005166943650692701
+        ],
+        [
+          -2.7707676053978503e-05,
+          1.000045895576477,
+          0.010034364648163319
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9998862192567337,
+      "matrix": [
+        [
+          0.9996938705444336,
+          0.0001713672827463597,
+          0.009773456491529942
+        ],
+        [
+          -0.0002092866925522685,
+          0.9998843669891357,
+          0.09161906689405441
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9977252534518526,
+      "matrix": [
+        [
+          1.0015984773635864,
+          -0.002135984832420945,
+          0.13473893702030182
+        ],
+        [
+          0.0008328285184688866,
+          0.9963037371635437,
+          1.1286252737045288
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "ddcce69fcee5b5b3ef1c5c2b598fd33830e4d526e1594518d109955f76711cfb",
+    "left_eye": {
+      "x": 100,
+      "y": 100,
+      "width": 37,
+      "height": 49
+    },
+    "right_eye": {
+      "x": 155,
+      "y": 100,
+      "width": 37,
+      "height": 49
+    },
+    "mouth": {
+      "x": 127,
+      "y": 150,
+      "width": 99,
+      "height": 45
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "df5e675b2b0b8277e43e1b0016f4b7522093755d81a2151aedacc0c2a40cc7f4",
+      "bytes": 87641,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "2650011ed5c5c56594c0b0134542a529995c7b10f3282f3bc6761678c7af8812",
+      "bytes": 87851,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "719cd1c16495d6bd9d8024c694de477368def26c4c8f9c1357bae6034c94ad62",
+      "bytes": 88200,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "f2df0f8728b8820f5003b8b9a2c8a7c61003724ff418e5af46d6081441eff648",
+      "bytes": 86846,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "f9485a4075d9d2422d14c1ff7310ea2817caaf3fd83f2cf075a397cb14b33ded",
+      "bytes": 87057,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "912dba5034d3812ae399d1ce2e6137027170f5ac206965de81f17e80e47aac3c",
+      "bytes": 87411,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/woodpecker",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "81d5d2230cc1507ed26a62394d5aabb4561c4d7ab0d399333d6bbb7a88a3fda8"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

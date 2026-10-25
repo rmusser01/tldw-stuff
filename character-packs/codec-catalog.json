@@ -1,0 +1,307 @@
+{
+  "purpose": "Descriptive collection index only; not an application import or installation format.",
+  "version": "1.1.0",
+  "date": "2026-10-25",
+  "excluded": "Five geometric shape Buddies and unfinished scaffolds.",
+  "entries": [
+    {
+      "id": "switch",
+      "name": "Mara “Switch” Vale",
+      "card": "switch/switch.character.json",
+      "category": "original support"
+    },
+    {
+      "id": "patch",
+      "name": "Jun “Patch” Sato",
+      "card": "patch/patch.character.json",
+      "category": "original support"
+    },
+    {
+      "id": "pulse",
+      "name": "Leena “Pulse” Rao",
+      "card": "pulse/pulse.character.json",
+      "category": "original support"
+    },
+    {
+      "id": "vector",
+      "name": "Elias “Vector” Ward",
+      "card": "vector/vector.character.json",
+      "category": "original support"
+    },
+    {
+      "id": "default-assistant",
+      "name": "Default Assistant",
+      "card": "default-assistant/chatbook.character.json",
+      "category": "application character"
+    },
+    {
+      "id": "samira",
+      "name": "Samira “Sammy” Vadem",
+      "card": "samira/assets/characters/samira/Samira.character.json",
+      "category": "application character"
+    },
+    {
+      "id": "pixel-migu",
+      "name": "pixel-migu",
+      "card": "pixel-migu/assets/characters/pixel_migu/pixel-migu.character.json",
+      "category": "application character",
+      "buddy_source": "pixel-migu"
+    },
+    {
+      "id": "archive-cube-basic",
+      "name": "Archive Cube Basic",
+      "card": "archive-cube-basic/archive-cube-basic.character.json",
+      "category": "Buddy character",
+      "buddy_source": "archive-cube-basic"
+    },
+    {
+      "id": "axel",
+      "name": "Axel",
+      "card": "axel/axel.character.json",
+      "category": "Buddy character",
+      "buddy_source": "axel"
+    },
+    {
+      "id": "byte",
+      "name": "Byte",
+      "card": "byte/byte.character.json",
+      "category": "Buddy character",
+      "buddy_source": "byte"
+    },
+    {
+      "id": "cappy",
+      "name": "Cappy",
+      "card": "cappy/cappy.character.json",
+      "category": "Buddy character",
+      "buddy_source": "cappy"
+    },
+    {
+      "id": "cat",
+      "name": "Cat",
+      "card": "cat/cat.character.json",
+      "category": "Buddy character",
+      "buddy_source": "cat"
+    },
+    {
+      "id": "dipsy",
+      "name": "Dipsy",
+      "card": "dipsy/dipsy.character.json",
+      "category": "Buddy character",
+      "buddy_source": "dipsy"
+    },
+    {
+      "id": "dipsy-qipao",
+      "name": "Dipsy (Qipao)",
+      "card": "dipsy-qipao/dipsy-qipao.character.json",
+      "category": "Buddy character",
+      "buddy_source": "dipsy-qipao"
+    },
+    {
+      "id": "dumpling",
+      "name": "Dumpling",
+      "card": "dumpling/dumpling.character.json",
+      "category": "Buddy character",
+      "buddy_source": "dumpling"
+    },
+    {
+      "id": "ember",
+      "name": "Ember",
+      "card": "ember/ember.character.json",
+      "category": "Buddy character",
+      "buddy_source": "ember"
+    },
+    {
+      "id": "ghosty",
+      "name": "Ghosty",
+      "card": "ghosty/ghosty.character.json",
+      "category": "Buddy character",
+      "buddy_source": "ghosty"
+    },
+    {
+      "id": "horse",
+      "name": "Horse",
+      "card": "horse/horse.character.json",
+      "category": "Buddy character",
+      "buddy_source": "horse"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "card": "huggingface/huggingface.character.json",
+      "category": "Buddy character",
+      "buddy_source": "huggingface"
+    },
+    {
+      "id": "index-card-basic",
+      "name": "Index Card Basic",
+      "card": "index-card-basic/index-card-basic.character.json",
+      "category": "Buddy character",
+      "buddy_source": "index-card-basic"
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "card": "kimi/kimi.character.json",
+      "category": "Buddy character",
+      "buddy_source": "kimi"
+    },
+    {
+      "id": "llama",
+      "name": "Llama",
+      "card": "llama/llama.character.json",
+      "category": "Buddy character",
+      "buddy_source": "llama"
+    },
+    {
+      "id": "migu-marker-basic",
+      "name": "Migu Marker Basic",
+      "card": "migu-marker-basic/migu-marker-basic.character.json",
+      "category": "Buddy character",
+      "buddy_source": "migu-marker-basic"
+    },
+    {
+      "id": "moss",
+      "name": "Moss",
+      "card": "moss/moss.character.json",
+      "category": "Buddy character",
+      "buddy_source": "moss"
+    },
+    {
+      "id": "orbit",
+      "name": "Orbit",
+      "card": "orbit/orbit.character.json",
+      "category": "Buddy character",
+      "buddy_source": "orbit"
+    },
+    {
+      "id": "paperclip-basic",
+      "name": "Paperclip Basic",
+      "card": "paperclip-basic/paperclip-basic.character.json",
+      "category": "Buddy character",
+      "buddy_source": "paperclip-basic"
+    },
+    {
+      "id": "pelican-bicycle",
+      "name": "Pelican on a Bicycle",
+      "card": "pelican-bicycle/pelican-bicycle.character.json",
+      "category": "Buddy character",
+      "buddy_source": "pelican-bicycle"
+    },
+    {
+      "id": "pepe",
+      "name": "Pepe",
+      "card": "pepe/pepe.character.json",
+      "category": "Buddy character",
+      "buddy_source": "pepe"
+    },
+    {
+      "id": "poodle",
+      "name": "Poodle",
+      "card": "poodle/poodle.character.json",
+      "category": "Buddy character",
+      "buddy_source": "poodle"
+    },
+    {
+      "id": "rubber-duck",
+      "name": "Rubber Duck",
+      "card": "rubber-duck/rubber-duck.character.json",
+      "category": "Buddy character",
+      "buddy_source": "rubber-duck"
+    },
+    {
+      "id": "search-lens-basic",
+      "name": "Search Lens Basic",
+      "card": "search-lens-basic/search-lens-basic.character.json",
+      "category": "Buddy character",
+      "buddy_source": "search-lens-basic"
+    },
+    {
+      "id": "shiba-inu",
+      "name": "Shiba-inu",
+      "card": "shiba-inu/shiba-inu.character.json",
+      "category": "Buddy character",
+      "buddy_source": "shiba-inu"
+    },
+    {
+      "id": "sir-waddle",
+      "name": "Sir Waddle",
+      "card": "sir-waddle/sir-waddle.character.json",
+      "category": "Buddy character",
+      "buddy_source": "sir-waddle"
+    },
+    {
+      "id": "terminal-tile-basic",
+      "name": "Terminal Tile Basic",
+      "card": "terminal-tile-basic/terminal-tile-basic.character.json",
+      "category": "Buddy character",
+      "buddy_source": "terminal-tile-basic"
+    },
+    {
+      "id": "teto",
+      "name": "Teto",
+      "card": "teto/teto.character.json",
+      "category": "Buddy character",
+      "buddy_source": "teto"
+    },
+    {
+      "id": "trash-panda",
+      "name": "Trash Panda",
+      "card": "trash-panda/trash-panda.character.json",
+      "category": "Buddy character",
+      "buddy_source": "trash-panda"
+    },
+    {
+      "id": "trenchcoat",
+      "name": "Trenchcoat",
+      "card": "trenchcoat/trenchcoat.character.json",
+      "category": "Buddy character",
+      "buddy_source": "trenchcoat"
+    },
+    {
+      "id": "un-aligned-waifu",
+      "name": "un-aligned waifu",
+      "card": "un-aligned-waifu/un-aligned-waifu.character.json",
+      "category": "Buddy character",
+      "buddy_source": "un-aligned-waifu"
+    },
+    {
+      "id": "unicorn",
+      "name": "Unicorn",
+      "card": "unicorn/unicorn.character.json",
+      "category": "Buddy character",
+      "buddy_source": "unicorn"
+    },
+    {
+      "id": "werewolf",
+      "name": "Werewolf",
+      "card": "werewolf/werewolf.character.json",
+      "category": "Buddy character",
+      "buddy_source": "werewolf"
+    },
+    {
+      "id": "woodpecker",
+      "name": "Woodpecker",
+      "card": "woodpecker/woodpecker.character.json",
+      "category": "Buddy character",
+      "buddy_source": "woodpecker"
+    },
+    {
+      "id": "saffron",
+      "name": "Saffron",
+      "card": "saffron/saffron.character.json",
+      "category": "supplied design"
+    },
+    {
+      "id": "rowan",
+      "name": "Rowan",
+      "card": "rowan/rowan.character.json",
+      "category": "supplied design"
+    },
+    {
+      "id": "sunny",
+      "name": "Sunny",
+      "card": "sunny/sunny.character.json",
+      "category": "supplied design"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Preserve this adult orange-haired, amber-eyed cat-eared woman's freckles, short tousled orange hair, furry ears, red collar and gold bell, and orange patterned dress straps. Warm anime illustration; modest head-and-shoulders crop. Do not use the profile views or angry expressions as the base.",
+  "generated_board_sha256": "277fa1c2bb28083b9a201565ca44accd9288db404c068030ec5e08e638831699",
+  "reference_sha256": "bda4d3dbad9e6acb8ed37ff2882c3432b9670e61f15262d9365f3f521577123c",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9996318367662573,
+      "matrix": [
+        [
+          0.9984462261199951,
+          9.858019438979682e-06,
+          0.15712136030197144
+        ],
+        [
+          3.9569466025568545e-05,
+          1.0000561475753784,
+          -0.012777533382177353
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9991706472553755,
+      "matrix": [
+        [
+          1.0001572370529175,
+          0.0002446730504743755,
+          -0.052405815571546555
+        ],
+        [
+          2.7686512112268247e-05,
+          0.9983862042427063,
+          -0.2746950685977936
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9990943378441278,
+      "matrix": [
+        [
+          0.9986202120780945,
+          0.000200047274120152,
+          0.10055527836084366
+        ],
+        [
+          -9.673933527665213e-05,
+          0.9984526634216309,
+          -0.27048933506011963
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "826d31295a0a8c4cdc7ee292acd4f5d7de682b2a31038045cecb07cb69b217d5",
+    "left_eye": {
+      "x": 82,
+      "y": 85,
+      "width": 33,
+      "height": 31
+    },
+    "right_eye": {
+      "x": 132,
+      "y": 85,
+      "width": 35,
+      "height": 31
+    },
+    "mouth": {
+      "x": 110,
+      "y": 127,
+      "width": 34,
+      "height": 29
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "985045984780780911d24b47fced421489b88177192c5aac35838784b64e659f",
+      "bytes": 120897,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "373cef9fe88f6db917bb041f27f8a6d988f4343a2b5b5ad955a0319f522b9820",
+      "bytes": 120997,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "663bed83101cf78f4fa98aaba8b2f73c0980563533ceb7678615ac0b90300aef",
+      "bytes": 121253,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "414e8aedf53b027d7f7d1fafafee243b57ec1d3c60bf5017a08bc5a3da471bb6",
+      "bytes": 120046,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "956c825b2189a0ba0ea72681f3e59a790800a465110bdd4c7430105c1ac3f1b9",
+      "bytes": 120146,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "57a37dd1db3d9adcb78fdeecb798892550f77c286510caa17e3cf6c7780f13dc",
+      "bytes": 120404,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "reference": {
+    "source": "user-supplied character board",
+    "creator": "not specified",
+    "license_status": "No published reference-image license supplied or independently verified. Original reference is not redistributed.",
+    "modification": "New head-and-shoulders portrait and mouth/eyelid components, preserving supplied character design."
+  },
+  "artwork_license": "Apache-2.0 for new project contributions to the extent applicable; underlying reference design and branding rights remain separate."
+}
