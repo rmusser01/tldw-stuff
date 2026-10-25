@@ -7,7 +7,7 @@ from pathlib import Path
 from PIL import Image, ImageChops, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[1]
-PACKS = (
+CORE_PACKS = (
     "switch",
     "patch",
     "pulse",
@@ -17,6 +17,49 @@ PACKS = (
     "pixel-migu",
 )
 ROLES = ("rest", "small", "open", "blink_rest", "blink_small", "blink_open")
+
+
+def check_catalog():
+    collection = ROOT / "character-packs"
+    entries = json.loads((collection / "codec-catalog.json").read_text())["entries"]
+    ids = [entry["id"] for entry in entries]
+    assert len(ids) == len(set(ids)), "duplicate catalog IDs"
+    buddies = {
+        path.parent.name
+        for path in (ROOT / "buddy-packs").glob("*/*.tldw-persona-vpack")
+    } - {"circle", "square", "octagon", "rhombus", "triangle"}
+    expected = set(CORE_PACKS) | buddies | {"saffron", "rowan", "sunny"}
+    assert set(ids) == expected, "catalog roster coverage"
+    assert {
+        entry.get("buddy_source") for entry in entries if entry.get("buddy_source")
+    } == buddies, "Buddy coverage"
+    for entry in entries:
+        slug = entry["id"]
+        assert len(Path(slug).parts) == 1 and slug not in (".", ".."), slug
+        pack = collection / slug
+        card_path = (collection / entry["card"]).resolve()
+        assert card_path.is_relative_to(pack.resolve()), "card path escapes pack"
+        card = json.loads(card_path.read_text())
+        assert card["spec"] == "chara_card_v2" and card["spec_version"] == "2.0"
+        assert card["data"]["name"] == entry["name"], slug
+        assert all(
+            card["data"][field].strip()
+            for field in (
+                "name",
+                "description",
+                "personality",
+                "first_mes",
+                "system_prompt",
+            )
+        ), slug
+        if slug not in ("default-assistant", "samira", "pixel-migu"):
+            assert card["data"]["creator"] == "tldw-project", slug
+            assert (pack / "LICENSE").read_bytes() == (ROOT / "LICENSE").read_bytes()
+        if slug not in CORE_PACKS:
+            assert (pack / "ART_LICENSE.txt").is_file() and (
+                pack / "NOTICE.md"
+            ).is_file(), slug
+    return entries
 
 
 def same(a, b):
@@ -107,26 +150,12 @@ def check_pack(slug):
         digest, name = line.split("  ", 1)
         assert name.startswith("codec/") and ".." not in Path(name).parts
         assert hashlib.sha256((pack / name).read_bytes()).hexdigest() == digest
-    if slug in PACKS[:4]:
-        card = json.loads((pack / (slug + ".character.json")).read_text())
-        assert card["spec"] == "chara_card_v2" and card["spec_version"] == "2.0"
-        assert all(
-            card["data"][field].strip()
-            for field in (
-                "name",
-                "description",
-                "personality",
-                "first_mes",
-                "system_prompt",
-            )
-        )
-        assert card["data"]["creator"] == "tldw-project"
-        assert (pack / "LICENSE").read_bytes() == (ROOT / "LICENSE").read_bytes()
     return sum(entry["bytes"] for entry in inventory["frames"].values())
 
 
 if __name__ == "__main__":
-    total = sum(check_pack(slug) for slug in PACKS)
+    entries = check_catalog()
+    total = sum(check_pack(entry["id"]) for entry in entries)
     print(
-        f"PASS: {len(PACKS)} sets, 42 PNGs, {total:,} bytes; hashes, native budgets, exact pairs and unchanged outside pixels."
+        f"PASS: {len(entries)} sets, {len(entries) * 6} PNGs, {total:,} bytes; roster, cards, hashes, native budgets, exact pairs and unchanged outside pixels."
     )

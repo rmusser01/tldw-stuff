@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Horse. A chestnut horse with a white forehead blaze, a dark mane and tail, and a friendly tan muzzle. Style: Flat 2D cartoon with clean dark outlines, rounded shapes, matte colors and restrained shading, consistent with the existing animal companions.. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant close-up with both eyes visible. Natural species-appropriate muzzle or beak; speaking changes only the lower mouth/beak region. Keep ears/headgear in the tile with space above. No full body. For a saucer pilot keep the saucer/dome fixed, show the pilot face clearly. For Hugging Face retain the sunny yellow face and hugging hands near bottom. For pelican show the pelican's head and upper chest, bicycle can be outside crop.",
+  "generated_board_sha256": "fe00860f107d2df59d8eaa29aff3139cb6bc8244f2d5fccca02606eb55b27c0c",
+  "reference_sha256": "28a7bcc3bbce4402ce2ccf208ba562d0a7f47717b889f6032a5ebab1810cfcae",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9998093671407924,
+      "matrix": [
+        [
+          0.9999984502792358,
+          -1.58704278874211e-05,
+          -0.009963510558009148
+        ],
+        [
+          0.00011100585834356025,
+          0.9997897744178772,
+          0.01159960962831974
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9997178014229549,
+      "matrix": [
+        [
+          1.000362515449524,
+          5.195823177928105e-05,
+          -0.04926304146647453
+        ],
+        [
+          1.090487785404548e-06,
+          0.9999151825904846,
+          -0.00877139437943697
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9996888554348141,
+      "matrix": [
+        [
+          1.0006276369094849,
+          4.5524968300014734e-05,
+          -0.10658598691225052
+        ],
+        [
+          1.984444315894507e-05,
+          0.99981689453125,
+          -0.004098069854080677
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "f372458e19da2fe8b9387dc40a25b2caabbe8e7dbaf2e637bbf123b1eea7d43d",
+    "left_eye": {
+      "x": 77,
+      "y": 102,
+      "width": 35,
+      "height": 44
+    },
+    "right_eye": {
+      "x": 146,
+      "y": 102,
+      "width": 35,
+      "height": 44
+    },
+    "mouth": {
+      "x": 104,
+      "y": 178,
+      "width": 47,
+      "height": 29
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "2bcd47638491bf3a31129b7ff743393c5ab8f2808a50cb9ce9ad75fe6f1421d2",
+      "bytes": 87235,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "49b85750098eb20d265c4d654bb60ffeda970e75a53e0770b9285e18ea4d3311",
+      "bytes": 87533,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "f08a0284c03ab906359505dcefeee3de1c81d7fc0b015de104174f0519a8cf86",
+      "bytes": 87861,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "cbfcefc1d3005222899040f3f9cbb1ac35dc1a6f93f5a5179724e915f414d9e1",
+      "bytes": 85214,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "ea5bd37fad1f8786bf5939ce855f07efbc3709bc88a3423fba3537ea0e0d486b",
+      "bytes": 85519,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "07d608334bbb88f0b893c8c04cab943de2f4207ab5917f1f203c3bd8a07cfce2",
+      "bytes": 85841,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/horse",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "47e8f97007de3ef725b93c27562cf5d8b07989ccf35fdaa93d35728a85155bce"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

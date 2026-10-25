@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Migu Marker Basic. Bundled art-ready basic Buddy default: playful marker-line Migu helper with approved 3x4 source-sheet frames. Style: Preserve the recognizable cartoon style and defining features of the reference.. Convert the reference into a readable close-up radio-contact portrait; retain its defining colors, face, hairstyle/headgear, costume and stylization. Do not make the character photorealistic or add unrelated accessories. For a concealed or abstract face, use the reference's stylized eye and mouth treatment. Keep the head entirely inside every tile, leaving 8% space above the highest hair/headgear.",
+  "generated_board_sha256": "d570f9d60bf6a10e3f14f09b1cd5dc1873f9cf07d5aabfe79bd172553baaf19a",
+  "reference_sha256": "c8675059bb3826912541fdbae4c7ba5f28f4d977a17e1a77434a3c1953342cdf",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9998628420567157,
+      "matrix": [
+        [
+          1.0001592636108398,
+          -0.00012421395513229072,
+          -0.040359944105148315
+        ],
+        [
+          -0.00028927670791745186,
+          1.0000673532485962,
+          0.013416187837719917
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9996489812740615,
+      "matrix": [
+        [
+          1.0000524520874023,
+          -1.836255432863254e-05,
+          -0.023410461843013763
+        ],
+        [
+          -0.0002421369426883757,
+          0.9997942447662354,
+          -0.31475237011909485
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9995182462116585,
+      "matrix": [
+        [
+          1.0002809762954712,
+          -0.00017392702284269035,
+          -0.06285235285758972
+        ],
+        [
+          -0.00028965482488274574,
+          0.9999051690101624,
+          -0.339652955532074
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "2b48afaf7a777e737a0f5099bb81a2d89b10ef8cb996ff821aebd3bede33a8a1",
+    "left_eye": {
+      "x": 82,
+      "y": 115,
+      "width": 22,
+      "height": 31
+    },
+    "right_eye": {
+      "x": 153,
+      "y": 115,
+      "width": 22,
+      "height": 31
+    },
+    "mouth": {
+      "x": 111,
+      "y": 141,
+      "width": 36,
+      "height": 27
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "f7fab7cf3827bbf825acbc1de7d27534512ba44fb299d2e7676c9b01049d8993",
+      "bytes": 95123,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "a7f30c9a6f9bbb52347500ff676393bea3c34e107bd83da4b8dafb33e341cb8f",
+      "bytes": 95293,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "6a20850d399a0c25b6fb9122c274fa9557afb2e66c839086c6594af55c857862",
+      "bytes": 95540,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "a11d21c7627f5dc602fc14033c43a46aadc68ff74f01bdf8c04a565eec6a7ac3",
+      "bytes": 95456,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "b92058313f8ce85799333119cf3f0f1fc61cda0f2df278734fe1c5e368c6d414",
+      "bytes": 95612,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "ad54566c5abe94dff7278a67e5e9cd8e80a03373d98806a75307b17e629306db",
+      "bytes": 95854,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/migu-marker-basic",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "GPL-3.0-only",
+    "reference": null,
+    "source_metadata_sha256": "e61a35aed89bcc50bc5ae4ae2801099a69e6524f9737efd783139ea3c7e318db"
+  },
+  "artwork_license": "GPL-3.0-only for project contributions, subject to retained source artwork, character and brand notices."
+}

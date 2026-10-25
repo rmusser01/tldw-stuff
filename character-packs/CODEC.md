@@ -1,10 +1,12 @@
 # Living portraits for codec calls
 
-Seven optional sets: Switch, Patch, Pulse, Vector, Default Assistant, Samira and
-pixel-migu. Each contains exactly the same six roles, with shared lighting and
-exact eye/mouth pairs. The painterly stills are 256×256px; pixel-migu remains
-128×128px. The 42 PNGs total about 3.5 MiB; individual sets are small sidebar
-assets, not large media archives. Keep each pack's files and notices together.
+44 optional sets cover the [character roster](README.md): application characters,
+four original support contacts, the finished Buddy character/creature cast, and
+Saffron, Rowan and Sunny from supplied design boards. The five geometric shapes
+and unfinished scaffolds are excluded. All sets use the same six roles and exact
+eye/mouth pairs. Most stills are 256×256px; pixel-migu remains 128×128px.
+The 264 PNGs total 22.87 MiB, distributed as small per-character files.
+Keep each pack's files and notices together. Manual imports need no image provider.
 
 ## Set up one character in Chatbook
 
@@ -69,3 +71,6 @@ python tests/check_codec_collection.py
 Updates are opt-in. Preserve customized cards, reaction mappings and performances
 before applying newer files. Existing source files and historical checksums stay
 unchanged; each pack's `CODEC_SHA256SUMS` covers its additive codec directory.
+
+[MGS1 reference findings](CODEC_REFERENCE.md) explain the three mouth looks and
+separate eye overlays. No original game artwork is included in these packs.

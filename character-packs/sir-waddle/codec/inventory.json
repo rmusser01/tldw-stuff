@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Sir Waddle. A round penguin in an oversized teal scarf, with flipper greetings and indignant little glances. Style: Preserve the recognizable cartoon style and defining features of the reference.. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant head-and-shoulders close-up with both eyes visible, ears/horn fully within tile with margin. Natural species-appropriate muzzle or bill; only mouth/bill opens for speech, head and cheeks stay fixed. No full body or new props. Keep scarf below the mouth if present.",
+  "generated_board_sha256": "dd384a4a2d98afca204d5c90b00daf307d90d44599e4fa63fad859e5436495a9",
+  "reference_sha256": "03b3b21a44541241cded74d805fa1fe666fe2f1af5ed00b69be1868d0da70124",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9998159624763494,
+      "matrix": [
+        [
+          0.9998396039009094,
+          7.248297333717346e-05,
+          0.019951779395341873
+        ],
+        [
+          5.08691809955053e-05,
+          1.0000691413879395,
+          -0.01135922409594059
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9998216963076112,
+      "matrix": [
+        [
+          0.9997925162315369,
+          -1.6666886949678883e-05,
+          0.06213856860995293
+        ],
+        [
+          -6.47554625174962e-05,
+          1.0002864599227905,
+          -0.04741169139742851
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9994527291192922,
+      "matrix": [
+        [
+          1.0001299381256104,
+          0.00029698479920625687,
+          -0.06796836853027344
+        ],
+        [
+          0.0007751487428322434,
+          0.994425892829895,
+          0.8447598218917847
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "4e6e1edd838b08d9e2631a778473f6ef87fb43abab832264632da6f38afa6a53",
+    "left_eye": {
+      "x": 69,
+      "y": 88,
+      "width": 35,
+      "height": 37
+    },
+    "right_eye": {
+      "x": 151,
+      "y": 88,
+      "width": 35,
+      "height": 37
+    },
+    "mouth": {
+      "x": 105,
+      "y": 101,
+      "width": 45,
+      "height": 36
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "696a1ae85e4d37add9842c3d0f15372b9a0d118174d364fca782c8ffe70abe08",
+      "bytes": 92130,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "9ae2031af52d71340252ad8b155462fc4871d223c5f7aabc4915e16e17b9bf0f",
+      "bytes": 92318,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "756ed31319cc10969e1be323d665cf2616ccd18ae7a35a2027678d6ccadbad96",
+      "bytes": 92415,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "d5029cb30d12ef038c9fbb0421090547b8316736450d04a9ab3177648b288233",
+      "bytes": 91149,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "08233c4fe29920f3dd4877001effec3a07380dc2c54a736ece59f4594ad57652",
+      "bytes": 91450,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "94645d3afdb2d319a0cdd2f9d0682e054b8002fcab2011730bbde6d767d7110f",
+      "bytes": 91469,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/sir-waddle",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "8a5d08a02d141d1a49811f8881a433bc1cdba41f3c310aeb632baaa941ccf681"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

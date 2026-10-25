@@ -1,0 +1,134 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Preserve this friendly golden capybara's rounded ears, black glossy eyes, broad gray-brown nose, fur texture and white/purple Qwen shirt. Warm polished cartoon illustration. Upright head-and-shoulders with both eyes equally visible. Natural capybara muzzle; speaking mouth below nose, not a human face. Shirt branding can sit below the crop; do not invent new lettering.",
+  "generated_board_sha256": "e50b778d89d2f66280aed3ffa50c059252d9b0f1d1db6eb0fbbdcf9c26a73616",
+  "reference_sha256": "fffe2782a79c2df38ecb600aef17bb7eadca81dadf83414794f62e0af0a98ffa",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9995988363049702,
+      "matrix": [
+        [
+          1.0000673532485962,
+          0.00034479552414268255,
+          -0.18454810976982117
+        ],
+        [
+          -0.0006109137902967632,
+          0.999876856803894,
+          0.11246146261692047
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9996818987402094,
+      "matrix": [
+        [
+          1.0001248121261597,
+          0.0002640930761117488,
+          -0.11203613877296448
+        ],
+        [
+          -6.404257146641612e-05,
+          0.9994571805000305,
+          0.10424551367759705
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9995421114631713,
+      "matrix": [
+        [
+          1.0002131462097168,
+          0.0004208104801364243,
+          -0.2247745543718338
+        ],
+        [
+          0.0002030592004302889,
+          0.9994127154350281,
+          0.03695346787571907
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "4c22161b235de152bc5f11c96c69449d4041e597474374e54128dc59943ccf51",
+    "left_eye": {
+      "x": 75,
+      "y": 50,
+      "width": 26,
+      "height": 36
+    },
+    "right_eye": {
+      "x": 157,
+      "y": 50,
+      "width": 26,
+      "height": 36
+    },
+    "mouth": {
+      "x": 94,
+      "y": 114,
+      "width": 75,
+      "height": 48
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "1a1c5d386c65e16f6a31db6b38f5d83c09bb55aca26c03f3e3d77b27cf4a7b4f",
+      "bytes": 109582,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "a4ac518604ced0b34bcd33677af5441ae6d6feced45efc6710d86a522b81c409",
+      "bytes": 109968,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "193598b2b176e4e0c27d238321d489d53eaf8fa0ac64d93000aeee148a6f798c",
+      "bytes": 110346,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "81ed4f1bd08151a88475d74caa8b5cf36f64f2ad342caeb924aeacd811b10634",
+      "bytes": 109038,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "e915ab4a42a47be16082be89b8fa0c02626db5795625ba24d91c9f62b21ae23f",
+      "bytes": 109439,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "ac185ca5b9df510b69ae1b894d36ccbf139e4296a679c4f96252bf792c2a8087",
+      "bytes": 109836,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "reference": {
+    "source": "user-supplied character board",
+    "creator": "not specified",
+    "license_status": "No published reference-image license supplied or independently verified. Original reference is not redistributed.",
+    "modification": "New head-and-shoulders portrait and mouth/eyelid components, preserving supplied character design."
+  },
+  "artwork_license": "Apache-2.0 for new project contributions to the extent applicable; underlying reference design and branding rights remain separate."
+}

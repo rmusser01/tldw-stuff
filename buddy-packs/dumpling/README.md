@@ -67,3 +67,9 @@ The existing builder consumes the reviewed atlas without image generation. ADR r
 Original artwork and pack creator: **tldw-project**. Created with OpenAI's built-in image tool, followed by user-authorized local image processing. [PROMPT.txt](PROMPT.txt) contains the generation prompt; [PROVENANCE.json](PROVENANCE.json) records the original image digest and preparation method. The collection's [Llama](../llama/) was viewed for style; none of its image pixels are included here.
 
 Keep the license and provenance with copies. The archive embeds the creator and full license notice. For updates, import a new copy and compare before switching; downloaded and customized copies remain independent.
+
+## Codec character counterpart
+
+An optional [Dumpling character card and paired codec portrait](../../character-packs/dumpling/README.md)
+is now available. Follow its separate character/performance import steps; this
+Buddy archive, animation mappings and existing installed copies are unchanged.

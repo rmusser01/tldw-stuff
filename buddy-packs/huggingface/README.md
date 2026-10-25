@@ -112,3 +112,9 @@ The native archive embeds the creator, full license and attribution notice.
 
 To update, import into a new Persona or draft and compare before switching.
 Downloaded and customized copies remain independent and never update automatically.
+
+## Codec character counterpart
+
+An optional [Hugging Face character card and paired codec portrait](../../character-packs/huggingface/README.md)
+is now available. Follow its separate character/performance import steps; this
+Buddy archive, animation mappings and existing installed copies are unchanged.

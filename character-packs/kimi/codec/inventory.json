@@ -1,0 +1,142 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Kimi. Silver-haired Kimi in a black dress with her K pendant. Style: 2D cartoon; character design adapted from the user-provided reference. Convert the reference into a readable close-up radio-contact portrait; retain its defining colors, face, hairstyle/headgear, costume and stylization. Do not make the character photorealistic or add unrelated accessories. For a concealed or abstract face, use the reference's stylized eye and mouth treatment. Keep the head entirely inside every tile, leaving 8% space above the highest hair/headgear.",
+  "generated_board_sha256": "a5a09d96980ec39099e780017e4e7c9dea081412d2abb5a4172d5427ffe7b045",
+  "reference_sha256": "7abe955a065da400f77359b945ec9eb0311089a0d4dd73d54fe1e7ab1551e327",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9996621580111323,
+      "matrix": [
+        [
+          1.000451683998108,
+          -0.00017677457071840763,
+          -0.07858145236968994
+        ],
+        [
+          3.644972821348347e-05,
+          0.9999727606773376,
+          -0.019876627251505852
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9996991650470132,
+      "matrix": [
+        [
+          1.000174641609192,
+          -6.649438000749797e-05,
+          -0.006841560825705528
+        ],
+        [
+          0.0003006313636433333,
+          1.0001988410949707,
+          -0.09860831499099731
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9994408328918247,
+      "matrix": [
+        [
+          1.0003975629806519,
+          -0.00017986047896556556,
+          -0.056551769375801086
+        ],
+        [
+          7.819984602974728e-05,
+          0.999550461769104,
+          0.06711074709892273
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "e5017fdb0426571cff96a48e2738e8725e609f4a3fc89676d1b1160c079c1c70",
+    "left_eye": {
+      "x": 88,
+      "y": 96,
+      "width": 35,
+      "height": 36
+    },
+    "right_eye": {
+      "x": 145,
+      "y": 96,
+      "width": 34,
+      "height": 36
+    },
+    "mouth": {
+      "x": 115,
+      "y": 135,
+      "width": 34,
+      "height": 22
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "50d41c9b5cb8e38c3f4bcca400259fe8cf7999735f8451b890000c19d2c5231e",
+      "bytes": 101212,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "bd5a99cec34ede24042bb27077fef8969cb975444601253a0b638c2d467863a9",
+      "bytes": 101290,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "1c66fe6197da43d8ccce47dfae03c68e617e0d57134dbbc1c0da33b846ded857",
+      "bytes": 101439,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "1c6e7d490f7c8429214f20adc0f872595951a14a6a0b5aa5a408bd00284abb08",
+      "bytes": 99630,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "546863715fe437290adeadc66edd1a19819ff9f3c48142425d5d18b492fd29ff",
+      "bytes": 99731,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "b4b721c96d94a2ae34626245f99ba1f39fff2ffefac1cc69769bc1abfa907b4b",
+      "bytes": 99878,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/kimi",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": {
+      "creator": "anonymous",
+      "credit_basis": "User-requested credit for the 4chan meme reference; artist identity not independently verified.",
+      "url": "https://i.4cdn.org/g/1788855416369834.png",
+      "license_status": "No published license supplied or verified.",
+      "use": "Character-design reference only; original image not bundled."
+    },
+    "source_metadata_sha256": "2e52284898d3ccbaa91d334073e285a3180187008ef0224a250096ef3e1f17fb"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

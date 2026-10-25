@@ -52,5 +52,39 @@ class CodecValidationTests(unittest.TestCase):
             codec.check_pack("default-assistant")
 
 
+class CatalogValidationTests(unittest.TestCase):
+    def setUp(self):
+        self.directory = tempfile.TemporaryDirectory()
+        self.addCleanup(self.directory.cleanup)
+        self.root = Path(self.directory.name)
+        self.catalog = self.root / "character-packs" / "codec-catalog.json"
+        self.catalog.parent.mkdir()
+        self.data = json.loads(
+            (codec.ROOT / "character-packs" / "codec-catalog.json").read_text()
+        )
+        for source in (codec.ROOT / "buddy-packs").glob("*/*.tldw-persona-vpack"):
+            target = self.root / source.relative_to(codec.ROOT)
+            target.parent.mkdir(parents=True)
+            target.touch()
+
+    def test_omitted_buddy_rejected(self):
+        self.data["entries"] = [e for e in self.data["entries"] if e["id"] != "cat"]
+        self.catalog.write_text(json.dumps(self.data))
+        with (
+            patch.object(codec, "ROOT", self.root),
+            self.assertRaisesRegex(AssertionError, "roster coverage"),
+        ):
+            codec.check_catalog()
+
+    def test_card_path_cannot_escape_its_pack(self):
+        self.data["entries"][0]["card"] = "../outside.character.json"
+        self.catalog.write_text(json.dumps(self.data))
+        with (
+            patch.object(codec, "ROOT", self.root),
+            self.assertRaisesRegex(AssertionError, "card path escapes pack"),
+        ):
+            codec.check_catalog()
+
+
 if __name__ == "__main__":
     unittest.main()

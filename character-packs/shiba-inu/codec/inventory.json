@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Shiba-inu. An orange and cream Shiba-inu with a curled tail and red collar. Style: 2D cartoon, matched to existing Buddy art. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant head-and-shoulders close-up with both eyes visible, ears/horn fully within tile with margin. Natural species-appropriate muzzle or bill; only mouth/bill opens for speech, head and cheeks stay fixed. No full body or new props. Keep scarf below the mouth if present.",
+  "generated_board_sha256": "e08fc0091c27433ccc6607602dde08e2f38c4ab789c78188b16d552bf78367fb",
+  "reference_sha256": "e0ab8019c2d68c14763c4711f26deb3fb6e9337ab5391e74b80a55cb1f8700a1",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9965086240121246,
+      "matrix": [
+        [
+          0.9973518252372742,
+          2.8740076231770217e-05,
+          -1.9505304098129272
+        ],
+        [
+          0.0003783872816711664,
+          1.0019440650939941,
+          -0.2605954706668854
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9977147029584129,
+      "matrix": [
+        [
+          1.0009689331054688,
+          -0.0006515439017675817,
+          -0.3831007480621338
+        ],
+        [
+          0.0029863310046494007,
+          1.0053335428237915,
+          -2.6424388885498047
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9962856593874312,
+      "matrix": [
+        [
+          0.9990803003311157,
+          -0.0012027827324345708,
+          -2.057119369506836
+        ],
+        [
+          -0.0013530581491068006,
+          0.9982088804244995,
+          0.3033140003681183
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "6ef3a244adb63818f8f51f50bf68537782f0c783e004cc31a83c963b395df365",
+    "left_eye": {
+      "x": 72,
+      "y": 93,
+      "width": 37,
+      "height": 43
+    },
+    "right_eye": {
+      "x": 148,
+      "y": 93,
+      "width": 37,
+      "height": 43
+    },
+    "mouth": {
+      "x": 105,
+      "y": 136,
+      "width": 47,
+      "height": 32
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "c04c269ef6cb98e23ec8111639b9aaac935c463d6713d057e1831b49b2ac1fd4",
+      "bytes": 85588,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "70ca706cd4b7054bc351c3b789c988f2fc4d01d565b816581221ee1f2b4d956e",
+      "bytes": 86165,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "c8b4f8908c3e49241955ef3e2b196b47f10c074f83c8734a9f18a83dd78e8898",
+      "bytes": 86238,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "564b0b67f5faf78b1e3108fec69b89d4ec4b7d2c92def6c080d17179d5436d17",
+      "bytes": 85351,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "740562fecd8106daff7e76657570e0f3708a5f19ae824d4980296030287b908e",
+      "bytes": 85928,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "ac7ceed75f47fff29e771a0a266540523c6947524416d2fa3115cbf5243dc3c7",
+      "bytes": 86025,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/shiba-inu",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "14acb8c5b56a3a0d6376187c6548690c25d4fa25b0b016c0dfb70153ea4fcdb8"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

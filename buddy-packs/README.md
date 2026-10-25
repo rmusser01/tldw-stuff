@@ -338,3 +338,10 @@ Verification records and archive checksums:
 - <a name="new-companion-collection"></a>**Original twelve companions:** [Verification report](../docs/buddy-collection-verification.md) · [Archive inventory](companions-verification.json).
 - <a name="dipsy-kimi-and-cappy"></a>**Dipsy (Qipao), Kimi and Cappy:** [Verification report](../docs/reference-trio-verification.md) · [Archive inventory](reference-trio-verification.json).
 - **Individual packs:** verification records and checksums are linked from each pack's details.
+
+## Codec character counterparts
+
+All finished character and creature Buddies, including the expressive basic
+defaults, have optional [character cards and six-pose codec portraits](../character-packs/README.md).
+The five geometric shapes and unfinished scaffolds are excluded. These use the
+separate character/performance import path; Buddy downloads stay unchanged.

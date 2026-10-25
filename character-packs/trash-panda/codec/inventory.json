@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Trash Panda. A squat gray raccoon with a striped tail, thoughtful paw gestures and a sleepy tail hug. Style: Preserve the recognizable cartoon style and defining features of the reference.. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant head-and-shoulders close-up with both eyes visible, ears/horn fully within tile with margin. Natural species-appropriate muzzle or bill; only mouth/bill opens for speech, head and cheeks stay fixed. No full body or new props. Keep scarf below the mouth if present.",
+  "generated_board_sha256": "45e28d1336f04b0db2e5e6a62060971d358b2a952010117f51bc0c8c53a41046",
+  "reference_sha256": "973bcd5278fa756441292bcd81002ccbb80b8dee3dee382cb9d95c1ff25b00fe",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9990654117193087,
+      "matrix": [
+        [
+          1.0055935382843018,
+          0.003730064257979393,
+          -1.904934048652649
+        ],
+        [
+          0.0006194100715219975,
+          0.9999575614929199,
+          0.003374854102730751
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9990198750093329,
+      "matrix": [
+        [
+          1.0037647485733032,
+          0.0017387428088113666,
+          -0.8975088000297546
+        ],
+        [
+          0.00014747523528058082,
+          0.9990690350532532,
+          -0.44000306725502014
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.997461046839167,
+      "matrix": [
+        [
+          1.0029470920562744,
+          0.001879064948298037,
+          -1.0203551054000854
+        ],
+        [
+          0.0010306451003998518,
+          0.9997949600219727,
+          -0.228450208902359
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "f24b83cc6044696c87bd8a296ff5273c4b06e6aa2853f15d1679b524e8b9b6d8",
+    "left_eye": {
+      "x": 74,
+      "y": 91,
+      "width": 45,
+      "height": 44
+    },
+    "right_eye": {
+      "x": 140,
+      "y": 91,
+      "width": 45,
+      "height": 44
+    },
+    "mouth": {
+      "x": 110,
+      "y": 136,
+      "width": 36,
+      "height": 29
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "734cab912ae43a719569b89ef8f8f48039778fc2431eab247f2ba2065414e158",
+      "bytes": 95387,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "4194d409dca98e56e7661b08f102abe6a9f759e7d71f36d1373e35f70d4a0038",
+      "bytes": 95829,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "067ec0f7f6f563816779337234328182dcae6f5d580cd56007a4f0ec83272501",
+      "bytes": 96035,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "8cac9c984452a04d51468bc750a7c140d0a52c92d2317a7a795eeb02ee1a0219",
+      "bytes": 93073,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "2207721515e452c4b5cda7e262455ec19415c2d5c89dd067ee8d08f4bd564b39",
+      "bytes": 93491,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "cd7a260aba548cdfb6adf521d75a86304734da51e57ac51a43cd24dd48fbfa27",
+      "bytes": 93684,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/trash-panda",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "ea8e327a7e63ee6af10da8d668e76521bb78908fb2abf26ebb92a047f39d509e"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

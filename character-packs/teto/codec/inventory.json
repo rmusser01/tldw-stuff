@@ -1,0 +1,145 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Teto. Marker-drawn Teto with muted cranberry-red drill twin tails, a white face and a gray dress with red trim. Style: Simple flat marker drawing; Teto design from the supplied references, with Migu Marker Basic as the style reference.. Convert the reference into a readable close-up radio-contact portrait; retain its defining colors, face, hairstyle/headgear, costume and stylization. Do not make the character photorealistic or add unrelated accessories. For a concealed or abstract face, use the reference's stylized eye and mouth treatment. Keep the head entirely inside every tile, leaving 8% space above the highest hair/headgear.",
+  "generated_board_sha256": "4fbd0bad692ffaa3d75cfb09af404d4153a09fc04f33d560885950cd5ec438f3",
+  "reference_sha256": "46c7c7d9d2b1299ee5b311ac91d618093de36449081289e3d6ca35817741e63a",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9994818986106445,
+      "matrix": [
+        [
+          1.000347375869751,
+          0.0002470271720085293,
+          -0.1274983286857605
+        ],
+        [
+          0.00011285112123005092,
+          0.9998464584350586,
+          -0.002437078393995762
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9994658706286377,
+      "matrix": [
+        [
+          1.0000537633895874,
+          -7.262133294716477e-08,
+          0.007457197643816471
+        ],
+        [
+          -0.0001531829620944336,
+          1.0001212358474731,
+          -0.03464416041970253
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.999377942037839,
+      "matrix": [
+        [
+          1.0005582571029663,
+          0.00013463167124427855,
+          -0.11770622432231903
+        ],
+        [
+          -0.00013984923134557903,
+          1.0000848770141602,
+          -0.03179863095283508
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "e9ce09b08e518661ce689be65b8628c19f11b29096dd6334c31468dd4af10db6",
+    "left_eye": {
+      "x": 88,
+      "y": 124,
+      "width": 22,
+      "height": 27
+    },
+    "right_eye": {
+      "x": 150,
+      "y": 124,
+      "width": 22,
+      "height": 27
+    },
+    "mouth": {
+      "x": 111,
+      "y": 151,
+      "width": 39,
+      "height": 28
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "613168a8f80d031ae4e0710d98942bb169842b587db5eb4bcaeecd19ce87ec21",
+      "bytes": 105669,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "804a21eb28a2fab00aa830ae573d949474e9f934a4cb1af7ef958a3c81d16fc9",
+      "bytes": 105769,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "e42c3d579873ab5e9700a69fcbcc03ba8c162d7b39606c70e396ccb77da1a042",
+      "bytes": 106191,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "e292a8872b21be44aa758e0cd6773d23621fe845c6a5b6b72138623e903b4c25",
+      "bytes": 105681,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "f1d61ab77d19cc6c9e5f734276b9d65c68befb5d9d730759533dd7ea023e65d3",
+      "bytes": 105774,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "9b76b471cc01665d2462da50e64a449ec2154282166b839ce5f71a87dd9b3d95",
+      "bytes": 106181,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/teto",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": {
+      "creator": "anonymous",
+      "credit_basis": "Artist not identified in the supplied references; anonymous credit follows the collection convention requested by the user.",
+      "url": "https://i.4cdn.org/g/1788844177063862.png",
+      "additional_urls": [
+        "https://i.4cdn.org/g/1788893235735517.png"
+      ],
+      "license_status": "No published reference-image license supplied or verified.",
+      "use": "Character-design and marker-art references only; original images not bundled."
+    },
+    "source_metadata_sha256": "1e030b717610b66b5afa51e770686b8f44af72c179f5672c36ef0aa2c059c044"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

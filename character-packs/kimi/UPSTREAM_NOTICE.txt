@@ -1,0 +1,12 @@
+REFERENCE ATTRIBUTION
+
+Reference image creator: anonymous (credit requested by the user).
+Reference source: https://i.4cdn.org/g/1788855416369834.png
+The reference was shared as a 4chan meme. No published artist identity or
+reference-image license was supplied or verified.
+
+The reference image is not bundled. These are newly generated Buddy sprites
+based on the character designs in that image, prepared by tldw-project.
+Apache-2.0 covers tldw-project's contributions to the sprite artwork, metadata
+and pack materials. It does not relicense the reference image or assert rights
+to third-party material. Retain this reference credit with copies of the pack.

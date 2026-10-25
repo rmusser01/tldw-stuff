@@ -21,8 +21,8 @@ and import it into your own installation.
 | [Chat dictionaries](chatdictionaries/README.md) | Reusable chat dictionary entries and collections |
 | [Chatbooks](chatbooks/README.md) | Shareable knowledge packs and reference collections |
 
-The collection includes seven character packs and six persona archetypes. Four
-characters are original codec support contacts. A
+The collection includes 44 codec-ready character packs and six persona archetypes.
+The cast includes the finished Buddy characters and three new supplied designs. A
 [gallery of finished Buddy packs](buddy-packs/README.md) offers downloadable previews.
 Six additional Buddy authoring scaffolds are labelled separately. 70 original and
 attributed skills and adaptations from Anthropic, OpenAI, OpenClaw, Hermes, Trail

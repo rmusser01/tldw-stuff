@@ -114,3 +114,9 @@ cover imported visuals, not notice retention through a later server export.
 
 For updates, import into a new Persona/draft and compare before switching.
 Downloaded and customized copies remain independent and never update automatically.
+
+## Codec character counterpart
+
+An optional [Unicorn character card and paired codec portrait](../../character-packs/unicorn/README.md)
+is now available. Follow its separate character/performance import steps; this
+Buddy archive, animation mappings and existing installed copies are unchanged.

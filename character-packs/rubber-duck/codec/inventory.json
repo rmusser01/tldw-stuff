@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Rubber Duck. A classic yellow rubber bath duck with an orange beak and tiny wings. Style: 2D cartoon, matched to existing Buddy art. Preserve the reference's recognizable cartoon design, colors, species and accessories. Clear face-dominant head-and-shoulders close-up with both eyes visible, ears/horn fully within tile with margin. Natural species-appropriate muzzle or bill; only mouth/bill opens for speech, head and cheeks stay fixed. No full body or new props. Keep scarf below the mouth if present.",
+  "generated_board_sha256": "6236e180b6115bf65d8d7999d394b0ea144b1c9de07fc94511e9e18bba6a2567",
+  "reference_sha256": "373e3f3875d90f23d02f9416445a7bd3ba1dfc6c889eb159b7dc673f24832e1e",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9999587148512549,
+      "matrix": [
+        [
+          1.0000470876693726,
+          7.128548168111593e-05,
+          -0.03125527873635292
+        ],
+        [
+          0.00013411081454250962,
+          0.9999062418937683,
+          -0.004803690128028393
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.999913912722306,
+      "matrix": [
+        [
+          0.9998965859413147,
+          0.00017384083184879273,
+          -0.016297442838549614
+        ],
+        [
+          -0.00025725364685058594,
+          0.9998779296875,
+          -0.03360852599143982
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.999947187961348,
+      "matrix": [
+        [
+          1.000086784362793,
+          9.029835928231478e-05,
+          -0.02549700438976288
+        ],
+        [
+          -3.2942843972705305e-06,
+          0.9997415542602539,
+          -0.0034259348176419735
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "051a4e5b22207cbaae68d95754207186bf579e5500a74105f1653f834ddec6a3",
+    "left_eye": {
+      "x": 72,
+      "y": 86,
+      "width": 35,
+      "height": 45
+    },
+    "right_eye": {
+      "x": 149,
+      "y": 86,
+      "width": 35,
+      "height": 45
+    },
+    "mouth": {
+      "x": 75,
+      "y": 134,
+      "width": 109,
+      "height": 45
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "c10af77507dc5cb49d5d7702ac59de67c871855b3f87d933e935644f82cb2e7b",
+      "bytes": 84529,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "c83a7aff44269c5918f8f57cceeb8af3871a972c165ac93fbe9113344cf92ec9",
+      "bytes": 84920,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "1450c95ccb08791a2fd120a0c1451332af745dc1bfe31ceea49148ad7f77b633",
+      "bytes": 85284,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "55f598dbf8b3f96eb4ef474ef9ebb6a983873c3375aad613e734442cb828b7b6",
+      "bytes": 83342,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "aff459a93f5d959a2c85bc2b5374d035a23ad2bcbcb79497be905fcf6744296e",
+      "bytes": 83719,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "168110d5ea20ccf6e3fd95cd336f8c2a66702dc0a6f7dcd99069aa1c129d1c86",
+      "bytes": 84072,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/rubber-duck",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "026176f72f951a0dbf9280c0a838954b7668ab703a4514a95933d71953b55870"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}

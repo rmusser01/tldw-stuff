@@ -126,3 +126,9 @@ a later server export, so retain the accompanying files.
 
 For an update, import into a new Persona/draft and compare before switching.
 Downloaded and customized copies remain independent and never update automatically.
+
+## Codec character counterpart
+
+An optional [Teto character card and paired codec portrait](../../character-packs/teto/README.md)
+is now available. Follow its separate character/performance import steps; this
+Buddy archive, animation mappings and existing installed copies are unchanged.

@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Paperclip Basic. Bundled art-ready basic Buddy default: expressive paperclip helper with approved 3x4 source-sheet frames. Style: Preserve the recognizable cartoon style and defining features of the reference.. Preserve this reference's face, palette, species/object silhouette and distinctive details. Clear face-dominant close-up, both eyes visible and all head/headgear within tile. Natural species-appropriate muzzle/beak for animals. For object characters retain the SAME object structure, changing only its small expressive face. Keep the paperclip's smiley-face medallion intact; terminal face is luminous mint on dark screen; search-lens face sits inside glass. Do not transform objects into humans. The mouth must have three distinct closed/small/open looks.",
+  "generated_board_sha256": "76b0c3fac125ab08270c9fabf56a49a1791a91073e2a7bd630e230285512bf3d",
+  "reference_sha256": "5baf8fc436e23481a2ed75fa32e4387830aa9b90c4dce1626fe0a633f0f1a66b",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9995226099177903,
+      "matrix": [
+        [
+          1.0003812313079834,
+          -0.000502626586239785,
+          0.03499065339565277
+        ],
+        [
+          0.0008601055014878511,
+          1.0001541376113892,
+          -0.1321234256029129
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9995396679557942,
+      "matrix": [
+        [
+          0.9999622106552124,
+          -0.000696157047059387,
+          0.07261783629655838
+        ],
+        [
+          0.0012726903660222888,
+          0.999798595905304,
+          -0.13162314891815186
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9995323374501589,
+      "matrix": [
+        [
+          1.0008068084716797,
+          -0.0006291248137131333,
+          -0.02439979277551174
+        ],
+        [
+          0.00037999238702468574,
+          0.9999454021453857,
+          -0.002881363034248352
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "807a5c02456514b9bd6110ed9f632d30c2c4f34ea2d3266a147a133d7b4e32bb",
+    "left_eye": {
+      "x": 105,
+      "y": 133,
+      "width": 19,
+      "height": 25
+    },
+    "right_eye": {
+      "x": 131,
+      "y": 133,
+      "width": 19,
+      "height": 25
+    },
+    "mouth": {
+      "x": 117,
+      "y": 159,
+      "width": 23,
+      "height": 18
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "2172970c82ec7b5e854882db9049339c4052ecafdff54d8b7a459395d4eec7d6",
+      "bytes": 82377,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "631901a03a759b4da12392c31cd0461e56a21697c0570070fe41153764d698ec",
+      "bytes": 82426,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "995656895a428cc954ccde70e29ab243a58f8d5ef146ed45d6b990867d107010",
+      "bytes": 82591,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "439d8e34433681a4302fe5c7ee34d01f6e399530c7beea1931c71e91b4d68464",
+      "bytes": 82364,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "16f87dc0cbd1792149a471e3007db485122c66d72820861193a05c94f7453219",
+      "bytes": 82407,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "ee559ff6ae7ab774bffd89383fdc58aa1aad92ec3af2a904bb2e2b1d42fb3d13",
+      "bytes": 82565,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/paperclip-basic",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "GPL-3.0-only",
+    "reference": null,
+    "source_metadata_sha256": "3b269f80587bcb7973cd2581a09887dbb66ec8d555c48877cf75bab66670f3f5"
+  },
+  "artwork_license": "GPL-3.0-only for project contributions, subject to retained source artwork, character and brand notices."
+}

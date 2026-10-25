@@ -1,0 +1,136 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "notice": "Descriptive provenance and file inventory, not an app import format.",
+  "prompt": "Use case: stylized-concept. Asset type: ONE 2x2 codec-portrait authoring sprite sheet, four equal square tiles with NO gutters, margins, dividers, labels or text. Reference image establishes the character identity, costume, colors and illustration style. Each tile is the SAME front-facing centered head-and-shoulders portrait with IDENTICAL scale, head position, lighting, background and calm expression. Entire head/ears visible, eyes at 43% tile height and lips at 66%, shoulders continue to bottom. Top-left: both eyes OPEN, lips fully CLOSED (neutral base). Top-right: same eyes OPEN, only lips parted in a SMALL speaking gap. Bottom-left: same eyes OPEN, only mouth in a medium OPEN speaking oval. Bottom-right: same lips CLOSED, both eyelids fully CLOSED in a natural blink. Fixed jaw, nose and brows; no head tilt, movement, face reshaping, grin, shouting or relighting across tiles. This board will be cut into source and component patches, then locally composited for EXACT six-frame eye/mouth pairs. Plain charcoal-teal background, soft readable face illumination. No radio UI, scanlines, borders, props crossing the face or watermark. Character: Byte. A beige CRT monitor with mint-green facial expressions and short rubber feet. The housing stays fixed while the face animates. Style: Preserve the recognizable cartoon style and defining features of the reference.. Make a clear face-dominant close-up, retaining the reference's recognizable cartoon design, colors, species, costume and distinctive features. Natural species-appropriate muzzle or mouth. For Byte keep the identical beige CRT casing in all tiles, change only the mint screen face. Entire head, ears, gills or horns visible with 8% margin at top, no full body or unrelated props. Do not make photorealistic.",
+  "generated_board_sha256": "2ff1f7ddb40b3cdbd8318632250ececd17776819c0a7306c6f4cd681394e0f99",
+  "reference_sha256": "b9d42ab4a51a973bcd72789802d986bff6170761451eb9bc9ceb83869a01df39",
+  "preparation": "Four equal source-board tiles, normalized to 256px; conservative affine registration using unchanged face/hair/costume regions, or manually verified identity registration for the fixed terminal tile. One neutral base plus separate mouth and eyelid patches; production compositor version1 derives exact six-frame pairs. Raw boards retained outside the distributed pack.",
+  "registration": {
+    "small": {
+      "ecc_score": 0.9997125368565982,
+      "matrix": [
+        [
+          0.9996446371078491,
+          0.0003659300855360925,
+          -0.3535604178905487
+        ],
+        [
+          6.620039494009688e-05,
+          1.000348687171936,
+          -0.10986055433750153
+        ]
+      ]
+    },
+    "open": {
+      "ecc_score": 0.9997638998805438,
+      "matrix": [
+        [
+          0.9998064637184143,
+          0.0003148477990180254,
+          -0.16221830248832703
+        ],
+        [
+          -7.829220703570172e-05,
+          1.00046968460083,
+          -0.21632876992225647
+        ]
+      ]
+    },
+    "eyelids": {
+      "ecc_score": 0.9996663072162288,
+      "matrix": [
+        [
+          0.9995418190956116,
+          0.00026017363416031003,
+          -0.2982379198074341
+        ],
+        [
+          -0.0002794936008285731,
+          1.0001113414764404,
+          -0.13851912319660187
+        ]
+      ]
+    }
+  },
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "64ed050fe7d157dda13411efe3df22587276ec246cf3411640288daa650a45cf",
+    "left_eye": {
+      "x": 60,
+      "y": 78,
+      "width": 40,
+      "height": 70
+    },
+    "right_eye": {
+      "x": 135,
+      "y": 78,
+      "width": 40,
+      "height": 70
+    },
+    "mouth": {
+      "x": 103,
+      "y": 134,
+      "width": 32,
+      "height": 27
+    },
+    "neutral_base_confirmed": true
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "5b84c0ac039681b4c4376ebd23963c7b681f319a76eab56d134d02fa26d7874f",
+      "bytes": 77532,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "db1a40cc683c6616aed125ede9627fbe33508ee402ce567cd803b126a1ebb5ac",
+      "bytes": 77558,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "4978e69ec8974e383a3be4a8906e8d8d58eb70f4e1c59ca667d67a19eb9a0d0b",
+      "bytes": 77755,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "eadb377270d20b5b0f3c92adfd4a9bae11bd797dacca5aa0489c9d39f5f0f006",
+      "bytes": 75209,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "3fd2e8414cc7241629fbf8403a4b5db5e4733548931346a532c3a7d29c86c561",
+      "bytes": 75169,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "b8ebd53cbabf9574b9f98aa49a95bd4f79549a9cf4d33bc416b50613ff41e3c5",
+      "bytes": 75399,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "source_buddy": {
+    "repository_path": "buddy-packs/byte",
+    "repository_commit": "89a9fbfbc9bd6057b749518a30935205e8682bf6",
+    "creator": "tldw-project",
+    "license": "Apache-2.0",
+    "reference": null,
+    "source_metadata_sha256": "7a0ca8a550a40a659b86ea47fbc8e71ff8d368179a9ed45f584b35395252b201"
+  },
+  "artwork_license": "Apache-2.0 for project contributions, subject to retained source artwork, character and brand notices."
+}
