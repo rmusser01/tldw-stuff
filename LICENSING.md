@@ -73,3 +73,13 @@ reference files have only relative-link relocations; the included integration
 guides are unchanged and retain Corey Haines’s MIT terms. Collection READMEs and
 indexes remain original Apache-2.0 documentation. Source/output hashes identify
 these changes separately.
+
+## Original codec support collection
+
+Switch, Patch, Pulse and Vector: original character text and AI-assisted artwork,
+creator **tldw-project**, Apache-2.0 to the extent applicable. Default Assistant's
+optional new operator artwork has the same terms; its original JSON cards retain
+their AGPL/GPL licenses. Samira codec derivatives retain AGPL-3.0-or-later.
+Pixel-migu codec derivatives retain the existing LicenseRef-User-Supplied notice;
+no new license grant for its underlying artwork is asserted. Each codec inventory
+records generation provenance and preparation separately from card text.

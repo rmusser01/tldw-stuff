@@ -1,0 +1,94 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen",
+  "base_original_sha256": "9dc9e0154b3ec13cc3eb30e1491cb51201cacea1d60b783e9c009f5608a336eb",
+  "preparation": "Source resized to 256x256; Lanczos; same base for every component; production compositor version 1.",
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "f62c8620a0ca33f458d35981add1523a0cf86eed16b7b97c6a670be3539c7c0d",
+    "left_eye": {
+      "x": 87,
+      "y": 85,
+      "width": 33,
+      "height": 24
+    },
+    "right_eye": {
+      "x": 132,
+      "y": 85,
+      "width": 33,
+      "height": 24
+    },
+    "mouth": {
+      "x": 105,
+      "y": 132,
+      "width": 49,
+      "height": 26
+    },
+    "neutral_base_confirmed": true
+  },
+  "components": {
+    "small": {
+      "prompt": "Use case: identity-preserve. Asset type: aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target. Return ONE square PNG at identical canvas and head position. Change ONLY the lips to a restrained speaking pose: part them slightly with a clearly visible narrow dark gap about 6 pixels high on a 1024px canvas. Keep the upper lip and mouth corners anchored; lower lip moves only a few pixels. No smile, grin, tongue or prominent teeth. Eyes remain naturally OPEN exactly as the source. Preserve exact identity, skin color, lighting, exposure, contrast, placement, hairstyle, clothing, background. No recrop, zoom, head rotation, relighting or darkening. Only the mouth pixels will be composited.",
+      "generated_sha256": "f04ce14f9f4a8634686ea7349a5e4aa0b465c60e8a3c29b989a1afd556968bef"
+    },
+    "open": {
+      "prompt": "Use case: identity-preserve. Asset type: aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target. Return ONE square PNG at identical canvas and head position. Change ONLY the lips to a clearly readable medium speaking vowel: a relaxed oval dark opening about 22 pixels high on a 1024px canvas. A small suggestion of upper teeth is acceptable, no tongue, smile or shout. Keep mouth corners anchored and jaw/chin stationary. Eyes remain naturally OPEN exactly as the source. Preserve exact identity, skin color, lighting, exposure, contrast, placement, hairstyle, clothing, background. No recrop, zoom, head rotation, relighting or darkening. Only the mouth pixels will be composited.",
+      "generated_sha256": "c3276d5818640525dc62761030b7572e14c901d7f254cc5d02c6bcc9dd7195d7"
+    },
+    "eyelids": {
+      "prompt": "Use case: identity-preserve. Asset type: aligned component-edit source for a source-preserving codec portrait compositor. Image 1 is the edit target. Return ONE square PNG at identical canvas and head position. Change ONLY both eyelids to a fully CLOSED natural blink. Both eyes shut equally, relaxed lids, no wink or squeezing. Preserve eyebrows and any glasses/lens reflections/frame exactly. Lips remain fully CLOSED exactly as the source. Preserve exact identity, skin color, lighting, exposure, contrast, placement, hairstyle, clothing, background. No recrop, zoom, head rotation, relighting or darkening. Only the eyelid pixels will be composited.",
+      "generated_sha256": "d396bb318e23e2113333c7bf944bd285b4adf080408cbedf4d270a98bde8e48d"
+    }
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "0b4f231d5db7241bf9377f77de690e0a56ca25e5183b1835542287a3de60ff71",
+      "bytes": 104994,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "6a211c0b2a3dfa4730988688b4d88dca948504093de2bf6b70742d1a2b4ed066",
+      "bytes": 104997,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "dc2eda65b59f0510808d66cdbdba67da27a35e0d3cab566a7b5dd3cfb5451eb0",
+      "bytes": 105074,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "3d26f59cadc83c842b1ecdabc011babd4fc5e7bc53e0216fc6af26c8d5363a03",
+      "bytes": 104829,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "bbc975c39b0c01ff1938ad0687e6491605395dd9ea20b10607c4747720a12e57",
+      "bytes": 104839,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "54c6e146a551f78c456eab592bb4e53f1113474aed0fff7f048952837eee553f",
+      "bytes": 104911,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "notice": "Descriptive file/checksum/region inventory, not an automatic app import format.",
+  "base_prompt": "Use case: stylized-concept. Asset type: neutral base portrait for a codec-style radio-call character, to be animated through separate mouth and eyelid patches. Create ONE square 1024x1024 PNG. Original mature graphic-novel character painting, restrained realistic anatomy, painterly but crisp facial features, muted cinematic color. Front-facing, upright and centered head-and-shoulders, whole head and both ears visible, head fixed vertically with eyes near 43 percent canvas height and mouth near 63 percent. Eyes fully OPEN looking at viewer; lips gently CLOSED, relaxed neutral expression. Face is clearly illuminated with soft even key light; preserve visible detail in the cheeks and jaw, avoid underexposure. Plain quiet charcoal-teal backdrop. Radio framing and scanlines are supplied by the app: NO border, UI, text, letters, symbols, logos, scanlines, glow or watermark. One person only, no props crossing the face, no expressive head tilt. This is the base state, not a speaking or blinking pose. A white man in his mid-fifties, fair slightly weathered skin, swept-back silver-gray hair, short neat salt-and-pepper beard, blue-gray eyes, narrow wire spectacles with clear lenses, long thoughtful face. Desaturated navy jacket and rust-colored high collar, no insignia. Original civilian intelligence analyst, skeptical and quietly humane rather than sinister.",
+  "artwork_license": "Apache-2.0 for original AI-assisted project contributions to the extent applicable."
+}

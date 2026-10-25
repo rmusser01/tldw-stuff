@@ -1,0 +1,143 @@
+{
+  "content_version": "1.0.0",
+  "creator": "tldw-project",
+  "created": "2026-10-25",
+  "image_mode": "built-in image_gen; reused user-approved paired-v2 artwork from 2026-10-23",
+  "preparation": "All six approved 1024px frames resized to 256px with Lanczos; source unchanged outside mouth/eyelid regions. Bounds describe existing composite support, not a new feather pass.",
+  "recipe": {
+    "algorithm_version": 1,
+    "width": 256,
+    "height": 256,
+    "base_pixel_sha256": "053bc5979a8fb9893e63d81bf6e70069e014dab4faeef0315ce384b2874849e1",
+    "left_eye": {
+      "x": 129,
+      "y": 81,
+      "width": 26,
+      "height": 16
+    },
+    "right_eye": {
+      "x": 156,
+      "y": 83,
+      "width": 22,
+      "height": 17
+    },
+    "mouth": {
+      "x": 139,
+      "y": 108,
+      "width": 30,
+      "height": 23
+    },
+    "neutral_base_confirmed": true
+  },
+  "source_manifest": {
+    "method": "One unchanged original base, shared generated eyelid/mouth patches; local compositing explicitly authorized by the user.",
+    "input_sha256": {
+      "source": "6d8ba7ecf1f19dd5e7c2a5a11e9337dd2ce26897140aff6fe4e77b91bfdf1463",
+      "eyes_closed": "8e5f5932db3b720dcf8cab06397404765a77fd152953829732671d6e45dea4f3",
+      "mouth_small": "f9908a694dcbc3deb200b676a90058c4b2e0a5244d3ef957e1eebd7137a349a3",
+      "mouth_open": "994003d6d7f01650adcca9aef36f1f7633f9d1ca2f89951a20db5da360943f29"
+    },
+    "frames": {
+      "rest": {
+        "file": "selected/rest.png",
+        "eyes": "open",
+        "mouth": "rest",
+        "sha256": "c1544ee7e129cfb65f9d70c0d9767644d527e14d0306faf0ffc7445618d88cfd",
+        "width": 1024,
+        "height": 1024
+      },
+      "blink_rest": {
+        "file": "selected/blink_rest.png",
+        "eyes": "closed",
+        "mouth": "rest",
+        "sha256": "1b7569bfd3f72e78d996fad795d1fdbf1deb7823dbebd45e54e5e274d1c18f26",
+        "width": 1024,
+        "height": 1024
+      },
+      "small": {
+        "file": "selected/small.png",
+        "eyes": "open",
+        "mouth": "small",
+        "sha256": "3bdb5e28a5478cf59fcb71d9730de0110fc044ffb21e27c26f455d0590296549",
+        "width": 1024,
+        "height": 1024
+      },
+      "blink_small": {
+        "file": "selected/blink_small.png",
+        "eyes": "closed",
+        "mouth": "small",
+        "sha256": "2cdcddf11edb2e6fab0a2f16bdb113aba77579a4410ce2986d6ac6c3bf36509e",
+        "width": 1024,
+        "height": 1024
+      },
+      "open": {
+        "file": "selected/open.png",
+        "eyes": "open",
+        "mouth": "open",
+        "sha256": "d49a9654152da89a05c4da6dbc265445355292620850d6a77cd9762a919c27fa",
+        "width": 1024,
+        "height": 1024
+      },
+      "blink_open": {
+        "file": "selected/blink_open.png",
+        "eyes": "closed",
+        "mouth": "open",
+        "sha256": "8f08d49a082b3342df6616c0a476680e3025af9845f24e971e52cf762996ed59",
+        "width": 1024,
+        "height": 1024
+      }
+    },
+    "checks": {
+      "outside_edit_pixels_equal_original": true,
+      "mouth_equal_across_eye_pair": true,
+      "eyes_equal_across_mouth_states": true,
+      "rest_equals_original_pixels": true
+    }
+  },
+  "frames": {
+    "rest": {
+      "file": "rest.png",
+      "sha256": "4015a54710c28addcf32168597cb6a74ad8ccafd56fa48e9eb1fdfdc56cff11c",
+      "bytes": 90485,
+      "width": 256,
+      "height": 256
+    },
+    "small": {
+      "file": "small.png",
+      "sha256": "cde201a029e5d9a1185c1c3b2761f9f1eea389ac9d8db285f4a8a288a16f55bb",
+      "bytes": 90490,
+      "width": 256,
+      "height": 256
+    },
+    "open": {
+      "file": "open.png",
+      "sha256": "92c615d52dca61290e972ee2b84fac5a99af5512e9b5a2833755cad56b30444e",
+      "bytes": 90470,
+      "width": 256,
+      "height": 256
+    },
+    "blink_rest": {
+      "file": "blink_rest.png",
+      "sha256": "39991ccad242a931cc60fc2c8c32fdc9ad5ea640858b29244cc542db909ac331",
+      "bytes": 90450,
+      "width": 256,
+      "height": 256
+    },
+    "blink_small": {
+      "file": "blink_small.png",
+      "sha256": "3626aa3fe4d362d7848237b0c42a6547a557b908eca38a1db9b98d11f4926c13",
+      "bytes": 90458,
+      "width": 256,
+      "height": 256
+    },
+    "blink_open": {
+      "file": "blink_open.png",
+      "sha256": "149dcaba071de4fd90cc0c09ad4123f76a37b60be2baa85371a7818c344a5fac",
+      "bytes": 90433,
+      "width": 256,
+      "height": 256
+    }
+  },
+  "notice": "Descriptive file/checksum/region inventory, not an automatic app import format.",
+  "artwork_license": "AGPL-3.0-or-later; existing Samira artwork notices retained."
+}

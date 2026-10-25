@@ -42,6 +42,12 @@ Use the manifest's `expression_key` mappings rather than assuming filenames
 map identically in every application. No standalone expression-bundle upload
 or automatic card-to-pack binding is claimed by this collection.
 
+## Codec living portraits
+
+The optional six-frame sets use the separate [living portrait setup](CODEC.md).
+Their [2026-10-25 qualification](codec-verification.json) is separate from the
+original card/expression checks below. Card import does not activate a performance.
+
 ## Verification scope
 
 Tested on 2026-09-05 against Chatbook `56376e1fc188938bf350c62d3a9f95e820b93c40` and server `36b846628d7755e91e0d5539740a9f5c9a837966`.

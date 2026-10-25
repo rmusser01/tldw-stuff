@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-25",
+  "app_commit": "e4e4fd7846d57134b10f7da1169dc63eef724c29",
+  "equivalent_merged_app_tree": "1850d2599c58af9a0c1a8721e6c0a31e431d92fa",
+  "mode": "production source app, Textual run_test, fresh disposable admitted profile; no runtime replacements",
+  "sets": [
+    {
+      "pack": "switch",
+      "card": "switch/switch.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "73ade5e7cf2dcccc70369ab5920895a9d398a59355a1c1598c71404864da1feb",
+        "bbe8ca6851c59f57e78ce4e303ce534dcf17f7eb622d079d9b050cecacfa77b4",
+        "83bfb490e93d4115c956a8253eca6d36a31750b01657377e9f60f0c9b3ebc4f2",
+        "bba002654ca4532e69558a7bcddcf9b51c5acd142dead3ec7c8ce8015489a028",
+        "1b1114077b5caaa84c7fde51faedf4e27de7e85b8d1d405c1a5bc95c262007e4",
+        "e9d2d2ab14b8edbbe2cd11c17676263fee75c9a3570e4e6deb7fb51d7d27ea86"
+      ]
+    },
+    {
+      "pack": "patch",
+      "card": "patch/patch.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "6c1cfb5fb25e812c4a4bfe378618791e96e1d198aa8e10b0d95c3a306901f423",
+        "33cf7eb09fb97ba83900dd47c9d1a5a2fd01bbaaca9222bfad34632a396ac683",
+        "fe74b9db7e81758f428a20cb936b66ece59151127763b5472936e4dfd8ac97b6",
+        "1abd474db567a583b70c443e32f49852d15ad239b22dd165deffa047d2e29dfd",
+        "1db601284eb5c0cff10cd693a9be9162edaa61b10ed48795085610cbaf0d7087",
+        "a502f9ad988f224d45f76df26e3b908e706d19ac310796f653ba4c32115e7b06"
+      ]
+    },
+    {
+      "pack": "pulse",
+      "card": "pulse/pulse.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "14470982be338b69280600ac660fe04fc40a120eca6e4414af0e176abe8dc13a",
+        "a499217c7dd34b7a5ed0a509887b04bce83ffe72a163793dd8b98492720b0b92",
+        "8c7dff0e1ec0d241f3885204edb46c8e9b5ee532f3d3fbd325508281dcf6a808",
+        "4f185cc56d84ac265403be6265a915905d187c0cb929e48e94435660dbeef4c0",
+        "9144313eb35ce68ba190687b5a39f11bde9da5ee139499d4d44a393aa4cdec38",
+        "116ae7c74c086f720b45a60d8c71688d66898115bf1fe1752fc74daf0c1ead05"
+      ]
+    },
+    {
+      "pack": "vector",
+      "card": "vector/vector.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "0b4f231d5db7241bf9377f77de690e0a56ca25e5183b1835542287a3de60ff71",
+        "6a211c0b2a3dfa4730988688b4d88dca948504093de2bf6b70742d1a2b4ed066",
+        "dc2eda65b59f0510808d66cdbdba67da27a35e0d3cab566a7b5dd3cfb5451eb0",
+        "3d26f59cadc83c842b1ecdabc011babd4fc5e7bc53e0216fc6af26c8d5363a03",
+        "bbc975c39b0c01ff1938ad0687e6491605395dd9ea20b10607c4747720a12e57",
+        "54c6e146a551f78c456eab592bb4e53f1113474aed0fff7f048952837eee553f"
+      ]
+    },
+    {
+      "pack": "default-assistant",
+      "card": "default-assistant/chatbook.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "923473da0e048d43cf82baf83329413ab187d472415e9b112ebb559c00eddffa",
+        "4bb02d7626b31a0ecbf1c2a8cac238f07d5e58fc34b5061a5c5e1ccd468633eb",
+        "a0a65d04cee401cfc3d336c6cb84975ee182035ac76c5130f3710457a2dc3799",
+        "009e7520cd72e2f0407bf37997eef4e152c0875832abb3a62a913346b843d24c",
+        "ae37cf3def1c57ab9ac8ed2f6f95887efe49705006a96f5ab24a9c373430ad28",
+        "fb4f66450ce2304acf1f3214b9acecc3594b2af2729e8a2398d9d2acc90ec151"
+      ]
+    },
+    {
+      "pack": "samira",
+      "card": "samira/assets/characters/samira/Samira.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "4015a54710c28addcf32168597cb6a74ad8ccafd56fa48e9eb1fdfdc56cff11c",
+        "cde201a029e5d9a1185c1c3b2761f9f1eea389ac9d8db285f4a8a288a16f55bb",
+        "92c615d52dca61290e972ee2b84fac5a99af5512e9b5a2833755cad56b30444e",
+        "39991ccad242a931cc60fc2c8c32fdc9ad5ea640858b29244cc542db909ac331",
+        "3626aa3fe4d362d7848237b0c42a6547a557b908eca38a1db9b98d11f4926c13",
+        "149dcaba071de4fd90cc0c09ad4123f76a37b60be2baa85371a7818c344a5fac"
+      ]
+    },
+    {
+      "pack": "pixel-migu",
+      "card": "pixel-migu/assets/characters/pixel_migu/pixel-migu.character.json",
+      "created": true,
+      "authored_text_persisted": true,
+      "source_kind": "portrait",
+      "expression_key": "neutral",
+      "manual_frame_imports": 6,
+      "applied_reopened_exact": true,
+      "named_role_previews_selected": 6,
+      "native_cycle_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "console_exact_applied_frames": true,
+      "frame_sha256": [
+        "584104edf558d808748dc0aa0a288d0698f1ed9343237a8f2b0f3fd9fec8bfb2",
+        "600e5c9d1bb3bff791d79884dc385b878cd9a62b6f09340cac1c48bb66ae261e",
+        "5ac7e594724730401bc7a57451dc327a23ebc7e27f57106e0401b87a4fe4663a",
+        "c62983d97049f7cb6f34d94170ff47f214fbdd4fcf31a3ad752157a4a4fe9066",
+        "9db77d94ee9c3dd07c1e57d5cb7dde45932e98d0781a136fa38d6ac1f492dd4f",
+        "10acafaee3d59f8c29b7e22ebf028b114f287aed0a4e6643321c103a3890f9f9"
+      ]
+    }
+  ],
+  "extra_card_imports": [
+    {
+      "file": "default-assistant/server.character.json",
+      "native_import_succeeded": true,
+      "created": false
+    },
+    {
+      "file": "samira/server.character.json",
+      "native_import_succeeded": true,
+      "created": false
+    },
+    {
+      "file": "pixel-migu/assets/characters/pixel_migu/pixel-migu.character.png",
+      "native_import_succeeded": true,
+      "created": false
+    }
+  ],
+  "limits": [
+    "Headless native UI: file-picker interaction and physical terminal graphics not exercised.",
+    "Portrait bytes assigned through native DB save before UI authoring; avatar upload dialog not exercised.",
+    "No new live TTS, LLM or configured image-provider calls in this asset qualification. PR #3244 separately verified live Pocket TTS.",
+    "Built-in ChatGPT image generation does not close configured live image-adapter gap TASK-36555 AC5.",
+    "New cards and codec performance untested on server and third-party clients."
+  ],
+  "static_checks": {
+    "sets": 7,
+    "frames": 42,
+    "png_bytes": 3626466,
+    "exact_open_eye_plane": true,
+    "exact_closed_eye_plane": true,
+    "exact_mouth_pairs": true,
+    "outside_pixels_unchanged": true,
+    "native_frame_and_set_budgets": true,
+    "original_cards_images_mappings_unchanged": true,
+    "negative_tests": [
+      "changed open eye with refreshed hashes rejected",
+      "18MiB total set with 3MiB individual frames rejected"
+    ],
+    "ruff": "pass"
+  },
+  "review": {
+    "independent_review": "no critical or important findings",
+    "minor_findings": "open-eye equality and native set/dimension budget checks added, with negative tests"
+  },
+  "external_generation": "Built-in ChatGPT image_gen, followed by locally authorized composition; per-pack prompts and source hashes are in codec/inventory.json."
+}
