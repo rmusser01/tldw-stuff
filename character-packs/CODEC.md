@@ -43,8 +43,10 @@ Keep each pack's files and notices together. Manual imports need no image provid
    profile in **Settings → Speech & TTS**. Use **Play speech sample…**, review its
    destination confirmation, then start a character chat in Console and play TTS.
    With dynamic character expressions and animations enabled, the app supplies
-   the radio frame, idle motion, blinks and audio-reactive mouth movement with
+   the radio frame, independent blinks and audio-reactive mouth movement with
    pauses. Reduced motion/static settings intentionally limit animation.
+   [Chatbook #3249](https://github.com/rmusser01/tldw_chatbook/pull/3249) keeps the
+   whole portrait stationary; earlier versions may still apply idle translation.
 
 Choose **Remove applied** to stop using a performance. Changing source artwork
 can invalidate its attachment; prepare and import again for the new source.
@@ -60,6 +62,15 @@ provider. This does **not** qualify Chatbook's configured live image-edit adapte
 that separate PR #3244 provider gap remains open (TASK-36555 AC5). Server and
 third-party clients have not been tested for these new cards or performance sets.
 See [codec-verification.json](codec-verification.json) for actual checks and limits.
+
+A separate seven-character live Pocket TTS/alba capture covered Saffron, Rowan,
+Sunny and the four support contacts with the stationary correction. The user
+accepted that showcase. Its [capture summary](https://github.com/rmusser01/tldw_chatbook/blob/cbd26c63223adc79b84fd14df9459679580fc30a/Docs/superpowers/qa/portrait-compositing/2026-10-25-stationary/README.md)
+records zero translation across 2,993 native observations. Speech timing hitches,
+brief mouth-pose reversals and the low-resolution fallback remain open; this is
+not full speech-quality signoff. Graphics-terminal hardware and acoustic loopback
+were not qualified. The capture is headless mounted-app footage plus labelled
+artwork replay, with audio reconstructed from submitted buffers/DAC estimates.
 
 To check file hashes, dimensions, exact pairs and unchanged outside pixels using
 Python with Pillow installed, run from the collection checkout:
