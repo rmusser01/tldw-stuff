@@ -9,3 +9,9 @@ Selected from [openai/skills](https://github.com/openai/skills) at
 - [gh-address-comments](gh-address-comments/README.md): Inspect PR review feedback and address selected comments.
 
 [Import guide](../IMPORT.md) · [Selection review](../REVIEW.md)
+
+## ChatGPT Work browser control reference
+
+OpenAI's `control-browser` skill uses the ChatGPT Work browser runtime. Simon
+Willison documented the skill and published a source snapshot, which has no
+stated redistribution license. [Willison's write-up](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/) · [Skill snapshot](https://codex-tool-reference.simonw.chatgpt.site/skills/control-browser)
